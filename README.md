@@ -10,6 +10,8 @@ This archive focuses on observed behavior, inheritance mechanics, and candidate-
 This archive is based on gameplay observation rather than game code analysis.
 
 ## Research Structure
+
+```mermaid
 flowchart TD
 
 A[Inheritance Phenomena]
@@ -31,7 +33,7 @@ C --> J[Unresolved Questions]
 J --> K[RF4S Verification]
 J --> L[Boundary Conditions]
 J --> M[Special Cases]
-
+```
 
 
 ## Topics

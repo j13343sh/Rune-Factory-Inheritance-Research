@@ -25,7 +25,7 @@ D --> E[Practical Equipment Building]
 
 C --> F[Unresolved Questions]
 ```
-
+The candidate-count model is the central hypothesis of this research archive.
 ## Topics
 
 - Inheritance

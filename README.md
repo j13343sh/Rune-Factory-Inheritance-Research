@@ -15,7 +15,7 @@ inheritance mechanics research archive.
 
 ### Additional Notes
 99_補遺_追加未解決事項備忘録.txt
-
+99_検証効率化のための工夫.txt
 ### Appendices
 99_付録_AIコーディネート案実例.pdf
 99_付録_用途別装備一覧.pdf
@@ -23,7 +23,12 @@ inheritance mechanics research archive.
 ## Status
 
 Observation-based research.
+
 Some hypotheses remain unresolved.
+
+This archive does not claim to prove internal game code or implementation details.
+
+Its purpose is to document observed behavior and provide models that may explain those observations.
 
 ## Download
 

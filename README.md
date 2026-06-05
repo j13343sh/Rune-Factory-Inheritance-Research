@@ -12,10 +12,10 @@ This archive is based on gameplay observation rather than game code analysis.
 ## Research Structure
 
 ```mermaid
-flowchart TD
+flowchart LR
 
 A[Inheritance Phenomena]
---> B[Large-scale Observation]
+--> B[Observation]
 
 B --> C[Candidate-count Model]
 
@@ -23,18 +23,8 @@ C --> D[Success Rate Prediction]
 
 D --> E[Practical Equipment Building]
 
-C --> F[Messilight Inheritance]
-C --> G[Self-contamination]
-C --> H[Auto-arrange]
-C --> I[Recursive Processing]
-
-C --> J[Unresolved Questions]
-
-J --> K[RF4S Verification]
-J --> L[Boundary Conditions]
-J --> M[Special Cases]
+C --> F[Unresolved Questions]
 ```
-
 
 ## Topics
 

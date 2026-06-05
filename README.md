@@ -5,6 +5,8 @@
 Rune Factory 4 Special / Rune Factory 5
 inheritance mechanics research archive.
 
+This archive focuses on observed behavior, inheritance mechanics, and candidate-count models derived from gameplay testing.
+
 ## Topics
 
 - Inheritance

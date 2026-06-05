@@ -5,6 +5,16 @@
 Rune Factory 4 Special / Rune Factory 5
 inheritance mechanics research archive.
 
+## Topics
+
+- Inheritance
+- Candidate-count model
+- Auto-arrange
+- Recursive processing
+- Self-contamination
+- Messilight inheritance
+
+
 ## Documents
 
 ### Main Archive

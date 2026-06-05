@@ -9,6 +9,31 @@ This archive focuses on observed behavior, inheritance mechanics, and candidate-
 
 This archive is based on gameplay observation rather than game code analysis.
 
+## Research Structure
+flowchart TD
+
+A[Inheritance Phenomena]
+--> B[Large-scale Observation]
+
+B --> C[Candidate-count Model]
+
+C --> D[Success Rate Prediction]
+
+D --> E[Practical Equipment Building]
+
+C --> F[Messilight Inheritance]
+C --> G[Self-contamination]
+C --> H[Auto-arrange]
+C --> I[Recursive Processing]
+
+C --> J[Unresolved Questions]
+
+J --> K[RF4S Verification]
+J --> L[Boundary Conditions]
+J --> M[Special Cases]
+
+
+
 ## Topics
 
 - Inheritance

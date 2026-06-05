@@ -44,7 +44,7 @@ Its purpose is to document observed behavior and provide models that may explain
 
 ## Download
 
-See 00_DOWNLOAD_OK.txt# -
-
+See 
+- 00_DOWNLOAD_OK.txt
 
 

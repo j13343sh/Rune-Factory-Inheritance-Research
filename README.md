@@ -7,6 +7,8 @@ inheritance mechanics research archive.
 
 This archive focuses on observed behavior, inheritance mechanics, and candidate-count models derived from gameplay testing.
 
+This archive is based on gameplay observation rather than game code analysis.
+
 ## Topics
 
 - Inheritance

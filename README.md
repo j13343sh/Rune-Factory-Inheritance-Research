@@ -20,17 +20,17 @@ This archive focuses on observed behavior, inheritance mechanics, and candidate-
 ## Documents
 
 ### Main Archive
-ルンファク（全部入り文字列検索可）
+- ルンファク（全部入り文字列検索可）
 
 ### English Roadmap
-00_roadmap_en.txt
+- 00_roadmap_en.txt
 
 ### Additional Notes
--99_補遺_追加未解決事項備忘録.txt
--99_検証効率化のための工夫.txt
+- 99_補遺_追加未解決事項備忘録.txt
+- 99_検証効率化のための工夫.txt
 ### Appendices
--99_付録_AIコーディネート案実例.pdf
--99_付録_用途別装備一覧.pdf
+- 99_付録_AIコーディネート案実例.pdf
+- 99_付録_用途別装備一覧.pdf
 
 ## Status
 

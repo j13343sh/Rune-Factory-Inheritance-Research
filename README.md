@@ -14,7 +14,7 @@ This archive focuses on observed behavior, inheritance mechanics, and candidate-
 - Auto-arrange
 - Recursive processing
 - Self-contamination
-- Messilight inheritance
+- Messilight inheritance success rate
 
 
 ## Documents

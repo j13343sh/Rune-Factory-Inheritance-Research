@@ -1,5 +1,10 @@
 # Rune Factory Inheritance Research
-This repository provides an observation-based research archive on Rune Factory 4 Special and Rune Factory 5 inheritance mechanics, including candidate-count models, auto-arrange behavior, recursive processing, self-contamination, and inheritance success-rate prediction.
+This repository provides an observation-based research archive on Rune Factory 4 Special and Rune Factory 5 mechanics.
+
+The archive focuses on inheritance mechanics, candidate-count models, auto-arrange behavior, recursive processing, self-contamination, inheritance success-rate prediction, and long-term gameplay optimization based on observation.
+
+Additional notes include shop inventory management, crop and flower shipping strategies, friendship optimization, gift mechanics, NPC relationship building, and other long-term gameplay strategies discovered through extensive testing and observation.
+
 ## Overview
 
 Rune Factory 4 Special / Rune Factory 5

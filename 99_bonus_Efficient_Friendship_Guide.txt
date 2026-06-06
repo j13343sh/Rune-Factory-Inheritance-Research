@@ -1,0 +1,9 @@
+Efficient Friendship Optimization
+
+- Favorite, Loved, and Neutral gifts appear to be evaluated independently based on repeated observations.
+- Handmade gifts provide an additional friendship bonus.
+- Therefore, preparing low-cost handmade gifts for daily distribution can be an efficient long-term strategy.
+- Stable access to frequently used crops and flowers through shop inventory management may reduce preparation time.
+
+Note:
+These observations are based on repeated gameplay testing and should be regarded as practical long-term strategies rather than confirmed internal mechanics.

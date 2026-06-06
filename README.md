@@ -5,6 +5,8 @@ The archive focuses on inheritance mechanics, candidate-count models, auto-arran
 
 Additional notes include shop inventory management, crop and flower shipping strategies, friendship optimization, gift mechanics, NPC relationship building, and other long-term gameplay strategies discovered through extensive testing and observation.
 
+※This archive is based on in-game observation, repeated experimentation, and statistical analysis. It does not rely on reverse engineering, decompilation, or extracted game source code.
+
 ## Overview
 
 Rune Factory 4 Special / Rune Factory 5

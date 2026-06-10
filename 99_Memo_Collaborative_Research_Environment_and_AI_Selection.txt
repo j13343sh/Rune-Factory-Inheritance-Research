@@ -1,0 +1,142 @@
+﻿Google Forms-Based Collaborative Research Environment (Concept)
+
+For future large-scale collaborative research projects, Google Forms may provide an effective platform for collecting observational data.
+
+Using Google Forms offers several potential advantages:
+
+Standardized input fields
+Reduced input errors
+Easy data entry from smartphones and other devices
+Simultaneous data collection by multiple participants
+Automatic synchronization with Google Sheets
+
+These features may significantly reduce the workload required for data aggregation and analysis, especially when collecting thousands or tens of thousands of observations.
+
+Gemini or similar AI tools may also assist in designing Google Forms and Google Sheets by organizing input fields, dropdown selections, validation rules, and mechanisms to reduce input mistakes before data collection begins.
+
+Collected data can be automatically synchronized with Google Sheets and managed across multiple worksheets if necessary.
+
+The data may then be processed through Excel Power Query or Microsoft Access for preprocessing, database construction, SQL aggregation, and large-scale statistical analysis.
+
+Google Forms (Gemini)
+  * Linked with Google Sheets
+  * Multiple worksheets available for data management
+            ↓
+Google Sheets (Gemini)
+            ↓
+Excel Power Query (Copilot)
+            ↓
+Access Database (Copilot)
+            ↓
+SQL Aggregation (Copilot)
+            ↓
+Excel Pivot Tables (Copilot)
+            ↓
+Chi-square Tests, Wilson Confidence Intervals,
+Expected Value Calculations, etc. (ChatGPT)
+            ↓
+README / Research Documentation Updates
+(Researchers / Community)
+
+This section does not describe an existing collaborative research environment.
+
+Instead, it presents one possible workflow for future community-driven research projects involving large-scale observation and data collection.
+
+Although written in the context of RF4SP / RF5 research, the same framework may also be applicable to probability analysis and large-scale data collection in other games.
+
+AI Selection (Memo)
+
+The preparation of this document and any future collaborative research environment assumes that different AI systems may be used according to their respective strengths.
+
+Rather than relying on a single AI for every task, assigning specialized roles may improve both efficiency and output quality.
+
+Gemini
+
+Primarily intended for tasks closely related to Google services, including:
+
+Google Forms design
+Google Sheets design
+Input field organization
+Dropdown and selection design
+Input validation
+Collaborative data entry workflow design
+
+Gemini is therefore expected to assist mainly with research data collection environments.
+
+Copilot
+
+Primarily intended for large-scale data processing within the Microsoft Office ecosystem, including:
+
+Excel formulas
+Power Query
+Microsoft Access
+SQL aggregation
+Pivot Tables
+Data preprocessing
+Automation of aggregation tasks
+
+Copilot is expected to perform well during data cleaning, transformation, and aggregation.
+
+ChatGPT
+
+Primarily intended for statistical interpretation, structural organization, documentation, and discussion support, including:
+
+Chi-square tests
+Wilson confidence intervals
+Proportion tests
+Welch's t-test
+TOST (equivalence testing)
+Non-inferiority testing
+Hypothesis organization
+README writing
+Figure and table explanations
+Public documentation
+Practical interpretation and strategy discussion
+
+ChatGPT is therefore expected to function mainly as a research assistant for analysis and documentation.
+
+Basic Philosophy
+
+AI should be regarded as a research support tool rather than an authority that provides definitive answers.
+
+Final decisions regarding hypothesis generation, experimental design, interpretation, and conclusions should remain the responsibility of human researchers.
+
+AI should instead be utilized according to its strengths, such as design assistance, data processing support, statistical discussion, and document preparation.
+
+As AI capabilities continue to evolve, these role assignments should be periodically re-evaluated.
+
+Afterword
+
+This document summarizes one possible structural model for the equipment inheritance system in RF4SP and RF5 based on gameplay observations.
+
+However, the primary purpose of this work is not to preserve the Candidate Count Model itself.
+
+Rather, it aims to preserve a methodology:
+
+Formulate hypotheses
+Organize reproducible conditions
+Collect observations
+Analyze results using combinatorics, probability theory, and statistics
+Translate findings into practical gameplay strategies
+
+Because internal game algorithms remain hidden, complete proof through observation alone may be impossible.
+
+Nevertheless, careful hypothesis generation combined with systematic observation can still produce meaningful structural understanding and practical insights.
+
+Although this document focuses on equipment inheritance, the same methodology may also be applied to merchant inventories, return gifts, drop rates, shop mechanics, crop displays, and many other random systems.
+
+Hopefully, future discussions within the community will be based not only on personal impressions, but also on observations, mathematical models, and statistical reasoning.
+
+The model presented here does not need to remain unchanged.
+
+Instead, it is hoped that future observations and new evidence will refine, improve, or even replace the current model with one that better explains the underlying system.
+
+Recent advances in AI and data processing tools also make large-scale collaborative research increasingly practical.
+
+By combining Google Forms, Google Sheets, Power Query, Access, SQL, statistical analysis, and AI-assisted documentation, community-scale research projects that were previously unrealistic may become achievable.
+
+At the same time, experimental design itself—deciding what to observe, what to control, and which hypotheses should be tested—will likely continue to rely heavily on human reasoning and experience.
+
+If this document serves as a small reference not only for RF4SP / RF5 research but also for future game analysis projects, its purpose will have been fulfilled.
+
+Most importantly, it is hoped that the methodology presented here will outlive the conclusions themselves, allowing future researchers and enthusiasts to build upon these ideas and continue exploring hidden game mechanics.

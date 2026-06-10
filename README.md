@@ -1,11 +1,28 @@
 # Rune Factory Inheritance Research
-This repository provides an observation-based research archive on Rune Factory 4 Special and Rune Factory 5 mechanics.
+An observation-based research archive for Rune Factory 4 Special and Rune Factory 5 inheritance mechanics, hidden gameplay systems, and long-term optimization strategies.
 
-The archive focuses on inheritance mechanics, candidate-count models, auto-arrange behavior, recursive processing, self-contamination, inheritance success-rate prediction, and long-term gameplay optimization based on observation.
+This repository documents extensive testing and analysis of equipment inheritance, accessory inheritance, candidate-count models, inheritance probability, auto-arrange behavior, recursive inheritance processing, self-contamination, and other hidden mechanics discovered through large-scale gameplay observation.
 
-Additional notes include shop inventory management, crop and flower shipping strategies, friendship optimization, gift mechanics, NPC relationship building, and other long-term gameplay strategies discovered through extensive testing and observation.
+The archive also includes long-term gameplay research covering friendship optimization, daily gift routing, NPC relationship management, shop inventory mechanics, crop and flower shipping strategies, candidate pool management, and other systems affecting efficient progression in Rune Factory 4 Special and Rune Factory 5.
 
-※This archive is based on in-game observation, repeated experimentation, and statistical analysis. It does not rely on reverse engineering, decompilation, or extracted game source code.
+Topics covered include:
+
+- Rune Factory inheritance mechanics
+- Rune Factory accessory inheritance
+- Rune Factory equipment inheritance
+- Candidate-count model
+- Inheritance probability prediction
+- Auto-arrange mechanics
+- Recursive inheritance
+- Self-contamination mechanics
+- Friendship optimization
+- Daily friendship farming
+- NPC gift mechanics
+- Shop inventory management
+- Long-term gameplay optimization
+- Hidden game mechanics research
+
+※This archive is based entirely on in-game observation, repeated experimentation, and statistical analysis. No reverse engineering, decompilation, or extracted game source code is used.
 
 ## Overview
 

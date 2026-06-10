@@ -57,6 +57,7 @@ The candidate-count model is the central hypothesis of this research archive.
 - 99_余談_作物花類陳列候補数問題と効率的な好感度上げ.txt
 - 99_bonus_Efficient_Friendship_Guide.txt
 - 99_備忘録_ゲーム検証方法論と検証環境.txt
+- 99_Memo_Collaborative_Research_Environment_and_AI_Selection.txt
   
 ### Appendices
 - 99_付録_AIコーディネート案実例.pdf

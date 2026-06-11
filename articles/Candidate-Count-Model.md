@@ -10,6 +10,9 @@
 
 ## Key Applications
 
+Candidate Count influences many inheritance-related mechanics.
+The topics below are representative examples.
+
 - Auto Arrange
 - Recursive Processing
 - Self Contamination

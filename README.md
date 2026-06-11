@@ -2,7 +2,8 @@
 This repository documents hidden gameplay mechanics in Rune Factory 4 Special and Rune Factory 5 discovered through observation, repeated experimentation, and statistical analysis.
 
 Topics covered include:
-
+- Rune Factory 4 Special inheritance mechanics
+- Rune Factory 5 inheritance mechanics
 - Rune Factory inheritance mechanics
 - Rune Factory accessory inheritance
 - Rune Factory equipment inheritance

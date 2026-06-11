@@ -98,4 +98,10 @@ Its purpose is to document observed behavior and provide models that may explain
 See 
 - 00_DOWNLOAD_OK.txt
 
+## Articles
+- [The Hidden Cost of Shipping Everything](The-Hidden-Cost-of-Shipping.md)
+- [RF5 Daily Friendship Farming Guide](RF5-Daily-Friendship-Farming-Guide.md)
+- [RF4SP Daily Friendship Farming Guide](RF4SP-Daily-Friendship-Farming-Guide.md)
+- [Candidate Count Model](Candidate-Count-Model.md)
+
 

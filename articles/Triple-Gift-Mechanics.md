@@ -1,24 +1,38 @@
-# Triple Gift Mechanics in Rune Factory
-
 ## Overview
 
-In Rune Factory 4 Special and Rune Factory 5, Normal, Favorite, and Loved gifts appear to be evaluated separately for daily friendship gains.
+In Rune Factory 4 Special and Rune Factory 5, friendship gain from gifts appears to be separated by gift category.
 
-This means that, in practical daily friendship farming, a villager may gain friendship up to three times per day from gifts if each gift belongs to a different category.
+During repeated gameplay, I observed that a character can gain friendship from multiple gift categories on the same day.
 
-This article explains the basic idea and how to check it in-game.
+This means that instead of giving only one gift per day, players may be able to gain friendship from:
+
+- one normal gift
+- one favorite gift
+- one loved gift
+
+on the same day.
+
+This changed how I think about daily friendship farming.
+
+---
 
 ## Key Takeaway
 
-Normal, Favorite, and Loved gifts can each contribute to friendship gain on the same day.
+Normal, favorite, and loved gifts appear to have separate daily friendship gain limits.
 
-Watching the friendship gauge after each gift is an easy way to confirm whether friendship increased.
+This means a simple daily routine can produce up to three friendship gains per character per day.
 
-This is especially easy to observe when the villager has a low friendship level, because the gauge movement is more visible.
+Normal Gift + Favorite Gift + Loved Gift = Three Friendship Gains
+
+This article introduces the basic mechanics behind that idea and how it can be used for long-term friendship farming.
+
+---
 
 ## Infographic
 
 ![Triple Gift Mechanics](../images/triple-gift-mechanics/01-overview-en.png)
+
+---
 
 ## Practical Use
 
@@ -30,23 +44,48 @@ A simple daily routine can be:
 
 When combined with handmade gifts and low-cost recipes, this can greatly improve long-term friendship farming efficiency.
 
+For example, low-cost handmade gifts can be used as daily normal or favorite gifts, while rarer loved gifts can be reserved for characters where they are most efficient.
+
+This approach is especially useful when trying to raise friendship with many villagers over a long playthrough.
+
+---
+
 ## Notes
 
 These observations are based on repeated gameplay experience.
 
-This article does not claim to confirm the internal game code.
+This article does **not** claim to confirm the internal game code.
 
 Different playstyles may not need this level of optimization.
 
 The main purpose is to provide a practical method for players who enjoy long-term friendship farming.
 
+---
+
 ## Related Articles
 
+### Strategy
+
 - [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
-- [RF5 Daily Friendship Farming Guide](./RF5-Daily-Friendship-Farming-Guide.md)
-- [RF4SP Daily Friendship Farming Guide](./RF4SP-Daily-Friendship-Farming-Guide.md)
+
+### Related Mechanics
+
 - [The Hidden Cost of Shipping Everything](./The-Hidden-Cost-of-Shipping.md)
+
+### Practical Guides
+
+- [RF5 Daily Friendship Farming Guide](./RF5-Daily-Friendship-Farming-Guide.md)
+
+- [RF4SP Daily Friendship Farming Guide](./RF4SP-Daily-Friendship-Farming-Guide.md)
+
+### Research
+
+- [Candidate Count Model](./Candidate-Count-Model.md)
 
 ---
 
-Back to [README](../README.md)
+## Navigation
+
+- Back to [README](../README.md)
+
+- Back to [ROADMAP](../ROADMAP.md)

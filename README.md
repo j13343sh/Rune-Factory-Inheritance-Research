@@ -1,9 +1,5 @@
 # Rune Factory Inheritance Research
-An observation-based research archive for Rune Factory 4 Special and Rune Factory 5 inheritance mechanics, hidden gameplay systems, and long-term optimization strategies.
-
-This repository documents extensive testing and analysis of equipment inheritance, accessory inheritance, candidate-count models, inheritance probability, auto-arrange behavior, recursive inheritance processing, self-contamination, and other hidden mechanics discovered through large-scale gameplay observation.
-
-The archive also includes long-term gameplay research covering friendship optimization, daily gift routing, NPC relationship management, shop inventory mechanics, crop and flower shipping strategies, candidate pool management, and other systems affecting efficient progression in Rune Factory 4 Special and Rune Factory 5.
+This repository documents hidden gameplay mechanics discovered through observation and statistical analysis.
 
 Topics covered include:
 
@@ -21,6 +17,12 @@ Topics covered include:
 - Shop inventory management
 - Long-term gameplay optimization
 - Hidden game mechanics research
+
+An observation-based research archive for Rune Factory 4 Special and Rune Factory 5 inheritance mechanics, hidden gameplay systems, and long-term optimization strategies.
+
+This repository documents extensive testing and analysis of equipment inheritance, accessory inheritance, candidate-count models, inheritance probability, auto-arrange behavior, recursive inheritance processing, self-contamination, and other hidden mechanics discovered through large-scale gameplay observation.
+
+The archive also includes long-term gameplay research covering friendship optimization, daily gift routing, NPC relationship management, shop inventory mechanics, crop and flower shipping strategies, candidate pool management, and other systems affecting efficient progression in Rune Factory 4 Special and Rune Factory 5.
 
 ※This archive is based entirely on in-game observation, repeated experimentation, and statistical analysis. No reverse engineering, decompilation, or extracted game source code is used.
 

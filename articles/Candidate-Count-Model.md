@@ -43,18 +43,17 @@ This article is a summary.
 The complete observation records and discussion are available in the PDF archive.
 
 
-
 ## Related Articles
 
 ### Core Mechanics
 
-- [Triple Gift Mechanics](...)
+- [Triple Gift Mechanics](../articles/triple-gift-mechanics.md)
 
 ### Strategy
 
-- [Efficient Friendship Farming Strategy](...)
+- [Efficient Friendship Farming Strategy](../articles/friendship-strategy.md)
 
-- [The Hidden Cost of Shipping Everything](...)
+- [The Hidden Cost of Shipping Everything](../articles/the-hidden-cost-of-shipping.md)
 
 ### Practical Guides
 
@@ -62,12 +61,18 @@ The complete observation records and discussion are available in the PDF archive
 
 - [RF4SP Daily Friendship Farming Guide](../articles/RF4SP-Daily-Friendship-Farming-Guide.md)
 
-
 ### Research
 
-- [Auto Arrange](...)
-- [Recursive Processing](...)
-- [Messhilite Inheritance](...)
+- [Auto Arrange](../articles/auto-arrange.md)
+
+- [Recursive Processing](../articles/recursive-processing.md)
+
+- [Messhilite Inheritance](../articles/messhilite-inheritance.md)
+
+---
+
+## Navigation
+
 ---
 
 ## Navigation

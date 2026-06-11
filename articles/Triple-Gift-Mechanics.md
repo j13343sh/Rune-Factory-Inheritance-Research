@@ -18,7 +18,7 @@ This is especially easy to observe when the villager has a low friendship level,
 
 ## Infographic
 
-![Triple Gift Mechanics](../images/friendship/triple-gift-mechanics.png)
+![Triple Gift Mechanics](../images/triple-gift-mechanics/01-overview-en.png)
 
 ## Practical Use
 

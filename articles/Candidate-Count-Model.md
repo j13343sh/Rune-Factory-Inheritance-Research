@@ -55,10 +55,18 @@ The complete observation records and discussion are available in the PDF archive
 
 - [The Hidden Cost of Shipping Everything](...)
 
+### Practical Guides
+
+- [RF5 Daily Friendship Farming Guide](../articles/RF5-Daily-Friendship-Farming-Guide.md)
+
+- [RF4SP Daily Friendship Farming Guide](../articles/RF4SP-Daily-Friendship-Farming-Guide.md)
+
+
 ### Research
 
-- [Candidate Count Model](...)
-
+- [Auto Arrange](...)
+- [Recursive Processing](...)
+- [Messhilite Inheritance](...)
 ---
 
 ## Navigation

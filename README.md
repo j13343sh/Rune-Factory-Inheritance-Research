@@ -91,7 +91,7 @@ Some hypotheses remain unresolved.
 
 This archive does not claim to prove internal game code or implementation details.
 
-Its purpose is to document observed behavior and provide models that may explain those observations.
+Its purpose is to document observed behavior and provide reproducible observation-based models that may explain those observations.
 
 ## Download
 

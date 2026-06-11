@@ -1,0 +1,36 @@
+﻿タイトル
+I think I may have figured out why Mealy Apple inheritance becomes so unreliable
+
+
+
+本文
+After observing inheritance behavior in RF4S/RF5, I noticed something interesting.
+Adding more Glitter Augite creates more successful inheritance combinations.
+Adding different materials only increases the candidate pool.
+This can reduce the success rate from 57.1% to 11.4%.
+In early follow-up tests, a setup using six Glitter Augites succeeded 4 times out of 5 in RF5 and 3 times out of 5 in RF4S, while a conventional three-Glitter setup succeeded only once in 5 attempts in both games.
+I later expanded the testing to 1,000 attempts for each setup (4,000 total attempts). The observed success rates remained surprisingly close to the combinatorial model.
+RF5 data currently includes 3-, 5-, and 6-Glitter setups; a 4-Glitter test was not completed due to limited Glitter Augite availability.
+
+
+
+For anyone interested, I documented the entire investigation, including additional observations and unresolved questions:
+https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB
+
+
+
+
+
+
+
+
+
+
+好感度上げ
+タイトル
+Did you know? You can easily check friendship gain by watching the gauge after each gift.
+
+本文
+I've been using this for friendship raising for a while.
+Try checking the friendship gauge after each gift.
+It's much easier to notice with villagers who still have low friendship levels.

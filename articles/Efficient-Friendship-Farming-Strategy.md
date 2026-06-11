@@ -29,11 +29,12 @@ A[Triple Gift Mechanics]
 
 B[Efficient Friendship Farming Strategy]
 
-C[The Hidden Cost of Shipping Everything]
-
+subgraph Guides
 D[RF5 Daily Friendship Farming Guide]
-
 E[RF4SP Daily Friendship Farming Guide]
+end
+
+C[The Hidden Cost of Shipping Everything]
 
 A --> B
 

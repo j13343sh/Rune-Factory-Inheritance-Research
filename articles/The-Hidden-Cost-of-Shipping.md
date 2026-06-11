@@ -10,6 +10,14 @@ That completely changed how I manage my farm.
 
 Now I think of shipping as managing my future shop inventory, not just selling items for profit.
 
+## Key Takeaway
+
+Shipping every crop or flower is not always optimal for long-term gameplay.
+
+Expanding the candidate pool may reduce the probability of finding specific desired items in shops.
+
+This article discusses one possible long-term optimization strategy based on gameplay observations.
+
 ## Infographic
 
 ![Shop Inventory Mechanics](../images/shop-inventory-mechanics.png)

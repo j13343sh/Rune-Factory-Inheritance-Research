@@ -41,6 +41,24 @@
 This article is a summary.
 The complete observation records and discussion are available in the PDF archive.
 
+
+
+## Related Articles
+
+### Core Mechanics
+
+- [Triple Gift Mechanics](...)
+
+### Strategy
+
+- [Efficient Friendship Farming Strategy](...)
+
+- [The Hidden Cost of Shipping Everything](...)
+
+### Research
+
+- [Candidate Count Model](...)
+
 ---
 
 ## Navigation

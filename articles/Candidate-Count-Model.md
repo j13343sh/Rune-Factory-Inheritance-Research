@@ -2,13 +2,48 @@
 
 ## Overview
 
-The Candidate Count Model is an observation-based hypothesis for explaining multiple Rune Factory mechanics.
+## Why Candidate Count Matters
 
-It proposes that many gameplay systems can be interpreted as candidate selection problems.
+## Key Takeaways
 
-## Applications
+## Representative Figure
 
-- Inheritance probability
-- Shop inventory mechanics
-- Shipping strategy
-- Messhilite inheritance
+## Key Applications
+
+- Auto Arrange
+- Recursive Processing
+- Self Contamination
+- Messhilite Inheritance
+- Success Probability
+
+## Notes
+
+## Related Articles
+
+### Core Mechanics
+
+- Triple Gift Mechanics
+
+### Related Strategy
+
+- Efficient Friendship Farming Strategy
+
+### Research
+
+- Auto Arrange
+- Recursive Processing
+- Messhilite Inheritance
+
+---
+
+## Detailed Research PDF
+
+This article is a summary.
+The complete observation records and discussion are available in the PDF archive.
+
+---
+
+## Navigation
+
+- ← Back to README
+- ← Back to ROADMAP

@@ -41,7 +41,7 @@ Instead, efficient daily farming comes from:
 
 # Daily Gift Farming Guide
 
-![Daily Gift Farming Guide](../images/rf5-friendship-guide/02-rf5-daily-gift-farming-guide.png)
+![Daily Gift Farming Guide](../images/rf5-friendship-guide/02-daily-gift-farming-guide-en.png)
 
 Shared ingredients can support multiple villagers simultaneously.
 
@@ -51,7 +51,7 @@ Planning around ingredient overlap significantly reduces both cooking time and m
 
 # Optional Daily Alternatives
 
-![Optional Daily Alternatives](../images/rf5-friendship-guide/03-rf5-optional-daily-alternatives.png)
+![Optional Daily Alternatives](../images/rf5-friendship-guide/03-optional-daily-alternatives-en.png)
 
 Alternative routes may require fewer rare materials or better match late-game resource abundance.
 
@@ -69,7 +69,7 @@ Many expensive-looking Loved Gifts become surprisingly practical once mining rou
 
 # Daily Ingredient Requirements
 
-![Daily Ingredient Requirements](../images/rf5-friendship-guide/05-rf5-daily-ingredient-requirements.png)
+![Daily Ingredient Requirements](../images/rf5-friendship-guide/05-daily-ingredient-requirements-en.png)
 
 This ingredient list represents one example daily farming route.
 
@@ -79,7 +79,7 @@ Actual material consumption varies depending on optional gift selections and pre
 
 # Batch Cooking Guide
 
-![Batch Cooking Guide](../images/rf5-friendship-guide/06-rf5-batch-cooking-guide.png)
+![Batch Cooking Guide](../images/rf5-friendship-guide/06-batch-cooking-guide-en.png)
 
 Batch cooking allows a small number of shared ingredients to support multiple friendship routes.
 
@@ -89,7 +89,7 @@ Preparing intermediate recipes in advance greatly simplifies long-term daily far
 
 # Cook With Someone Recommendations
 
-![Cook With Someone Recommendations](../images/rf5-friendship-guide/07-rf5-cook-with-someone-recommendations.png)
+![Cook With Someone Recommendations](../images/rf5-friendship-guide/07-cook-with-someone-recommendations-en.png)
 
 Cook With Someone (×2) is especially valuable for recipes that:
 
@@ -103,7 +103,7 @@ Using this feature strategically can significantly reduce daily preparation cost
 
 # Practical Loved Gift Tips
 
-![Practical Loved Gift Tips](../images/rf5-friendship-guide/08-rf5-practical-loved-gift-tips.png)
+![Practical Loved Gift Tips](../images/rf5-friendship-guide/08-practical-loved-gift-tips-en.png)
 
 Many villagers have multiple practical Loved Gift routes.
 

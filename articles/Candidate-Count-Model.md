@@ -63,5 +63,5 @@ The complete observation records and discussion are available in the PDF archive
 
 ## Navigation
 
-- ← Back to README
-- ← Back to ROADMAP
+- Back to README
+- Back to ROADMAP

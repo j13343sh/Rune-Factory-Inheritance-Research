@@ -51,30 +51,29 @@ It does **not** claim to describe the internal game code.
 
 Different playstyles may benefit from different strategies, and there is no single "correct" way to play.
 
+The purpose of this article is to introduce one practical optimization method for long-term inventory management.
+
 ---
 
 ## Related Articles
 
-### Core Mechanics
+- **Core Mechanics**
+  - [Triple Gift Mechanics](./Triple-Gift-Mechanics.md)
 
-- [Triple Gift Mechanics](./Triple-Gift-Mechanics.md)
+- **Strategy**
+  - [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
 
-### Strategy
+- **Practical Guides**
+  - [RF5 Daily Friendship Farming Guide](./RF5-Daily-Friendship-Farming-Guide.md)
+  - [RF4SP Daily Friendship Farming Guide](./RF4SP-Daily-Friendship-Farming-Guide.md)
 
-- [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
-
-### Practical Guides
-
-- [RF5 Daily Friendship Farming Guide](./RF5-Daily-Friendship-Farming-Guide.md)
-- [RF4SP Daily Friendship Farming Guide](./RF4SP-Daily-Friendship-Farming-Guide.md)
-
-### Research
-
-- [Candidate Count Model](./Candidate-Count-Model.md)
+- **Research**
+  - [Candidate Count Model](./Candidate-Count-Model.md)
 
 ---
 
 ## Navigation
 
 - Back to [README](../README.md)
+
 - Back to [ROADMAP](../ROADMAP.md)

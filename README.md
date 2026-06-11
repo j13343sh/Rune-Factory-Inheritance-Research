@@ -1,5 +1,5 @@
 # Rune Factory Inheritance Research
-This repository documents hidden gameplay mechanics discovered through observation and statistical analysis.
+This repository documents hidden gameplay mechanics in Rune Factory 4 Special and Rune Factory 5 discovered through observation, repeated experimentation, and statistical analysis.
 
 Topics covered include:
 

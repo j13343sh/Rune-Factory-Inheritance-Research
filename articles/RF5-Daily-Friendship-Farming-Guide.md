@@ -36,6 +36,7 @@ Instead, efficient daily farming comes from:
 ## Infographic
 
 ![RF5 Friendship Guide](../images/rf5-friendship-guide/01-overview-en.png)
+
 ---
 
 # Daily Gift Farming Guide

@@ -19,8 +19,7 @@ Different playstyles may benefit from different approaches.
 There is no single "correct" way to play.
 
 ## Articles
-
-- The Hidden Cost of Shipping Everything
-- RF5 Daily Friendship Farming Guide
-- RF4SP Daily Friendship Farming Guide
-- Candidate Count Model
+- [The Hidden Cost of Shipping Everything](The-Hidden-Cost-of-Shipping.md)
+- [RF5 Daily Friendship Farming Guide](RF5-Daily-Friendship-Farming-Guide.md)
+- [RF4SP Daily Friendship Farming Guide](RF4SP-Daily-Friendship-Farming-Guide.md)
+- [Candidate Count Model](Candidate-Count-Model.md)

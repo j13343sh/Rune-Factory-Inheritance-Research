@@ -58,7 +58,7 @@ This article does **not** claim to confirm the internal game code.
 
 Different playstyles may not need this level of optimization.
 
-The main purpose is to provide a practical method for players who enjoy long-term friendship farming.
+This article explains the basic mechanics behind the system and introduces one practical approach for long-term friendship farming.
 
 ---
 

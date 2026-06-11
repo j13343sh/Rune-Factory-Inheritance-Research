@@ -1,30 +1,32 @@
+# Triple Gift Mechanics in Rune Factory
+
 ## Overview
 
-In Rune Factory 4 Special and Rune Factory 5, friendship gain from gifts appears to be separated by gift category.
+In **Rune Factory 4 Special** and **Rune Factory 5**, friendship gained from gifts appears to be evaluated by separate gift categories.
 
-During repeated gameplay, I observed that a character can gain friendship from multiple gift categories on the same day.
+Through repeated gameplay observations, I found that a character can receive friendship gains from multiple gift categories on the same day.
 
-This means that instead of giving only one gift per day, players may be able to gain friendship from:
+Instead of giving only one gift per day, it may be possible to gain friendship from:
 
 - one normal gift
 - one favorite gift
 - one loved gift
 
-on the same day.
+during the same day.
 
-This changed how I think about daily friendship farming.
+This observation significantly changed my approach to long-term friendship farming.
 
 ---
 
 ## Key Takeaway
 
-Normal, favorite, and loved gifts appear to have separate daily friendship gain limits.
+Normal, favorite, and loved gifts appear to have independent daily friendship gain limits.
 
-This means a simple daily routine can produce up to three friendship gains per character per day.
+As a result, a simple daily routine may produce up to **three friendship gains per character per day**.
 
-Normal Gift + Favorite Gift + Loved Gift = Three Friendship Gains
+**Normal Gift + Favorite Gift + Loved Gift = Three Friendship Gains**
 
-This article introduces the basic mechanics behind that idea and how it can be used for long-term friendship farming.
+This article explains the basic mechanics behind this observation and introduces one practical approach for long-term friendship farming.
 
 ---
 
@@ -34,7 +36,7 @@ This article introduces the basic mechanics behind that idea and how it can be u
 
 ---
 
-## Practical Use
+## Practical Implications
 
 A simple daily routine can be:
 
@@ -42,11 +44,11 @@ A simple daily routine can be:
 2. Give one favorite gift.
 3. Give one loved gift.
 
-When combined with handmade gifts and low-cost recipes, this can greatly improve long-term friendship farming efficiency.
+When combined with handmade gifts and low-cost recipes, this approach can greatly improve long-term friendship farming efficiency.
 
-For example, low-cost handmade gifts can be used as daily normal or favorite gifts, while rarer loved gifts can be reserved for characters where they are most efficient.
+Rather than maximizing friendship from a single gift, this strategy focuses on combining multiple inexpensive gift categories into a sustainable daily routine.
 
-This approach is especially useful when trying to raise friendship with many villagers over a long playthrough.
+It is especially useful for players attempting to raise friendship with many villagers simultaneously.
 
 ---
 
@@ -56,36 +58,30 @@ These observations are based on repeated gameplay experience.
 
 This article does **not** claim to confirm the internal game code.
 
-Different playstyles may not need this level of optimization.
+Different playstyles may benefit from different strategies, and there is no single "correct" way to play.
 
-This article explains the basic mechanics behind the system and introduces one practical approach for long-term friendship farming.
+The purpose of this article is to introduce one practical optimization method for long-term friendship farming.
 
 ---
 
 ## Related Articles
 
-### Strategy
+- **Strategy**
+  - [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
 
-- [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
+- **Related Mechanics**
+  - [The Hidden Cost of Shipping Everything](./The-Hidden-Cost-of-Shipping.md)
 
-### Related Mechanics
+- **Practical Guides**
+  - [RF5 Daily Friendship Farming Guide](./RF5-Daily-Friendship-Farming-Guide.md)
+  - [RF4SP Daily Friendship Farming Guide](./RF4SP-Daily-Friendship-Farming-Guide.md)
 
-- [The Hidden Cost of Shipping Everything](./The-Hidden-Cost-of-Shipping.md)
-
-### Practical Guides
-
-- [RF5 Daily Friendship Farming Guide](./RF5-Daily-Friendship-Farming-Guide.md)
-
-- [RF4SP Daily Friendship Farming Guide](./RF4SP-Daily-Friendship-Farming-Guide.md)
-
-### Research
-
-- [Candidate Count Model](./Candidate-Count-Model.md)
+- **Research**
+  - [Candidate Count Model](./Candidate-Count-Model.md)
 
 ---
 
 ## Navigation
 
 - Back to [README](../README.md)
-
 - Back to [ROADMAP](../ROADMAP.md)

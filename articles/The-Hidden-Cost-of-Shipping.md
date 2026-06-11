@@ -10,6 +10,9 @@ That completely changed how I manage my farm.
 
 Now I think of shipping as managing my future shop inventory, not just selling items for profit.
 
+## Infographic
+
+![Shop Inventory Mechanics](../images/shop-inventory-mechanics.png)
 ## Notes
 
 This is simply one long-term strategy based on gameplay observations and personal experience.

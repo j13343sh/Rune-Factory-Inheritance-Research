@@ -18,8 +18,6 @@
 
 ## Notes
 
-## Related Articles
-
 ### Core Mechanics
 
 - Triple Gift Mechanics

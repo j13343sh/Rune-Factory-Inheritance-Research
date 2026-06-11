@@ -20,7 +20,7 @@ This article discusses one possible long-term optimization strategy based on gam
 
 ## Infographic
 
-![Shop Inventory Mechanics](../images/shop-inventory-mechanics.png)
+![Shop Inventory Mechanics](../images/the-hidden-cost-of-shipping/01-overview-en.png)
 ## Notes
 
 This is simply one long-term strategy based on gameplay observations and personal experience.

@@ -2,16 +2,54 @@
 
 ## Overview
 
-## Why Candidate Count Matters
+The Candidate Count Model is an observation-based research model that explains inheritance success probability through the number of valid candidate combinations.
 
-## Key Takeaways
+Rather than describing a single inheritance mechanic, this model provides a common conceptual framework for understanding multiple inheritance-related phenomena observed in Rune Factory equipment inheritance.
+
+It serves as the research root for many of the articles included in this repository.
+
+---
+
+## Why It Matters
+
+Many inheritance-related behaviors appear to be independent mechanics at first glance.
+
+Auto Arrange, Recursive Processing, Messhilite Inheritance, Self Contamination, and inheritance success probability may all seem unrelated.
+
+However, observation results suggest that these phenomena can often be interpreted through a common perspective based on candidate generation and candidate count.
+
+Understanding Candidate Count therefore provides a unified framework for interpreting a wide range of inheritance behavior without relying on isolated case-by-case explanations.
+
+---
+
+## Candidate Count Overview
+
+![Candidate Count Overview](../images/candidate-count-model/candidate-count-model-overview-en.png)
+
+---
 
 ## Representative Figure
 
+![Validation Results](../images/candidate-count-model/messhilite-validation-results-en.png)
+
+The observed validation results show a strong relationship between the number of valid candidate combinations and inheritance success probability.
+
+Although individual inheritance systems may differ in implementation details, the Candidate Count Model provides a consistent conceptual framework for interpreting these observations.
+
+---
+
+## Key Takeaways
+
+- Candidate Count is one of the central concepts for understanding inheritance behavior.
+- Increasing the number of valid candidate combinations generally increases inheritance success probability.
+- The same conceptual framework can explain multiple inheritance-related mechanics.
+- This model serves as the research root for several inheritance studies documented in this repository.
+
+---
+
 ## Key Applications
 
-Candidate Count influences many inheritance-related mechanics.
-The topics below are representative examples.
+The Candidate Count Model provides a common foundation for several inheritance-related research topics.
 
 - Auto Arrange
 - Recursive Processing

@@ -3,8 +3,8 @@
 This folder contains observation-based strategy articles and research summaries.
 
 ## Beginner
-- RF5 Daily Friendship Farming Guide
-- RF4SP Daily Friendship Farming Guide
+- [RF5 Daily Friendship Farming Guide](RF5-Daily-Friendship-Farming-Guide.md)
+- [RF4SP Daily Friendship Farming Guide](RF4SP-Daily-Friendship-Farming-Guide.md)
 
 ## Mechanics
 - [Triple Gift Mechanics](Triple-Gift-Mechanics.md)
@@ -17,7 +17,7 @@ This folder contains observation-based strategy articles and research summaries.
 - [Success Probability](Success-Probability.md)
 
 ## Strategy
-- Efficient Friendship Farming Strategy
+- [Efficient Friendship Farming Strategy](Efficient-Friendship-Farming-Strategy.md)
 
 ## Repository Roadmap
 For a complete repository overview and recommended reading order, see [ROADMAP](../ROADMAP.md).

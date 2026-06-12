@@ -63,44 +63,41 @@ The Candidate Count Model provides a common foundation for several inheritance-r
 - Messhilite Inheritance
 - Success Probability
 
-## Notes
-
-### Core Mechanics
-
-- Triple Gift Mechanics
-
-### Related Strategy
-
-- Efficient Friendship Farming Strategy
-
-### Research
-
-- Auto Arrange
-- Recursive Processing
-- Messhilite Inheritance
-
 ---
 
 ## Detailed Research PDF
 
 This article provides a high-level overview of the Candidate Count Model.
 
-Detailed observations, statistical analyses, mathematical discussion, and experimental validation are documented in the accompanying research materials.
+Detailed observations, statistical analyses, mathematical discussion, and experimental validation are documented in the accompanying research archive.
 
 **Note:** The current research documents are available in **Japanese only**.
 
-### Main Research PDF
+### Research PDF Series
 
-- [General Model (PDF, Japanese)](../pdf/07_数式・一般化モデル.pdf)
+The complete research archive consists of multiple PDF documents covering:
+
+- Terminology and basic mechanics
+- Auto Arrange
+- Self Contamination
+- Recursive Processing
+- Candidate selection process
+- General mathematical model
+- Messhilite inheritance analysis
+- Advanced inheritance strategies
+- Future research topics
+- Supplementary notes
+
+See the **pdf/** directory for the complete research series.
 
 ### Validation Archive
 
-Supporting validation materials are also available in the **research/** directory, including:
+Supporting validation materials are available in the **research/** directory, including:
 
 - Validation methodology
 - Wilson confidence interval derivation
 - Aggregated validation results
-- Individual stack experiments (3–6 Stack)
+- Individual stack experiments
 - Integrated datasets
 - Experimental notes
 
@@ -112,8 +109,6 @@ The **csv/** directory contains supplementary practical resources, including:
 - Equipment databases
 - Material requirement tables
 - Practical reference datasets
-
-Together, these materials provide the complete experimental foundation supporting the Candidate Count Model and related inheritance research presented throughout this repository.
 
 ---
 

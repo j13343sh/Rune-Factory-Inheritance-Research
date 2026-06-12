@@ -75,18 +75,24 @@ Detailed observations, statistical analyses, mathematical discussion, and experi
 
 ### Research PDF Series
 
-The complete research archive consists of multiple PDF documents covering:
+The complete research archive consists of multiple PDF documents.
 
-- Terminology and basic mechanics
-- Auto Arrange
-- Self Contamination
-- Recursive Processing
-- Candidate selection process
-- General mathematical model
-- Messhilite inheritance analysis
-- Advanced inheritance strategies
-- Future research topics
-- Supplementary notes
+**Note:** The current PDF documents are available in **Japanese only**.
+- [Read Me](../pdf/00_README_継承仕様整理.pdf)
+- [Summary](../pdf/00_サマリー.pdf)
+- [Terminology and Basic Mechanics](../pdf/01_用語定義.pdf)
+- [Basic Mechanics Overview](../pdf/02_基本仕様整理.pdf)
+- [Auto Arrange](../pdf/03_オートアレンジ詳細.pdf)
+- [Self Contamination](../pdf/04_自己混入解析.pdf)
+- [Recursive Processing](../pdf/05_再帰処理解析.pdf)
+- [Candidate Selection Process](../pdf/06_抽選処理解析.pdf)
+- [General Mathematical Model](../pdf/07_数式・一般化モデル.pdf)
+- [Messhilite Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
+- [Advanced Inheritance Strategies](../pdf/09_高難度継承と実運用.pdf)
+- [Roleplay Equipment Study](../pdf/10_ロールプレイ装備研究.pdf)
+- [Future Research Topics](../pdf/11_未解決問題・今後の検証課題.pdf)
+- [Supplementary Notes](../pdf/12_補遺.pdf)
+- [AI Comparison Appendix](../pdf/99_付録_AI比較.pdf)
 
 See the **pdf/** directory for the complete research series.
 

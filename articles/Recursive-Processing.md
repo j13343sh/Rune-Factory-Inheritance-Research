@@ -8,7 +8,7 @@ Observation-based research suggests that inheritance processing may recursively 
 
 Some inheritance behavior cannot be explained by simple one-layer performance inheritance.
 
-Observed behavior suggests that hidden internal arrangements may themselves become inheritance sources.
+Observed behavior suggests that hidden internal arrangement data may be recursively referenced during inheritance processing under certain conditions.
 
 ## Why It Matters
 
@@ -23,11 +23,16 @@ It also provides a possible conceptual bridge between:
 - Success Probability
 
 ## Representative Figure
+This conceptual model illustrates one possible recursive processing structure inferred from repeated gameplay observations.
 ![Recursive Processing Concept](../images/candidate-count-model/recursive-processing-hypothesis-en.png)
 
 ## Example Application
 
 Accessory A
+↓
+
+Internal Arrangement
+
 ↓
 
 Accessory B

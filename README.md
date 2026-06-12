@@ -71,6 +71,9 @@ The candidate-count model is the central hypothesis of this research archive.
 
 
 ## Main Archive
+Comprehensive Japanese research archive
+containing searchable source materials.
+
 - ルンファク（全部入り文字列検索可）
 
 

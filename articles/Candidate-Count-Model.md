@@ -32,9 +32,15 @@ Understanding Candidate Count therefore provides a unified framework for interpr
 
 ![Validation Results](../images/candidate-count-model/messhilite-validation-results-en.png)
 
-The observed validation results show a strong relationship between the number of valid candidate combinations and inheritance success probability.
+The validation results demonstrate a strong relationship between Candidate Count and inheritance success probability.
 
-Although individual inheritance systems may differ in implementation details, the Candidate Count Model provides a consistent conceptual framework for interpreting these observations.
+---
+
+## Example Application
+
+![Messhilite Inheritance Model](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
+
+The Messhilite inheritance mechanism provides a practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
 
 ---
 

@@ -23,23 +23,24 @@ It also provides a possible conceptual bridge between:
 - Success Probability
 
 ## Representative Figure
-This conceptual model illustrates one possible recursive processing structure inferred from repeated gameplay observations.
 ![Recursive Processing Concept](../images/candidate-count-model/recursive-processing-hypothesis-en.png)
+This conceptual model illustrates one possible recursive processing structure inferred from repeated gameplay observations.
 
 ## Example Application
 
-Accessory A
+Original Equipment
+
 ↓
 
 Internal Arrangement
 
 ↓
 
-Accessory B
+Recursive Reference
 
 ↓
 
-Observed inheritance result
+Observed Inheritance Result
 
 ## Key Takeaways
 - Internal arrangements may be recursively referenced.

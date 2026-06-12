@@ -3,12 +3,13 @@
 ## Overview
 
 Observation-based research suggests that inheritance processing may recursively reference internal arrangement data under certain conditions.
+This article summarizes an observation-based research model for Recursive Processing derived from repeated gameplay experiments in Rune Factory inheritance mechanics.
 
 ---
 
 ## Core Concept
 
-Some inheritance behavior cannot be explained by simple one-layer performance inheritance.
+Some observed inheritance behavior appears difficult to explain through simple one-layer performance inheritance alone.
 
 Observed behavior suggests that hidden internal arrangement data may be recursively referenced during inheritance processing under certain conditions.
 
@@ -61,35 +62,39 @@ Observed Inheritance Result
 ---
 
 ## Detailed Research PDF
+This article provides a conceptual overview of Recursive Processing.
+
+Detailed observations, experimental discussion, and validation results are documented in the accompanying research archive.
+
 **Note:** All PDF documents are currently available in **Japanese only**.
 
 - [Recursive Processing](../pdf/05_再帰処理解析.pdf)
 
-See the corresponding research PDF included in this repository for detailed observations, experimental results, and discussion.
+For detailed observations, validation results, and experimental discussion, please refer to the corresponding research PDF.
+
+This article serves as a high-level entry point, while the accompanying PDF provides the complete research details.
 
 ---
 
 ## Related Articles
 
 ### Research Root
-
 - [Candidate Count Model](Candidate-Count-Model.md)
 
 ### Related Mechanics
-
 - [Auto Arrange](Auto-Arrange.md)
 - [Self Contamination](Self-Contamination.md)
 - [Messhilite Inheritance](Messhilite-Inheritance.md)
 - [Success Probability](Success-Probability.md)
 
 ### Strategy
-
 - [Efficient Friendship Farming Strategy](Efficient-Friendship-Farming-Strategy.md)
 
 ### Practical Guides
-
 - [RF5 Daily Friendship Farming Guide](RF5-Daily-Friendship-Farming-Guide.md)
 - [RF4SP Daily Friendship Farming Guide](RF4SP-Daily-Friendship-Farming-Guide.md)
+
+---
 
 ## Navigation
 

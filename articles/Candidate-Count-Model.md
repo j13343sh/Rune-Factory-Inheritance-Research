@@ -10,6 +10,16 @@ It serves as the research root for many of the articles included in this reposit
 
 ---
 
+## Core Concept
+
+Candidate Count represents the number of valid candidate combinations generated during inheritance processing.
+
+Increasing Candidate Count generally increases the probability that the desired inheritance target will be selected.
+
+Many inheritance-related phenomena documented in this repository can therefore be interpreted through changes in Candidate Count.
+
+---
+
 ## Why It Matters
 
 Many inheritance-related behaviors appear to be independent mechanics at first glance.

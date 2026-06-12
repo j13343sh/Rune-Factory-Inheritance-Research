@@ -10,9 +10,11 @@ This article summarizes one conceptual interpretation derived from repeated game
 
 ## Why It Matters
 
-Observation results suggest that Messhilite inheritance behavior may provide practical evidence supporting the Candidate Count Model.
+Observation results suggest that Messhilite inheritance behavior may provide practical evidence consistent with the Candidate Count Model.
 
-Rather than representing an isolated inheritance mechanic, Messhilite Inheritance may serve as one validation interface connecting gameplay observations with broader conceptual models.
+Rather than representing an isolated inheritance mechanic, Messhilite Inheritance serves as a validation interface connecting gameplay observations with broader conceptual models.
+
+Validation in this context does not mean proof. It means checking whether repeated observations are consistent with the proposed conceptual model.
 
 ---
 
@@ -20,8 +22,17 @@ Rather than representing an isolated inheritance mechanic, Messhilite Inheritanc
 
 ![Messhilite Inheritance Overview](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
 
-*Conceptual illustration of one possible Messhilite inheritance interpretation.*
+*Conceptual illustration of one possible Messhilite inheritance mechanism.*
 
+---
+
+## Validation Results
+
+The observed success rates increase as stack count increases, showing consistency with the Candidate Count Model.
+
+![Messhilite Validation Results](../images/candidate-count-model/messhilite-validation-results-en.png)
+
+*Validation results summarize empirical observations that appear consistent with the Candidate Count Model. Detailed statistical methodology, confidence intervals, and experimental design are provided in the accompanying research PDF.*
 
 ---
 
@@ -29,7 +40,7 @@ Rather than representing an isolated inheritance mechanic, Messhilite Inheritanc
 
 - Messhilite Inheritance appears consistent with Candidate Count-based interpretation.
 - The observed behavior remains observation-based.
-- Validation results may provide practical support for the broader Candidate Count Model.
+- Validation results support consistency with the broader Candidate Count Model, but do not prove the internal implementation.
 - Future observations may further refine this conceptual model.
 
 ---
@@ -44,18 +55,16 @@ Detailed observations, validation results, statistical discussion, and experimen
 
 - [Messhilite Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
 
-For detailed observations, validation results, and experimental discussion, please refer to the corresponding research PDF.
+For detailed observations, validation results, statistical methodology, confidence intervals, experimental design, and discussion, please refer to the corresponding research PDF.
 
 ---
 
 ## Related Articles
 
 ### Research Root
-
 - [Candidate Count Model](Candidate-Count-Model.md)
 
 ### Related Mechanics
-
 - [Auto Arrange](Auto-Arrange.md)
 - [Recursive Processing](Recursive-Processing.md)
 - [Self Contamination](Self-Contamination.md)
@@ -66,7 +75,6 @@ For detailed observations, validation results, and experimental discussion, plea
 - [Efficient Friendship Farming Strategy](Efficient-Friendship-Farming-Strategy.md)
 
 ### Practical Guides
-
 - [RF5 Daily Friendship Farming Guide](RF5-Daily-Friendship-Farming-Guide.md)
 - [RF4SP Daily Friendship Farming Guide](RF4SP-Daily-Friendship-Farming-Guide.md)
 

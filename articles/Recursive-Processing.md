@@ -4,11 +4,15 @@
 
 Observation-based research suggests that inheritance processing may recursively reference internal arrangement data under certain conditions.
 
+---
+
 ## Core Concept
 
 Some inheritance behavior cannot be explained by simple one-layer performance inheritance.
 
 Observed behavior suggests that hidden internal arrangement data may be recursively referenced during inheritance processing under certain conditions.
+
+---
 
 ## Why It Matters
 
@@ -22,9 +26,13 @@ It also provides a possible conceptual bridge between:
 - Performance Inheritance
 - Success Probability
 
+---
+
 ## Representative Figure
 ![Recursive Processing Concept](../images/candidate-count-model/recursive-processing-hypothesis-en.png)
 *This conceptual model illustrates one possible recursive processing structure inferred from repeated gameplay observations.*
+
+---
 
 ## Example Application
 
@@ -42,11 +50,15 @@ Recursive Reference
 
 Observed Inheritance Result
 
+---
+
 ## Key Takeaways
 - Internal arrangements may be recursively referenced.
 - This behavior appears conditional.
 - The model remains observation-based.
 - Recursive processing may provide a conceptual bridge between multiple inheritance mechanics.
+
+---
 
 ## Detailed Research PDF
 **Note:** All PDF documents are currently available in **Japanese only**.
@@ -54,6 +66,8 @@ Observed Inheritance Result
 - [Recursive Processing](../pdf/05_再帰処理解析.pdf)
 
 See the corresponding research PDF included in this repository for detailed observations, experimental results, and discussion.
+
+---
 
 ## Related Articles
 

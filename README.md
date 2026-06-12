@@ -55,12 +55,19 @@ C --> F[Unresolved Questions]
 The candidate-count model is the central hypothesis of this research archive.
 
 ## Featured Articles
-- [Candidate Count Model](articles/Candidate-Count-Model.md)
-- [Triple Gift Mechanics](articles/Triple-Gift-Mechanics.md)
-- [The Hidden Cost of Shipping Everything](articles/The-Hidden-Cost-of-Shipping.md)
+
+### Beginner
+
 - [RF5 Daily Friendship Farming Guide](articles/RF5-Daily-Friendship-Farming-Guide.md)
 - [RF4SP Daily Friendship Farming Guide](articles/RF4SP-Daily-Friendship-Farming-Guide.md)
 
+### Mechanics
+- [Candidate Count Model](articles/Candidate-Count-Model.md)
+- [Triple Gift Mechanics](articles/Triple-Gift-Mechanics.md)
+- [The Hidden Cost of Shipping Everything](articles/The-Hidden-Cost-of-Shipping.md)
+
+### Strategy
+- [Efficient Friendship Farming Strategy](articles/Efficient-Friendship-Farming Strategy.md)
 
 
 ## Main Archive

@@ -46,13 +46,27 @@ Observed inheritance result
 
 See the corresponding research PDF included in this repository for detailed observations, experimental results, and discussion.
 
-
 ## Related Articles
+
+### Research Root
+
 - [Candidate Count Model](Candidate-Count-Model.md)
+
+### Related Mechanics
+
 - [Auto Arrange](Auto-Arrange.md)
 - [Self Contamination](Self-Contamination.md)
 - [Messhilite Inheritance](Messhilite-Inheritance.md)
 - [Success Probability](Success-Probability.md)
+
+### Strategy
+
+- [Efficient Friendship Farming Strategy](Efficient-Friendship-Farming-Strategy.md)
+
+### Practical Guides
+
+- [RF5 Daily Friendship Farming Guide](RF5-Daily-Friendship-Farming-Guide.md)
+- [RF4SP Daily Friendship Farming Guide](RF4SP-Daily-Friendship-Farming-Guide.md)
 
 ## Navigation
 

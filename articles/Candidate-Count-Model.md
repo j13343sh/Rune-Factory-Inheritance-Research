@@ -117,9 +117,5 @@ The complete observation records and discussion are available in the PDF archive
 
 ## Navigation
 
----
-
-## Navigation
-
 - Back to [README](../README.md)
 - Back to [ROADMAP](../ROADMAP.md)

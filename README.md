@@ -27,6 +27,8 @@ The archive also includes long-term gameplay research covering friendship optimi
 
 ※This archive is based entirely on in-game observation, repeated experimentation, and statistical analysis. No reverse engineering, decompilation, or extracted game source code is used.
 
+---
+
 ## Overview
 
 Rune Factory 4 Special / Rune Factory 5
@@ -35,6 +37,8 @@ inheritance mechanics research archive.
 This archive focuses on observed behavior, inheritance mechanics, and candidate-count models derived from gameplay testing.
 
 This archive is based on gameplay observation rather than game code analysis.
+
+---
 
 ## Research Structure
 
@@ -54,6 +58,8 @@ C --> F[Unresolved Questions]
 ```
 The candidate-count model is the central hypothesis of this research archive.
 
+---
+
 ## Featured Articles
 
 ### Beginner
@@ -69,6 +75,7 @@ The candidate-count model is the central hypothesis of this research archive.
 ### Strategy
 - [Efficient Friendship Farming Strategy](articles/Efficient-Friendship-Farming-Strategy.md)
 
+---
 
 ## Main Archive
 Comprehensive Japanese research archive
@@ -76,9 +83,11 @@ containing searchable source materials.
 
 - ルンファク（全部入り文字列検索可）
 
+---
 
 ## Supporting Documents
 
+---
 
 ## Roadmap
 See [ROADMAP](ROADMAP.md).
@@ -96,6 +105,8 @@ for the recommended reading order and repository structure.
 - 99_付録_AIコーディネート案実例.pdf
 - 99_付録_用途別装備一覧.pdf
 
+---
+
 ## Status
 
 Observation-based research.
@@ -106,10 +117,9 @@ This archive does not claim to prove internal game code or implementation detail
 
 Its purpose is to document observed behavior and provide reproducible observation-based models that may explain those observations.
 
+---
+
 ## Download
 
 See 
 - 00_DOWNLOAD_OK.txt
-
-
-

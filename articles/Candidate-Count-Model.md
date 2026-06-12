@@ -83,9 +83,39 @@ The Candidate Count Model provides a common foundation for several inheritance-r
 
 ## Detailed Research PDF
 
-This article is a summary.
-The complete observation records and discussion are available in the PDF archive.
+This article provides a high-level overview of the Candidate Count Model.
 
+Detailed observations, statistical analyses, mathematical discussion, and experimental validation are documented in the accompanying research materials.
+
+**Note:** The current research documents are available in **Japanese only**.
+
+### Main Research PDF
+
+- [General Model (PDF, Japanese)](../pdf/07_数式・一般化モデル.pdf)
+
+### Validation Archive
+
+Supporting validation materials are also available in the **research/** directory, including:
+
+- Validation methodology
+- Wilson confidence interval derivation
+- Aggregated validation results
+- Individual stack experiments (3–6 Stack)
+- Integrated datasets
+- Experimental notes
+
+### Practical Data
+
+The **csv/** directory contains supplementary practical resources, including:
+
+- AI coordination examples
+- Equipment databases
+- Material requirement tables
+- Practical reference datasets
+
+Together, these materials provide the complete experimental foundation supporting the Candidate Count Model and related inheritance research presented throughout this repository.
+
+---
 
 ## Related Articles
 

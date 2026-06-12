@@ -4,15 +4,15 @@
 
 Auto Arrange is an observation-based research topic describing automatic arrangement behavior that may occur during equipment inheritance under certain crafting conditions.
 
-This article summarizes the current conceptual interpretation derived from repeated gameplay observations.
+This article summarizes one conceptual interpretation derived from repeated gameplay observations.
 
 ---
 
 ## Why It Matters
 
-Some inheritance behavior appears difficult to explain through manual material selection alone.
+Observation results suggest that Auto Arrange may influence candidate generation during inheritance processing.
 
-Observation results suggest that Auto Arrange may influence candidate generation during inheritance processing and therefore affect inheritance success probability.
+This behavior may increase the effective candidate pool and therefore influence inheritance success probability.
 
 The Auto Arrange model should be interpreted as one branch of the broader Candidate Count Model.
 
@@ -31,7 +31,7 @@ The Auto Arrange model should be interpreted as one branch of the broader Candid
 
 - Auto Arrange appears to influence candidate generation.
 - The observed behavior remains observation-based.
-- Candidate Count may provide a conceptual framework for interpreting this behavior.
+- Auto Arrange may increase the effective candidate pool under certain crafting conditions.
 - Future observations may further refine this conceptual model.
 
 ---

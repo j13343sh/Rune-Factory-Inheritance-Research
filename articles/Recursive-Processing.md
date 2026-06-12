@@ -24,7 +24,7 @@ It also provides a possible conceptual bridge between:
 
 ## Representative Figure
 ![Recursive Processing Concept](../images/candidate-count-model/recursive-processing-hypothesis-en.png)
-This conceptual model illustrates one possible recursive processing structure inferred from repeated gameplay observations.
+*This conceptual model illustrates one possible recursive processing structure inferred from repeated gameplay observations.*
 
 ## Example Application
 
@@ -46,6 +46,7 @@ Observed Inheritance Result
 - Internal arrangements may be recursively referenced.
 - This behavior appears conditional.
 - The model remains observation-based.
+- Recursive processing may provide a conceptual bridge between multiple inheritance mechanics.
 
 ## Detailed Research PDF
 **Note:** All PDF documents are currently available in **Japanese only**.

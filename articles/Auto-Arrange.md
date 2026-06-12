@@ -19,10 +19,11 @@ The Auto Arrange model should be interpreted as one branch of the broader Candid
 ---
 
 ## Representative Figure
-
+<!--
 ![Auto Arrange Overview](../images/candidate-count-model/auto-arrange-overview-en.png)
 
 *Conceptual illustration of one possible Auto Arrange interpretation.*
+-->
 
 ---
 

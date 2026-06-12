@@ -40,7 +40,7 @@ The validation results demonstrate a strong relationship between Candidate Count
 
 ![Messhilite Inheritance Model](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
 
-The Messhilite inheritance mechanism provides a practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
+The Messhilite inheritance mechanism provides one practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
 
 ---
 
@@ -142,7 +142,7 @@ Additional practical datasets are available in the **csv/** directory, including
 - [Messhilite Inheritance](../articles/messhilite-inheritance.md)
 - Success Probability *(Planned)*
 
-The Candidate Count Model serves as a conceptual foundation for many inheritance-related studies included in this repository and will continue to evolve as additional research articles are published.
+The Candidate Count Model serves as the conceptual foundation for many inheritance-related studies included in this repository and acts as the central hub connecting the associated research articles.
 
 ---
 

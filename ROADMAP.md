@@ -62,31 +62,13 @@ HC --> ARCHIVE
 FS --> ARCHIVE
 ```
 
-Beginner
-│
-├── RF5 Daily Friendship Farming Guide
-└── RF4SP Daily Friendship Farming Guide
-
-Mechanics
-│
-├── Candidate Count Model
-│     │
-│     ├── Auto Arrange (Planned)
-│     ├── Recursive Processing (Planned)
-│     ├── Self Contamination (Planned)
-│     ├── Messhilite Inheritance (Planned)
-│     ├── Success Probability (Planned)
-│     └── Candidate Pool (Planned)
-│
-├── Triple Gift Mechanics
-└── The Hidden Cost of Shipping
-
-Strategy
-│
-└── Efficient Friendship Farming Strategy
-
-Research Archive
-
 ## Future Branches
+- Auto Arrange
+- Recursive Processing
+- Self Contamination
+- Messhilite Inheritance
+- Success Probability
+- Candidate Pool
+
 
 ## Supporting Documents

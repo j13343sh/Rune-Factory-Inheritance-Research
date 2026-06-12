@@ -1,6 +1,7 @@
 # ROADMAP
 
 ## About this Repository
+This roadmap provides a recommended reading order and an overview of the repository's knowledge network. It serves as a navigation guide rather than a research article.
 
 ## Recommended Reading Order
 

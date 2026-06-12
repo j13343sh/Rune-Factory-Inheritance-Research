@@ -34,6 +34,15 @@ The observed success rates increase as stack count increases, a trend that appea
 
 *Validation results summarize empirical observations that appear consistent with the Candidate Count Model. Detailed statistical methodology, confidence intervals, and experimental design are provided in the accompanying research PDF.*
 
+### Validation Documents
+
+Readers interested in the experimental methodology and aggregated results may refer to the following supplementary validation documents.
+
+- [Validation Methodology](../research/01_検証方法.pdf)
+- [Validation Results Summary](../research/02_集計結果.pdf)
+
+Detailed statistical discussion and interpretation are available in the main research PDF.
+
 ---
 
 ## Key Takeaways

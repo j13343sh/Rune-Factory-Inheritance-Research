@@ -57,11 +57,11 @@ The Messhilite inheritance mechanism provides a practical example of how Candida
 
 The Candidate Count Model provides a common foundation for several inheritance-related research topics.
 
-- Auto Arrange
-- Recursive Processing
-- Self Contamination
-- Messhilite Inheritance
-- Success Probability
+- [Auto Arrange](../articles/auto-arrange.md)
+- [Recursive Processing](../articles/recursive-processing.md)
+- Self Contamination *(Coming Soon)*
+- [Messhilite Inheritance](../articles/messhilite-inheritance.md)
+- Success Probability *(Planned)*
 
 ---
 

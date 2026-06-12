@@ -71,13 +71,11 @@ This article provides a high-level overview of the Candidate Count Model.
 
 Detailed observations, statistical analyses, mathematical discussion, and experimental validation are documented in the accompanying research archive.
 
-**Note:** The current research documents are available in **Japanese only**.
-
 ### Research PDF Series
 
 The complete research archive consists of multiple PDF documents.
 
-**Note:** The current PDF documents are available in **Japanese only**.
+**Note:** All PDF documents are currently available in **Japanese only**.
 
 #### Core Documents
 
@@ -110,23 +108,11 @@ See the **pdf/** directory for the complete research series.
 
 ### Validation Archive
 
-Supporting validation materials are available in the **research/** directory, including:
-
-- Validation methodology
-- Wilson confidence interval derivation
-- Aggregated validation results
-- Individual stack experiments
-- Integrated datasets
-- Experimental notes
+Additional validation materials are available in the **research/** directory, including experimental methodology, statistical validation, aggregated datasets, and research notes.
 
 ### Practical Data
 
-The **csv/** directory contains supplementary practical resources, including:
-
-- AI coordination examples
-- Equipment databases
-- Material requirement tables
-- Practical reference datasets
+Additional practical datasets are available in the **csv/** directory, including equipment databases, AI coordination examples, material tables, and other reference resources.
 
 ---
 
@@ -151,10 +137,12 @@ The **csv/** directory contains supplementary practical resources, including:
 ### Research
 
 - [Auto Arrange](../articles/auto-arrange.md)
-
 - [Recursive Processing](../articles/recursive-processing.md)
-
+- Self Contamination *(Coming Soon)*
 - [Messhilite Inheritance](../articles/messhilite-inheritance.md)
+- Success Probability *(Planned)*
+
+The Candidate Count Model serves as a conceptual foundation for many inheritance-related studies included in this repository and will continue to evolve as additional research articles are published.
 
 ---
 

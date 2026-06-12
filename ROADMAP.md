@@ -3,6 +3,8 @@
 ## About this Repository
 This roadmap provides a recommended reading order and an overview of the repository's knowledge network. It serves as a navigation guide rather than a research article.
 
+---
+
 ## Recommended Reading Order
 
 Beginner
@@ -15,6 +17,8 @@ Strategy
 ↓
 
 Research Archive
+
+---
 
 ## Knowledge Network
 ```mermaid
@@ -63,6 +67,8 @@ HC --> ARCHIVE
 FS --> ARCHIVE
 ```
 
+---
+
 ## Future Branches
 
 Planned mechanics articles:
@@ -74,5 +80,6 @@ Planned mechanics articles:
 - Success Probability
 - Candidate Pool
 
+---
 
 ## Supporting Documents

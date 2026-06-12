@@ -42,7 +42,9 @@ Observed inheritance result
 - The model remains observation-based.
 
 ## Detailed Research PDF
+**Note:** All PDF documents are currently available in **Japanese only**.
 
+- [Recursive Processing](../pdf/05_再帰処理解析.pdf)
 
 See the corresponding research PDF included in this repository for detailed observations, experimental results, and discussion.
 

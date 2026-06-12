@@ -53,20 +53,23 @@ D --> E[Practical Equipment Building]
 C --> F[Unresolved Questions]
 ```
 The candidate-count model is the central hypothesis of this research archive.
-## Topics
 
-- Inheritance
-- Candidate-count model
-- Auto-arrange
-- Recursive processing
-- Self-contamination
-- Messilight inheritance success rate
+## Featured Articles
 
+- 
+- 
+- 
+- 
+- 
+- 
 
-## Documents
-
-### Main Archive
+## Main Archive
 - ルンファク（全部入り文字列検索可）
+
+
+## Supporting Documents
+
+
 
 ### English Roadmap
 - 00_roadmap_en.txt

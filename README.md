@@ -67,7 +67,7 @@ The candidate-count model is the central hypothesis of this research archive.
 - [The Hidden Cost of Shipping Everything](articles/The-Hidden-Cost-of-Shipping.md)
 
 ### Strategy
-- [Efficient Friendship Farming Strategy](articles/Efficient-Friendship-Farming Strategy.md)
+- [Efficient Friendship Farming Strategy](articles/Efficient-Friendship-Farming-Strategy.md)
 
 
 ## Main Archive

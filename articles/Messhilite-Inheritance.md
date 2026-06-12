@@ -10,7 +10,7 @@ This article summarizes one conceptual interpretation derived from repeated game
 
 ## Why It Matters
 
-Observation results suggest that Messhilite inheritance behavior may provide practical evidence consistent with the Candidate Count Model.
+Observation results suggest that Messhilite inheritance behavior may provide empirical observations consistent with the Candidate Count Model.
 
 Rather than representing an isolated inheritance mechanic, Messhilite Inheritance serves as a validation interface connecting gameplay observations with broader conceptual models.
 
@@ -28,7 +28,7 @@ Validation in this context does not mean proof. It means checking whether repeat
 
 ## Validation Results
 
-The observed success rates increase as stack count increases, showing consistency with the Candidate Count Model.
+The observed success rates increase as stack count increases, a trend that appears consistent with interpretations based on the Candidate Count Model.
 
 ![Messhilite Validation Results](../images/candidate-count-model/messhilite-validation-results-en.png)
 

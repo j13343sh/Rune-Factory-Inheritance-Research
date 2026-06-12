@@ -70,7 +70,7 @@ The Candidate Count Model provides a common foundation for several inheritance-r
 - [Auto Arrange](../articles/Auto-Arrange.md)
 - [Recursive Processing](../articles/Recursive-Processing.md)
 - [Self Contamination](../articles/Self-Contamination.md)
-- [Messhilite Inheritance](../articles/messhilite-inheritance.md)
+- [Messhilite Inheritance](../articles/Messhilite-Inheritance.md)
 - [Success Probability](../articles/Success-Probability.md)
 
 ---
@@ -151,7 +151,7 @@ The Candidate Count Model serves as the conceptual foundation for many inheritan
 - [Auto Arrange](../articles/Auto-Arrange.md)
 - [Recursive Processing](../articles/Recursive-Processing.md)
 - [Self Contamination](../articles/Self-Contamination.md)
-- [Messhilite Inheritance](../articles/messhilite-inheritance.md)
+- [Messhilite Inheritance](../articles/Messhilite-Inheritance.md)
 - [Success Probability](../articles/Success-Probability.md)
 
 

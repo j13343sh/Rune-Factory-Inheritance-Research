@@ -2,7 +2,7 @@
 
 ## Overview
 
-Observation-based research suggests that inheritance processing may recursively reference internal arrangement data under certain conditions.
+Observed behavior suggests that an internally arranged inheritance structure may be recursively referenced under certain conditions.
 
 This article summarizes an observation-based research model for Recursive Processing derived from repeated gameplay experiments involving Rune Factory inheritance mechanics.
 
@@ -12,7 +12,7 @@ This article summarizes an observation-based research model for Recursive Proces
 
 Some observed inheritance behavior appears difficult to explain through simple one-layer performance inheritance alone.
 
-Observed behavior suggests that hidden internal arrangement data may be recursively referenced during inheritance processing under certain conditions.
+Observed behavior suggests that an internal arrangement inferred from repeated observations may itself become the input of subsequent inheritance processing under certain conditions.
 
 ---
 
@@ -42,6 +42,8 @@ The Recursive Processing model should be interpreted as one branch of the broade
 
 The following conceptual flow illustrates one possible recursive inheritance process inferred from repeated gameplay observations.
 
+This flow should be interpreted as one conceptual interpretation inferred from repeated observations rather than a confirmed implementation model.
+
 Original Equipment
 
 ↓
@@ -63,6 +65,7 @@ Observed Inheritance Result
 - This behavior appears conditional.
 - The model remains observation-based.
 - Recursive processing may provide a conceptual bridge between multiple inheritance mechanics.
+- Future observations may further refine this conceptual model.
 
 ---
 

@@ -23,7 +23,7 @@ It also provides a possible conceptual bridge between:
 - Success Probability
 
 ## Representative Figure
-![Recursive Processing Concept](../images/Recursive-Processing-Concept.png)
+![Recursive Processing Concept](../images/candidate-count-model/Recursive-Processing-Concept.png)
 
 ## Example Application
 

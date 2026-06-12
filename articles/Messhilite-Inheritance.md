@@ -17,11 +17,11 @@ Rather than representing an isolated inheritance mechanic, Messhilite Inheritanc
 ---
 
 ## Representative Figure
-<!--
+
 ![Messhilite Inheritance Overview](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
 
 *Conceptual illustration of one possible Messhilite inheritance interpretation.*
--->
+
 
 ---
 

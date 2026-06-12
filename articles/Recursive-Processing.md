@@ -14,8 +14,16 @@ Observed behavior suggests that hidden internal arrangements may themselves beco
 
 Recursive processing may explain several previously unexplained inheritance phenomena observed during gameplay.
 
+It also provides a possible conceptual bridge between:
+
+- Candidate Count Model
+- Auto Arrange
+- Self Contamination
+- Performance Inheritance
+- Success Probability
+
 ## Representative Figure
-(RF-MAP-05)
+![Recursive Processing Concept](../images/Recursive-Processing-Concept.png)
 
 ## Example Application
 
@@ -35,15 +43,16 @@ Observed inheritance result
 
 ## Detailed Research PDF
 
-...
+
+See the corresponding research PDF included in this repository for detailed observations, experimental results, and discussion.
 
 
 ## Related Articles
 - [Candidate Count Model](Candidate-Count-Model.md)
-- Auto Arrange
-- Self Contamination
-- Success Probability
-
+- [Auto Arrange](Auto-Arrange.md)
+- [Self Contamination](Self-Contamination.md)
+- [Messhilite Inheritance](Messhilite-Inheritance.md)
+- [Success Probability](Success-Probability.md)
 
 ## Navigation
 

@@ -82,6 +82,7 @@ containing searchable source materials.
 
 ## Roadmap
 See [ROADMAP](ROADMAP.md).
+for the recommended reading order and repository structure.
 
 ### Additional Notes
 - 99_補遺_追加未解決事項備忘録.txt

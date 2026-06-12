@@ -148,11 +148,11 @@ Additional practical datasets are available in the **csv/** directory, including
 
 The Candidate Count Model serves as the conceptual foundation for many inheritance-related studies included in this repository and acts as the central hub connecting the associated research articles.
 
-- [Auto Arrange](../articles/auto-arrange.md)
-- [Recursive Processing](../articles/recursive-processing.md)
-- Self Contamination *(Coming Soon)*
+- [Auto Arrange](../articles/Auto-Arrange.md)
+- [Recursive Processing](../articles/Recursive-Processing.md)
+- [Self Contamination](../articles/Self-Contamination.md)
 - [Messhilite Inheritance](../articles/messhilite-inheritance.md)
-- Success Probability *(Planned)*
+- [Success Probability](../articles/Success-Probability.md)
 
 
 ---

@@ -4,7 +4,7 @@
 
 The Candidate Count Model is an observation-based research model that explains inheritance success probability through the number of valid candidate combinations.
 
-Rather than describing a single inheritance mechanic, this model provides a common conceptual framework for understanding multiple inheritance-related phenomena observed in Rune Factory equipment inheritance.
+Rather than describing a single inheritance mechanic, this model may provide a common conceptual framework for understanding multiple inheritance-related phenomena observed in Rune Factory equipment inheritance.
 
 It serves as the conceptual research root for many inheritance-related studies included in this repository.
 
@@ -12,7 +12,7 @@ It serves as the conceptual research root for many inheritance-related studies i
 
 ## Core Concept
 
-Candidate Count represents the number of valid candidate combinations generated during inheritance processing.
+Candidate Count refers to an observation-based model describing the number of valid candidate combinations inferred from inheritance behavior.
 
 Increasing Candidate Count generally increases the probability that the desired inheritance target will be selected.
 
@@ -42,7 +42,7 @@ Understanding Candidate Count therefore provides a unified framework for interpr
 
 ![Validation Results](../images/candidate-count-model/messhilite-validation-results-en.png)
 
-The validation results demonstrate a strong relationship between Candidate Count and inheritance success probability.
+The validation results suggest a strong relationship between Candidate Count and inheritance success probability.
 
 ---
 
@@ -67,11 +67,11 @@ The Messhilite inheritance mechanism provides one practical example of how Candi
 
 The Candidate Count Model provides a common foundation for several inheritance-related research topics.
 
-- [Auto Arrange](../articles/auto-arrange.md)
-- [Recursive Processing](../articles/recursive-processing.md)
-- Self Contamination *(Coming Soon)*
+- [Auto Arrange](../articles/Auto-Arrange.md)
+- [Recursive Processing](../articles/Recursive-Processing.md)
+- [Self Contamination](../articles/Self-Contamination.md)
 - [Messhilite Inheritance](../articles/messhilite-inheritance.md)
-- Success Probability *(Planned)*
+- [Success Probability](../articles/Success-Probability.md)
 
 ---
 

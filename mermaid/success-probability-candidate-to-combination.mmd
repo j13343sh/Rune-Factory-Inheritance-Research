@@ -1,0 +1,8 @@
+flowchart TD
+    A[Candidate Count N] --> B[Choose 3 arrangement slots]
+    B --> C[Total combinations C(N,3)]
+    B --> D[Successful combinations A]
+    C --> E[Success Probability P = A / C(N,3)]
+    D --> E
+    E --> F[Expected Attempts ≈ 1/P]
+    E --> G[Cumulative Success = 1 - (1-P)^k]

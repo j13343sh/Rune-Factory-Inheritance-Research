@@ -2,109 +2,181 @@
 
 ## Overview
 
-Observed behavior suggests that an internally arranged inheritance structure may be recursively referenced under certain conditions.
+Recursive Processing is an observation-based research topic describing situations where internal arrangement information may be referenced again during later inheritance processing.
 
-This article summarizes an observation-based research model for Recursive Processing derived from repeated gameplay experiments involving Rune Factory inheritance mechanics.
-
----
-
-## Core Concept
-
-Some observed inheritance behavior appears difficult to explain through simple one-layer performance inheritance alone.
-
-Observed behavior suggests that an internal arrangement inferred from repeated observations may itself become the input of subsequent inheritance processing under certain conditions.
+This article summarizes one conceptual model for explaining inheritance behavior that appears difficult to describe with a flat, one-layer candidate model.
 
 ---
 
 ## Why It Matters
 
-Recursive processing may explain several previously unexplained inheritance phenomena observed during gameplay.
+Recursive Processing matters because it can explain why the effective candidate pool may expand beyond the items that the player directly inserted.
 
-It also provides a possible conceptual bridge between:
+If an inherited item contains internal arrangement information, and that internal information is later referenced, then the candidate pool may expand recursively.
+
+This connects Recursive Processing to:
 
 - Candidate Count Model
-- Auto Arrange
 - Self Contamination
-- Performance Inheritance
+- Auto Arrange
 - Success Probability
-
-The Recursive Processing model should be interpreted as one branch of the broader Candidate Count Model rather than as an isolated inheritance mechanic.
-
----
-
-## Representative Figure
-![Recursive Processing Concept](../images/candidate-count-model/recursive-processing-hypothesis-en.png)
-*This conceptual model illustrates one possible recursive processing structure inferred from repeated gameplay observations.*
+- practical high-difficulty inheritance routing
 
 ---
 
-## Example Application
+## Representative Figures
 
-The following conceptual flow illustrates one possible recursive inheritance process inferred from repeated gameplay observations.
+![Recursive Processing Hypothesis](../images/recursive-processing/recursive-processing-hypothesis-en.png)
 
-This flow should be interpreted as one conceptual interpretation inferred from repeated observations rather than a confirmed implementation model.
+*Conceptual hypothesis: inherited equipment may carry internal arrangement information that can later affect candidate generation.*
 
-Original Equipment
+![Recursive Reference Observation](../images/recursive-processing/rf5-recursive-reference-observation.png)
 
-↓
-
-Internal Arrangement
-
-↓
-
-Recursive Reference
-
-↓
-
-Observed Inheritance Result
+*Observation-oriented figure: some inheritance behavior appears compatible with internal reference or expansion.*
 
 ---
 
-## Key Takeaways
-- Internal arrangements may be recursively referenced.
-- This behavior appears conditional.
-- The model remains observation-based.
-- Recursive processing may provide a conceptual bridge between multiple inheritance mechanics.
-- Future observations may further refine this conceptual model.
+## Mermaid Source Concept
+
+```mermaid
+flowchart LR
+    A[Input Material] --> B{Has internal arrangement?}
+    B -->|No| C[Direct candidate only]
+    B -->|Yes| D[Expand internal entries]
+    D --> E[Add expanded entries to candidate pool]
+    E --> F[Candidate Count N increases]
+```
+
+```mermaid
+flowchart TD
+    A[Final Equipment]
+    A --> B[Inherited Equipment A]
+    B --> C[Internal Arrangement A-1]
+    B --> D[Internal Arrangement A-2]
+    C --> E[Recursive Candidate]
+    D --> F[Recursive Candidate]
+    A --> G[Direct Material]
+```
+
+---
+
+## Core Mechanism
+
+The working model is:
+
+```text
+Inherited equipment
+        ↓
+Internal arrangement information exists
+        ↓
+Internal entries are referenced
+        ↓
+Additional candidates are generated
+        ↓
+Candidate Count N increases
+```
+
+The key distinction is that the inherited item is not treated as a simple single candidate. It may behave as a container that can expose internal entries under certain conditions.
+
+---
+
+## Candidate Expansion Example
+
+![Recursive Candidate Expansion Example](../images/recursive-processing/rf5-recursive-candidate-expansion-example.png)
+
+*Conceptual example: candidate count may increase when internal entries are expanded.*
+
+This figure is not intended to prove a specific internal implementation. It illustrates why recursive expansion can rapidly increase candidate count and make inheritance outcomes less stable.
+
+---
+
+## Boundary and Open Questions
+
+![Recursive Processing Boundary](../images/recursive-processing/rf5-recursive-processing-boundary.png)
+
+*Boundary-oriented figure: recursive behavior may be conditional and should not be assumed in every inheritance case.*
+
+Current open questions include:
+
+- when internal arrangement entries are referenced;
+- whether different equipment types behave differently;
+- whether RF4SP and RF5 differ in recursive depth or candidate handling;
+- whether recursive expansion has practical limits;
+- how recursive expansion interacts with Self Contamination and Auto Arrange.
+
+---
+
+## Practical Implications
+
+Recursive Processing suggests that high-difficulty inheritance is not only a matter of adding the correct materials.
+
+The player may need to manage:
+
+- source equipment history;
+- internal arrangement contents;
+- intermediate equipment design;
+- candidate count at each crafting stage;
+- verification after each important step.
+
+In practical terms, recursive behavior makes intermediate crafting strategy important.
+
+---
+
+## Relationship to Candidate Count Model
+
+Recursive Processing is one candidate-expansion mechanism.
+
+```text
+Recursive Processing
+        ↓
+Internal entries become candidates
+        ↓
+Candidate Count N increases
+        ↓
+Combination space expands
+        ↓
+Success probability may decrease
+```
+
+This article should therefore be read as a branch article under the Candidate Count Model rather than as an isolated theory.
 
 ---
 
 ## Detailed Research PDF
-This article provides a conceptual overview of Recursive Processing.
 
-Detailed observations, experimental discussion, and validation results are documented in the accompanying research archive.
+This article provides an English overview only.
 
-**Note:** All PDF documents are currently available in **Japanese only**.
+Detailed observations, Japanese terminology, test cases, and discussion are documented in the accompanying research archive.
 
-- [Recursive Processing](../pdf/05_再帰処理解析.pdf)
+**Note:** PDF documents are currently available in Japanese only.
 
-For detailed observations, validation results, and experimental discussion, please refer to the corresponding research PDF.
-
-This article serves as a high-level entry point, while the accompanying PDF provides the complete research details.
+- [Recursive Processing Analysis](../pdf/05_再帰処理解析.pdf)
 
 ---
 
 ## Related Articles
 
 ### Research Root
+
 - [Candidate Count Model](Candidate-Count-Model.md)
 
 ### Related Mechanics
+
 - [Auto Arrange](Auto-Arrange.md)
 - [Self Contamination](Self-Contamination.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
 - [Success Probability](Success-Probability.md)
+- [Messhilite Inheritance](Messhilite-Inheritance.md)
 
-### Strategy
-- [Efficient Friendship Farming Strategy](Efficient-Friendship-Farming-Strategy.md)
+---
 
-### Practical Guides
-- [RF5 Daily Friendship Farming Guide](RF5-Daily-Friendship-Farming-Guide.md)
-- [RF4SP Daily Friendship Farming Guide](RF4SP-Daily-Friendship-Farming-Guide.md)
+## Notes
+
+This article describes an observation-based model. It should not be read as a definitive implementation claim.
 
 ---
 
 ## Navigation
+
 - [Back to Articles](README.md)
 - [Back to ROADMAP](../ROADMAP.md)
 - [Back to Repository README](../README.md)

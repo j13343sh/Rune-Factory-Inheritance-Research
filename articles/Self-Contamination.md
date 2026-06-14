@@ -2,51 +2,151 @@
 
 ## Overview
 
-Self Contamination is an observation-based research topic describing situations in which internally generated inheritance candidates may influence subsequent inheritance processing.
+Self Contamination is an observation-based research topic describing situations where inheritance processing appears to introduce the source equipment itself, or information derived from it, back into the candidate pool.
 
-This article summarizes one conceptual interpretation derived from repeated gameplay observations.
+This article summarizes one conceptual model derived from repeated gameplay observations in Rune Factory 4 Special and Rune Factory 5.
 
 ---
 
 ## Why It Matters
 
-Some inheritance behavior appears difficult to explain through ordinary candidate generation alone.
+Self Contamination matters because it can make the candidate pool larger than the player expects.
 
-Observation results suggest that previously arranged inheritance information may itself influence subsequent candidate selection under certain conditions.
+A player may believe the setup contains only a few intended candidates. However, if the source equipment itself or its internal arrangement entries become candidates, the effective candidate count `N` may increase.
 
-The Self Contamination model should be interpreted as one branch of the broader Candidate Count Model.
-
----
-
-## Representative Figure
-<!--
-![Self Contamination Overview](../images/candidate-count-model/self-contamination-overview-en.png)
-
-*Conceptual illustration of one possible Self Contamination interpretation.*
--->
+That matters because inheritance success is strongly affected by candidate count.
 
 ---
 
-## Key Takeaways
+## Representative Figures
 
-- Self Contamination appears to influence candidate generation.
-- The observed behavior remains observation-based.
-- Previously generated candidates may affect subsequent inheritance processing under certain conditions.
-- Future observations may further refine this conceptual model.
+![Self Contamination Concept](../images/self-contamination/rf5-self-contamination-concept.png)
+
+*Conceptual illustration: the source equipment or its internal information may re-enter the candidate pool.*
+
+![Self Contamination Mechanism](../images/self-contamination/rf5-self-contamination-mechanism.png)
+
+*Mechanism-oriented illustration: self-derived entries can increase candidate count and destabilize selection.*
+
+---
+
+## Mermaid Source Concept
+
+```mermaid
+flowchart TD
+    A[Source Equipment] --> B[Used as inheritance material]
+    B --> C[Source equipment may become a candidate]
+    C --> D[Candidate pool includes the source itself]
+    D --> E[Candidate Count N increases]
+    E --> F[Target selection becomes less stable]
+```
+
+```mermaid
+flowchart TD
+    A[Inherited Equipment]
+    A --> B[Displayed performance]
+    A --> C[Internal arrangement entry]
+    C --> D[Candidate: Source Equipment]
+    C --> E[Candidate: Internal Material 1]
+    C --> F[Candidate: Internal Material 2]
+```
+
+---
+
+## Core Mechanism
+
+The working model is:
+
+```text
+Source equipment used for inheritance
+        ↓
+Source equipment or internal entries become candidates
+        ↓
+Candidate pool expands
+        ↓
+Desired three-slot result becomes harder to preserve
+```
+
+The important point is that the player may not directly add all of the candidates that later appear relevant to the result. Some candidates may be generated through inheritance structure itself.
+
+---
+
+## Observations
+
+### RF5 observation
+
+![RF5 Self Contamination Observation](../images/self-contamination/rf5-self-contamination-observation.png)
+
+*RF5 observation example: self-derived candidate behavior appears to affect inheritance results.*
+
+### RF4SP observation
+
+![RF4SP Self Contamination Observation](../images/self-contamination/rf4sp-self-contamination-observation.png)
+
+*RF4SP observation example: similar candidate-expansion behavior may appear under different conditions.*
+
+### RF4SP / RF5 comparison
+
+![RF4SP RF5 Self Contamination Comparison](../images/self-contamination/rf4sp-rf5-self-contamination-comparison.png)
+
+*Comparison figure: both titles show observations that are compatible with candidate expansion, but the exact behavior may differ by title and equipment category.*
+
+---
+
+## Practical Implications
+
+Self Contamination suggests that repeated inheritance can become riskier than a simple three-material model implies.
+
+Practical precautions include:
+
+- do not assume that only directly inserted materials are candidates;
+- avoid unnecessary inheritance chains when a clean result is required;
+- use intermediate equipment carefully;
+- verify final inheritance slots after each important step;
+- treat unexpected candidate entries as information, not merely bad luck.
+
+---
+
+## Relationship to Candidate Count Model
+
+Self Contamination is one possible candidate-expansion route.
+
+```text
+Self Contamination
+        ↓
+Source-derived candidate generation
+        ↓
+Candidate Count N increases
+        ↓
+Combination space expands
+        ↓
+Success probability may decrease
+```
+
+This is why Self Contamination is closely linked to Recursive Processing and Success Probability.
+
+---
+
+## Relationship to Recursive Processing
+
+Self Contamination and Recursive Processing are related but not identical.
+
+- Self Contamination focuses on the source equipment or source-derived information entering the candidate pool.
+- Recursive Processing focuses on internal arrangement information being referenced or expanded.
+
+They may overlap in practical cases, but they should remain conceptually separate during analysis.
 
 ---
 
 ## Detailed Research PDF
 
-This article provides a conceptual overview of Self Contamination.
+This article provides an English overview only.
 
-Detailed observations, experimental discussion, and validation results are documented in the accompanying research archive.
+Detailed observations, Japanese terminology, test cases, and discussion are documented in the accompanying research archive.
 
-**Note:** All PDF documents are currently available in **Japanese only**.
+**Note:** PDF documents are currently available in Japanese only.
 
-- [Self Contamination](../pdf/04_自己混入解析.pdf)
-
-For detailed observations, validation results, and experimental discussion, please refer to the corresponding research PDF.
+- [Self Contamination Analysis](../pdf/04_自己混入解析.pdf)
 
 ---
 
@@ -60,17 +160,14 @@ For detailed observations, validation results, and experimental discussion, plea
 
 - [Auto Arrange](Auto-Arrange.md)
 - [Recursive Processing](Recursive-Processing.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
 - [Success Probability](Success-Probability.md)
+- [Messhilite Inheritance](Messhilite-Inheritance.md)
 
-### Strategy
+---
 
-- [Efficient Friendship Farming Strategy](Efficient-Friendship-Farming-Strategy.md)
+## Notes
 
-### Practical Guides
-
-- [RF5 Daily Friendship Farming Guide](RF5-Daily-Friendship-Farming-Guide.md)
-- [RF4SP Daily Friendship Farming Guide](RF4SP-Daily-Friendship-Farming-Guide.md)
+This article describes an observation-based model. It should not be read as a definitive implementation claim.
 
 ---
 
@@ -79,4 +176,3 @@ For detailed observations, validation results, and experimental discussion, plea
 - [Back to Articles](README.md)
 - [Back to ROADMAP](../ROADMAP.md)
 - [Back to Repository README](../README.md)
-

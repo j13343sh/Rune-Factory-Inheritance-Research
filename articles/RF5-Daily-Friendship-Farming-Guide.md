@@ -61,7 +61,7 @@ The optimal route depends on your available ingredients and preferred daily rout
 
 # Special Loved Gifts
 
-![Special Loved Gifts](../images/rf5-friendship-guide/04-rf5-special-loved-gifts.png)
+![Special Loved Gifts](../images/rf5-friendship-guide/04-special-loved-gifts-en.png)
 
 Many expensive-looking Loved Gifts become surprisingly practical once mining routes, shop upgrades, or crafting infrastructure have been established.
 

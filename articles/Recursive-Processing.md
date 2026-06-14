@@ -30,7 +30,7 @@ This connects Recursive Processing to:
 
 *Conceptual hypothesis: inherited equipment may carry internal arrangement information that can later affect candidate generation.*
 
-![Recursive Reference Observation](../images/recursive-processing/rf5-recursive-reference-observation-en.png)
+![Recursive Reference Observation](../images/recursive-processing/rune-factory-recursive-reference-observation-en.png)
 
 *Observation-oriented figure: some inheritance behavior appears compatible with internal reference or expansion.*
 

@@ -1,6 +1,0 @@
-flowchart TD
-    A[Recipe has more than 3 required materials] --> B{Arrangement slots available?}
-    B -->|Enough slots filled by intentional entries| C[No visible auto-arrange contamination]
-    B -->|Slots remain open| D[Auto Arrange may register required materials]
-    D --> E[Required-material pool becomes candidate source]
-    E --> F[Candidate Count N increases]

@@ -1,9 +1,0 @@
-flowchart TD
-    A["Candidate Count<br/>N"] --> B["Total Combinations<br/>C(N,3)"]
-    B --> C["Valid Combinations<br/>A"]
-    C --> D["Success Probability<br/>P = A / C(N,3)"]
-
-    A --> E["More candidates increase the candidate pool"]
-    B --> F["Combination space expands rapidly"]
-    C --> G["Only some combinations are successful"]
-    D --> H["Lower relative probability when A does not increase"]

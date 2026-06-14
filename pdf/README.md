@@ -2,7 +2,7 @@
 
 This directory contains the printable research documents used throughout the repository.
 
-The PDF documents provide detailed observations, validation results, methodology, and long-form discussions that complement the corresponding Markdown articles.
+The PDF documents provide detailed observations, validation results, methodology, supporting evidence, and long-form discussions that complement the corresponding Markdown articles.
 
 Readers are not expected to browse this directory as a starting point.
 
@@ -24,7 +24,7 @@ Markdown Articles
 PDF Documents
 ```
 
-Markdown articles provide conceptual summaries and navigation.
+Markdown articles provide conceptual summaries and repository navigation.
 
 PDF documents provide detailed research materials and supporting evidence.
 
@@ -46,6 +46,7 @@ PDF documents function as:
 * Detailed observations
 * Validation results
 * Methodology
+* Supporting evidence
 * Experimental discussion
 * Long-form reference materials
 
@@ -66,4 +67,3 @@ The Markdown articles provide the necessary context for understanding the resear
 * [Back to Repository README](../README.md)
 * [Back to ROADMAP](../ROADMAP.md)
 * [Back to Articles](../articles/README.md)
-

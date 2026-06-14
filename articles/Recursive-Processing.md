@@ -30,7 +30,7 @@ This connects Recursive Processing to:
 
 *Conceptual hypothesis: inherited equipment may carry internal arrangement information that can later affect candidate generation.*
 
-![Recursive Reference Observation](../images/recursive-processing/rf5-recursive-reference-observation.png)
+![Recursive Reference Observation](../images/recursive-processing/rf5-recursive-reference-observation-en.png)
 
 *Observation-oriented figure: some inheritance behavior appears compatible with internal reference or expansion.*
 
@@ -82,7 +82,7 @@ The key distinction is that the inherited item is not treated as a simple single
 
 ## Candidate Expansion Example
 
-![Recursive Candidate Expansion Example](../images/recursive-processing/rf5-recursive-candidate-expansion-example.png)
+![Recursive Candidate Expansion Example](../images/recursive-processing/recursive-candidate-expansion-example-en.png)
 
 *Conceptual example: candidate count may increase when internal entries are expanded.*
 
@@ -92,7 +92,7 @@ This figure is not intended to prove a specific internal implementation. It illu
 
 ## Boundary and Open Questions
 
-![Recursive Processing Boundary](../images/recursive-processing/rf5-recursive-processing-boundary.png)
+![Recursive Processing Boundary](../images/recursive-processing/rf5-recursive-processing-boundary-en.png)
 
 *Boundary-oriented figure: recursive behavior may be conditional and should not be assumed in every inheritance case.*
 

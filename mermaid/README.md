@@ -1,53 +1,80 @@
-# Mermaid Source Assets
+# Mermaid
 
-This directory stores the canonical Mermaid source files used by the repository.
+This directory contains Mermaid source files used to define diagram structures for the repository.
 
-Mermaid files are **source assets**, representing the logical structure of repository figures.
+Mermaid files are maintained as editable diagram sources rather than as primary reading materials.
 
-Generated PNG and SVG images are **implementation artifacts** derived from these source files.
+Readers are not expected to browse this directory directly.
 
-Markdown articles should reference generated figures rather than embedding Mermaid code directly whenever practical.
-
----
-
-## Division Responsibilities
-
-**Research Division**
-
-* Maintains Mermaid source logic.
-* Preserves conceptual models and methodology.
-* Reviews figure semantics and consistency.
-
-**Operations Division**
-
-* Generates PNG/SVG figures from Mermaid sources.
-* Embeds generated figures into Markdown articles.
-* Maintains implementation consistency.
-
-**Strategy Division**
-
-* Reviews figure allocation across the repository.
-* Maintains repository architecture and knowledge graph consistency.
-* Ensures long-term maintainability and navigation quality.
+Instead, Mermaid diagrams should normally be accessed through the corresponding Markdown articles or rendered image assets.
 
 ---
 
-## Repository Pipeline
+## Repository Relationship
 
 ```text
-Research
+README.md
     ↓
-Mermaid Source (.mmd)
+ROADMAP.md
     ↓
-Operations
-    ↓
-PNG / SVG Figures
+articles/README.md
     ↓
 Markdown Articles
     ↓
-Repository
+Rendered Figures
+    ↓
+Mermaid Sources
 ```
 
-Mermaid source files should be treated as the canonical implementation of repository diagrams.
+Markdown articles provide conceptual summaries and repository navigation.
 
-Presentation assets may be regenerated from these sources whenever necessary.
+Rendered figures provide visual support for those concepts.
+
+Mermaid files preserve editable diagram structures for future maintenance and revision.
+
+---
+
+## Repository Philosophy
+
+Markdown articles, rendered figures, and Mermaid source files serve different purposes.
+
+Markdown articles function as:
+
+* Navigation
+* Conceptual overview
+* Knowledge graph nodes
+* Entry points
+
+Rendered figures function as:
+
+* Visual summaries
+* Conceptual diagrams
+* Validation visuals
+* Article support assets
+
+Mermaid source files function as:
+
+* Editable diagram sources
+* Structural diagram definitions
+* Maintenance assets
+* Future revision support
+
+The three formats are intended to complement each other rather than duplicate the same content.
+
+---
+
+## Navigation Philosophy
+
+Mermaid files are intended to support repository maintenance rather than serve as standalone reader-facing documents.
+
+Readers should normally use the corresponding Markdown articles and rendered figures to understand each diagram.
+
+The Mermaid sources are preserved so that diagrams can be updated, reviewed, or regenerated without reconstructing them from scratch.
+
+---
+
+## Navigation
+
+* [Back to Repository README](../README.md)
+* [Back to ROADMAP](../ROADMAP.md)
+* [Back to Articles](../articles/README.md)

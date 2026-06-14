@@ -1,0 +1,25 @@
+{
+  "generated_from": "Rune-Factory-Inheritance-Research-main",
+  "generated_at": "2026-06-14T09:54:28.118544Z",
+  "purpose": "Repository synchronization revision",
+  "files": [
+    "README.md",
+    "ROADMAP.md",
+    "Repository-State.md"
+  ],
+  "source_articles": [
+    "Auto-Arrange.md",
+    "Candidate-Count-Model.md",
+    "Efficient-Friendship-Farming-Strategy.md",
+    "Messhilite-Inheritance.md",
+    "README.md",
+    "RF4SP-Daily-Friendship-Farming-Guide.md",
+    "RF5-Daily-Friendship-Farming-Guide.md",
+    "Recursive-Processing.md",
+    "Self-Contamination.md",
+    "Success-Probability.md",
+    "The-Hidden-Cost-of-Shipping.md",
+    "Triple-Gift-Mechanics.md"
+  ],
+  "principle": "Synchronize with existing Release Preparation repository without redesigning the knowledge graph."
+}

@@ -20,11 +20,11 @@ That matters because inheritance success is strongly affected by candidate count
 
 ## Representative Figures
 
-![Self Contamination Concept](../images/self-contamination/rf5-self-contamination-concept.png)
+![Self Contamination Concept](../images/self-contamination/rune-factory-self-contamination-concept-en.png)
 
 *Conceptual illustration: the source equipment or its internal information may re-enter the candidate pool.*
 
-![Self Contamination Mechanism](../images/self-contamination/rf5-self-contamination-mechanism.png)
+![Self Contamination Mechanism](../images/self-contamination/rune-factory-self-contamination-mechanism-en.png)
 
 *Mechanism-oriented illustration: self-derived entries can increase candidate count and destabilize selection.*
 
@@ -75,19 +75,19 @@ The important point is that the player may not directly add all of the candidate
 
 ### RF5 observation
 
-![RF5 Self Contamination Observation](../images/self-contamination/rf5-self-contamination-observation.png)
+![RF5 Self Contamination Observation](../images/self-contamination/rf5-self-contamination-observation-en.png)
 
 *RF5 observation example: self-derived candidate behavior appears to affect inheritance results.*
 
 ### RF4SP observation
 
-![RF4SP Self Contamination Observation](../images/self-contamination/rf4sp-self-contamination-observation.png)
+![RF4SP Self Contamination Observation](../images/self-contamination/rf4sp-self-contamination-observation-en.png)
 
 *RF4SP observation example: similar candidate-expansion behavior may appear under different conditions.*
 
 ### RF4SP / RF5 comparison
 
-![RF4SP RF5 Self Contamination Comparison](../images/self-contamination/rf4sp-rf5-self-contamination-comparison.png)
+![RF4SP RF5 Self Contamination Comparison](../images/self-contamination/rf4sp-rf5-self-contamination-comparison-en.png)
 
 *Comparison figure: both titles show observations that are compatible with candidate expansion, but the exact behavior may differ by title and equipment category.*
 

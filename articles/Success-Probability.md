@@ -43,7 +43,7 @@ This lets the repository explain multiple phenomena with the same framework:
 
 *Overview: candidate count affects the space of possible three-slot outcomes.*
 
-![Candidate Count Success Probability Model](../images/success-probability/rf5-candidate-count-success-probability-model.png)
+![Candidate Count Success Probability Model](../images/success-probability/candidate-count-to-success-probability-model-en.png)
 
 *Conceptual model: success probability depends on how many valid combinations remain inside the expanded candidate space.*
 

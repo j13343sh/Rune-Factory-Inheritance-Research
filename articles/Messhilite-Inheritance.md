@@ -81,7 +81,7 @@ flowchart TD
 
 ## Preliminary Observation
 
-![Preliminary Observation](../images/messhilite-inheritance/rf5-messhilite-preliminary-observation.png)
+![Preliminary Observation](../images/messhilite-inheritance/messhilite-preliminary-observation-en.png)
 
 *Preliminary observations suggested that same-material stacking and different-material addition may behave differently.*
 

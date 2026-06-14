@@ -54,11 +54,11 @@ The repository uses Article-centric Asset Management: each article should normal
 
 ## Same Material vs Different Material
 
-![Same Material Success Model](../images/messhilite-inheritance/rf5-messhilite-same-material-success-model.png)
+![Same Material Success Model](../images/messhilite-inheritance/messhilite-same-material-success-model-en.png)
 
 *Same-material additions may increase both candidate count and successful combinations.*
 
-![Success Probability Reference](../images/messhilite-inheritance/rf5-messhilite-success-probability-reference.png)
+![Success Probability Reference](../images/messhilite-inheritance/messhilite-success-probability-reference-en.png)
 
 *Different-material additions may increase candidate count without increasing the number of successful combinations.*
 

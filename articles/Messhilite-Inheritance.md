@@ -110,7 +110,7 @@ The main purpose of this validation was not to prove internal game code. The pur
 
 ## Mathematical Interpretation
 
-![Mathematical Interpretation](../images/messhilite-inheritance/rf5-messhilite-mathematical-interpretation.png)
+![Mathematical Interpretation](../images/messhilite-inheritance/messhilite-mathematical-interpretation-en.png)
 
 *Mathematical interpretation connects observed Messhilite results to candidate count and combination space.*
 

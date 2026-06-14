@@ -103,7 +103,7 @@ Using this feature strategically can significantly reduce daily preparation cost
 
 # Practical Loved Gift Tips
 
-![Practical Loved Gift Tips](../images/rf5-friendship-guide/08-practical-loved-gift-tips-en.png)
+![Practical Loved Gift Tips](../images/rf5-friendship-guide/08-rf5-practical-loved-gift-tips.png)
 
 Many villagers have multiple practical Loved Gift routes.
 

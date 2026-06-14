@@ -39,7 +39,7 @@ This lets the repository explain multiple phenomena with the same framework:
 
 ## Representative Figures
 
-![Success Probability Overview](../images/success-probability/rf5-success-probability-overview.png)
+![Success Probability Overview](../images/success-probability/candidate-count-success-probability-overview-en.png)
 
 *Overview: candidate count affects the space of possible three-slot outcomes.*
 
@@ -82,7 +82,7 @@ Where:
 
 This is a model for interpretation and planning, not a proof of internal game code.
 
-![Formula Summary](../images/success-probability/rf5-success-probability-formula-summary.png)
+![Formula Summary](../images/success-probability/candidate-count-formula-summary-en.png)
 
 *Formula summary for the candidate-count success model.*
 
@@ -90,7 +90,7 @@ This is a model for interpretation and planning, not a proof of internal game co
 
 ## Combination Space
 
-![Combination Count Model](../images/success-probability/rf5-success-probability-combination-count-model.png)
+![Combination Count Model](../images/success-probability/candidate-count-combination-count-model-en.png)
 
 *Combination count expands quickly as candidate count increases.*
 
@@ -102,7 +102,7 @@ If candidate count increases but the number of successful combinations does not 
 
 ## Probability Curve
 
-![Success Probability Curve](../images/success-probability/rf5-success-probability-curve.png)
+![Success Probability Curve](../images/success-probability/candidate-count-success-probability-curve-en.png)
 
 *Conceptual curve: larger candidate pools generally reduce the relative share of successful combinations unless successful combinations increase as well.*
 
@@ -110,7 +110,7 @@ If candidate count increases but the number of successful combinations does not 
 
 ## Expected Attempts
 
-![Expected Attempts Model](../images/success-probability/rf5-success-probability-expected-attempts-model.png)
+![Expected Attempts Model](../images/success-probability/candidate-count-expected-attempts-model-en.png)
 
 *Expected attempts and cumulative success become important when practical crafting requires repeated resets or repeated material preparation.*
 

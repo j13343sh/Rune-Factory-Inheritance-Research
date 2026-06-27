@@ -39,7 +39,7 @@
 - アメジスト
 - 石材
 - ルーンの結晶（RP回復）
-- 近くにセーブポイント
+- 近くにセーブポイント（盗賊王のアジト跡）
 
 高レベルの敵を避ける必要はありますが、ルートを把握すれば比較的安全に到達できます。
 
@@ -64,7 +64,7 @@ The route contains:
 - Amethyst Ore
 - Stone
 - A Rune Crystal for RP recovery
-- A nearby save point
+- A nearby save point（Bandit King's Old Base）
 
 You'll need to avoid higher-level enemies, but it's surprisingly manageable once you know the path.
 

@@ -178,3 +178,11 @@ Future observations may refine, revise, or replace current interpretations.
 - [ROADMAP](ROADMAP.md)
 - [Articles](articles/README.md)
 - [PDF Archive](pdf/README.md)
+
+---
+
+## License
+
+This project is licensed under the CC BY-NC 4.0 License.
+
+See [LICENSE.md](LICENSE.md) for details.

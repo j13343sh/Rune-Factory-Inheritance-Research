@@ -39,7 +39,15 @@ For example:
 - Fruit trees are often a special case because they provide renewable harvests once fully grown.
 - Shop inventory management can reduce preparation time for cooking, crafting, and friendship farming.
 
+For example, recipes such as **Gold Juice** or **Turnip Heaven** often require repeatedly purchasing the same crops in large quantities.
+
+If the shop's inventory candidate pool becomes too large, finding those specific crops may become less consistent, potentially increasing preparation time.
+
+For players who frequently craft these recipes, carefully managing what gets shipped can therefore become a practical long-term optimization strategy.
+
 Over a long playthrough, deciding **what not to ship** can sometimes be just as important as deciding what to ship.
+
+This strategy is especially useful for recipes that require large quantities of the same ingredients over time, rather than one-time crafting.
 
 ---
 

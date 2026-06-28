@@ -10,6 +10,16 @@ It serves as the conceptual research root for many inheritance-related studies i
 
 ---
 
+## Why I Started This Research
+
+Many players notice that equipment inheritance sometimes succeeds immediately, while other times it requires dozens of reloads.
+
+After repeatedly encountering this myself, I wanted to understand whether the success rate was truly random.
+
+I eventually tested the inheritance system over several thousand crafting attempts and found that many seemingly unrelated inheritance behaviors could be interpreted through a common perspective based on Candidate Count.
+
+---
+
 ## Core Concept
 
 Candidate Count refers to an observation-based model describing the number of valid candidate combinations inferred from inheritance behavior.

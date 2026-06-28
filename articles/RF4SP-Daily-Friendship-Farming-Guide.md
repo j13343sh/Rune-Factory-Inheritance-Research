@@ -88,7 +88,7 @@ The routes presented here are intended as sustainable long-term strategies rathe
 ### Strategy
 
 - [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
-- [The Hidden Cost of Shipping Everything](./The-Hidden-Cost-of-Shipping-Everything.md)
+- [The Hidden Cost of Shipping Everything](./The-Hidden-Cost-of-Shipping.md)
 
 ### Research
 

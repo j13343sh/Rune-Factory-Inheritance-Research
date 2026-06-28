@@ -124,19 +124,19 @@ Rather than pursuing a single theoretically optimal gift, selecting recipes that
 ## Related Articles
 
 - **Core Mechanics**
-  - [Triple Gift Mechanics](../triple-gift-mechanics.md)
+  - [Triple Gift Mechanics](./Triple-Gift-Mechanics.md)
 
 - **Related Strategy**
-  - [Efficient Friendship Farming Strategy](../friendship-strategy.md)
+  - [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
 
 - **Related Mechanics**
-  - [The Hidden Cost of Shipping Everything](../the-hidden-cost-of-shipping.md)
+  - [The Hidden Cost of Shipping Everything](./The-Hidden-Cost-of-Shipping.md)
 
 - **Practical Guides**
-  - [RF4SP Daily Friendship Farming Guide](../rf4sp-daily-friendship-guide.md)
+  - [RF4SP Daily Friendship Farming Guide](./RF4SP-Daily-Friendship-Farming-Guide.md)
 
 - **Research**
-  - [Candidate Count Model](../candidate-count-model.md)
+  - [Candidate Count Model](./Candidate-Count-Model.md)
 
 ---
 

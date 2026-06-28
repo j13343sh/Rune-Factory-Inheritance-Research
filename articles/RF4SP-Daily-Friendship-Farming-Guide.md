@@ -83,16 +83,16 @@ The routes presented here are intended as sustainable long-term strategies rathe
 
 ### Core Mechanics
 
-- [Triple Gift Mechanics](Triple-Gift-Mechanics.md)
+- [Triple Gift Mechanics](./Triple-Gift-Mechanics.md)
 
 ### Strategy
 
-- [Efficient Friendship Farming Strategy](Efficient-Friendship-Farming-Strategy.md)
-- [The Hidden Cost of Shipping Everything](The-Hidden-Cost-of-Shipping-Everything.md)
+- [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
+- [The Hidden Cost of Shipping Everything](./The-Hidden-Cost-of-Shipping-Everything.md)
 
 ### Research
 
-- [Candidate Count Model](Candidate-Count-Model.md)
+- [Candidate Count Model](./Candidate-Count-Model.md)
 
 ---
 

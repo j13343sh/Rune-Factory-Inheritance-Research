@@ -140,29 +140,29 @@ Additional practical datasets are available in the **csv/** directory, including
 
 ### Core Mechanics
 
-- [Triple Gift Mechanics](../articles/triple-gift-mechanics.md)
+- [Triple Gift Mechanics](./Triple-Gift-Mechanics.md)
 
 ### Strategy
 
-- [Efficient Friendship Farming Strategy](../articles/friendship-strategy.md)
+- [Efficient Friendship Farming Strategy](./Efficient-Friendship-Farming-Strategy.md)
 
-- [The Hidden Cost of Shipping Everything](../articles/the-hidden-cost-of-shipping.md)
+- [The Hidden Cost of Shipping Everything](./The-Hidden-Cost-of-Shipping.md)
 
 ### Practical Guides
 
-- [RF5 Daily Friendship Farming Guide](../articles/RF5-Daily-Friendship-Farming-Guide.md)
+- [RF5 Daily Friendship Farming Guide](./RF5-Daily-Friendship-Farming-Guide.md)
 
-- [RF4SP Daily Friendship Farming Guide](../articles/RF4SP-Daily-Friendship-Farming-Guide.md)
+- [RF4SP Daily Friendship Farming Guide](./RF4SP-Daily-Friendship-Farming-Guide.md)
 
 ### Research
 
 The Candidate Count Model serves as the conceptual foundation for many inheritance-related studies included in this repository and acts as the central hub connecting the associated research articles.
 
-- [Auto Arrange](../articles/Auto-Arrange.md)
-- [Recursive Processing](../articles/Recursive-Processing.md)
-- [Self Contamination](../articles/Self-Contamination.md)
-- [Messhilite Inheritance](../articles/Messhilite-Inheritance.md)
-- [Success Probability](../articles/Success-Probability.md)
+- [Auto Arrange](./Auto-Arrange.md)
+- [Recursive Processing](./Recursive-Processing.md)
+- [Self Contamination](./Self-Contamination.md)
+- [Messhilite Inheritance](./Messhilite-Inheritance.md)
+- [Success Probability](./Success-Probability.md)
 
 
 ---

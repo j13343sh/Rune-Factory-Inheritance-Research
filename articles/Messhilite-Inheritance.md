@@ -165,13 +165,19 @@ This article should therefore point to the Candidate Count Model as the conceptu
 
 ## Validation Documents
 
-Readers interested in experimental methodology and aggregated results may refer to the following supplementary validation documents.
+Readers interested in the experimental methodology, aggregated results, or raw validation data may refer to the following supplementary materials.
 
 **Note:** PDF documents are currently available in Japanese only.
+
+### Additional Research Materials
 
 - [Validation Methodology](../research/01_検証方法.pdf)
 - [Validation Results Summary](../research/02_集計結果.pdf)
 - [Integrated Validation Data](../research/07_統合データ.csv)
+
+### Research Repository
+
+- [Research Archive](../research)
 
 ---
 

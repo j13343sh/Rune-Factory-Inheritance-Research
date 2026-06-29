@@ -71,7 +71,3 @@ Daily friendship farming also continued throughout the challenge, allowing long-
 The challenge demonstrated that a short but focused preparation period could significantly reduce the overall difficulty of an early Rigbarth Maze clear.
 
 Rather than rushing immediately after unlocking the dungeon, investing a single night into crafting and equipment upgrades resulted in a much smoother progression while still preserving long-term gameplay efficiency.
-
----
-
-## Appendix

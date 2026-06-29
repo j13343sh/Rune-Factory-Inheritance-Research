@@ -45,17 +45,21 @@ Primary objectives of the playthrough.
 
 ## Route Planning
 
-Original planning philosophy before starting the playthrough.
+The original route was designed around balancing story progression with long-term account development.
 
-Explain why each major milestone was chosen.
+Rather than focusing solely on the fastest possible story clear, the route also incorporated daily friendship farming, equipment upgrades, Wanted Monster progression, shop expansions, and crafting progression.
+
+The objective was to maintain long-term efficiency while attempting to finish the main story before the end of Spring.
 
 ---
 
 ## Actual Playthrough
 
-Summary of the actual progression.
+The overall route remained close to the original plan, although several mandatory NPC events delayed story progression by three days.
 
-Describe how the route unfolded compared to the original plan.
+Some planned optimizations also changed during the playthrough. For example, Heart Pendant replaced Peace Rosary during the early game, and Copper was later discovered to be obtainable even earlier than originally planned.
+
+Despite these adjustments, the overall strategy remained effective and the story was successfully completed on Spring 27 while maintaining the original long-term objectives.
 
 ---
 

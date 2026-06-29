@@ -108,6 +108,12 @@ It illustrates that daily friendship farming continued throughout the challenge,
 | Doug      |          😊 6 |      35% |
 | Margaret  |          😊 6 |      57% |
 
+Most friendship levels shown here were achieved using sustainable daily routines rather than expensive Loved Gifts.
+
+The route primarily relied on Favorite Gifts and low-cost Daily Gifts, allowing friendship progression without placing excessive demands on resources during the early game.
+
+Large-scale Loved Gift production was introduced only after the required production chains became available.
+
 ---
 
 ## Lessons Learned

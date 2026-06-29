@@ -135,9 +135,12 @@ Include observations such as:
 | Spring 23 | Basara Hideout         | Clear dungeon and boss.                                    | Obtain Patrol Mark using Failed Dish EX.                                                                                                            |
 | Spring 24 | Final Battle           | Thunder Wastes → Cloudheim → Odiar.                        | Used dual Gatling Comets and Silent Ring to ignore Seal. Planned Spring 24 clear, but mandatory events delayed completion to Spring 27.             |
 
-
 ---
 
-### Treasure Chest Pattern
+### Related Observation
 
-Observed treasure chest distribution used during the route.
+The treasure chest distribution observed during this playthrough has been documented separately.
+
+See:
+
+* [Rune Factory 5 Treasure Chest Pattern](RF5-Treasure-Chest-Pattern.md)

@@ -66,7 +66,11 @@ A separate verification screenshot taken after re-entering the dungeon for docum
 
 Although this challenge was never part of my original Spring story clear route, it became one of the most memorable parts of the entire playthrough.
 
-Daily friendship farming also continued throughout the challenge, allowing long-term progression without sacrificing dungeon advancement.
+Daily friendship farming also continued throughout the challenge.
+
+Instead of optimizing exclusively for dungeon progression, I maintained my daily friendship routine with nearly every permanent resident while preparing for and clearing Rigbarth Maze.
+
+This playthrough demonstrates that long-term relationship building and aggressive early-game progression are not necessarily conflicting objectives.
 
 ---
 

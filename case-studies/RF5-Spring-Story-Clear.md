@@ -2,7 +2,21 @@
 
 ## Overview
 
-A high-level overview of the project, its goals, and what makes this route different from a traditional speedrun.
+This route was designed to clear the main story before the end of Spring while maintaining daily friendship farming with nearly every villager.
+
+Unlike a traditional speedrun, it also prioritizes:
+- Daily friendship building
+- Shop expansions
+- Equipment progression
+- Wanted Monster progression
+- Crafting progression
+- Long-term farming efficiency
+
+Some days are restricted by mandatory story events, while others are dedicated to equipment preparation or leveling.
+
+My original goal was to finish the story on **Spring 24**. However, several mandatory NPC events delayed the route by three days, resulting in an actual completion date of **Spring 27**.
+
+The table below combines the original route plan with observations and optimization notes from the actual playthrough.
 
 ---
 

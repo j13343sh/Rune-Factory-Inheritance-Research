@@ -72,6 +72,38 @@ Instead of optimizing exclusively for dungeon progression, I maintained my daily
 
 This playthrough demonstrates that long-term relationship building and aggressive early-game progression are not necessarily conflicting objectives.
 
+### Friendship Status at Rigbarth Maze Floor 20 Completion
+
+| Character | Friendship Lv | Progress |
+| --------- | ------------: | -------: |
+| Priscilla |          ❤️ 6 |      93% |
+| Lucy      |          ❤️ 7 |      44% |
+| Scarlett  |          ❤️ 5 |      77% |
+| Fuuka     |          ❤️ 7 |      17% |
+| Beatrice  |          ❤️ 7 |      24% |
+| Ludmila   |          ❤️ 4 |       0% |
+| Martin    |          ❤️ 7 |      35% |
+| Cecil     |          ❤️ 6 |      73% |
+| Murakumo  |          ❤️ 7 |      50% |
+| Ryker     |          ❤️ 7 |      72% |
+| Reinhard  |          ❤️ 7 |      76% |
+| Lucas     |          ❤️ 6 |      35% |
+| Elsje     |          😊 7 |      71% |
+| Palmo     |          😊 6 |       3% |
+| Heinz     |          😊 7 |       8% |
+| Randolph  |          😊 7 |       0% |
+| Yuki      |          😊 7 |       6% |
+| Simone    |          😊 7 |      23% |
+| Misasagi  |          😊 6 |      31% |
+| Terry     |          😊 6 |      66% |
+| Livia     |          😊 7 |      31% |
+| Radea     |          😊 3 |      26% |
+| Darroch   |          😊 7 |      57% |
+| Julian    |          😊 6 |      33% |
+| Hina      |          😊 7 |      41% |
+| Doug      |          😊 6 |      35% |
+| Margaret  |          😊 6 |      57% |
+
 ---
 
 ## Lessons Learned

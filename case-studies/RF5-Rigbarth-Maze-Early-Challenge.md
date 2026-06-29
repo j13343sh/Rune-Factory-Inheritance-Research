@@ -60,6 +60,10 @@ From there, I climbed to Floor 20 using Peace Rosary to avoid unnecessary encoun
 
 Rigbarth Maze Floor 20 was cleared almost immediately after it became available.
 
+The clear was achieved around **1:34 AM on Spring 29**.
+
+A separate verification screenshot taken after re-entering the dungeon for documentation was recorded at approximately **2:30 AM**, confirming the completion.
+
 Although this challenge was never part of my original Spring story clear route, it became one of the most memorable parts of the entire playthrough.
 
 Daily friendship farming also continued throughout the challenge, allowing long-term progression without sacrificing dungeon advancement.

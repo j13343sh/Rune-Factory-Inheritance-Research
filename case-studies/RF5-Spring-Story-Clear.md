@@ -135,6 +135,43 @@ Include observations such as:
 | Spring 23 | Basara Hideout         | Clear dungeon and boss.                                    | Obtain Patrol Mark using Failed Dish EX.                                                                                                            |
 | Spring 24 | Final Battle           | Thunder Wastes → Cloudheim → Odiar.                        | Used dual Gatling Comets and Silent Ring to ignore Seal. Planned Spring 24 clear, but mandatory events delayed completion to Spring 27.             |
 
+### Friendship Status at Story Completion
+
+The following table records the friendship levels of permanent residents at the time the main story was completed.
+
+It illustrates that daily friendship farming continued throughout the route while maintaining the overall progression schedule.
+
+| Character | Friendship Lv | Progress |
+| --------- | ------------: | -------: |
+| Priscilla |          ❤️ 6 |      71% |
+| Lucy      |          ❤️ 7 |      28% |
+| Scarlett  |          ❤️ 5 |      52% |
+| Fuuka     |          ❤️ 7 |       4% |
+| Beatrice  |          ❤️ 7 |      10% |
+| Ludmila   |          ❤️ 2 |      73% |
+| Martin    |          ❤️ 7 |      14% |
+| Cecil     |          ❤️ 6 |       4% |
+| Murakumo  |          ❤️ 7 |      36% |
+| Ryker     |          ❤️ 7 |      65% |
+| Reinhard  |          ❤️ 7 |      66% |
+| Lucas     |          ❤️ 5 |      87% |
+| Elsje     |          😊 7 |      59% |
+| Palmo     |          😊 5 |      87% |
+| Heinz     |          😊 6 |      86% |
+| Randolph  |          😊 6 |      42% |
+| Yuki      |          😊 6 |      98% |
+| Simone    |          😊 7 |      11% |
+| Misasagi  |          😊 6 |      14% |
+| Terry     |          😊 6 |      34% |
+| Livia     |          😊 7 |      24% |
+| Radea     |          😊 1 |      88% |
+| Darroch   |          😊 7 |      44% |
+| Julian    |          😊 6 |       1% |
+| Hina      |          😊 7 |      26% |
+| Doug      |          😊 6 |      16% |
+| Margaret  |          😊 6 |      29% |
+
+
 ---
 
 ### Related Observation

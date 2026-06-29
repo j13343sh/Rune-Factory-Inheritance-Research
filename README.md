@@ -57,15 +57,27 @@ These articles are existing repository nodes connected to the Candidate Count Mo
 
 ---
 
-## Gameplay Strategy Articles
+## Gameplay Articles
 
-These articles document practical long-term gameplay strategies derived from observation and repeated play.
+These articles document practical gameplay strategies, complete playthroughs, and observation-based case studies derived from repeated experimentation and long-term play.
 
-- [Efficient Friendship Farming Strategy](articles/Efficient-Friendship-Farming-Strategy.md)
-- [RF5 Daily Friendship Farming Guide](articles/RF5-Daily-Friendship-Farming-Guide.md)
-- [RF4SP Daily Friendship Farming Guide](articles/RF4SP-Daily-Friendship-Farming-Guide.md)
-- [Triple Gift Mechanics](articles/Triple-Gift-Mechanics.md)
-- [The Hidden Cost of Shipping Everything](articles/The-Hidden-Cost-of-Shipping.md)
+### Strategy Guides
+
+* [Efficient Friendship Farming Strategy](articles/Efficient-Friendship-Farming-Strategy.md)
+* [RF5 Daily Friendship Farming Guide](articles/RF5-Daily-Friendship-Farming-Guide.md)
+* [RF4SP Daily Friendship Farming Guide](articles/RF4SP-Daily-Friendship-Farming-Guide.md)
+* [Triple Gift Mechanics](articles/Triple-Gift-Mechanics.md)
+* [The Hidden Cost of Shipping Everything](articles/The-Hidden-Cost-of-Shipping.md)
+
+### Case Studies
+
+Practical examples demonstrating how observation-based strategies perform during real gameplay.
+
+* [Rune Factory 5 Spring Story Clear (NG+)](case-studies/RF5-Spring-Story-Clear.md)
+* [Rune Factory 5 Rigbarth Maze Early Challenge](case-studies/RF5-Rigbarth-Maze-Early-Challenge.md)
+* [Rune Factory 5 Spring 4–5 Copper Route](case-studies/RF5-Spring-4-5-Copper-Route.md)
+* [Rune Factory 5 Treasure Chest Pattern](case-studies/RF5-Treasure-Chest-Pattern.md)
+
 
 ---
 
@@ -76,6 +88,7 @@ README.md
 ROADMAP.md
 
 articles/
+case-studies/
 csv/
 images/
 mermaid/
@@ -86,41 +99,62 @@ research/
 
 ### articles/
 
-English Markdown entry points and topic articles.
+English Markdown research articles and gameplay guides.
 
-Use this folder for AI-search-friendly and GitHub-readable navigation into the research.
+This folder contains the primary AI-search-friendly entry points for the repository, including observation-based research, gameplay strategies, and practical guides.
 
-- [Articles README](articles/README.md)
+* [Articles README](articles/README.md)
+
+---
+
+### case-studies/
+
+Observation-based gameplay documentation.
+
+This folder contains complete playthroughs, optimization attempts, discovery records, and practical case studies demonstrating how repository strategies perform during actual gameplay.
+
+---
 
 ### images/
 
-Image assets used by Markdown articles.
+Image assets used throughout the repository.
 
-Images are organized by article or topic folder.
+Images are organized by article or topic.
+
+---
 
 ### mermaid/
 
-Mermaid source files for repository diagrams.
+Mermaid source files used to generate repository diagrams.
 
 Rendered figures may be stored under `images/`.
+
+---
 
 ### pdf/
 
 Stable Japanese research archive.
 
-PDF files preserve detailed discussion, observations, mathematical interpretation, validation results, and long-form analysis.
+These PDF documents preserve detailed observations, validation reports, mathematical interpretation, and long-form discussion.
+
+---
 
 ### research/
 
-Experimental records, validation notes, datasets, and supporting research materials.
+Experimental records, validation documents, datasets, and supporting research materials.
+
+---
 
 ### csv/
 
-Structured reference tables and data files.
+Structured datasets and reference tables used during validation and analysis.
+
+---
 
 ### ルンファク（全部入り文字列検索可）/
 
-Searchable Japanese full archive and source materials.
+Searchable Japanese source archive containing the complete text version of the research materials.
+
 
 ---
 

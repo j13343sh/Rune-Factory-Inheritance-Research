@@ -72,6 +72,10 @@ Instead of optimizing exclusively for dungeon progression, I maintained my daily
 
 This playthrough demonstrates that long-term relationship building and aggressive early-game progression are not necessarily conflicting objectives.
 
+The friendship status shown below was recorded at the time of the Floor 20 clear.
+
+It illustrates that daily friendship farming continued throughout the challenge, with nearly every permanent resident reaching Friendship Level 6–7 while progressing through the early post-game content.
+
 ### Friendship Status at Rigbarth Maze Floor 20 Completion
 
 | Character | Friendship Lv | Progress |

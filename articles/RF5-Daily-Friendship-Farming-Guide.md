@@ -49,6 +49,35 @@ Planning around ingredient overlap significantly reduces both cooking time and m
 
 ---
 
+## Early Game Tips
+
+Before cooking and crafting become available, simple stackable items are often the easiest way to maintain daily friendship.
+
+Practical early-game options include:
+
+- 🌱 Turnip Seeds
+- 🍙 Rice Balls
+- 🍡 Dumplings
+- 🍞 Bread
+- 🥒 Pickled Turnips
+
+Unlike handmade dishes, these items **do not receive the handmade friendship bonus**. However, in my own playthrough, I found the difference to be relatively small in practice, so I usually used **Turnip Seeds** as my standard daily gift because they were inexpensive, stackable, and convenient to carry.
+
+That said, I still tried to use **handmade gifts whenever giving Favorite or Loved Gifts**, since those gifts provide much larger friendship gains and benefit more from the handmade bonus.
+
+Some of these stackable items overlap with villagers' Favorite Gifts shown in the Daily Gift Farming Guide.
+
+If you are already giving a villager their Favorite Gift, consider using a different stackable item instead.
+
+For example:
+
+- **Reinhard** already receives Iron as a Favorite Gift in this guide, so Rice Balls, Bread, or another stackable gift may be a better choice than Turnip Seeds.
+- **Fuuka dislikes Pickled Turnips**, so avoid using them as a universal daily gift.
+
+Once cooking and crafting become available, the shared-ingredient routes in this guide generally become the more efficient long-term strategy.
+
+---
+
 # Optional Daily Alternatives
 
 ![Optional Daily Alternatives](../images/rf5-friendship-guide/03-optional-daily-alternatives-en.png)

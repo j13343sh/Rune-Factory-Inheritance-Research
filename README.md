@@ -2,7 +2,13 @@
 
 Observation-based research archive for **Rune Factory 4 Special** and **Rune Factory 5**.
 
-This repository documents inheritance mechanics, candidate-count models, success probability interpretation, Messhilite inheritance behavior, friendship farming, shop inventory management, and long-term gameplay optimization based on repeated gameplay observation.
+Have you ever wondered why some inheritance attempts succeed much more often than others?
+
+This research began while trying to create roleplay-oriented equipment without sacrificing performance, while keeping the required effort practical.
+
+Rather than relying on repeated trial and error, I wanted to understand why some inheritance setups were consistently easier than others.
+
+This repository documents the observations, models, and experiments that eventually led to the Candidate Count Model.
 
 This archive is based entirely on in-game observation, repeated experimentation, and statistical analysis.
 

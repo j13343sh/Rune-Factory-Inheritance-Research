@@ -128,6 +128,8 @@ Cook With Someone (×2) is especially valuable for recipes that:
 
 Using this feature strategically can significantly reduce daily preparation costs.
 
+**Although not listed in the table, Butter is also worth making in batches. It is an efficient intermediate ingredient for Butter Rolls and several other recipes, making bulk preparation especially useful.**
+
 ---
 
 # Practical Loved Gift Tips

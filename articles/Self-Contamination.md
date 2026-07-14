@@ -9,7 +9,7 @@ This article summarizes one conceptual model derived from repeated gameplay obse
 ---
 
 ## Conceptual Animation
-![candidate-count-model-animation](../images/candidate-count-model/candidate-count-model-animation.gif)
+![self-contamination-animation](../images/self-contamination/self-contamination-animation.gif)
 
 ---
 

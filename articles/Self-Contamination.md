@@ -8,6 +8,11 @@ This article summarizes one conceptual model derived from repeated gameplay obse
 
 ---
 
+## Conceptual Animation
+![candidate-count-model-animation](../images/candidate-count-model/candidate-count-model-animation.gif)
+
+---
+
 ## Why It Matters
 
 Self Contamination matters because it can make the candidate pool larger than the player expects.

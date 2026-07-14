@@ -11,7 +11,7 @@ It serves as the conceptual research root for many inheritance-related studies i
 ---
 
 ## Conceptual Animation
-
+![candidate-count-model-animation](../images/candidate-count-model/candidate-count-model-animation.gif)
 
 ---
 

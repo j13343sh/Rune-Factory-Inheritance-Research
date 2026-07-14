@@ -10,6 +10,11 @@ It serves as the conceptual research root for many inheritance-related studies i
 
 ---
 
+## Conceptual Animation
+
+
+---
+
 ## Why I Started This Research
 
 Many players notice that equipment inheritance sometimes succeeds immediately, while other times it requires dozens of reloads.

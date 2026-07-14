@@ -154,6 +154,14 @@ Detailed observations, Japanese terminology, test cases, and discussion are docu
 
 ---
 
+## Additional Observation
+
+Weapon upgrade effects did not carry over during inheritance in the tested RF5 conditions.
+
+This suggests that upgrade data may be managed outside the inheritance chain, although additional validation is required.
+
+---
+
 ## Related Articles
 
 ### Research Root

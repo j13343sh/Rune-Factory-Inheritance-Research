@@ -191,6 +191,14 @@ Detailed observations, validation results, statistical discussion, confidence in
 
 ---
 
+## Practical Tip: Upgrade After Final Inheritance
+
+During testing in RF5, weapon upgrade effects applied through the 9 upgrade slots did not carry over after inheritance under the tested conditions.
+
+If you intend to use Messhilite inheritance, performing weapon upgrades after completing the final inheritance may help avoid unnecessary rework.
+
+---
+
 ## Related Articles
 
 ### Research Root

@@ -18,7 +18,7 @@ No reverse engineering, decompilation, or extracted game source code is used.
 
 ## Mathematical Perspective
 
-Many Rune Factory systems may share a common structural pattern.
+Many Rune Factory systems may share a common structural pattern observed through gameplay.
 
 Candidate Set
 ↓
@@ -26,9 +26,11 @@ Combination
 ↓
 Selection
 ↓
-Outcome
+Observed Outcome
 
 This repository approaches equipment inheritance and shop inventory through this common structure.
+
+The framework draws upon concepts from:
 
 - Set Theory
 - Combinatorics

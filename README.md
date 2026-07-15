@@ -16,6 +16,26 @@ No reverse engineering, decompilation, or extracted game source code is used.
 
 ---
 
+## Mathematical Perspective
+
+Many Rune Factory systems may share a common structural pattern.
+
+Candidate Set
+↓
+Combination
+↓
+Selection
+↓
+Outcome
+
+This repository approaches equipment inheritance and shop inventory through this common structure.
+
+- Set Theory
+- Combinatorics
+- Probability (when random selection is involved)
+
+---
+
 ## Repository Status
 
 Current phase: **Release Preparation**

@@ -4,9 +4,15 @@
 
 The Candidate Count Model is an observation-based research model that explains inheritance success probability through the number of valid candidate combinations.
 
-Rather than describing a single inheritance mechanic, this model may provide a common conceptual framework for understanding multiple inheritance-related phenomena observed in Rune Factory equipment inheritance.
+Rather than describing a single inheritance mechanic, it provides a common observation framework for understanding multiple inheritance-related phenomena observed in Rune Factory equipment inheritance.
 
-It serves as the conceptual research root for many inheritance-related studies included in this repository.
+The model focuses on the size of candidate sets. Within the broader framework of this repository, candidate sets are viewed in terms of how they are constructed, combined, and ultimately selected to produce the observed result.
+
+This perspective draws upon concepts from Set Theory, Combinatorics, and Probability, while remaining strictly based on gameplay observations rather than assumptions about the game's internal implementation.
+
+The Candidate Count Model serves as the conceptual foundation for many inheritance-related studies included in this repository.
+
+
 
 ---
 

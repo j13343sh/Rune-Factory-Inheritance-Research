@@ -18,6 +18,63 @@ No reverse engineering, decompilation, or extracted game source code is used.
 
 ## Mathematical Perspective
 
+```mermaid
+flowchart TB
+
+%% =========================================================
+%% Observation Targets
+%% =========================================================
+
+subgraph Targets["Observation Targets"]
+    EI["Equipment Inheritance"]
+    SI["Shop Inventory"]
+end
+
+%% =========================================================
+%% Common Observation Framework
+%% =========================================================
+
+EI --> CC
+SI --> CC
+
+CC["Candidate Collection"]
+CC --> CS["Candidate Set"]
+CS --> CB["Candidate Combination"]
+CB --> SEL["Candidate Selection"]
+SEL --> OUT["Observed Outcome"]
+
+%% =========================================================
+%% Mathematical Perspective
+%% =========================================================
+
+subgraph Math["Mathematical Perspective"]
+    ST["Set Theory"]
+    COM["Combinatorics"]
+    PROB["Probability"]
+end
+
+ST -.-> CS
+COM -.-> CB
+PROB -.-> SEL
+
+%% =========================================================
+%% Repository Architecture
+%% =========================================================
+
+subgraph Repo["Repository Perspective"]
+    RP["Repository Philosophy"]
+    COF["Common Observation Framework"]
+    IRM["Individual Research Models"]
+end
+
+RP --> COF
+COF --> IRM
+
+IRM --> CCM["Candidate Count Model"]
+IRM --> INH["Equipment Inheritance"]
+IRM --> SHOP["Shop Inventory"]
+```
+
 Many Rune Factory systems may share a common structural pattern observed through gameplay.
 
 Candidate Set

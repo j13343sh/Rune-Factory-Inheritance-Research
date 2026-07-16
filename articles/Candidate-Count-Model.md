@@ -12,7 +12,47 @@ This perspective draws upon concepts from Set Theory, Combinatorics, and Probabi
 
 The Candidate Count Model serves as the conceptual foundation for many inheritance-related studies included in this repository.
 
+```mermaid
+flowchart TB
 
+%% =========================================================
+%% Equipment Inheritance Observation Model
+%% =========================================================
+
+EC["Equipment Creation"]
+EC --> IC["Inheritance Source Collection"]
+
+subgraph Sources["Inheritance Sources"]
+    IS["Inheritance Slot"]
+    IA["Internal Arrangement"]
+    AA["Additional Arrangement"]
+end
+
+IC --> IS
+IC --> IA
+IC --> AA
+
+IS --> CS
+IA --> CS
+AA --> CS
+
+AUTO["Auto Arrange<br/>(Conditional / Observation-Based)"]
+
+AUTO -. May introduce additional candidates .-> CS
+
+CS["Candidate Set"]
+CS --> CCM["Candidate Count Model"]
+CCM --> SEL["Candidate Selection<br/>(Observation Model)"]
+
+SEL --> M["Messhilite Inheritance"]
+SEL --> SP["Self Contamination"]
+SEL --> RP["Recursive Processing"]
+SEL --> AR["Auto Arrange"]
+
+NOTE["Observation-Based Explanatory Model<br/>This figure organizes observed inheritance behavior.<br/>It does not claim to represent the game's internal implementation."]
+
+SEL -.-> NOTE
+```
 
 ---
 

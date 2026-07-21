@@ -143,6 +143,21 @@ In practical terms, success may improve when the added material increases succes
 
 ---
 
+## Weapon Category and Shield Effects
+
+Repeated gameplay observations in RF4SP and RF5 suggest that Messhilite inheritance may preserve not only the source weapon's performance, but also a category-dependent property used for shield-effect calculation.
+
+| Performance source | Final weapon appearance | Shield effect |
+|---|---|---|
+| Claymore / two-handed sword | Dual blades | Applied |
+| Dual blades | One-handed sword | Not applied |
+
+Under the tested conditions, shield effectiveness followed the weapon category of the performance source rather than the visible category of the completed weapon.
+
+This observation is limited to shield-effect behavior. It does not by itself establish that all weapon-category-dependent mechanics use the same inherited category.
+
+---
+
 ## Relationship to Candidate Count Model
 
 Messhilite Inheritance is not the root model.

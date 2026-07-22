@@ -55,6 +55,12 @@ SEL -.-> NOTE
 ```
 
 ---
+## Terminology
+
+- **Candidate Count (A): Total number of elements that can participate in the selection process.**
+- **Selection Limit (M): Maximum number of elements selected in a single operation.**
+
+---
 
 ## Conceptual Animation
 ![candidate-count-model-animation](../images/candidate-count-model/candidate-count-model-animation.gif)

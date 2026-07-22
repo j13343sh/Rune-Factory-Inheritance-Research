@@ -79,9 +79,9 @@ I eventually tested the inheritance system over several thousand crafting attemp
 
 ## Core Concept
 
-Candidate Count refers to an observation-based model describing the number of valid candidate combinations inferred from inheritance behavior.
+Candidate Count refers to the total number of elements that can participate in the selection process.
 
-Increasing Candidate Count generally increases the probability that the desired inheritance target will be selected.
+When Candidate Count exceeds the Selection Limit, multiple possible combinations may arise. Changes in this combination space can affect the probability that the desired inheritance result will be selected.
 
 Many inheritance-related phenomena documented in this repository can therefore be interpreted through changes in Candidate Count.
 

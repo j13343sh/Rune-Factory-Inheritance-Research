@@ -179,8 +179,20 @@ images/
 mermaid/
 pdf/
 research/
+research-methodology/
 ルンファク（全部入り文字列検索可）/
 ```
+
+## research-methodology
+
+This repository documents not only research results but also the methodology used to obtain them.
+
+The following visual summaries explain how observations, judgment, validation, and Reality interact throughout the research process.
+
+- Research Process
+- Judgment Architecture
+
+---
 
 ### articles/
 

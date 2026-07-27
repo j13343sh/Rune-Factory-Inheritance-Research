@@ -185,12 +185,15 @@ research-methodology/
 
 ## research-methodology/
 
-This repository documents not only research results but also the methodology used to obtain them.
+This repository documents not only research results, but also the thinking and judgment processes used to obtain them.
 
-The following visual summaries explain how observations, judgment, validation, and Reality interact throughout the research process.
+- [Research Process](research-methodology/research-process.md)  
+  A visual overview of how questions, parallel evaluation, decisions, validation, and learning form a continuous research cycle.
 
-- Research Process
-- Judgment Architecture
+- [Judgment Architecture](research-methodology/judgment-architecture.md)  
+  A conceptual model explaining how Judgment, Knowledge, Experience, and Reality interact.
+
+For the full methodology overview, see the [Research Methodology index](research-methodology/README.md).
 
 ---
 

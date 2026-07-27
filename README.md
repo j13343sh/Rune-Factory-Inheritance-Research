@@ -183,7 +183,7 @@ research-methodology/
 ルンファク（全部入り文字列検索可）/
 ```
 
-## research-methodology
+## research-methodology/
 
 This repository documents not only research results but also the methodology used to obtain them.
 

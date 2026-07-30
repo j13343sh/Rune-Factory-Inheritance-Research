@@ -181,17 +181,36 @@ README.md
 ROADMAP.md
 
 articles/
+reference-assets/
+research-methodology/
 case-studies/
+research/
+pdf/
 csv/
 images/
 mermaid/
-pdf/
-research/
-research-methodology/
 ルンファク（全部入り文字列検索可）/
 ```
 
-## research-methodology/
+### articles/
+
+English Markdown research articles and gameplay guides.
+
+This folder contains the primary AI-search-friendly entry points for the repository, including observation-based research, gameplay strategies, and practical guides.
+
+* [Articles README](articles/README.md)
+
+---
+
+### reference-assets/
+
+Short visual entry points into the research methods, decision processes, observation design, and concrete research constraints used in this repository.
+
+* [Reference Asset Series](reference-assets/README.md)
+
+---
+
+### research-methodology/
 
 This repository documents not only research results, but also the thinking and judgment processes used to obtain them.
 
@@ -205,21 +224,31 @@ For the full methodology overview, see the [Research Methodology index](research
 
 ---
 
-### articles/
-
-English Markdown research articles and gameplay guides.
-
-This folder contains the primary AI-search-friendly entry points for the repository, including observation-based research, gameplay strategies, and practical guides.
-
-* [Articles README](articles/README.md)
-
----
-
 ### case-studies/
 
 Observation-based gameplay documentation.
 
 This folder contains complete playthroughs, optimization attempts, discovery records, and practical case studies demonstrating how repository strategies perform during actual gameplay.
+
+---
+
+### research/
+
+Experimental records, validation documents, datasets, and supporting research materials.
+
+---
+
+### pdf/
+
+Stable Japanese research archive.
+
+These PDF documents preserve detailed observations, validation reports, mathematical interpretation, and long-form discussion.
+
+---
+
+### csv/
+
+Structured datasets and reference tables used during validation and analysis.
 
 ---
 
@@ -236,26 +265,6 @@ Images are organized by article or topic.
 Mermaid source files used to generate repository diagrams.
 
 Rendered figures may be stored under `images/`.
-
----
-
-### pdf/
-
-Stable Japanese research archive.
-
-These PDF documents preserve detailed observations, validation reports, mathematical interpretation, and long-form discussion.
-
----
-
-### research/
-
-Experimental records, validation documents, datasets, and supporting research materials.
-
----
-
-### csv/
-
-Structured datasets and reference tables used during validation and analysis.
 
 ---
 

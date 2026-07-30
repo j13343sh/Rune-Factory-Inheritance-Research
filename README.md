@@ -119,6 +119,14 @@ The Candidate Count Model is an observation-based framework for interpreting inh
 
 ---
 
+## Reference Assets
+
+Short visual entry points into the research methods, decision processes, observation design, and concrete research constraints used in this repository.
+
+- [Reference Asset Series](reference-assets/README.md)
+
+---
+
 ## Major Research Articles
 
 These articles are existing repository nodes connected to the Candidate Count Model.

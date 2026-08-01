@@ -16,6 +16,14 @@ No reverse engineering, decompilation, or extracted game source code is used.
 
 ---
 
+## 日本語研究資料（日本人向け）
+
+詳細な日本語PDF、一次資料、観測記録、補足図は、以下の公開Google Driveにまとめています。
+
+[日本語研究資料をGoogle Driveで開く](https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB?ths=true)
+
+---
+
 ## Mathematical Perspective
 
 ```mermaid
@@ -329,14 +337,6 @@ Future observations may refine, revise, or replace current interpretations.
 - [ROADMAP](ROADMAP.md)
 - [Articles](articles/README.md)
 - [PDF Archive](pdf/README.md)
-
----
-
-## 日本語研究資料
-
-詳細な日本語PDF、一次資料、観測記録、補足図は、以下の公開Google Driveにまとめています。
-
-[日本語研究資料をGoogle Driveで開く](https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB?ths=true)
 
 ---
 

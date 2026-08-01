@@ -20,7 +20,7 @@ No reverse engineering, decompilation, or extracted game source code is used.
 
 詳細な日本語PDF、一次資料、観測記録、補足図は、以下の公開Google Driveにまとめています。
 
-[日本語研究資料をGoogle Driveで開く](https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB?ths=true)
+[📂 日本語研究資料（Google Drive）](https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB?ths=true)
 
 ---
 

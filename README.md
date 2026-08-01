@@ -332,6 +332,14 @@ Future observations may refine, revise, or replace current interpretations.
 
 ---
 
+## 日本語研究資料
+
+詳細な日本語PDF、一次資料、観測記録、補足図は、以下の公開Google Driveにまとめています。
+
+[日本語研究資料をGoogle Driveで開く](https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB?ths=true)
+
+---
+
 ## License
 
 This project is licensed under the CC BY-NC 4.0 License.

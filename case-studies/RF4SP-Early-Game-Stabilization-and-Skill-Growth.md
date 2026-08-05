@@ -243,7 +243,9 @@ Its main practical value was not a single trick. It was the timing relationship 
 3. use the pendant as the trigger for more intensive training;
 4. combine skill growth with useful production, money-making, food, medicine, and RP recovery.
 
-Exact completion dates, final skill levels, time saved, and currency totals were not recorded in the source notes. This case study therefore does not invent quantitative outcome claims.
+Exact completion dates, route-end skill levels, time saved, and currency totals were not recorded in the source notes. Current skill levels are already above 70 and the post-game secret boss has been defeated, but those values reflect substantial progression after the early-game route. They are therefore excluded as outcome evidence for this case study.
+
+The later post-game clear also cannot be attributed to this route alone. It is not used here as proof of the route's early-game effectiveness.
 
 ---
 

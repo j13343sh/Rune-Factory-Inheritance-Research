@@ -10,12 +10,16 @@ They complement the Research and Guide sections by demonstrating how individual 
 
 ## Available Case Studies
 
+### Rune Factory 4 Special
+
+* [Early-Game Stabilization and Skill Growth Route](RF4SP-Early-Game-Stabilization-and-Skill-Growth.md)
+
 ### Rune Factory 5
 
-* Spring Story Clear (NG+)
-* Rigbarth Maze Early Challenge
-* Spring 4–5 Copper Route
-* Treasure Chest Pattern
+* [Spring Story Clear (NG+)](RF5-Spring-Story-Clear.md)
+* [Rigbarth Maze Early Challenge](RF5-Rigbarth-Maze-Early-Challenge.md)
+* [Spring 4–5 Copper Route](RF5-Spring-4-5-Copper-Route.md)
+* [Treasure Chest Pattern](RF5-Treasure-Chest-Pattern.md)
 
 ---
 

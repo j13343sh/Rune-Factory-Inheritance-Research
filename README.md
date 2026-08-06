@@ -14,6 +14,8 @@ This archive is based entirely on in-game observation, repeated experimentation,
 
 No reverse engineering, decompilation, or extracted game source code is used.
 
+I don't want readers to memorize my solutions. I want them to understand the decision process that produced them. Once you understand the mechanism and the decision criteria, you can develop your own solutions for situations I have never documented.
+
 ---
 
 ## 日本語研究資料（日本人向け）

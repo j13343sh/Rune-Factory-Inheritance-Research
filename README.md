@@ -1,6 +1,6 @@
 # Rune Factory Inheritance Research
 
-Observation-based research archive for **Rune Factory 4 Special** and **Rune Factory 5**.
+Observation-based research archive for Rune Factory 4 Special and Rune Factory 5.
 
 Have you ever wondered why some inheritance attempts succeed much more often than others?
 
@@ -14,7 +14,14 @@ This archive is based entirely on in-game observation, repeated experimentation,
 
 No reverse engineering, decompilation, or extracted game source code is used.
 
-I don't want readers to memorize my solutions. I want them to understand the decision process that produced them. Once you understand the mechanism and the decision criteria, you can develop your own solutions for situations I have never documented.
+More importantly, this repository is not intended to teach a single "best" solution.
+
+Instead, it aims to explain the observations, mechanisms, and decision criteria behind those solutions.
+
+I don't want readers to memorize my solutions.
+I want them to understand the decision process that produced them.
+
+Once you understand the mechanism and the decision criteria, you can develop your own solutions for situations I have never documented.
 
 ---
 

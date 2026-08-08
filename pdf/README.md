@@ -1,56 +1,100 @@
-# PDF
+# PDF Editions
 
-This directory contains the printable research documents used throughout the repository.
+このディレクトリには、Rune Factory装備継承研究のPDF版を収録しています。
 
-The PDF documents provide detailed observations, validation results, methodology, supporting evidence, and long-form discussions that complement the corresponding Markdown articles.
+## Japanese Edition
 
-Readers are not expected to browse this directory as a starting point.
+`pdf/` 直下のPDFは日本語版です。
 
-Instead, PDF documents should normally be accessed through the corresponding Markdown articles.
+日本語版は、本研究における主要な参照版です。
 
----
+主要文書：
 
-## Repository Relationship
+- `00_README_継承仕様整理.pdf`
+- `00_サマリー.pdf`
+- `01_用語定義.pdf`
+- `02_基本仕様整理.pdf`
+- `03_オートアレンジ詳細.pdf`
+- `04_自己混入解析.pdf`
+- `05_再帰処理解析.pdf`
+- `06_抽選処理解析.pdf`
+- `07_数式・一般化モデル.pdf`
+- `08_メッシライト継承解析.pdf`
+- `09_高難度継承と実運用.pdf`
+- `10_ロールプレイ装備研究.pdf`
+- `11_未解決問題・今後の検証課題.pdf`
+- `12_補遺.pdf`
+- `99_付録_AI比較ログ.pdf`
 
-```text
-README.md
-    ↓
-ROADMAP.md
-    ↓
-articles/README.md
-    ↓
-Markdown Articles
-    ↓
-PDF Documents
-```
+## English Edition
 
-Markdown articles provide conceptual summaries and repository navigation.
+English-language PDFs are available in:
 
-PDF documents provide detailed research materials and supporting evidence.
+[`english_edition/`](./english_edition/)
 
----
+The English edition provides translated and reconstructed research documents for English-language readers.
 
-## Repository Philosophy
+Entry documents include:
 
-Markdown articles and PDF documents serve different purposes.
+- `00_README_Inheritance_Research_EN.pdf`
+- `00_RF-MAP-00_Candidate_Count_Overview_EN_Full_Translation.pdf`
+- `00_RF-MAP-01_Full_Research_Map_EN_Full_Translation.pdf`
+- `00_Research_Summary_EN.pdf`
 
-Markdown articles function as:
+Detailed research documents are organized as:
 
-* Navigation
-* Conceptual overview
-* Knowledge graph nodes
-* Entry points
+- `01_Terminology_EN.pdf`
+- `02_Basic_Mechanics_EN.pdf`
+- `03_Auto_Arrange_Details_EN.pdf`
+- `04_Performance_Source_Contamination_EN.pdf`
+- `05_Recursive_Processing_Analysis_EN.pdf`
+- `06_Selection_Process_Analysis_EN.pdf`
+- `07_Mathematical_and_Generalized_Models_EN.pdf`
+- and subsequent documents in the same series.
 
-PDF documents function as:
+## Evidence and Interpretation
 
-* Detailed observations
-* Validation results
-* Methodology
-* Supporting evidence
-* Experimental discussion
-* Long-form reference materials
+This research is based primarily on observations from actual gameplay in Rune Factory 4 Special and Rune Factory 5.
 
-The two formats are intended to complement each other rather than duplicate the same content.
+The documents distinguish, where relevant, between:
+
+- **Observation** — behavior directly observed in testing
+- **Model** — an explanatory model consistent with observations
+- **Practical Estimate** — a value or interpretation used for practical planning
+- **Unknown** — behavior or internal processing not established by available evidence
+
+The project does not claim to document the games' internal implementation.
+
+## Edition Relationship
+
+The English edition is intended to preserve the research meaning, evidence boundaries, and explanatory function of the Japanese source material.
+
+Some figures and explanations may be reconstructed rather than reproduced literally when necessary to:
+
+- preserve the original explanatory function,
+- reflect the current evidence state,
+- distinguish observation from model,
+- or avoid presenting unknown internal processing as established fact.
+
+Where historical terminology or earlier interpretations differ from the current research state, the distinction is preserved or noted rather than silently treated as confirmed internal behavior.
+
+## Recommended Starting Point
+
+If you are new to this research:
+
+**Japanese**
+
+1. `00_サマリー.pdf`
+2. `00_README_継承仕様整理.pdf`
+3. `01_用語定義.pdf`
+
+**English**
+
+1. `00_Research_Summary_EN.pdf`
+2. `00_README_Inheritance_Research_EN.pdf`
+3. `00_RF-MAP-00_Candidate_Count_Overview_EN_Full_Translation.pdf`
+
+For the broader structure of the research, see the Full Research Map.
 
 ---
 

@@ -153,14 +153,16 @@ These articles are existing repository nodes connected to the Candidate Count Mo
 - [Auto Arrange](articles/Auto-Arrange.md)  
   Observation-based model describing how required recipe materials may become inheritance candidates.
 
-- [Self Contamination](articles/Self-Contamination.md)  
-  Observation-based model describing how source equipment or inherited information may re-enter the candidate pool.
+- [Performance-Source Contamination](articles/Self-Contamination.md)  
+  Observation-based analysis of cases where source-equipment or inherited performance information may re-enter the candidate structure.  
+  The linked article retains its historical filename for repository continuity.
 
 - [Recursive Processing](articles/Recursive-Processing.md)  
-  Conceptual model for inheritance behavior that appears to involve nested or internal arrangement information.
+  Observation-based analysis of inheritance behavior involving internal arrangement references.  
+  Depth-1 reference behavior is supported by observation; deeper recursive processing and internal implementation remain unresolved.
 
 - [Success Probability](articles/Success-Probability.md)  
-  Mathematical interface connecting candidate count, combination space, and expected inheritance success.
+  Mathematical interface connecting candidate count, combination space, and observed inheritance success under explicitly stated assumptions.
 
 - [Messhilite Inheritance](articles/Messhilite-Inheritance.md)  
   Validation-oriented article using Messhilite inheritance observations to test candidate-count and combination-space explanations.
@@ -257,9 +259,14 @@ Experimental records, validation documents, datasets, and supporting research ma
 
 ### pdf/
 
-Stable Japanese research archive.
+Detailed PDF research archive.
 
-These PDF documents preserve detailed observations, validation reports, mathematical interpretation, and long-form discussion.
+The directory contains the primary Japanese research materials and a separate English edition.
+
+- [PDF Archive](pdf/README.md)
+- [English PDF Edition](pdf/english_edition/)
+
+The Japanese PDFs preserve the primary research materials. The English edition preserves translated research content while applying current terminology, evidence boundaries, and figure reconstruction where required.
 
 ---
 
@@ -293,6 +300,16 @@ Searchable Japanese source archive containing the complete text version of the r
 ---
 
 ## PDF Research Archive
+
+### English PDF Edition
+
+English-language PDF versions are available here:
+
+- [English PDF Edition](pdf/english_edition/)
+
+The English edition includes translated and current-aware reconstructed documents for the main research series.
+
+### Japanese PDF Edition
 
 The detailed Japanese PDF archive includes:
 
@@ -354,3 +371,4 @@ Future observations may refine, revise, or replace current interpretations.
 This project is licensed under the CC BY-NC 4.0 License.
 
 See [LICENSE.md](LICENSE.md) for details.
+

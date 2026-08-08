@@ -15,7 +15,7 @@ Choose the branch that matches your interests.
 ```text
 Candidate Count Model
     ├── Auto Arrange
-    ├── Self Contamination
+    ├── Performance-Source Contamination
     ├── Recursive Processing
     ├── Success Probability
     └── Messhilite Inheritance
@@ -44,19 +44,21 @@ This article introduces the current explanatory framework connecting multiple in
 ## Branch Articles
 
 - [Auto Arrange](Auto-Arrange.md)  
-  Automatic material insertion when recipe slots are insufficient.
+  Observation-based model describing how required recipe materials may become inheritance candidates.
 
-- [Self Contamination](Self-Contamination.md)  
-  Observations and hypotheses regarding self-referential inheritance candidates.
+- [Performance-Source Contamination](Self-Contamination.md)  
+  Observation-based analysis of cases where source-equipment or inherited performance information may re-enter the candidate structure.  
+  The linked article retains its historical filename for repository continuity.
 
 - [Recursive Processing](Recursive-Processing.md)  
-  Recursive candidate expansion and inheritance behavior.
+  Observation-based analysis of inheritance behavior involving internal arrangement references.  
+  Depth-1 reference behavior is supported by observation; deeper recursive processing and internal implementation remain unresolved.
 
 - [Success Probability](Success-Probability.md)  
-  Generalized success probability based on candidate count.
+  Mathematical interface connecting candidate count, combination space, and observed inheritance success under explicitly stated assumptions.
 
 - [Messhilite Inheritance](Messhilite-Inheritance.md)  
-  Candidate expansion behavior and inheritance success observations.
+  Validation-oriented article using Messhilite inheritance observations to test candidate-count and combination-space explanations.
 
 These articles should be understood together as a single conceptual branch rather than isolated mechanics.
 
@@ -107,3 +109,4 @@ Many concepts are shared across multiple articles and should be understood as pa
 The repository is designed as a navigable knowledge graph.
 
 Explore only the branches that match your interests and depth of study.
+

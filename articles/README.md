@@ -61,7 +61,7 @@ This article introduces the current explanatory framework connecting multiple in
 
   Mathematical interface connecting candidate count, combination space, and observed inheritance success under explicitly stated assumptions.
 
-- [Light Ore Inheritance](articles/Messhilite-Inheritance.md)
+- [Light Ore Inheritance](Messhilite-Inheritance.md)
 
   Observation-based analysis of weapon-performance inheritance using Light Ore.
   Earlier versions of this repository used the name **Messhilite** before the official English item name, **Light Ore**, was confirmed.

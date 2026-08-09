@@ -142,6 +142,28 @@ Practical precautions include:
 
 ---
 
+## Practical Example: Avoiding Auto-Arrange Through Equipment Source
+
+Crafting history can matter even when the visible equipment appears equivalent.
+
+Player-crafted equipment may carry internal arrangement information created during an earlier crafting step. When that equipment is used as a material later, those internal entries may contribute to candidate expansion, increase Candidate Count `N`, and introduce an RNG step that was not obvious from the visible item alone.
+
+In some routes, equipment obtained without player crafting—such as a return-gift accessory or purchased equipment—can provide a practical alternative. For example, a return-gift accessory received from Terry may avoid an internal arrangement introduced by crafting the equivalent accessory yourself. If that difference is preserved in the route being used, choosing the non-player-crafted source may avoid or reduce unnecessary candidate expansion and reset requirements.
+
+```mermaid
+flowchart TD
+    A{Equipment source} --> B[Player-crafted equipment]
+    A --> C[Equipment obtained without player crafting]
+    B --> D[Crafting-history arrangement may remain]
+    D --> E[Candidate expansion and RNG may increase]
+    C --> F[That crafting-history arrangement may be avoided]
+    F --> G[Candidate expansion may be reduced in some routes]
+```
+
+This is an observation-based routing option, not a universal specification. It does not establish that every purchased item is free of internal arrangement information, that all return gifts behave identically, or that equipment source alone determines the result. The relevant equipment and the completed inheritance result should still be checked for the specific route.
+
+---
+
 ## Relationship to Candidate Count Model
 
 Auto Arrange is not treated as a separate theory. It is treated as one candidate-generation route.

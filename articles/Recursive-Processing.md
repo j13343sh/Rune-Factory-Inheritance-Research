@@ -122,6 +122,44 @@ In practical terms, recursive behavior makes intermediate crafting strategy impo
 
 ---
 
+## Practical Routing Examples
+
+The following names describe practical applications of the observations in this article. They do not introduce new game mechanics, and neither method should be treated as a universal rule.
+
+### Cushion Method
+
+The **Cushion Method** places an item with no observed internal arrangement on the leading side of an intermediate crafting route. In some routes, this can prevent or reduce recursive candidate expansion that would otherwise be introduced by an item carrying internal arrangement information.
+
+```mermaid
+flowchart TD
+    A[Item with no observed internal arrangement] --> B[Use as the leading material]
+    B --> C[Recursive candidate expansion may be reduced]
+    C --> D[An RNG step may become guaranteed or require fewer resets]
+```
+
+In the observed example, using an item with no internal arrangement as the first material turned one RNG step into a guaranteed outcome. This result supports a route-dependent practical application: a "cushion" can sometimes keep an unwanted internal reference from expanding the candidate pool at that stage.
+
+The method does not establish that the first material always controls recursive processing. Its usefulness depends on the specific materials, their crafting histories, and the route being tested.
+
+### Shuffle Method
+
+The **Shuffle Method** changes material order while keeping the visible set of materials the same.
+
+> Same materials, different order, different RNG requirement.
+
+In the observed comparison, two crafting setups used the same visible materials, but only one required a reset. Rearranging the material order changed the practical result in a manner compatible with a different recursive reference or candidate-expansion state.
+
+```mermaid
+flowchart TD
+    A[Same visible materials] --> B[Change material order]
+    B --> C[Recursive-reference or candidate-expansion state may differ]
+    C --> D[Reset requirement may change]
+```
+
+This is a practical routing example based on Recursive Processing observations. It does not mean that material order always determines inheritance, nor does it prove how the game performs the internal transition. The result must be verified for each route.
+
+---
+
 ## Relationship to Candidate Count Model
 
 Recursive Processing is one candidate-expansion mechanism.

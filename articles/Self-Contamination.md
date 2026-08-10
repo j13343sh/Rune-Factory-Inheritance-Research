@@ -15,7 +15,7 @@ This article summarizes one conceptual model derived from repeated gameplay obse
 
 ## Why It Matters
 
-Self Contamination matters because it can make the candidate pool larger than the player expects.
+Performance-Source Contamination matters because it can make the candidate pool larger than the player expects.
 
 A player may believe the setup contains only a few intended candidates. However, if the source equipment itself or its internal arrangement entries become candidates, the effective candidate count `N` may increase.
 
@@ -25,11 +25,13 @@ That matters because inheritance success is strongly affected by candidate count
 
 ## Representative Figures
 
-![Self Contamination Concept](../images/self-contamination/rune-factory-self-contamination-concept-en.png)
+> **Terminology note:** Some figures in this article retain the earlier label **Self Contamination**. The current term used in this repository is **Performance-Source Contamination**.
+
+![Performance-Source Contamination Concept](../images/self-contamination/rune-factory-self-contamination-concept-en.png)
 
 *Conceptual illustration: the source equipment or its internal information may re-enter the candidate pool.*
 
-![Self Contamination Mechanism](../images/self-contamination/rune-factory-self-contamination-mechanism-en.png)
+![Performance-Source Contamination Mechanism](../images/self-contamination/rune-factory-self-contamination-mechanism-en.png)
 
 *Mechanism-oriented illustration: self-derived entries can increase candidate count and destabilize selection.*
 
@@ -80,19 +82,19 @@ The important point is that the player may not directly add all of the candidate
 
 ### RF5 observation
 
-![RF5 Self Contamination Observation](../images/self-contamination/rf5-self-contamination-observation-en.png)
+![RF5 Performance-Source Contamination Observation](../images/self-contamination/rf5-self-contamination-observation-en.png)
 
 *RF5 observation example: self-derived candidate behavior appears to affect inheritance results.*
 
 ### RF4SP observation
 
-![RF4SP Self Contamination Observation](../images/self-contamination/rf4sp-self-contamination-observation-en.png)
+![RF4SP Performance-Source Contamination Observation](../images/self-contamination/rf4sp-self-contamination-observation-en.png)
 
 *RF4SP observation example: similar candidate-expansion behavior may appear under different conditions.*
 
 ### RF4SP / RF5 comparison
 
-![RF4SP RF5 Self Contamination Comparison](../images/self-contamination/rf4sp-rf5-self-contamination-comparison-en.png)
+![RF4SP RF5 Performance-Source Contamination Comparison](../images/self-contamination/rf4sp-rf5-self-contamination-comparison-en.png)
 
 *Comparison figure: both titles show observations that are compatible with candidate expansion, but the exact behavior may differ by title and equipment category.*
 
@@ -100,7 +102,7 @@ The important point is that the player may not directly add all of the candidate
 
 ## Practical Implications
 
-Self Contamination suggests that repeated inheritance can become riskier than a simple three-material model implies.
+Performance-Source Contamination suggests that repeated inheritance can become riskier than a simple three-material model implies.
 
 Practical precautions include:
 
@@ -114,10 +116,10 @@ Practical precautions include:
 
 ## Relationship to Candidate Count Model
 
-Self Contamination is one possible candidate-expansion route.
+Performance-Source Contamination is one possible candidate-expansion route.
 
 ```text
-Self Contamination
+Performance-Source Contamination
         ↓
 Source-derived candidate generation
         ↓
@@ -128,15 +130,15 @@ Combination space expands
 Success probability may decrease
 ```
 
-This is why Self Contamination is closely linked to Recursive Processing and Success Probability.
+This is why Performance-Source Contamination is closely linked to Recursive Processing and Success Probability.
 
 ---
 
 ## Relationship to Recursive Processing
 
-Self Contamination and Recursive Processing are related but not identical.
+Performance-Source Contamination and Recursive Processing are related but not identical.
 
-- Self Contamination focuses on the source equipment or source-derived information entering the candidate pool.
+- Performance-Source Contamination focuses on the source equipment or source-derived information entering the candidate pool.
 - Recursive Processing focuses on internal arrangement information being referenced or expanded.
 
 They may overlap in practical cases, but they should remain conceptually separate during analysis.
@@ -151,7 +153,7 @@ Detailed observations, Japanese terminology, test cases, and discussion are docu
 
 English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The link below points to the Japanese primary research archive.
 
-- [Self Contamination Analysis](../pdf/04_自己混入解析.pdf)
+- [Performance-Source Contamination Analysis](../pdf/04_自己混入解析.pdf)
 
 ---
 
@@ -166,7 +168,7 @@ English-language PDFs are available in the [English PDF Edition](../pdf/english_
 - [Auto Arrange](Auto-Arrange.md)
 - [Recursive Processing](Recursive-Processing.md)
 - [Success Probability](Success-Probability.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
+- [Light Ore Inheritance](Messhilite-Inheritance.md)
 
 ---
 

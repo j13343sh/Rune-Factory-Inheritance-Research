@@ -18,7 +18,7 @@ Candidate Count Model
     ├── Performance-Source Contamination
     ├── Recursive Processing
     ├── Success Probability
-    └── Messhilite Inheritance
+    └── Light Ore Inheritance
 
 Efficient Friendship Farming Strategy
     ├── RF5 Daily Friendship Farming Guide
@@ -116,4 +116,3 @@ Many concepts are shared across multiple articles and should be understood as pa
 The repository is designed as a navigable knowledge graph.
 
 Explore only the branches that match your interests and depth of study.
-

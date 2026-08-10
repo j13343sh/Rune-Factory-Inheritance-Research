@@ -44,8 +44,8 @@ CS["Candidate Set"]
 CS --> CCM["Candidate Count Model"]
 CCM --> SEL["Candidate Selection<br/>(Observation Model)"]
 
-SEL --> M["Messhilite Inheritance"]
-SEL --> SP["Self Contamination"]
+SEL --> M["Light Ore Inheritance"]
+SEL --> SP["Performance-Source Contamination"]
 SEL --> RP["Recursive Processing"]
 SEL --> AR["Auto Arrange"]
 
@@ -108,7 +108,7 @@ Many inheritance-related phenomena documented in this repository can therefore b
 
 Many inheritance-related behaviors appear to be independent mechanics at first glance.
 
-Auto Arrange, Recursive Processing, Messhilite Inheritance, Self Contamination, and inheritance success probability may all seem unrelated.
+Auto Arrange, Recursive Processing, Light Ore Inheritance, Performance-Source Contamination, and inheritance success probability may all seem unrelated.
 
 However, observation results suggest that these phenomena can often be interpreted through a common perspective based on candidate generation and candidate count.
 
@@ -132,9 +132,9 @@ The validation results suggest a strong relationship between Candidate Count and
 
 ## Example Application
 
-![Messhilite Inheritance Model](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
+![Light Ore Inheritance Model](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
 
-The Messhilite inheritance mechanism provides one practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
+The Light Ore inheritance mechanism provides one practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
 
 ---
 
@@ -150,7 +150,7 @@ These questions concern **Candidate Selection Distribution**, and do not necessa
 
 For that reason, the RF5 results alone were not treated as sufficient evidence that the same model could be applied directly to RF4SP.
 
-I therefore tested Messhilite inheritance in RF4SP under four conditions, using two different materials and two candidate-count conditions.
+I therefore tested Light Ore inheritance in RF4SP under four conditions, using two different materials and two candidate-count conditions.
 
 ### Results
 
@@ -179,7 +179,7 @@ The results therefore suggest that the RF4SP candidate-selection complications o
 
 These results do **not** prove that the Candidate Count Model describes the game's internal implementation.
 
-They show only that, under the four tested RF4SP conditions, the observed Messhilite inheritance rates did not significantly deviate from the model expectations.
+They show only that, under the four tested RF4SP conditions, the observed Light Ore inheritance rates did not significantly deviate from the model expectations.
 
 Candidate Count / Combination Space and Candidate Selection Distribution should therefore remain separate questions.
 
@@ -200,8 +200,8 @@ The Candidate Count Model provides a common foundation for several inheritance-r
 
 - [Auto Arrange](../articles/Auto-Arrange.md)
 - [Recursive Processing](../articles/Recursive-Processing.md)
-- [Self Contamination](../articles/Self-Contamination.md)
-- [Messhilite Inheritance](../articles/Messhilite-Inheritance.md)
+- [Performance-Source Contamination](../articles/Self-Contamination.md)
+- [Light Ore Inheritance](../articles/Messhilite-Inheritance.md)
 - [Success Probability](../articles/Success-Probability.md)
 
 ---
@@ -228,14 +228,14 @@ English-language PDFs are available in the [English PDF Edition](../pdf/english_
 #### Mechanics Research
 
 - [Auto Arrange](../pdf/03_オートアレンジ詳細.pdf)
-- [Self Contamination](../pdf/04_自己混入解析.pdf)
+- [Performance-Source Contamination](../pdf/04_自己混入解析.pdf)
 - [Recursive Processing](../pdf/05_再帰処理解析.pdf)
 - [Candidate Selection Process](../pdf/06_抽選処理解析.pdf)
 - [General Mathematical Model](../pdf/07_数式・一般化モデル.pdf)
 
 #### Applied Research
 
-- [Messhilite Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
+- [Light Ore Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
 - [Advanced Inheritance Strategies](../pdf/09_高難度継承と実運用.pdf)
 - [Roleplay Equipment Study](../pdf/10_ロールプレイ装備研究.pdf)
 
@@ -281,8 +281,8 @@ The Candidate Count Model serves as the conceptual foundation for many inheritan
 
 - [Auto Arrange](./Auto-Arrange.md)
 - [Recursive Processing](./Recursive-Processing.md)
-- [Self Contamination](./Self-Contamination.md)
-- [Messhilite Inheritance](./Messhilite-Inheritance.md)
+- [Performance-Source Contamination](./Self-Contamination.md)
+- [Light Ore Inheritance](./Messhilite-Inheritance.md)
 - [Success Probability](./Success-Probability.md)
 
 

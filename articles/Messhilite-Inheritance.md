@@ -6,13 +6,13 @@ Light Ore Inheritance (historical research label: Messhilite Inheritance) is an 
 
 This article summarizes one conceptual interpretation derived from repeated gameplay observations and validation experiments.
 
-In this repository, Messhilite Inheritance is treated as a validation interface for the Candidate Count Model rather than as an isolated mechanic.
+In this repository, Light Ore Inheritance is treated as a validation interface for the Candidate Count Model rather than as an isolated mechanic.
 
 ---
 
 ## Why It Matters
 
-Messhilite matters because it gives a relatively clear way to observe how candidate count and successful combinations may affect inheritance success.
+Light Ore matters because it gives a relatively clear way to observe how candidate count and successful combinations may affect inheritance success.
 
 The key observation is that adding materials does not always have the same meaning.
 
@@ -34,7 +34,7 @@ Successful combinations may not increase
 Success rate may fall
 ```
 
-This makes Messhilite useful for testing whether observed gameplay results are consistent with candidate-count / combination-space explanations.
+This makes Light Ore useful for testing whether observed gameplay results are consistent with candidate-count / combination-space explanations.
 
 Validation in this context does not mean proof. It means checking whether repeated observations are consistent with the proposed conceptual model.
 
@@ -42,23 +42,25 @@ Validation in this context does not mean proof. It means checking whether repeat
 
 ## Raffle Analogy: From Three Visible Candidates to Four Candidates
 
-![Messhilite Inheritance — Raffle Analogy](../images/messhilite-inheritance/messhilite-inheritance-raffle-analogy-en.png)
+> **Terminology note:** Some figures in this article retain the historical research label **Messhilite**. The current English item name used in this repository is **Light Ore**.
+
+![Light Ore Inheritance — Raffle Analogy](../images/messhilite-inheritance/messhilite-inheritance-raffle-analogy-en.png)
 
 The `1/4` probability shown in the illustration belongs to the simplified equal-draw raffle example. It illustrates the combination space and should not be read as evidence that the game selects every candidate or subset with equal probability under all conditions.
 
-This raffle analogy offers an intuitive way to read the Candidate Count interpretation used in this article. Rather than treating the three visible inheritance candidates as the entire candidate set, the explanatory model also counts Messhilite, producing a four-candidate structure.
+This raffle analogy offers an intuitive way to read the Candidate Count interpretation used in this article. Rather than treating the three visible inheritance candidates as the entire candidate set, the explanatory model also counts Light Ore, producing a four-candidate structure.
 
 With a three-slot selection limit, a four-candidate structure creates multiple possible three-candidate combinations. The desired result therefore becomes one possible outcome among several, which helps explain why a reset or repeated attempt may be required in some routes.
 
-The figure is an analogy and explanatory model based on gameplay observations. It does not establish that the game internally performs a literal raffle, nor does it prove the internal implementation of Messhilite inheritance.
+The figure is an analogy and explanatory model based on gameplay observations. It does not establish that the game internally performs a literal raffle, nor does it prove the internal implementation of Light Ore inheritance.
 
 ---
 
 ## Representative Figure
 
-![Messhilite Inheritance Overview](../images/messhilite-inheritance/messhilite-inheritance-mechanism-en.png)
+![Light Ore Inheritance Overview](../images/messhilite-inheritance/messhilite-inheritance-mechanism-en.png)
 
-*Conceptual illustration of one possible Messhilite inheritance mechanism.*
+*Conceptual illustration of one possible Light Ore inheritance mechanism.*
 
 This path intentionally uses `../images/messhilite-inheritance/` rather than `../images/candidate-count-model/`.
 
@@ -82,7 +84,7 @@ The repository uses Article-centric Asset Management: each article should normal
 
 ```mermaid
 flowchart TD
-    A[Messhilite Inheritance] --> B{Added material type}
+    A[Light Ore Inheritance] --> B{Added material type}
     B -->|Same target material| C[N increases]
     C --> D[A also increases]
     D --> E[Success rate may rise]
@@ -105,7 +107,7 @@ Early observations were not treated as proof. They were treated as a reason to p
 
 ## Validation Results
 
-![Messhilite Validation Results](../images/messhilite-inheritance/messhilite-validation-results-en.png)
+![Light Ore Validation Results](../images/messhilite-inheritance/messhilite-validation-results-en.png)
 
 *Validation results summarize repeated observations that are consistent with the Candidate Count Model.*
 
@@ -126,7 +128,7 @@ The main purpose of this validation was not to prove internal game code. The pur
 
 ![Mathematical Interpretation](../images/messhilite-inheritance/messhilite-mathematical-interpretation-en.png)
 
-*Mathematical interpretation connects observed Messhilite results to candidate count and combination space.*
+*Mathematical interpretation connects observed Light Ore results to candidate count and combination space.*
 
 A simplified expression used by the repository is:
 
@@ -146,7 +148,7 @@ For example, `20 / 35 = 57.1%` is easier to verify than a purely symbolic explan
 
 ## Practical Implications
 
-Messhilite Inheritance suggests that players should distinguish between:
+Light Ore Inheritance suggests that players should distinguish between:
 
 - adding more of the same target material;
 - adding different materials that only increase the candidate pool;
@@ -159,7 +161,7 @@ In practical terms, success may improve when the added material increases succes
 
 ## Weapon Category and Shield Effects
 
-Repeated gameplay observations in RF4SP and RF5 suggest that Messhilite inheritance may preserve not only the source weapon's performance, but also a category-dependent property used for shield-effect calculation.
+Repeated gameplay observations in RF4SP and RF5 suggest that Light Ore inheritance may preserve not only the source weapon's performance, but also a category-dependent property used for shield-effect calculation.
 
 | Performance source | Final weapon appearance | Shield effect |
 |---|---|---|
@@ -174,7 +176,7 @@ This observation is limited to shield-effect behavior. It does not by itself est
 
 ## Relationship to Candidate Count Model
 
-Messhilite Inheritance is not the root model.
+Light Ore Inheritance is not the root model.
 
 It is a validation interface.
 
@@ -183,7 +185,7 @@ Candidate Count Model
         ↓
 Success Probability Model
         ↓
-Messhilite Validation
+Light Ore Validation
         ↓
 Observed consistency check
 ```
@@ -216,7 +218,7 @@ This article provides an English overview only.
 
 Detailed observations, validation results, statistical discussion, confidence intervals, experimental design, and additional interpretation are documented in the accompanying research archive.
 
-- [Messhilite Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
+- [Light Ore Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
 
 ---
 
@@ -224,7 +226,7 @@ Detailed observations, validation results, statistical discussion, confidence in
 
 During testing in RF5, weapon upgrade effects applied through the 9 upgrade slots did not carry over after inheritance under the tested conditions.
 
-If you intend to use Messhilite inheritance, performing weapon upgrades after completing the final inheritance may help avoid unnecessary rework.
+If you intend to use Light Ore inheritance, performing weapon upgrades after completing the final inheritance may help avoid unnecessary rework.
 
 ---
 
@@ -239,7 +241,7 @@ If you intend to use Messhilite inheritance, performing weapon upgrades after co
 - [Success Probability](Success-Probability.md)
 - [Auto Arrange](Auto-Arrange.md)
 - [Recursive Processing](Recursive-Processing.md)
-- [Self Contamination](Self-Contamination.md)
+- [Performance-Source Contamination](Self-Contamination.md)
 
 ---
 

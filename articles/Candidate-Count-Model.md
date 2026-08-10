@@ -96,6 +96,8 @@ I eventually tested the inheritance system over several thousand crafting attemp
 
 Candidate Count refers to the total number of elements that can participate in the selection process.
 
+Candidate Count is used here as an observation-based operational variable reconstructed from candidate behavior. The model does not establish that the game internally stores or uses this exact variable as a governing state, and the reconstructed combination space should not be confused with the distribution used to select among candidates or subsets.
+
 When Candidate Count exceeds the Selection Limit, multiple possible combinations may arise. Changes in this combination space can affect the probability that the desired inheritance result will be selected.
 
 Many inheritance-related phenomena documented in this repository can therefore be interpreted through changes in Candidate Count.
@@ -186,7 +188,7 @@ Candidate Count / Combination Space and Candidate Selection Distribution should 
 ## Key Takeaways
 
 - Candidate Count is one of the central concepts for understanding inheritance behavior.
-- Increasing the number of valid candidate combinations generally increases inheritance success probability.
+- More competing combinations do not by themselves increase inheritance success probability. For a fixed desired outcome, success generally decreases unless the number or proportion of successful combinations also increases.
 - The same conceptual framework can explain multiple inheritance-related mechanics.
 - This model serves as the research root for several inheritance studies documented in this repository.
 
@@ -214,7 +216,7 @@ Detailed observations, statistical analyses, mathematical discussion, and experi
 
 The complete research archive consists of multiple PDF documents.
 
-**Note:** All PDF documents are currently available in **Japanese only**.
+English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The links below point to the Japanese primary research archive.
 
 #### Core Documents
 

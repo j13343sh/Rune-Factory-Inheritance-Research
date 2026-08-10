@@ -190,7 +190,7 @@ This article provides an English overview only.
 
 Detailed observations, Japanese terminology, test cases, and discussion are documented in the accompanying research archive.
 
-**Note:** PDF documents are currently available in Japanese only.
+English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The link below points to the Japanese primary research archive.
 
 - [Auto Arrange Detailed Analysis](../pdf/03_オートアレンジ詳細.pdf)
 

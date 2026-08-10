@@ -1,8 +1,8 @@
-# Self Contamination
+# Performance-Source Contamination
 
 ## Overview
 
-Self Contamination is an observation-based research topic describing situations where inheritance processing appears to introduce the source equipment itself, or information derived from it, back into the candidate pool.
+Performance-Source Contamination (historically labeled "Self Contamination") is an observation-based research topic describing situations where inheritance processing appears to introduce the source equipment itself, or information derived from it, back into the candidate pool.
 
 This article summarizes one conceptual model derived from repeated gameplay observations in Rune Factory 4 Special and Rune Factory 5.
 
@@ -149,7 +149,7 @@ This article provides an English overview only.
 
 Detailed observations, Japanese terminology, test cases, and discussion are documented in the accompanying research archive.
 
-**Note:** PDF documents are currently available in Japanese only.
+English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The link below points to the Japanese primary research archive.
 
 - [Self Contamination Analysis](../pdf/04_自己混入解析.pdf)
 

@@ -1,8 +1,8 @@
-# Messhilite Inheritance
+# Light Ore Inheritance
 
 ## Overview
 
-Messhilite Inheritance is an observation-based research topic describing inheritance behavior observed when Messhilite is incorporated into inheritance recipes.
+Light Ore Inheritance (historical research label: Messhilite Inheritance) is an observation-based research topic describing inheritance behavior observed when Light Ore is incorporated into inheritance recipes.
 
 This article summarizes one conceptual interpretation derived from repeated gameplay observations and validation experiments.
 
@@ -196,7 +196,7 @@ This article should therefore point to the Candidate Count Model as the conceptu
 
 Readers interested in the experimental methodology, aggregated results, or raw validation data may refer to the following supplementary materials.
 
-**Note:** PDF documents are currently available in Japanese only.
+English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The links below point to the Japanese primary research archive.
 
 ### Additional Research Materials
 

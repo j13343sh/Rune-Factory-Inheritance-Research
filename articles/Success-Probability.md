@@ -157,7 +157,7 @@ This article provides an English overview only.
 
 Detailed mathematical discussion, Japanese terminology, validation discussion, and additional examples are documented in the accompanying research archive.
 
-**Note:** PDF documents are currently available in Japanese only.
+English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The link below points to the Japanese primary research archive.
 
 - [General Mathematical Model](../pdf/07_数式・一般化モデル.pdf)
 - [Messhilite Validation Data](../research/07_統合データ.csv)

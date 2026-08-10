@@ -164,8 +164,9 @@ These articles are existing repository nodes connected to the Candidate Count Mo
 - [Success Probability](articles/Success-Probability.md)  
   Mathematical interface connecting candidate count, combination space, and observed inheritance success under explicitly stated assumptions.
 
-- [Messhilite Inheritance](articles/Messhilite-Inheritance.md)  
-  Validation-oriented article using Messhilite inheritance observations to test candidate-count and combination-space explanations.
+- [Light Ore Inheritance](articles/Messhilite-Inheritance.md)
+  Validation-oriented article using Light Ore inheritance observations to test candidate-count and combination-space explanations.
+  The linked article retains its historical filename for repository continuity.
 
 ---
 

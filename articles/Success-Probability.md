@@ -173,9 +173,9 @@ English-language PDFs are available in the [English PDF Edition](../pdf/english_
 ### Related Mechanics
 
 - [Auto Arrange](Auto-Arrange.md)
-- [Self Contamination](Self-Contamination.md)
+- [Performance-Source Contamination](Self-Contamination.md)
 - [Recursive Processing](Recursive-Processing.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
+- [Light Ore Inheritance](Messhilite-Inheritance.md)
 
 ---
 

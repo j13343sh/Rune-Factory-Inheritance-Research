@@ -136,6 +136,53 @@ The Messhilite inheritance mechanism provides one practical example of how Candi
 
 ---
 
+## RF4SP Validation
+
+### Why RF4SP Was Tested Separately
+
+The Candidate Count Model was originally developed from RF5 observations.
+
+However, later RF4SP observations raised additional questions about candidate selection. In particular, candidate order did not always behave as straightforwardly as expected, and separate observations suggested that selection behavior might also differ depending on material identity.
+
+These questions concern **Candidate Selection Distribution**, and do not necessarily mean that the **Candidate Count / Combination Space** model itself is incorrect.
+
+For that reason, the RF5 results alone were not treated as sufficient evidence that the same model could be applied directly to RF4SP.
+
+I therefore tested Messhilite inheritance in RF4SP under four conditions, using two different materials and two candidate-count conditions.
+
+### Results
+
+Each condition was tested 100 times.
+
+| Condition | Observed Success Rate | Model Expectation |
+|---|---:|---:|
+| Love Crystal ×3 | 29.00% | 25.00% |
+| Glitter Augite ×3 | 28.00% | 25.00% |
+| Love Crystal ×6 | 59.00% | 57.14% |
+| Glitter Augite ×6 | 58.00% | 57.14% |
+
+![RF4SP Candidate Count Model Validation Results](../images/candidate-count-model/candidate-count-model-rf4sp-validation-en.png)
+
+Chi-square tests did not detect a statistically significant deviation from the model expectation in any of the four tested conditions (`p > 0.05`).
+
+### Interpretation
+
+Under these tested conditions, the RF4SP observations were consistent with the Candidate Count Model previously developed from RF5 observations.
+
+The use of both Love Crystal and Glitter Augite was intentional. Because RF4SP observations had raised questions about material-dependent selection behavior, testing more than one material provided a stronger check than repeating the experiment with only a single material.
+
+The results therefore suggest that the RF4SP candidate-selection complications observed elsewhere do not, by themselves, invalidate the Candidate Count Model.
+
+### Boundary
+
+These results do **not** prove that the Candidate Count Model describes the game's internal implementation.
+
+They show only that, under the four tested RF4SP conditions, the observed Messhilite inheritance rates did not significantly deviate from the model expectations.
+
+Candidate Count / Combination Space and Candidate Selection Distribution should therefore remain separate questions.
+
+---
+
 ## Key Takeaways
 
 - Candidate Count is one of the central concepts for understanding inheritance behavior.

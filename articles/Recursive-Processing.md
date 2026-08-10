@@ -209,7 +209,7 @@ This suggests that upgrade data may be managed outside the inheritance chain, al
 ### Related Mechanics
 
 - [Auto Arrange](Auto-Arrange.md)
-- [Self Contamination](Self-Contamination.md)
+- [Performance-Source Contamination](Self-Contamination.md)
 - [Success Probability](Success-Probability.md)
 - [Light Ore Inheritance](Messhilite-Inheritance.md)
 

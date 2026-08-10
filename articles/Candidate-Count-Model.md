@@ -62,6 +62,21 @@ SEL -.-> NOTE
 
 ---
 
+## Quick Start: Candidate Count A and Selection Limit M
+
+![Candidate Count Model — A and M Overview](../images/candidate-count-model/candidate-count-model-a-m-overview-en.png)
+
+This simplified overview provides a beginner-facing entry point to the model:
+
+- `A` is the number of candidates that can participate in selection.
+- `M` is the maximum number selected in one operation.
+- When `A ≤ M`, the model does not require a choice among multiple candidate combinations.
+- When `A > M`, multiple combinations can arise, and selection may introduce an RNG requirement.
+
+The figure is a conceptual summary of the Candidate Count Model. It organizes observation-based consequences and does not claim to show the game's internal implementation.
+
+---
+
 ## Conceptual Animation
 ![candidate-count-model-animation](../images/candidate-count-model/candidate-count-model-animation.gif)
 

@@ -40,6 +40,20 @@ Validation in this context does not mean proof. It means checking whether repeat
 
 ---
 
+## Raffle Analogy: From Three Visible Candidates to Four Candidates
+
+![Messhilite Inheritance — Raffle Analogy](../images/messhilite-inheritance/messhilite-inheritance-raffle-analogy-en.png)
+
+The `1/4` probability shown in the illustration belongs to the simplified equal-draw raffle example. It illustrates the combination space and should not be read as evidence that the game selects every candidate or subset with equal probability under all conditions.
+
+This raffle analogy offers an intuitive way to read the Candidate Count interpretation used in this article. Rather than treating the three visible inheritance candidates as the entire candidate set, the explanatory model also counts Messhilite, producing a four-candidate structure.
+
+With a three-slot selection limit, a four-candidate structure creates multiple possible three-candidate combinations. The desired result therefore becomes one possible outcome among several, which helps explain why a reset or repeated attempt may be required in some routes.
+
+The figure is an analogy and explanatory model based on gameplay observations. It does not establish that the game internally performs a literal raffle, nor does it prove the internal implementation of Messhilite inheritance.
+
+---
+
 ## Representative Figure
 
 ![Messhilite Inheritance Overview](../images/messhilite-inheritance/messhilite-inheritance-mechanism-en.png)

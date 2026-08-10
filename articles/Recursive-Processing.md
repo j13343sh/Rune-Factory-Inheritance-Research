@@ -211,7 +211,7 @@ This suggests that upgrade data may be managed outside the inheritance chain, al
 - [Auto Arrange](Auto-Arrange.md)
 - [Self Contamination](Self-Contamination.md)
 - [Success Probability](Success-Probability.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
+- [Light Ore Inheritance](Messhilite-Inheritance.md)
 
 ---
 

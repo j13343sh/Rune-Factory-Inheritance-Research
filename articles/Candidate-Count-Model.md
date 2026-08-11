@@ -116,6 +116,50 @@ Understanding Candidate Count therefore provides a unified framework for interpr
 
 ---
 
+## Applicability Boundary: Candidate Count vs Selection Distribution
+
+The Candidate Count Model describes the size and structure of the candidate space.
+
+It can identify when the number of candidates exceeds the selection limit and when multiple possible combinations therefore exist.
+
+However:
+
+> the number of possible combinations does not determine how probability is distributed among those combinations.
+
+This distinction became especially important in later RF4SP observations.
+
+Under tested RF4SP conditions, candidate identity was associated with strong non-uniform ordering behavior across 200 valid three-candidate trials. A common-strength model derived from those ordering observations also showed predictive value for two separate 4→3 overflow selection Scouts totaling 20 trials.
+
+This means that, in RF4SP, a structure such as:
+
+```text
+4 candidates
+↓
+choose 3
+↓
+4 possible subsets
+```
+
+does **not** by itself justify the assumption:
+
+```text
+each subset = 25%
+```
+
+Candidate Count / Combination Space and Candidate Selection Distribution should therefore be treated as separate layers.
+
+The Candidate Count Model remains useful for identifying competition and overflow. Equal-probability interpretations should be treated as conditional approximations rather than as a universal property of the model.
+
+### Primary Strategy: Avoid Competition When Possible
+
+The most robust use of the Candidate Count Model is not to predict every selection probability. It is to avoid unnecessary competition.
+
+When the candidate structure can be redesigned so that the candidate count does not exceed the selection limit, selection uncertainty can be reduced or eliminated under the model's stated observation-based conditions.
+
+In that situation, candidate-specific priority or weighting becomes less important because every required candidate can remain in the result.
+
+---
+
 ## Candidate Count Overview
 
 ![Candidate Count Overview](../images/candidate-count-model/candidate-count-model-overview-en.png)

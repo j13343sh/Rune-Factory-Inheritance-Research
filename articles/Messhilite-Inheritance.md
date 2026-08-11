@@ -54,6 +54,8 @@ With a three-slot selection limit, a four-candidate structure creates multiple p
 
 The figure is an analogy and explanatory model based on gameplay observations. It does not establish that the game internally performs a literal raffle, nor does it prove the internal implementation of Light Ore inheritance.
 
+The later RF4SP observations provide a concrete reason for keeping this distinction: four possible candidate subsets do not necessarily imply four equally likely outcomes.
+
 ---
 
 ## Representative Figure
@@ -124,6 +126,69 @@ The main purpose of this validation was not to prove internal game code. The pur
 
 ---
 
+## RF4SP Selection Boundary
+
+Later RF4SP observations revealed an important limitation of simple equal-probability interpretations.
+
+In a separate ordering experiment, six candidate materials were tested across 200 valid three-candidate trials.
+
+The observed ordering was strongly non-uniform and was closely associated with candidate identity. Across the tested materials, all 15 pairwise majority directions fit one overall ordering axis rather than behaving like uniform random placement.
+
+A common-strength model fitted to those ordering observations also predicted the selection distribution of two separate 4→3 overflow Scouts reasonably well without being refitted to those Scout results. The held-out Scouts contained 20 total trials, and the model substantially outperformed a uniform 25%-per-candidate baseline.
+
+This provides strong evidence that, under these RF4SP conditions:
+
+> Candidate Count alone does not determine Candidate Selection Probability.
+
+It also strongly supports that Ordering and 4→3 Selection share a predictive candidate-identity-associated structure under the tested RF4SP conditions.
+
+However, the internal processing route remains unknown. The current data do **not** establish whether:
+
+- candidates are ordered first and then truncated;
+- Selection and Ordering use separate but correlated processes;
+- both processes reference a common latent priority or strength;
+- some other internal process produces the same observations.
+
+These remain open questions. The fitted strength values are predictive model parameters, not confirmed game-internal parameters.
+
+### Practical Meaning
+
+The primary Candidate Count strategy is to reduce unnecessary competition whenever possible.
+
+Light Ore inheritance is more difficult because the competition created by Light Ore cannot always be removed completely.
+
+In those cases, the practical strategy becomes:
+
+> redesign the candidate set so that the remaining competition is as favorable as possible.
+
+The RF4SP observations add an important caution:
+
+> if candidate identities differ substantially, four possible subsets should not automatically be treated as four equally likely outcomes.
+
+This matters most when Light Ore inheritance must operate with an unavoidable overflow condition.
+
+### Major Practical Cases
+
+The RF4SP selection asymmetry does not mean that all previously observed Light Ore inheritance rates are invalid.
+
+In the existing Love Crystal and Glitter Augite validation conditions, the observed success rates remained broadly consistent with the Candidate Count-based reference model.
+
+RF4SP validation using both Love Crystal and Glitter Augite under the tested 3-stack and 6-stack conditions did not show a statistically significant deviation from the reference expectations.
+
+This suggests that Candidate Count-based probability approximations may remain practically useful for some candidate compositions.
+
+However, this should not be generalized into:
+
+> same category = equal probability
+
+or:
+
+> similar materials always share the same selection strength.
+
+Why some candidate identities behave similarly while others differ strongly remains unknown.
+
+---
+
 ## Mathematical Interpretation
 
 ![Mathematical Interpretation](../images/messhilite-inheritance/messhilite-mathematical-interpretation-en.png)
@@ -143,6 +208,10 @@ Where:
 - `A` is the number of combinations that satisfy the target condition.
 
 For example, `20 / 35 = 57.1%` is easier to verify than a purely symbolic explanation and still connects naturally to `C(6,3) / C(7,3)`.
+
+This expression is an approximation framework for conditions where the relevant successful combinations can be treated under the stated probability assumptions.
+
+RF4SP observations show that candidate-specific selection asymmetry can violate a simple equal-probability interpretation even when the combination space itself is correctly counted.
 
 ---
 

@@ -160,6 +160,36 @@ In that situation, candidate-specific priority or weighting becomes less importa
 
 ---
 
+## Open Question: When Is Equal-Probability Approximation Reasonable?
+
+RF4SP observations showed that candidate identity can be associated with strongly non-uniform ordering behavior.
+
+However, not every tested candidate set appeared equally biased.
+
+Before any attempt to explain the internal cause, an important practical question remains:
+
+> Under what observable conditions is an equal-probability approximation reasonably usable?
+
+Early gameplay observations suggested that some sets of similar items may behave more uniformly than others.
+
+This raised several unresolved questions:
+
+- Do candidates with similar gameplay roles or apparent item groupings tend to produce more uniform selection behavior?
+- Are there observable candidate-group patterns that make equal-probability approximation more reliable?
+- Why do some apparently similar items still behave as exceptions?
+- Can these boundaries be predicted from gameplay-visible properties alone?
+- How much does candidate identity matter after candidate count and combination space are already known?
+
+At present, the observations are not sufficient to establish a general rule.
+
+The Candidate Count Model can identify when competition exists, but the conditions governing the selection distribution remain an open research problem.
+
+A useful future direction would be to compare carefully controlled candidate sets while changing as few observable item properties as possible.
+
+The goal would not be to identify hidden implementation details, but to determine where the simple equal-probability approximation remains practically useful and where it should be avoided.
+
+---
+
 ## Candidate Count Overview
 
 ![Candidate Count Overview](../images/candidate-count-model/candidate-count-model-overview-en.png)

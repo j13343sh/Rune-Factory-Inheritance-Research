@@ -150,6 +150,42 @@ Candidate Count / Combination Space and Candidate Selection Distribution should 
 
 The Candidate Count Model remains useful for identifying competition and overflow. Equal-probability interpretations should be treated as conditional approximations rather than as a universal property of the model.
 
+### Candidate Count and Ordering Boundary
+
+Gameplay observations suggest that ordering behavior may differ across
+candidate-count conditions.
+
+In tested two-candidate conditions, the observed ordering corresponded
+to the input order.
+
+By contrast, three-candidate observations showed candidate-associated
+non-uniform ordering, while overflow conditions introduced a separate
+selection question.
+
+This raises an unresolved boundary question:
+
+> How does observed ordering behavior change as Candidate Count moves
+> from 2 to 3 and then beyond the Selection Limit?
+
+The observations do not establish the game's internal processing order.
+
+### Open Question: How Are Ordering and Selection Related?
+
+Current gameplay observations are compatible with the possibility that
+an ordering is formed before an overflow result is reduced to the
+Selection Limit.
+
+However, endpoint observations alone do not establish that internal
+sequence.
+
+It therefore remains unknown whether the game:
+
+- selects candidates first and then orders the selected result,
+- forms an ordering before reducing the result to the Selection Limit,
+- or uses another process that produces the same observed outcomes.
+
+The internal implementation remains Unknown.
+
 ### Primary Strategy: Avoid Competition When Possible
 
 The most robust use of the Candidate Count Model is not to predict every selection probability. It is to avoid unnecessary competition.

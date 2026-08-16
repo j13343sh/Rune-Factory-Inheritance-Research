@@ -1,580 +1,336 @@
-Candidate Count Model Research: Comprehensive List of Unresolved Questions
-Cross-Repository Extraction for Rune-Factory-Inheritance-Research
+Candidate Count Model Research: Current Unresolved Questions and Public Frontier
+Rune-Factory-Inheritance-Research
 
 Created: 2026-08-01
-Revised: 2026-08-01 (incorporates the 50-trial RF4SP Pink Turnip follow-up)
+Current Frontier revision: 2026-08-16
 
 Purpose
 -------
-This document collects unresolved questions concerning the Candidate Count Model and related research from Markdown, TXT, PDF, CSV, appendices, observation logs, and Google Drive research materials.
+This document is the current public view of the unresolved questions that remain around the Candidate Count Model, organized so that another researcher can resume from observable in-game reality.
 
-It does not claim to establish the game's internal implementation. It distinguishes questions explicitly identified as unresolved from validation tasks that remain logically open based on existing observations.
+The 2026-08-01 edition collected 134 questions across the repository. That historical set remains useful for traceability, but not every historical question is a current Public Frontier question.
 
-Status Labels
--------------
-[Explicit]  Explicitly described in the source material as unresolved, untested, unknown, or hypothetical.
-[Boundary]  Observed, but its range of validity or generalizability has not been established.
-[Derived]   Arises from integrating multiple sources; it is not a direct claim made by any one source.
-[On Hold]   Interpretation is deferred because experimental controls or records are insufficient.
+The current classification separates:
+- Public Frontier: questions that can lead from observable gameplay reality to another observation or test
+- Supporting Evidence / Example: known reality that supports a frontier question
+- Internal / Identifiability Hold: implementation questions that current observations cannot uniquely distinguish
+- Closed / Current Boundary: questions reduced to an established observation or present boundary
+- Method / Evidence Policy: research-design and evidence-management questions
+- Practical / Optimization: operational optimization questions
+- Adjacent Frontier: important questions outside the central Candidate Count mission
 
-Important Premises
-------------------
-- The Candidate Count Model is a replaceable approximation for organizing observations from actual gameplay, not proof of internal code.
-- The 4,000 trials strongly support consistency between the model and the three- through six-stack conditions tested for Messhilite inheritance in RF5.
-- Those trials directly tested success rates under specific conditions, not the full internal processes for candidate generation, weighting, order, or recursion.
-- Under an RF4SP candidate-overflow condition, combinations excluding Pink Turnip occurred in 42 of 50 trials. The reproduced bias is difficult to explain as equal-probability selection among the four combinations.
-- This is a potential counterexample to the auxiliary assumption that candidate subsets are always selected with equal probability. It neither falsifies the Candidate Count Model as a whole nor proves an internal weighted-selection implementation.
-- CSV data supplies observations and aggregate values, but does not directly identify internal algorithms.
+Reference-assisted findings are not imported backward as public answers. The public frontier is based on the reality and unknowns reachable from actual gameplay observation.
 
-======================================================================
-A. Defining the Candidate Set Itself
-======================================================================
+Research Principles
+-------------------
+Reality First.
 
-A-01 [Explicit] What counts as one candidate
-It remains unclear whether the equipment itself, the source equipment, internal arrangement materials, required materials, auto-arranged materials, and source-contamination elements should all be counted as equivalent single candidates.
+- The Candidate Count Model is a replaceable approximation for organizing gameplay observations, not proof of internal code.
+- Agreement between a model and observations does not eliminate competing internal mechanisms that make the same predictions.
+- The priority is to identify where a simple approximation works and where it stops working, rather than to guess the name of an internal implementation.
+- Reference-assisted findings are not automatically transferred into the Public Frontier.
+- A question remaining open does not mean the project must continue investing in it.
 
-A-02 [Explicit] Whether the candidate counts for shoes and accessories are 4/5/6 or 5/6/7
-The count changes depending on whether source contamination is treated as an independent candidate. This must be reconsidered separately from the directional claim that more candidates reduce the success rate.
-
-A-03 [Explicit] Whether the source equipment itself and its internal arrangements are separate candidates
-Both may become candidates simultaneously, but the identifying conditions and duplication relationship are unresolved.
-
-A-04 [Explicit] How multiple copies of the same material are represented
-They may be independent candidates, a same-type population, or a compressed candidate. Messhilite success rates changed with the number of same-type inputs, but the internal representation is unknown.
-
-A-05 [Explicit] Duplicate handling for candidates with the same name or type
-It is unknown whether duplicates remain distinct, are compressed as equivalent candidates, or are merged only under certain conditions.
-
-A-06 [Explicit] Whether candidate compression exists and when it occurs
-Some cases change less than expected as apparent candidate count increases. Compression, fixed slots, and priority have not yet been distinguished.
-
-A-07 [Explicit] Candidate-exclusion conditions
-What is excluded from the final candidate set, and at which processing stage, remains unknown.
-
-A-08 [Explicit] Effective upper limit on candidate count
-The effective maximum after accounting for crafting input slots, three arrangement slots, recursive expansion, and source contamination is unknown.
-
-A-09 [Derived] Whether candidate presence and eligibility for selection are equivalent
-If fixed slots or internal priority exist, mere presence does not express the effective candidate count. An effective or weighted N may be required instead of a simple N.
-
-A-10 [Derived] Whether the candidate set is built once or reconstructed at each stage
-A multistage structure—generation, compression or priority processing, then final three-slot selection—remains possible.
-
-Primary evidence: PDFs 04, 05, 06, 07, 11, and 12; 99_補遺_追加未解決事項備忘録.txt
+What Actual Gameplay Has Established So Far
+-------------------------------------------
+1. Candidate Count is a useful approximation axis for reasoning about inheritance success rates.
+2. In 4,000 RF5 Messhilite trials across three- through six-stack conditions, strong consistency with the Candidate Count approximation was observed.
+3. However, conditions exist where the same Candidate Count produces different outcome distributions depending on candidate composition.
+4. In an RF4SP overflow condition, combinations excluding Pink Turnip occurred in 42 of 50 trials, reproducing a bias difficult to explain with a simple equal-probability approximation.
+5. Ordering of the final three candidates is not necessarily uniform across all candidate sets.
+6. Candidate Count alone therefore cannot always predict selection, ordering, and final performance with one simple formula.
+7. The internal cause of these biases has not been uniquely identified from gameplay observations.
 
 ======================================================================
-B. Candidate-Generation Paths
+CURRENT PUBLIC FRONTIER — CORE
 ======================================================================
 
-B-01 [Explicit] Exact conditions under which directly added materials become candidates
-Differences by equipment type, input position, source-equipment role, and additional-material role remain unresolved.
+PF-01  Boundary of the Uniform Approximation
+--------------------------------------------
+Under what conditions can candidates with the same Candidate Count be treated as approximately uniform, and where does that approximation break?
 
-B-02 [Explicit] Exact conditions under which required recipe materials become candidates
-The auto-arrange hypothesis for recipes requiring more than three materials exists, but has not been confirmed across all recipes and equipment types.
+Known reality:
+- Some conditions agree well with the Candidate Count approximation.
+- Other conditions with the same Candidate Count show strong bias.
 
-B-03 [Explicit] Whether only source equipment receives special reference treatment
-Internal information from source equipment appears easier to reference, while recursive expansion from additional equipment appears weak or absent. Whether position or role causes this is unknown.
+Still unknown:
+- What candidate compositions make the uniform approximation useful
+- What observable boundary predicts its breakdown
+- When Candidate Count alone is sufficient and when additional measurement is needed
 
-B-04 [Explicit] Conditions for expanding internal arrangements from additionally added equipment
-It is unclear whether they are never expanded or merely were not expanded under the tested conditions.
+This is not a rejection of the Candidate Count Model. It is a question about its safe range of application.
 
-B-05 [Explicit] Conditions under which auto-arrange information becomes a candidate again downstream
-It is likely retained internally in completed equipment, but the relationship between retention and later expansion is unresolved.
 
-B-06 [Explicit] Conditions for source contamination
-It is observed in shoes and accessories. Its presence in weapons, armor, shields, and other categories—and its dependence on equipment category or stat-transfer processing—remains unsettled.
+PF-02  Candidate Groups / Properties and Bias
+---------------------------------------------
+Do candidates have some still-unidentified grouping or observable property that is related to selection or Ordering bias?
 
-B-07 [Explicit] Relationship between inheritance depth and candidate growth
-Candidates tend to accumulate through repeated inheritance, but the number added per generation has not been established.
+Known reality:
+- Different materials show different selection and Ordering tendencies.
+- Some candidate sets appear comparatively even.
+- Conditions containing Pink Turnip have shown strong bias.
 
-B-08 [Derived] Treatment of the same candidate generated through multiple paths
-If the same named element appears as a required material, internal arrangement, and source-contamination element, it may be duplicated, compressed, or given greater weight.
+Still unknown:
+- Whether candidates with similar uses or types tend to become more even
+- Whether bias is item-specific or combination-dependent
+- Whether the boundary can be predicted from features visible to a player
 
-B-09 [Derived] Timing of candidate generation
-Candidates may be generated when crafting begins, when the source is established, during auto-arrange processing, or immediately before final three-slot selection.
+“Group” here does not mean a field from internal reference data. It refers to classifications that can be proposed from gameplay-observable properties.
 
-B-10 [Derived] Relationship between candidate generation and displayed information
-It is unclear how many undisplayed internal candidates are included in inferences based on blue text, descriptions, and completed stats.
 
-Primary evidence: PDFs 03, 04, 05, and 06; Auto-Arrange.md; Recursive-Processing.md; Self-Contamination.md
+PF-03  Relationship Between Selection and Ordering
+--------------------------------------------------
+Is being selected more often the same phenomenon as being placed earlier after selection, or are these separate observable effects?
 
-======================================================================
-C. Final-Selection Algorithm and Weighted Selection
-======================================================================
+Known reality:
+- Some conditions show non-uniform candidate-subset selection.
+- Some conditions show non-uniform Ordering among the final three candidates.
 
-C-01 [Explicit] Whether selection is completely uniform
-The model's basic formula assumes uniform selection without replacement, but this has not been proven as the internal implementation.
+Still unknown:
+- Whether Selection and Ordering respond to the same candidate properties
+- Whether conditions exist where only one is biased
+- How both change across Candidate Count boundaries
 
-C-02 [Explicit] Whether weighted selection exists
-Unusually frequent or rare candidates, retention of existing arrangements, and displacement of auto-arranged candidates motivate this question.
+This does not assert a particular number of internal processing stages. It asks whether two observable realities move together.
 
-C-03 [Explicit] What determines each candidate's weight
-Candidate type, input order, existing arrangements, source role, equipment category, duplicate count, generation, and game-version differences have not been separated.
 
-C-04 [Explicit] Whether internal priority exists
-Existing arrangements or source-derived candidates may outrank auto-arranged candidates, but the evidence is weak and includes single-trial observations.
+PF-04  What the Candidate Count Boundary Represents
+---------------------------------------------------
+When behavior changes sharply, which observable variable best describes the boundary: total candidate count, vacant slots, candidate composition, generation path, or something else?
 
-C-05 [Explicit] Whether fixed slots exist
-Frequently retained candidates may be highly weighted selections or fixed slots outside the draw; current observations do not distinguish them.
+Known reality:
+- The region around N≈3/4 is a useful practical boundary indicator.
+- It is not a universal rule that N=3 is always fixed and N=4 always breaks.
 
-C-06 [Explicit] Whether selection occurs in stages
-Possible processes include category selection followed by candidate selection, or retention of existing slots followed by filling vacancies.
+Still unknown:
+- The main observable conditions that move the boundary
+- Differences by equipment category or recipe
+- Whether Candidate Count needs another simple companion indicator
 
-C-07 [Explicit] Number of internal draws
-It is unknown whether one three-candidate combination is drawn, candidates are drawn sequentially, or invalid candidates trigger redraws.
 
-C-08 [Explicit] Whether overflow triggers redraw, reconstruction, or shuffling
-Changes in displayed order alone cannot uniquely identify the internal event.
+PF-05  Range of Auto Arrange
+----------------------------
+Under what conditions does Auto Arrange enter candidate competition, and how generally can its selection or displacement behavior be described?
 
-C-09 [Explicit] Whether selection is without replacement
-The approximation assumes this, but it remains unproven, especially when multiple same-type inputs may remain individually identifiable.
+Known reality:
+- Auto Arrange can occur when recipes require many materials.
+- Materials from early, middle, and late recipe positions can appear.
+- Competition with existing candidates cannot be explained by a simple fixed-position rule alone.
 
-C-10 [Explicit] Whether category-level priority exists
-Equipment bodies, materials, existing arrangements, and auto-arranged materials may receive category-level priority.
+Still unknown:
+- The general range of the n−3 approximation
+- Where uniform approximation among required materials is useful
+- Observable boundaries when Auto Arrange competes with existing arrangements or source contamination
 
-C-11 [Boundary] Conditions producing different outcome distributions at the same N
-If composition or generation path changes behavior while N stays constant, the limits of an N-only model must be identified.
 
-C-12 [Derived] Whether weighted selection and candidate compression can be distinguished statistically
-Apparent bias can be explained by weighting, fixed slots, duplicate compression, or staged selection.
+PF-06  Boundary of Source Contamination and Recursive Inheritance
+-----------------------------------------------------------------
+Under what conditions do source contamination and recursive inheritance increase candidate pressure, and how far back can their effects remain observable?
 
-C-13 [Explicit] RNG seed, random-number consumption, and selection timing
-Seed updates, changes after loading, and RNG consumption between crafting actions are unknown.
+Known reality:
+- Source-derived information affects outcomes under some conditions.
+- Information from earlier inheritance generations can affect later results.
+- Not every path expands in the same way.
 
-C-14 [Derived] Whether repeated save/load trials can be treated as independent
-The 4,000-trial analysis treats them as independent in practice, but independence of the internal seed sequence was not directly verified.
+Still unknown:
+- Trigger conditions and equipment-category differences
+- How many generations retain observable influence
+- Whether candidate content, Ordering, or both can transport
 
-C-15 [Explicit] The RF4SP “Pink Turnip problem” under candidate overflow
-In 50 overflow trials, combinations excluding Pink Turnip occurred 42 times (84%). The bias first observed in 30 trials remained at nearly the same level after 20 additional trials. Against equal probability among four combinations, χ²=93.84, df=3, and Cramér's V≈0.791. Simple uniform selection is therefore difficult to reconcile with this outcome distribution.
+Exact internal storage formats and recursive algorithms remain separate implementation questions.
 
-C-16 [Explicit] Cause of the Pink Turnip bias
-Possible causes include material-specific weight, item ID or registration order, input order, candidate-generation order, legacy internal values, or another internal process.
 
-C-17 [Boundary] Reproducibility range of the Pink Turnip bias
-Needed comparisons include independent replication with identical conditions, material substitution, changing Pink Turnip's input position, and an equivalent RF5 condition.
+PF-07  Transport Between RF4SP and RF5
+--------------------------------------
+Which Candidate Count, Ordering, and Auto Arrange boundaries observed in RF4SP also hold in RF5?
 
-C-18 [Derived] Whether subset weights can be distinguished from individual-candidate weights
-The 42/50 outcome could arise from a low Pink Turnip weight, weights assigned to whole combinations, staged selection, fixed slots, or generation order.
+Known reality:
+- Some phenomena appear in both games.
+- Differences are suggested in fixed-like behavior, disordering, and source contamination.
 
-C-19 [Derived] Conditions under which the model's uniform-selection formula applies
-The 4,000 Messhilite trials were consistent with the approximation, while the Pink Turnip condition showed strong bias. Applicability must therefore account for game, candidate composition, material-specific values, and generation path, not only N.
+Still unknown:
+- Which boundaries transport between games
+- Where game-specific behavior begins
+- When the same simple approximation is safe in both games
 
-Primary evidence: PDFs 03, 06, 07 §§7–8, 11 §§11-1–11-3, and 12 §§12-1–12-4; RF4SP overflow and weighted-probability materials in the Google Drive “Unresolved Questions” folder
 
-======================================================================
-D. Candidate-Count Boundaries and Fixed-Like Behavior
-======================================================================
+PF-08  Boundary Between Simple Prediction and Individual Measurement
+--------------------------------------------------------------------
+Can actual gameplay observations tell us in advance when Candidate Count alone is enough and when candidate-specific bias or Ordering must be measured separately?
 
-D-01 [Explicit] Whether a real boundary exists near N=3
-Results tend to be fixed-like at N≤3 and more competitive or unordered at N≥4, but this is not “always fixed at N=3, always broken at N=4.”
+This is the central question that connects the current Public Frontier.
 
-D-02 [Explicit] Whether the boundary depends on total candidates, candidate categories, or vacant slots
-The occupancy of the three existing slots or the number of vacancies may matter more than simple N.
+The goal is not complete reconstruction of the internal implementation.
 
-D-03 [Explicit] Whether boundary behavior is the same in RF4SP and RF5
-RF4SP appears random earlier, while RF5 appears fixed-like at N≤3; the difference is provisional.
+A useful outcome would be the ability to distinguish:
+- conditions where a simple approximation is sufficient
+- conditions that require caution
+- conditions that require individual measurement
 
-D-04 [Explicit] What changes when the boundary is crossed
-It is unknown whether candidate generation, final selection, display order, redraw, or displacement changes.
+That would make the Candidate Count Model safer and more useful without turning it into an internal-spec claim.
 
-D-05 [Boundary] Why cases such as the Gold Bracelet change less than expected as N rises
-Priority, fixed slots, compression, and experimental setup have not been distinguished.
-
-D-06 [Derived] Whether boundaries differ by equipment category or recipe
-Observations centered on shoes and accessories cannot yet be generalized to weapons, armor, and shields.
-
-Primary evidence: PDFs 03, 04, 06, 11 §11-5, and 12 §§12-1 and 12-3
-
-======================================================================
-E. The Permutation Problem, Placement Order, and Object X
-======================================================================
-
-E-01 [Explicit] Whether candidate selection and placement order are separate stages
-Order may be determined again after the intended three candidates have been selected.
-
-E-02 [Explicit] Whether all permutations of the final three slots are equally probable
-Combination probability and order probability can be multiplied as an approximation, but uniform permutations have not been proven.
-
-E-03 [Explicit] Whether the system shuffles after selection or performs ordered selection
-The same display can result from different internal models, which current observations cannot distinguish.
-
-E-04 [Explicit] Whether input, recipe, or source-internal order affects final placement
-Fixed and variable order coexist; which ordering information survives is unknown.
-
-E-05 [Explicit] Success probability of placing Object X first
-Obtaining the right candidates and placing Object X first are separate conditions; candidate-selection probability alone is insufficient.
-
-E-06 [Explicit] Whether Object X has a special influence on order
-It may share ordinary placement weights or have priority or constraints associated with its reversal effect.
-
-E-07 [Explicit] Reproducibility of the roughly 54% Mealy Apple-first bias
-Observed in 300 RF4SP trials. Its difference from 50%, condition dependence, and replication remain open.
-
-E-08 [Explicit] Whether the order bias is unique to Mealy Apple
-It may apply to all negative-stat materials, to a material category, or only to this material.
-
-E-09 [Explicit] Order distributions for other negative-stat materials
-Equivalent comparisons with Heavy Spice, Sour Drop, Mixed Herbs, Sweet Powder, and others have not been performed.
-
-E-10 [Explicit] Completeness of the negative-stat material list
-Other materials relevant to Object X reversal may exist.
-
-E-11 [Explicit] Relationship between order bias and overflow redraw or reconstruction
-It is unknown whether the same order rule applies at low N and at N≥4.
-
-E-12 [Derived] A general success-probability formula incorporating order
-A model combining combination probability, post-selection permutations, and candidate-specific placement weights is incomplete.
-
-E-13 [Explicit] Whether Pink Turnip selection bias and placement-order bias are the same phenomenon
-The condition raises both subset-selection and permutation questions. It is unknown whether Pink Turnip is selected less often, placed later after selection, or both.
-
-E-14 [Derived] Whether selection and placement use a common internal priority
-A material-specific value or generation order may affect both stages. Separate weights and reuse of one common value have not been distinguished.
-
-Primary evidence: PDFs 06, 07, 08 §8-2, and 12 §12-4; 99_補遺_追加未解決事項備忘録.txt; RF4SP overflow and permutation-test materials in the Google Drive “Unresolved Questions” folder
 
 ======================================================================
-F. Auto-Arrange
+ADJACENT FRONTIER
 ======================================================================
 
-F-01 [Explicit] Whether the general n−3 trigger rule holds universally
-Four required materials imply one shortage and five imply two, but this has not been guaranteed across all equipment and games.
+PF-A1  Separating Success Probability from Final Performance Values
+-------------------------------------------------------------------
+After the intended inheritance candidates succeed, what determines the final performance values?
 
-F-02 [Explicit] Whether selection from all required materials is uniform
-Selection from beginning, middle, and end positions has been observed, but individual rates and weights are unknown.
+Candidate Count mainly addresses the probability that desired candidates survive. Final stat determination may be a separate problem involving materials, base equipment, source equipment, input count, and other factors.
 
-F-03 [Explicit] Whether a required material's position affects selection rate
-The fixed-last-position theory is disfavored, but complete position independence remains unproven.
+This remains important, but is adjacent to the central Candidate Count mission.
 
-F-04 [Explicit] Displacement rule when existing arrangements are present
-Vacancy filling, low priority, and candidate exclusion remain competing explanations; trials are insufficient.
 
-F-05 [Explicit] Storage format of auto-arrange information
-It may be retained internally, but whether material name, order, or generation path is stored is unknown.
+PF-A2  Generalization to Other Candidate-Pool Systems
+-----------------------------------------------------
+Can appearance bias in shops or trade inventories be understood using the same Candidate Count idea as equipment inheritance?
 
-F-06 [Explicit] Conditions for recursively expanding stored auto-arrange information
-The range in which it carries forward as “candidate-count debt” has not been tested.
+There are structural similarities involving candidate pools, visible slots, duplication, and appearance rates. There is not yet evidence that the same formula or selection structure applies.
 
-F-07 [Explicit] Difference in randomness between RF4SP and RF5
-Large controlled comparisons are lacking for the tendency of RF4SP to randomize immediately and RF5 to depend on a boundary.
+This is retained as an adjacent frontier rather than a core claim.
 
-F-08 [Explicit] Priority relationship between auto-arrange and source contamination
-When they compete, which survives more often—and whether this is equipment-dependent—is unknown.
-
-F-09 [Derived] Process conditions that completely avoid auto-arrange
-It appears difficult to avoid in high-difficulty equipment, but the optimal process search is incomplete.
-
-Primary evidence: PDFs 03, 05, 06, and 11; Auto-Arrange.md; additional unresolved-question memorandum
 
 ======================================================================
-G. Source Contamination (formerly “Self-Contamination”)
+QUESTIONS REMOVED FROM THE PUBLIC FRONTIER
 ======================================================================
 
-G-01 [Explicit] Formal unit and name of the phenomenon
-“Source contamination” may better describe the observation than “self-contamination.” Final terminology depends on defining what enters the pool.
+1. Internal / Identifiability Hold
+----------------------------------
+Examples:
+- whether an internal priority exists
+- whether fixed slots exist
+- whether selection occurs in stages
+- whether a shuffle occurs after selection
+- the internal RNG seed
+- the internal storage format
+- whether one common priority parameter exists
 
-G-02 [Explicit] Affected equipment categories
-The effect is strongly observed in shoes and accessories; equivalent processing in weapons and other categories is unknown.
+These are interesting questions, but multiple internal mechanisms can produce the same observed gameplay result. Until competing explanations generate different observable predictions, they are not central Public Frontier questions.
 
-G-03 [Explicit] Difference in contamination rate between RF4SP and RF5
-RF5 appears higher, but controlled comparisons are insufficient.
 
-G-04 [Explicit] Simultaneous candidacy of source equipment and its internal arrangements
-It is unknown whether both become candidates or only one does depending on conditions.
+2. Supporting Evidence / Example
+--------------------------------
+Individual observed phenomena are retained as evidence rather than multiplied into separate active questions.
 
-G-05 [Explicit] Relationship between inheritance generation, contamination rate, and candidate count
-Both tend to rise with repeated inheritance, but linear growth, saturation, and truncation remain possible.
+Examples include:
+- the 50-trial Pink Turnip observation
+- non-uniform Ordering
+- non-fixed Auto Arrange positions
+- individual RF4SP/RF5 differences
 
-G-06 [Explicit] Relationship with auto-arrange
-It is unknown whether source contamination displaces auto-arranged candidates or competes in the same pool.
 
-G-07 [Explicit] Conceptual boundary with recursive processing
-A method for separating renewed inclusion of source equipment from renewed expansion of its internal arrangements is incomplete.
+3. Method / Evidence Policy
+---------------------------
+Required sample size, condition control, raw-data publication, multiple comparisons, and missing historical records remain important.
 
-G-08 [Derived] Actual probability of the source-removal reroll
-The five-candidate RF5 high-difficulty shoe case is illustrative; its candidate generation and probability remain untested.
+They are research-method questions rather than unresolved game-mechanic questions and are managed separately.
 
-Primary evidence: PDFs 04, 05, and 11; Self-Contamination.md; additional unresolved-question memorandum
 
-======================================================================
-H. Recursive Processing and Generational Retention
-======================================================================
+4. Practical / Optimization
+---------------------------
+Optimal inheritance routes, save splitting, expected retry counts, and the boundary between theoretical and practical best equipment are optimization questions rather than the Public Research Frontier.
 
-H-01 [Explicit] Exact conditions under which recursive processing exists
-It is a hypothesis consistent with observations, but expansion is not uniform across all inheritance operations.
-
-H-02 [Explicit] Targets of recursive reference
-It is not fully known whether source equipment, additional equipment, auto-arranged information, contamination-derived information, and inherited information are referenced.
-
-H-03 [Explicit] Whether recursion depends on position or role
-The source side appears easier to reference, but slot position and processing category have not been distinguished.
-
-H-04 [Explicit] Maximum recursion depth
-The number of generations whose internal information can be referenced is untested.
-
-H-05 [Explicit] Maximum number of expanded candidates
-It is unknown whether deeply nested structures are fully expanded or stopped at a limit.
-
-H-06 [Explicit] Generation limit and truncation rule
-Possible rules include dropping older generations, rejecting newer ones, or choosing by priority.
-
-H-07 [Explicit] Conditions for compression or loss of internal information
-Unexpected retention and disappearance partway through inheritance lack a unified explanation.
-
-H-08 [Explicit] Difference in recursion depth between RF4SP and RF5
-The current wording remains provisional: RF4SP may be somewhat deeper and RF5 comparatively shallow.
-
-H-09 [Explicit] Whether order information is inherited during recursive expansion
-Internal order may be preserved or redetermined along with candidate content.
-
-H-10 [Derived] Prevention of circular reference or repeated expansion
-An internal rule must prevent unlimited multiplication when the same origin reappears across generations, but it has not been observed.
-
-H-11 [Derived] Distinguishing recursive processing from candidate compression
-Invisible deep candidates may never expand, or may expand and then be compressed or excluded.
-
-Primary evidence: PDFs 05 and 11 §11-4; Recursive-Processing.md; additional unresolved-question memorandum
 
 ======================================================================
-I. Messhilite Inheritance and the Success-Probability Model
+CURRENT POSITION OF THE PINK TURNIP PROBLEM
 ======================================================================
 
-I-01 [Boundary] Generalizability of the 4,000-trial results
-How far RF5 results for three through six copies under specific materials, equipment, and procedures extend to other equipment, RF4SP, and other materials is unknown.
+In an RF4SP candidate-overflow condition, combinations excluding Pink Turnip occurred in 42 of 50 trials.
 
-I-02 [Explicit] Internal mechanism of same-type population manipulation
-The approximation in which duplicate inputs increase the favorable-combination count A is consistent, but internal identification of same-type instances is unknown.
+That is an important observed reality.
 
-I-03 [Explicit] Large-scale measurement of all-distinct and mixed duplicate-heavy compositions
-The theory is organized, but equally extensive trials are lacking.
+It does not establish that:
+- Pink Turnip has a low internal weight
+- a particular internal category causes the effect
+- an ID or registration order causes the effect
+- fixed slots or staged selection exist
 
-I-04 [Explicit] Order-dependent success probability involving Object X
-A unified model requiring both candidate inclusion and first placement is incomplete.
+The Public Frontier question is:
 
-I-05 [Explicit] Stat-loss rule when Messhilite is included
-One intended material slot likely loses its effect, but this is not guaranteed for every material and condition.
+“Why can a condition containing Pink Turnip show such a large bias even when Candidate Count is unchanged?”
 
-I-06 [Explicit] Effect of fixed-like behavior, priority, and redraw on theoretical values
-Conditions that depart from the uniform-combination model have not been quantified.
+A researcher continuing from gameplay alone might naturally ask:
+- what happens with three crop-like candidates
+- what happens with seeds
+- what happens with ores or another natural group
+- what happens when Pink Turnip is replaced
+- whether the bias remains when the surrounding candidate set changes
 
-I-07 [On Hold] ATK +22 versus +52 in the six-Glitta Augite setup
-Iron versus Dragonic Stone and direct versus inherited crafting conditions are mixed, leaving the cause unresolved.
+These are examples of questions generated by the current reality, not instructions or claims about an internal cause.
 
-I-08 [On Hold] Additional ATK +10 and M.ATK +5
-It matches the total item-level bonus, but does not occur every time with the same composition; relations to material and item levels are untested.
-
-I-09 [Explicit] Separating contributions of Iron, Dragonic Stone, base weapon, source equipment, and input count
-No controlled experiment has isolated the condition behind I-07.
-
-I-10 [On Hold] Input-order records for past observations
-Records do not establish whether the order was Glitta→Glitta→Messhilite or Messhilite→Glitta→Glitta.
-
-I-11 [Derived] Separating the success-rate model from the stat-value model
-If stat application is a separate stage after successful candidate selection, candidate count alone cannot predict final stats.
-
-Primary evidence: PDFs 07 and 08; research PDFs and 07_統合データ.csv; Success-Probability.md; additional unresolved-question memorandum
 
 ======================================================================
-J. Differences Between Games, Versions, and Environments
+HISTORICAL QUESTION SET
 ======================================================================
 
-J-01 [Explicit] Differences between original RF4 and RF4SP
-Internal behavioral changes from porting or fixes have not been compared.
+The 2026-08-01 edition preserved 134 questions across 13 domains (A–M) in order to collect as many unresolved issues as possible.
 
-J-02 [Explicit] Candidate-count boundary differences between RF4SP and RF5
-Only limited comparisons exist; large controlled trials are needed.
+That historical set contains a mixture of:
+- questions now merged into the Public Frontier
+- supporting observations
+- internal implementation questions on identifiability hold
+- questions reduced to current boundaries
+- research-method questions
+- practical optimization questions
 
-J-03 [Explicit] Differences in fixed-like behavior
-The provisional characterization—stronger in RF4SP and strongest at N≤3 in RF5—requires confirmation.
+Therefore:
 
-J-04 [Explicit] Different onset points for unordered behavior
-RF5 may change markedly at N≥4, while RF4SP may vary earlier.
+Historical Questions = 134
+Current Public Frontier = 8 Core + 2 Adjacent
 
-J-05 [Explicit] Difference in source-contamination rate
-RF5 appears higher, but evidence is insufficient.
+and:
 
-J-06 [Explicit] Difference in auto-arrange priority
-The interpretation that RF5 has stronger effects or more vacancy-filling behavior requires testing.
+134 Questions ≠ 134 Active Research Missions
 
-J-07 [Explicit] Differences in compression, internal priority, and weights
-All remain hypothetical; the games may use different selection structures.
+The original A–M list remains part of the research history and traceability surface. The current public view is PF-01 through PF-08 and PF-A1 through PF-A2 above.
 
-J-08 [Explicit] Difference in recursion depth
-No cross-game controlled comparison has been performed.
-
-J-09 [Explicit] Game-specific effect of inheritance order
-The RF4SP effect is unknown; an RF5 effect remains hypothetical.
-
-J-10 [Explicit] Hardware, patch, and port differences
-Reproducibility across Steam, Switch, versions, and presumed latest-patch environments is not organized.
-
-J-11 [Derived] Generalization to RF3 and other titles
-It is untested whether the same Candidate Count structure applies, including to material-shop selection.
-
-Primary evidence: PDFs 03–06, 11 §11-5, and 12; English-language articles
 
 ======================================================================
-K. Optimization of High-Difficulty Inheritance Processes
+PUBLIC EVIDENCE BOUNDARY
 ======================================================================
 
-K-01 [Explicit] Optimal inheritance path to the same target
-Combinations of process splitting, intermediate equipment, and candidate-count management remain unexplored.
+The Current Public Frontier is based on questions that were reachable from actual gameplay observation before later reference-assisted analysis.
 
-K-02 [Explicit] Definition of the optimization objective
-Expected attempts, material consumption, verification work, reloads, and mental burden conflict; there is no unique optimum.
+Answers or candidate explanations obtained from later reference-assisted analysis, internal metadata, or simulations using those materials are not automatically imported backward into the Public Frontier.
 
-K-03 [Explicit] Whether special-ability compression truly reduces candidate count
-If intermediate equipment is recursively expanded, candidates may proliferate again after compression.
+This does not invalidate those internal research records.
 
-K-04 [Explicit] Tradeoff between avoiding auto-arrange and avoiding source contamination
-The hypothesis that complete avoidance is impossible has not been proven or falsified by equipment type.
+The public path remains:
 
-K-05 [Explicit] Whether the 25% Ghost/Rocket compatibility reroll is real
-It assumes four candidates; the actual candidate set has not been directly verified.
+Reality
+↓
+Unknown
+↓
+Next Reality
 
-K-06 [Explicit] Source-removal reroll for RF5 Fairy Boots stat transfer
-The generation process and actual probability in the five-candidate example are untested.
+The priority is to leave a path by which another researcher can reach the same frontier from observable reality, rather than to publish an answer that cannot be reconstructed from the public evidence chain.
 
-K-07 [Explicit] Minimum number of 25% rerolls
-Reducing three to one appears difficult, while three to two is a provisional estimate; exhaustive process search is incomplete.
-
-K-08 [Explicit] Actual workload reduction from split saves
-The operational hypothesis reduces burden by separating independent stages without raising success probability, but lacks quantitative comparison.
-
-K-09 [Derived] Boundary between theoretically strongest and practically strongest
-The exchange rate between one additional effect and expected attempts, materials, and time is undefined.
-
-K-10 [Derived] Process-optimization algorithm
-An exact path-search model cannot yet be built while generation, recursion, weighting, and order remain unresolved.
-
-Primary evidence: PDFs 09 and 11 §11-6; 99_補遺_追加未解決事項備忘録.txt
 
 ======================================================================
-L. Generalizing Candidate Count to Adjacent Systems
+CURRENT SUMMARY
 ======================================================================
 
-L-01 [Explicit] Whether shop and trade-good selection is weighted
-Generalization to Heinz (RF5), Leon (RF4SP), Raven (RF4SP), Sakuya (RF3), Terry rerolls, and similar systems remains hypothetical.
+The Candidate Count Model remains a useful approximation for reasoning about candidate space and success probability.
 
-L-02 [Explicit] Relationship between shipped-item count and shop appearance rate
-Quantitative verification is lacking for the dilution hypothesis: expanding the pool makes a specific item less likely to appear.
+Actual gameplay observations also show that:
 
-L-03 [Explicit] Whether candidate pools are shared or separated by shop category
-It is unknown whether crops, flowers, materials, and trade goods share one population or use category-specific pools.
+same Candidate Count
+≠
+same outcome distribution
 
-L-04 [Explicit] Duplicate rules and selection method for shop slots
-Without-replacement, weighted, and staged selection remain possible internal rules.
+three candidates survive
+≠
+all Orderings are always equally probable
 
-L-05 [Derived] Whether inheritance and shop candidate-count problems use the same model
-They are structurally similar, but there is no basis yet for assuming the same formula and selection constraints.
+The central problem is therefore not to name the complete internal implementation.
 
-Primary evidence: PDF 11 §11-2; The-Hidden-Cost-of-Shipping.md; 99_余談_作物花類陳列候補数問題と効率的な好感度上げ.txt
+It is to identify, from reality:
 
-======================================================================
-M. Observation Design, Statistics, and Reproducibility
-======================================================================
+“Under what conditions is a simple approximation useful, and where does it stop being useful?”
 
-M-01 [Explicit] Trial counts required to detect low-frequency bias
-No power analysis exists for weighted selection, order bias, or cross-game differences.
-
-M-02 [Explicit] Insufficient condition control
-Replications simultaneously fixing equipment, material level, item level, input order, source, internal arrangements, and patch environment are lacking.
-
-M-03 [Derived] How to infer unobservable internal candidates
-Completed outcomes cannot uniquely reconstruct generation, selection, and order; this is an identifiability problem.
-
-M-04 [Derived] Minimum experiment that distinguishes competing hypotheses
-A controlled design separating uniform selection, weighting, fixed slots, compression, and staged selection is incomplete.
-
-M-05 [Explicit] Missing historical observation records
-Some input orders and conditions depend on memory and cannot be reanalyzed.
-
-M-06 [Boundary] Meaning of agreement within a 95% confidence interval
-It shows no conflict with the model, but does not exclude competing models that predict the same values.
-
-M-07 [Derived] Multiple comparisons and exploratory observation
-Management of chance bias when exploring many materials, orders, and game differences is unresolved.
-
-M-08 [Derived] Scope of raw-data publication
-The 4,000-trial CSV is a strong foundation, but full raw logs for the 300 order-bias trials, boundary tests, and other observations may not exist at the same level.
-
-M-09 [Explicit] Replication design for the 50 Pink Turnip trials
-Moving from detecting bias to identifying its cause requires controlled material substitution, input-position swaps, generation-order swaps, fixed N, and fixed equipment and recipe.
-
-M-10 [Derived] Interpretation of a bias discovered post hoc
-Because 20 trials were added after the initial 30 showed bias, reproducibility should also be evaluated on the 20 confirmatory trials separately from the full 50-trial test.
-
-Primary evidence: research PDFs and 07_統合データ.csv; PDFs 11 and 12; additional unresolved-question memorandum; research spreadsheets in the Google Drive “Unresolved Questions” folder
-
-======================================================================
-Core Research Bundles (Dependencies, Not Priority Ranking)
-======================================================================
-
-Bundle 1: Defining candidate count
-Until A-01 through A-10 are resolved, the meaning of N may vary by condition.
-
-Bundle 2: Uniform selection vs. weighting, fixed slots, compression, or staged selection
-C-01 through C-19 are an identifiability problem among competing models that explain the same observations. The 50 Pink Turnip trials provide a concrete condition under which uniform selection cannot be assumed universally.
-
-Bundle 3: Separating combinations from permutations
-E-01 through E-12 require separate treatment of the probability of obtaining the right candidates and the probability of placing them in the right order.
-
-Bundle 4: Boundary between recursion and source contamination
-Sections G and H require identifying from outcomes which candidates were added through which path.
-
-Bundle 5: Differences between games
-Section J requires separating a shared core that permits RF4SP and RF5 to use one theory from game-specific layers.
-
-Bundle 6: From model consistency to mechanism identification
-The 4,000 trials support consistency with the model. The next stage is observation design that distinguishes mechanisms predicting the same success rate.
-
-======================================================================
-Principal Sources Consulted
-======================================================================
-
-Markdown
-- README.md
-- ROADMAP.md
-- articles/Candidate-Count-Model.md
-- articles/Success-Probability.md
-- articles/Auto-Arrange.md
-- articles/Self-Contamination.md
-- articles/Recursive-Processing.md
-- articles/Messhilite-Inheritance.md
-- articles/The-Hidden-Cost-of-Shipping.md
-
-PDF
-- 03_オートアレンジ詳細.pdf
-- 04_自己混入解析.pdf
-- 05_再帰処理解析.pdf
-- 06_抽選処理解析.pdf
-- 07_数式・一般化モデル.pdf
-- 08_メッシライト継承解析.pdf
-- 09_高難度継承と実運用.pdf
-- 11_未解決問題・今後の検証課題.pdf
-- 12_補遺.pdf
-- research/01_検証方法.pdf
-- research/02_集計結果.pdf
-- research/03_3積み.pdf through 06_6積み.pdf
-
-TXT
-- 99_補遺_追加未解決事項備忘録.txt
-- 99_余談_作物花類陳列候補数問題と効率的な好感度上げ.txt
-- 07_数式・一般化モデル_コラム.txt
-- 99_補足_成功率収束について.txt
-
-CSV
-- research/07_統合データ.csv
-
-Google Drive “Unresolved Questions”
-- RF4SP candidate-overflow weighted-probability tests
-- RF4SP Object X, selection-priority, and permutation tests
-- RF4SP/RF5 comparisons with Messhilite within three candidate slots
-
-Extraction Notes
-----------------
-- Duplicates in ルンファク（全部入り文字列検索可） were not counted again.
-- Images and Mermaid diagrams were used to confirm conceptual relationships; no new internal specification was inferred solely from an image.
-- Lower-priority questions remain because this list is intended to collect as many unresolved questions as possible.
-- Any future Repository adoption of a [Derived] item requires human approval.
-- The 50 Pink Turnip trials reproduce a bias, but do not establish “weighted selection” as its cause.
+Reality First.
+Unknown is Evidence.
+Model is Replaceable.
+Return to Reality.

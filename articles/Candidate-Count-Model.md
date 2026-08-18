@@ -152,22 +152,40 @@ The Candidate Count Model remains useful for identifying competition and overflo
 
 ### Candidate Count and Ordering Boundary
 
-Gameplay observations suggest that ordering behavior may differ across
-candidate-count conditions.
+Gameplay observations suggest that ordering behavior may differ across candidate-count conditions.
 
-In tested two-candidate conditions, the observed ordering corresponded
-to the input order.
+In tested two-candidate conditions, the observed ordering corresponded to the input order.
 
-By contrast, three-candidate observations showed candidate-associated
-non-uniform ordering, while overflow conditions introduced a separate
-selection question.
+By contrast, three-candidate observations showed candidate-associated non-uniform ordering, while overflow conditions introduced a separate selection question.
 
 This raises an unresolved boundary question:
 
-> How does observed ordering behavior change as Candidate Count moves
-> from 2 to 3 and then beyond the Selection Limit?
+> How does observed ordering behavior change as Candidate Count moves from 2 to 3 and then beyond the Selection Limit?
 
 The observations do not establish the game's internal processing order.
+
+A recent RF4SP two-candidate test provided additional support for this boundary.
+
+Using a Small Shield with Mealy Apple and Object X, both input orders were tested:
+
+- Mealy Apple → Object X: 18/18 preserved the input order.
+- Object X → Mealy Apple: 18/18 preserved the input order.
+
+Across these 36 trials, no ordering reversal was observed.
+
+This does not establish that all two-candidate arrangements universally preserve input order, but it strengthens the observation that some tested two-candidate conditions may avoid the ordering variability seen in three-candidate cases.
+
+### Practical Application: Elemental Absorption Equipment
+
+This two-candidate behavior may be useful when constructing elemental absorption equipment for Rune Prana.
+
+A previous arrangement using Object X together with two elemental-resistance materials such as Heavy Powder produced approximately 111% elemental resistance after one upgrade.
+
+A reduced two-candidate arrangement using Object X together with one resistance material produced approximately 106% after two upgrades.
+
+Because elemental resistance above 100% becomes absorption, the reduced setup sacrifices about 5 percentage points of resistance while potentially allowing Object X to be placed first in a two-candidate arrangement without requiring an ordering reroll in this tested setup.
+
+This is a practical observation-based workaround, not a claim that every two-candidate arrangement universally preserves input order.
 
 ### Open Question: How Are Ordering and Selection Related?
 

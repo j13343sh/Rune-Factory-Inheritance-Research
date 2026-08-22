@@ -92,11 +92,19 @@ Internal implementation = unknown
 
 ## Practical Context
 
-Oil has a negative Fire Resistance effect. Combining Oil with Object X can therefore have practical value because Object X reverses material effects.
+This observation can matter in practical equipment design when
+Object X must appear before a material whose negative effect is
+intended to be reversed.
 
-This makes the observation relevant to practical equipment construction: ordering behavior can affect whether a planned Object X and Oil combination behaves as intended.
+For example, an equipment design may sometimes achieve its practical
+target with only one reversed resistance material rather than using
+additional copies to maximize the final resistance value.
 
-That practical relevance does not strengthen the observation into a causal or internal-mechanism claim.
+In such a case, reducing the arrangement candidate set can avoid
+introducing an additional ordering problem.
+
+This is a practical consequence of the observed case, not evidence
+that two-candidate arrangements generally preserve input order.
 
 ---
 

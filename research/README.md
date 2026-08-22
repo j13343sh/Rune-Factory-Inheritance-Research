@@ -73,10 +73,17 @@ The higher-level documents provide the necessary context for interpreting the va
 
 ---
 
+## Standalone Observation Cases
+
+Observation records that preserve a bounded result before any higher-level model integration.
+
+* [Object X + Oil Ordering Observation (RF4SP)](Object-X-Oil-Ordering.md)
+
+---
+
 ## Navigation
 
 * [Back to Repository README](../README.md)
 * [Back to ROADMAP](../ROADMAP.md)
 * [Back to Articles](../articles/README.md)
 * [Back to PDF](../pdf/README.md)
-

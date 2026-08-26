@@ -12,7 +12,7 @@ For Wind, Earth, and Water, finish the build with two post-craft upgrades using 
 
 ## Japanese visual
 
-[Open the Japanese version](images/rf4sp-elemental-absorption-brooch-build-guide-jp.png)
+[Open the Japanese version](../../images/elemental-absorption-brooches/rf4sp-elemental-absorption-brooch-build-guide-jp.png)
 
 ## How to use the guide
 

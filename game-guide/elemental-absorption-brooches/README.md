@@ -8,7 +8,7 @@ The key idea is simple:
 
 For Wind, Earth, and Water, finish the build with two post-craft upgrades using the same material.
 
-![Rune Factory 4 Special elemental absorption brooch build guide](../images/elemental-absorption-brooches/rf4sp-elemental-absorption-brooch-build-guide-en.png)
+![Rune Factory 4 Special elemental absorption brooch build guide](../../images/elemental-absorption-brooches/rf4sp-elemental-absorption-brooch-build-guide-en.png)
 
 ## Japanese visual
 

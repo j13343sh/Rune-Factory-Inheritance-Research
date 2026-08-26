@@ -144,6 +144,20 @@ Short visual entry points into the research methods, decision processes, observa
 
 ---
 
+## Visual Game Guides
+
+Practical visual guides for Rune Factory 4 Special.
+
+These guides turn observation-based gameplay knowledge into compact routes that can be followed at a glance.
+
+Current sequence:
+
+**BUILD the elemental absorption brooches → USE them in Rune Prana**
+
+- [RF4SP Visual Game Guide Series](game-guide/README.md)
+
+---
+
 ## Major Research Articles
 
 These articles are existing repository nodes connected to the Candidate Count Model.
@@ -202,6 +216,7 @@ ROADMAP.md
 
 articles/
 reference-assets/
+game-guide/
 research-methodology/
 case-studies/
 research/
@@ -227,6 +242,21 @@ This folder contains the primary AI-search-friendly entry points for the reposit
 Short visual entry points into the research methods, decision processes, observation design, and concrete research constraints used in this repository.
 
 * [Reference Asset Series](reference-assets/README.md)
+
+---
+
+### game-guide/
+
+Public-facing visual gameplay guides for Rune Factory 4 Special.
+
+Unlike the Reference Asset Series, which provides entry points into the repository's research and decision processes, this folder contains practical guides intended for direct use during gameplay.
+
+Current guides:
+
+- [Elemental Absorption Brooch Build Guide](game-guide/elemental-absorption-brooches/)
+- [Rune Prana Tactical Route Guide](game-guide/rune-prana-tactical-route/)
+
+For the full series index, see the [Visual Game Guide Series](game-guide/README.md).
 
 ---
 
@@ -363,6 +393,8 @@ Future observations may refine, revise, or replace current interpretations.
 
 - [ROADMAP](ROADMAP.md)
 - [Articles](articles/README.md)
+- [Reference Assets](reference-assets/README.md)
+- [Visual Game Guides](game-guide/README.md)
 - [PDF Archive](pdf/README.md)
 
 ---

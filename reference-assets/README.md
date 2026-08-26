@@ -1,46 +1,35 @@
-# Reference Assets
+# RF4SP Visual Game Guide Series
 
-Reference Assets are short visual entry points into the questions, methods, and decision boundaries behind this repository.
+Public visual guides for **Rune Factory 4 Special**.
 
-They are not tutorials, complete specifications, or substitutes for the research record. Each GIF provides an Experience Preview; the linked repository documents provide the context, evidence, models, and stated limitations.
+These assets turn scattered gameplay actions into routes that can be followed at a glance. The two current guides form one practical sequence:
 
-## Role in the Repository
+**BUILD the elemental absorption brooches → USE them in Rune Prana**
 
-```text
-Reference Asset
-↓
-Repository Navigation
-↓
-Research Methodology, Articles, and Evidence
-↓
-Return to Reality
-```
+## Guides
 
-Use this directory to choose an entry point. Use the related repository documents to continue reading.
+### 1. Elemental Absorption Brooch Build Guide
 
-## Reference Asset Series
+Build Fire, Water, Wind, Earth, and Light absorption brooches with reproducible recipe streams.
 
-| Asset | Entry point | Central question |
-| --- | --- | --- |
-| [RA001 — Research Process](RA001-Research-Process.md) | Research begins with an unexplained result and returns to observation. | What changes the result? |
-| [RA002 — Decision Process](RA002-Decision-Process.md) | A decision is formed from Reality, the Unknown, and an explicit objective. | What should be done, and why this option? |
-| [RA003 — Observation Design](RA003-Observation-Design.md) | Differences in observation are examined before they are named as differences in knowledge or skill. | What actually changed between two observations? |
-| [RA004 — The Permutation Problem](RA004-The-Permutation-Problem.md) | A rapidly expanding search space is reduced to a testable model without erasing the Unknown. | How can an impossible search become a useful observation plan? |
+→ [Open the Elemental Absorption Brooch Build Guide](elemental-absorption-brooches/)
 
-## Recommended Viewing Order
+### 2. Rune Prana Tactical Route Guide
 
-1. [RA001 — Research Process](RA001-Research-Process.md)
-2. [RA002 — Decision Process](RA002-Decision-Process.md)
-3. [RA003 — Observation Design](RA003-Observation-Design.md)
-4. [RA004 — The Permutation Problem](RA004-The-Permutation-Problem.md)
+Follow the 1F–7F route and switch equipment where the threat changes.
 
-RA001 and RA002 introduce the general research and decision cycles. RA003 focuses on how an observation is framed. RA004 applies the same Reality-first discipline to a concrete research constraint.
+→ [Open the Rune Prana Tactical Route Guide](rune-prana-tactical-route/)
 
-## Continue into the Repository
+## Languages
 
-- [Research Methodology](../research-methodology/README.md)
-- [Candidate Count Model](../articles/Candidate-Count-Model.md)
-- [Research Data and Validation](../research/README.md)
-- [Repository Roadmap](../ROADMAP.md)
-- [Main Repository Entry](../README.md)
+The articles are written primarily in English. Each guide also includes a Japanese version of the visual asset.
+
+## Research basis
+
+These guides are based on in-game observations in **Rune Factory 4 Special**. They do not claim to document internal game code or hidden implementation details.
+
+## Navigation
+
+- [Repository README](../README.md)
+- [ROADMAP](../ROADMAP.md)
 

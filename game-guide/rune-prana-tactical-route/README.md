@@ -10,11 +10,11 @@ Instead of trying to force one setup through the entire dungeon, this guide trea
 
 → [See the Elemental Absorption Brooch Build Guide](../elemental-absorption-brooches/)
 
-![Rune Factory 4 Special Rune Prana tactical route guide](images/rf4sp-rune-prana-tactical-route-guide-en.png)
+![Rune Factory 4 Special Rune Prana tactical route guide](../../images/rune-prana-tactical-route/rf4sp-rune-prana-tactical-route-guide-en.png)
 
 ## Japanese visual
 
-[Open the Japanese version](images/rf4sp-rune-prana-tactical-route-guide-jp.png)
+[Open the Japanese version](../../images/rune-prana-tactical-route/rf4sp-rune-prana-tactical-route-guide-jp.png)
 
 ## How to read the guide
 

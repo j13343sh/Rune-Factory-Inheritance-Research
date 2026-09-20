@@ -41,40 +41,50 @@ That matters because inheritance success is strongly affected by candidate count
 
 ```mermaid
 flowchart TD
-    A[Source Equipment] --> B[Used as inheritance material]
-    B --> C[Source equipment may become a candidate]
-    C --> D[Candidate pool includes the source itself]
-    D --> E[Candidate Count N increases]
-    E --> F[Target selection becomes less stable]
+    A[Observed source-equipment interaction] --> B[Unknown transition]
+    B --> C{Observed candidate behavior}
+    C --> D[Equipment body may enter]
+    C --> E[Internal Arrangement may be referenced]
+    D --> F[Candidate pool may expand]
+    E --> F
+    F --> G[Target selection may become less stable]
 ```
 
 ```mermaid
 flowchart TD
     A[Inherited Equipment]
-    A --> B[Displayed performance]
-    A --> C[Internal arrangement entry]
-    C --> D[Candidate: Source Equipment]
-    C --> E[Candidate: Internal Material 1]
-    C --> F[Candidate: Internal Material 2]
+    A --> B[Equipment Body]
+    A --> C[Internal Arrangement]
+    B --> D[Observed body entry?]
+    C --> E[Observed recursive expansion?]
+    D --> F[Candidate processing]
+    E --> F
 ```
 
 ---
 
 ## Core Mechanism
 
-The working model is:
+The current observation-level model is:
 
 ```text
-Source equipment used for inheritance
+Observed source-equipment interaction
         ↓
-Source equipment or internal entries become candidates
+Equipment body and/or internal Arrangement may enter candidate processing
         ↓
-Candidate pool expands
+Candidate pool may expand
         ↓
-Desired three-slot result becomes harder to preserve
+Desired three-slot result may become harder to preserve
 ```
 
-The important point is that the player may not directly add all of the candidates that later appear relevant to the result. Some candidates may be generated through inheritance structure itself.
+The important point is that the player may not directly add all of the candidates that later appear relevant to the result. Some candidates may emerge from inheritance structure itself.
+
+However, recent observations suggest that two behaviors previously discussed together may need to be separated:
+
+1. the **equipment body itself** becoming a candidate;
+2. the equipment's **internal Arrangement** being referenced or expanded.
+
+The internal transition that determines these behaviors remains unknown.
 
 ---
 
@@ -100,6 +110,57 @@ The important point is that the player may not directly add all of the candidate
 
 ---
 
+## Emerging Boundary: Equipment-Body Candidateization
+
+Recent gameplay observations suggest that the current label **Performance-Source Contamination** may be narrower than the observed behavior itself.
+
+In both Rune Factory 4 Special and Rune Factory 5, equipment bodies have been observed entering the Arrangement under some inheritance conditions.
+
+Observed examples include:
+
+- a sword itself appearing in the Arrangement of shoes;
+- a shield itself appearing in the Arrangement of shoes;
+- an accessory itself appearing in the Arrangement of shoes;
+- similar equipment-body entry when an accessory is used as the destination.
+
+These observations are important because the equipment body can appear without clear evidence that its own internal Arrangement has also been recursively expanded.
+
+A contrasting observation also exists:
+
+- under tested sword-to-sword inheritance conditions, the inherited sword itself was not observed entering the Arrangement in the same way.
+
+This indicates that equipment-body entry should not currently be treated as a universal property of equipment inheritance.
+
+A possible category-dependent rule is under investigation, but the exact trigger remains unknown.
+
+### Current distinction
+
+The observations currently support keeping the following phenomena separate:
+
+```text
+Equipment-body candidateization
+        ≠
+Recursive Arrangement expansion
+```
+
+**Equipment-body candidateization** refers to the equipment item itself appearing in candidate processing.
+
+**Recursive Arrangement expansion** refers to internal Arrangement entries of inherited equipment being referenced or expanded into later processing.
+
+Gameplay observations indicate that equipment-body entry can occur without observable recursive expansion of that equipment's internal Arrangement.
+
+Conversely, shoe-to-shoe inheritance has shown behavior compatible with recursive processing of internal Arrangement entries.
+
+Therefore, these should currently be treated as separate observation classes, even though they may interact in some inheritance chains.
+
+### Terminology status
+
+Because of these observations, **Performance-Source Contamination** should currently be understood as a historical / working label rather than a confirmed complete description of the underlying behavior.
+
+The broader term **Equipment-Body Candidateization** is used here only as a descriptive label for the observed equipment-body entry phenomenon. It is not yet a claim about the game's internal implementation.
+
+---
+
 ## Practical Implications
 
 Performance-Source Contamination suggests that repeated inheritance can become riskier than a simple three-material model implies.
@@ -110,7 +171,9 @@ Practical precautions include:
 - avoid unnecessary inheritance chains when a clean result is required;
 - use intermediate equipment carefully;
 - verify final inheritance slots after each important step;
-- treat unexpected candidate entries as information, not merely bad luck.
+- treat unexpected candidate entries as information, not merely bad luck;
+- do not assume that an equipment body appearing as a candidate means that its internal Arrangement will also be recursively expanded;
+- treat equipment category and source/destination combination as possible experimental variables when unexpected equipment-body entries appear.
 
 ---
 
@@ -138,10 +201,51 @@ This is why Performance-Source Contamination is closely linked to Recursive Proc
 
 Performance-Source Contamination and Recursive Processing are related but not identical.
 
-- Performance-Source Contamination focuses on the source equipment or source-derived information entering the candidate pool.
-- Recursive Processing focuses on internal arrangement information being referenced or expanded.
+Recent observations make this distinction especially important.
 
-They may overlap in practical cases, but they should remain conceptually separate during analysis.
+### Equipment-body candidateization
+
+The equipment item itself enters candidate processing.
+
+```text
+Equipment
+    ↓
+Candidate: Equipment Body
+```
+
+### Recursive Arrangement expansion
+
+Internal Arrangement information from inherited equipment is referenced or expanded into later candidate processing.
+
+```text
+Equipment
+    ↓
+Internal Arrangement
+    ↓
+Candidate(s) derived from internal entries
+```
+
+Gameplay observations indicate that the first behavior can occur without clear evidence of the second.
+
+For example, a sword, shield, or accessory may itself appear in an Arrangement without its own internal Arrangement being observably expanded.
+
+By contrast, shoe-to-shoe inheritance has shown behavior compatible with recursive expansion of internal Arrangement entries.
+
+This suggests the following observation-level structure:
+
+```text
+Equipment inheritance
+        ↓
+Unknown Transition
+        ↓
+Observed equipment-body entry?
+        ↓
+Observed internal Arrangement expansion?
+```
+
+The repository does **not** currently assume that these two observations are produced by the same internal rule.
+
+Their exact relationship, category conditions, and implementation mechanism remain unknown.
 
 ---
 
@@ -175,6 +279,31 @@ English-language PDFs are available in the [English PDF Edition](../pdf/english_
 ## Notes
 
 This article describes an observation-based model. It should not be read as a definitive implementation claim.
+
+The exact trigger for equipment-body candidateization remains unknown.
+
+Current observations are compatible with category-dependent behavior, but a category rule has not yet been established as an implementation-level mechanism.
+
+The repository therefore distinguishes between:
+
+- **observed equipment-body entry**;
+- **observed recursive Arrangement expansion**;
+- **inferred category conditions**;
+- **unknown internal processing**.
+
+These are different evidence levels and should not be treated as equivalent claims.
+
+In particular:
+
+```text
+Observed State
+        ↓
+Unknown Transition
+        ↓
+Observed State
+```
+
+The unknown transition should not be filled with an implementation mechanism unless stronger evidence establishes one.
 
 ---
 

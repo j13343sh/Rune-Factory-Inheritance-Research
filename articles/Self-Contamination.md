@@ -17,7 +17,7 @@ This article summarizes one conceptual model derived from repeated gameplay obse
 
 Performance-Source Contamination matters because it can make the candidate pool larger than the player expects.
 
-A player may believe the setup contains only a few intended candidates. However, if the source equipment itself or its internal arrangement entries become candidates, the effective candidate count `N` may increase.
+A player may believe the setup contains only a few intended candidates. However, if the equipment body itself enters candidate processing, or if internal Arrangement entries are recursively referenced, the effective candidate count `N` may increase.
 
 That matters because inheritance success is strongly affected by candidate count.
 
@@ -182,11 +182,12 @@ Practical precautions include:
 Performance-Source Contamination is one possible candidate-expansion route.
 
 ```text
-Performance-Source Contamination
+Observed equipment-body entry
+and/or recursive Arrangement expansion
         ↓
-Source-derived candidate generation
+Candidate pool may expand
         ↓
-Candidate Count N increases
+Candidate Count N may increase
         ↓
 Combination space expands
         ↓

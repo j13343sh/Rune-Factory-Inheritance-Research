@@ -131,7 +131,7 @@ These articles are existing repository nodes connected to the Candidate Count Mo
 - [Equipment-Body Candidateization](articles/Self-Contamination.md)  
   Observed entry of a source equipment body; the filename retains historical terminology. Candidate-pool construction remains unknown.
 
-- [Internal Arrangement Reference](articles/Recursive-Processing.md)  
+- [Internal Arrangement Reference / First Same-Category Internal-Arrangement Reference](articles/Recursive-Processing.md)  
   Broad observation of later internal Arrangement reference. In repeated tests with multiple same-category equipment pieces, the result corresponded to the piece placed first, and reversing input order changed the result. This conditional behavioral rule is **First Same-Category Internal-Arrangement Reference**. The historical “Recursive Processing” filename does not establish an internal algorithm.
 
 - [Success Probability](articles/Success-Probability.md)  

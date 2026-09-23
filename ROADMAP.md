@@ -51,7 +51,7 @@ Start here if you want the main inheritance research path.
 1. [Candidate Count Model](articles/Candidate-Count-Model.md)
 2. [Auto Arrange](articles/Auto-Arrange.md)
 3. [Equipment-Body Candidateization](articles/Self-Contamination.md)
-4. [Internal Arrangement Reference](articles/Recursive-Processing.md)
+4. [Internal Arrangement Reference / First Same-Category Internal-Arrangement Reference](articles/Recursive-Processing.md)
 5. [Success Probability](articles/Success-Probability.md)
 6. [Light Ore Inheritance](articles/Messhilite-Inheritance.md)
 
@@ -167,7 +167,7 @@ These articles distinguish observed behavior from candidate-generation models. I
 
 - [Auto Arrange](articles/Auto-Arrange.md)
 - [Equipment-Body Candidateization](articles/Self-Contamination.md)
-- [Internal Arrangement Reference](articles/Recursive-Processing.md)
+- [Internal Arrangement Reference / First Same-Category Internal-Arrangement Reference](articles/Recursive-Processing.md)
 
 ### Mathematical Interface
 
@@ -218,7 +218,7 @@ Efficient Friendship Farming Strategy
 - [Candidate Count Model](articles/Candidate-Count-Model.md)
 - [Auto Arrange](articles/Auto-Arrange.md)
 - [Equipment-Body Candidateization](articles/Self-Contamination.md)
-- [Internal Arrangement Reference](articles/Recursive-Processing.md)
+- [Internal Arrangement Reference / First Same-Category Internal-Arrangement Reference](articles/Recursive-Processing.md)
 - [Success Probability](articles/Success-Probability.md)
 - [Light Ore Inheritance](articles/Messhilite-Inheritance.md)
 

@@ -49,7 +49,7 @@ This article introduces the current explanatory framework connecting multiple in
 - [Equipment-Body Candidateization](Self-Contamination.md)  
   Observed source-equipment body entry; historical filename retained. Internal candidate construction remains unknown.
 
-- [Internal Arrangement Reference](Recursive-Processing.md)  
+- [Internal Arrangement Reference / First Same-Category Internal-Arrangement Reference](Recursive-Processing.md)  
   Broad observation of later internal Arrangement reference. The observed conditional rule, First Same-Category Internal-Arrangement Reference, describes input-order/result correspondence in tested same-category conditions. Internal implementation remains unknown; recursive expansion is a historical hypothesis.
 
 - [Success Probability](Success-Probability.md)  

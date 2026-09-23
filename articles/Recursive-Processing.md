@@ -1,4 +1,4 @@
-# Internal Arrangement Reference
+# Internal Arrangement Reference / First Same-Category Internal-Arrangement Reference
 
 > **Current observation:** Internal Arrangement Reference. **Historical filename:** `Recursive-Processing.md` is retained so existing links continue to work. “Recursive Processing” was an earlier interpretation, not a confirmed implementation.
 

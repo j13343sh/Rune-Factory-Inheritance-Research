@@ -1,12 +1,12 @@
-# Messhilite Inheritance
+# Light Ore Inheritance
 
 ## Overview
 
-Messhilite Inheritance is an observation-based research topic describing inheritance behavior observed when Messhilite is incorporated into inheritance recipes.
+Light Ore Inheritance is an observation-based research topic describing inheritance behavior observed when Messhilite is incorporated into inheritance recipes.
 
 This article summarizes one conceptual interpretation derived from repeated gameplay observations and validation experiments.
 
-In this repository, Messhilite Inheritance is treated as a validation interface for the Candidate Count Model rather than as an isolated mechanic.
+In this repository, Light Ore Inheritance is treated as a validation interface for the Candidate Count Model rather than as an isolated mechanic.
 
 ---
 
@@ -42,9 +42,9 @@ Validation in this context does not mean proof. It means checking whether repeat
 
 ## Representative Figure
 
-![Messhilite Inheritance Overview](../images/messhilite-inheritance/messhilite-inheritance-mechanism-en.png)
+![Light Ore Inheritance Overview](../images/messhilite-inheritance/messhilite-inheritance-mechanism-en.png)
 
-*Conceptual illustration of one possible Messhilite inheritance mechanism.*
+*Conceptual illustration of one possible Light Ore inheritance mechanism.*
 
 This path intentionally uses `../images/messhilite-inheritance/` rather than `../images/candidate-count-model/`.
 
@@ -68,7 +68,7 @@ The repository uses Article-centric Asset Management: each article should normal
 
 ```mermaid
 flowchart TD
-    A[Messhilite Inheritance] --> B{Added material type}
+    A[Light Ore Inheritance] --> B{Added material type}
     B -->|Same target material| C[N increases]
     C --> D[A also increases]
     D --> E[Success rate may rise]
@@ -132,7 +132,7 @@ For example, `20 / 35 = 57.1%` is easier to verify than a purely symbolic explan
 
 ## Practical Implications
 
-Messhilite Inheritance suggests that players should distinguish between:
+Light Ore Inheritance suggests that players should distinguish between:
 
 - adding more of the same target material;
 - adding different materials that only increase the candidate pool;
@@ -145,7 +145,7 @@ In practical terms, success may improve when the added material increases succes
 
 ## Weapon Category and Shield Effects
 
-Repeated gameplay observations in RF4SP and RF5 suggest that Messhilite inheritance may preserve not only the source weapon's performance, but also a category-dependent property used for shield-effect calculation.
+Repeated gameplay observations in RF4SP and RF5 suggest that Light Ore inheritance may preserve not only the source weapon's performance, but also a category-dependent property used for shield-effect calculation.
 
 | Performance source | Final weapon appearance | Shield effect |
 |---|---|---|
@@ -160,7 +160,7 @@ This observation is limited to shield-effect behavior. It does not by itself est
 
 ## Relationship to Candidate Count Model
 
-Messhilite Inheritance is not the root model.
+Light Ore Inheritance is not the root model.
 
 It is a validation interface.
 
@@ -202,7 +202,7 @@ This article provides an English overview only.
 
 Detailed observations, validation results, statistical discussion, confidence intervals, experimental design, and additional interpretation are documented in the accompanying research archive.
 
-- [Messhilite Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
+- [Light Ore Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
 
 ---
 
@@ -210,7 +210,7 @@ Detailed observations, validation results, statistical discussion, confidence in
 
 During testing in RF5, weapon upgrade effects applied through the 9 upgrade slots did not carry over after inheritance under the tested conditions.
 
-If you intend to use Messhilite inheritance, performing weapon upgrades after completing the final inheritance may help avoid unnecessary rework.
+If you intend to use Light Ore inheritance, performing weapon upgrades after completing the final inheritance may help avoid unnecessary rework.
 
 ---
 

@@ -18,7 +18,7 @@ Candidate Count Model
     ├── Equipment-Body Candidateization
     ├── Internal Arrangement Reference
     ├── Success Probability
-    └── Messhilite Inheritance
+    └── Light Ore Inheritance
 
 Efficient Friendship Farming Strategy
     ├── RF5 Daily Friendship Farming Guide
@@ -55,7 +55,7 @@ This article introduces the current explanatory framework connecting multiple in
 - [Success Probability](Success-Probability.md)  
   Generalized success probability based on candidate count.
 
-- [Messhilite Inheritance](Messhilite-Inheritance.md)  
+- [Light Ore Inheritance](Messhilite-Inheritance.md)  
   Candidate expansion behavior and inheritance success observations.
 
 These articles should be understood together as a single conceptual branch rather than isolated mechanics.

@@ -41,7 +41,7 @@ Candidate Count Model
     ├── Equipment-Body Candidateization (current observation; historical article filename)
     ├── Internal Arrangement Reference (current observation; historical article filename)
     ├── Success Probability
-    └── Messhilite Inheritance
+    └── Light Ore Inheritance
 
 Efficient Friendship Farming Strategy
     ├── RF5 Daily Friendship Farming Guide

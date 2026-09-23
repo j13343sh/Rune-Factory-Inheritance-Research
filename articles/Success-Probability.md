@@ -176,7 +176,7 @@ Detailed mathematical discussion, Japanese terminology, validation discussion, a
 - [Auto Arrange](Auto-Arrange.md)
 - [Equipment-Body Candidateization](Self-Contamination.md)
 - [Internal Arrangement Reference](Recursive-Processing.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
+- [Light Ore Inheritance](Messhilite-Inheritance.md)
 
 ---
 

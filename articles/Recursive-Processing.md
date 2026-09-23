@@ -64,6 +64,6 @@ Weapon upgrade effects did not carry over under the tested RF5 conditions. That 
 - [Equipment-Body Candidateization](Self-Contamination.md) (historical filename)
 - [Auto Arrange](Auto-Arrange.md)
 - [Success Probability](Success-Probability.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
+- [Light Ore Inheritance](Messhilite-Inheritance.md)
 
 [Articles](README.md) · [ROADMAP](../ROADMAP.md) · [Repository README](../README.md)

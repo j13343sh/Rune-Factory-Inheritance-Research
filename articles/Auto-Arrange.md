@@ -185,7 +185,7 @@ Detailed observations, Japanese terminology, test cases, and discussion are docu
 - [Equipment-Body Candidateization](Self-Contamination.md)
 - [Internal Arrangement Reference](Recursive-Processing.md)
 - [Success Probability](Success-Probability.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
+- [Light Ore Inheritance](Messhilite-Inheritance.md)
 
 ---
 

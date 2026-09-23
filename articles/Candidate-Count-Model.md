@@ -45,7 +45,7 @@ CS["Candidate Set"]
 CS --> CCM["Candidate Count Model"]
 CCM --> SEL["Candidate Selection<br/>(Observation Model)"]
 
-SEL --> M["Messhilite Inheritance"]
+SEL --> M["Light Ore Inheritance"]
 SEL --> SP["Equipment-Body Candidateization<br/>(observation)"]
 SEL --> RP["Internal Arrangement Reference<br/>(observation)"]
 SEL --> AR["Auto Arrange"]
@@ -94,7 +94,7 @@ Many inheritance-related phenomena documented in this repository can therefore b
 
 Many inheritance-related behaviors appear to be independent mechanics at first glance.
 
-Auto Arrange, Internal Arrangement Reference, Messhilite Inheritance, Equipment-Body Candidateization, and inheritance success probability may all seem unrelated. The latter two are distinct observations; neither alone establishes candidate-pool construction.
+Auto Arrange, Internal Arrangement Reference, Light Ore Inheritance, Equipment-Body Candidateization, and inheritance success probability may all seem unrelated. The latter two are distinct observations; neither alone establishes candidate-pool construction.
 
 However, observation results suggest that these phenomena can often be interpreted through a common perspective based on candidate generation and candidate count.
 
@@ -118,9 +118,9 @@ The validation results suggest a strong relationship between Candidate Count and
 
 ## Example Application
 
-![Messhilite Inheritance Model](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
+![Light Ore Inheritance Model](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
 
-The Messhilite inheritance mechanism provides one practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
+The Light Ore inheritance mechanism provides one practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
 
 ---
 
@@ -140,7 +140,7 @@ The Candidate Count Model provides a common foundation for several inheritance-r
 - [Auto Arrange](../articles/Auto-Arrange.md)
 - [Internal Arrangement Reference](../articles/Recursive-Processing.md)
 - [Equipment-Body Candidateization](../articles/Self-Contamination.md)
-- [Messhilite Inheritance](../articles/Messhilite-Inheritance.md)
+- [Light Ore Inheritance](../articles/Messhilite-Inheritance.md)
 - [Success Probability](../articles/Success-Probability.md)
 
 ---
@@ -174,7 +174,7 @@ The complete research archive consists of multiple PDF documents.
 
 #### Applied Research
 
-- [Messhilite Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
+- [Light Ore Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
 - [Advanced Inheritance Strategies](../pdf/09_高難度継承と実運用.pdf)
 - [Roleplay Equipment Study](../pdf/10_ロールプレイ装備研究.pdf)
 
@@ -221,7 +221,7 @@ The Candidate Count Model serves as the conceptual foundation for many inheritan
 - [Auto Arrange](./Auto-Arrange.md)
 - [Internal Arrangement Reference](./Recursive-Processing.md)
 - [Equipment-Body Candidateization](./Self-Contamination.md)
-- [Messhilite Inheritance](./Messhilite-Inheritance.md)
+- [Light Ore Inheritance](./Messhilite-Inheritance.md)
 - [Success Probability](./Success-Probability.md)
 
 

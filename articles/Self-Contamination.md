@@ -64,6 +64,6 @@ Do not assume that only directly inserted materials can appear in a later result
 - [Internal Arrangement Reference](Recursive-Processing.md) (historical filename)
 - [Auto Arrange](Auto-Arrange.md)
 - [Success Probability](Success-Probability.md)
-- [Messhilite Inheritance](Messhilite-Inheritance.md)
+- [Light Ore Inheritance](Messhilite-Inheritance.md)
 
 [Articles](README.md) · [ROADMAP](../ROADMAP.md) · [Repository README](../README.md)

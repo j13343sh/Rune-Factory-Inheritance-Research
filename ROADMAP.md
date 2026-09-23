@@ -53,7 +53,7 @@ Start here if you want the main inheritance research path.
 3. [Equipment-Body Candidateization](articles/Self-Contamination.md)
 4. [Internal Arrangement Reference](articles/Recursive-Processing.md)
 5. [Success Probability](articles/Success-Probability.md)
-6. [Messhilite Inheritance](articles/Messhilite-Inheritance.md)
+6. [Light Ore Inheritance](articles/Messhilite-Inheritance.md)
 
 ### Detailed Research Archive Route
 
@@ -100,7 +100,7 @@ AA["Auto Arrange"]
 SC["Equipment-Body Candidateization"]
 RP["Internal Arrangement Reference"]
 SP["Success Probability"]
-MI["Messhilite Inheritance"]
+MI["Light Ore Inheritance"]
 
 EFF["Efficient Friendship Farming Strategy"]
 RF5["RF5 Daily Friendship Farming Guide"]
@@ -154,7 +154,7 @@ Candidate Count Model
     ├── Equipment-Body Candidateization
     ├── Internal Arrangement Reference
     ├── Success Probability
-    └── Messhilite Inheritance
+    └── Light Ore Inheritance
 ```
 
 ### Research Root
@@ -177,9 +177,9 @@ This article connects candidate count and combination space to inheritance succe
 
 ### Validation Interface
 
-This article uses Messhilite inheritance observations as a validation-oriented interface for the Candidate Count Model.
+This article uses Light Ore inheritance observations as a validation-oriented interface for the Candidate Count Model.
 
-- [Messhilite Inheritance](articles/Messhilite-Inheritance.md)
+- [Light Ore Inheritance](articles/Messhilite-Inheritance.md)
 
 ---
 
@@ -220,7 +220,7 @@ Efficient Friendship Farming Strategy
 - [Equipment-Body Candidateization](articles/Self-Contamination.md)
 - [Internal Arrangement Reference](articles/Recursive-Processing.md)
 - [Success Probability](articles/Success-Probability.md)
-- [Messhilite Inheritance](articles/Messhilite-Inheritance.md)
+- [Light Ore Inheritance](articles/Messhilite-Inheritance.md)
 
 ### Friendship and Strategy
 

@@ -32,7 +32,7 @@ The later assets narrow this cycle into decision context, observation design, an
 - [Research Process](../research-methodology/research-process.md)
 - [Research Methodology](../research-methodology/README.md)
 - [Candidate Count Model](../articles/Candidate-Count-Model.md)
-- [Messhilite Inheritance](../articles/Messhilite-Inheritance.md)
+- [Light Ore Inheritance](../articles/Messhilite-Inheritance.md)
 - [Research Data and Validation](../research/README.md)
 
 The GIF is an Experience Preview. Use the linked documents for the research context, evidence, and limitations.

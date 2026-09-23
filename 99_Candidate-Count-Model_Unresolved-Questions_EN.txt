@@ -34,7 +34,7 @@ Reality First.
 What Actual Gameplay Has Established So Far
 -------------------------------------------
 1. Candidate Count is a useful approximation axis for reasoning about inheritance success rates.
-2. In 4,000 RF5 Messhilite trials across three- through six-stack conditions, strong consistency with the Candidate Count approximation was observed.
+2. In 4,000 RF5 Light Ore trials across three- through six-stack conditions, strong consistency with the Candidate Count approximation was observed.
 3. However, conditions exist where the same Candidate Count produces different outcome distributions depending on candidate composition.
 4. In an RF4SP overflow condition, combinations excluding Pink Turnip occurred in 42 of 50 trials, reproducing a bias difficult to explain with a simple equal-probability approximation.
 5. Ordering of the final three candidates is not necessarily uniform across all candidate sets.

@@ -1,6 +1,6 @@
 # Rune Factory Inheritance Research
 
-Observation-based research archive for Rune Factory 4 Special and Rune Factory 5.
+Observation-based research archive for **Rune Factory 4 Special** and **Rune Factory 5**.
 
 Have you ever wondered why some inheritance attempts succeed much more often than others?
 
@@ -13,23 +13,6 @@ This repository documents the observations, models, and experiments that eventua
 This archive is based entirely on in-game observation, repeated experimentation, and statistical analysis.
 
 No reverse engineering, decompilation, or extracted game source code is used.
-
-More importantly, this repository is not intended to teach a single "best" solution.
-
-Instead, it aims to explain the observations, mechanisms, and decision criteria behind those solutions.
-
-I don't want readers to memorize my solutions.
-I want them to understand the decision process that produced them.
-
-Once you understand the mechanism and the decision criteria, you can develop your own solutions for situations I have never documented.
-
----
-
-## 日本語研究資料（日本人向け）
-
-詳細な日本語PDF、一次資料、観測記録、補足図は、以下の公開Google Driveにまとめています。
-
-[📂 日本語研究資料（Google Drive）](https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB?ths=true)
 
 ---
 
@@ -136,28 +119,6 @@ The Candidate Count Model is an observation-based framework for interpreting inh
 
 ---
 
-## Reference Assets
-
-Short visual entry points into the research methods, decision processes, observation design, and concrete research constraints used in this repository.
-
-- [Reference Asset Series](reference-assets/README.md)
-
----
-
-## Visual Game Guides
-
-Practical visual guides for Rune Factory 4 Special.
-
-These guides turn observation-based gameplay knowledge into compact routes that can be followed at a glance.
-
-Current sequence:
-
-**BUILD the elemental absorption brooches → USE them in Rune Prana**
-
-- [RF4SP Visual Game Guide Series](game-guide/README.md)
-
----
-
 ## Major Research Articles
 
 These articles are existing repository nodes connected to the Candidate Count Model.
@@ -167,20 +128,17 @@ These articles are existing repository nodes connected to the Candidate Count Mo
 - [Auto Arrange](articles/Auto-Arrange.md)  
   Observation-based model describing how required recipe materials may become inheritance candidates.
 
-- [Performance-Source Contamination](articles/Self-Contamination.md)  
-  Observation-based analysis of cases where source-equipment or inherited performance information may re-enter the candidate structure.  
-  The linked article retains its historical filename for repository continuity.
+- [Equipment-Body Candidateization](articles/Self-Contamination.md)  
+  Observed entry of a source equipment body; the filename retains historical terminology. Candidate-pool construction remains unknown.
 
-- [Recursive Processing](articles/Recursive-Processing.md)  
-  Observation-based analysis of inheritance behavior involving internal arrangement references.  
-  Depth-1 reference behavior is supported by observation; deeper recursive processing and internal implementation remain unresolved.
+- [Internal Arrangement Reference](articles/Recursive-Processing.md)  
+  Observed later reference to internal Arrangement information; the filename preserves the historical “Recursive Processing” label, not a confirmed algorithm.
 
 - [Success Probability](articles/Success-Probability.md)  
-  Mathematical interface connecting candidate count, combination space, and observed inheritance success under explicitly stated assumptions.
+  Mathematical interface connecting candidate count, combination space, and expected inheritance success.
 
-- [Light Ore Inheritance](articles/Messhilite-Inheritance.md)
-  Validation-oriented article using Light Ore inheritance observations to test candidate-count and combination-space explanations.
-  The linked article retains its historical filename for repository continuity.
+- [Messhilite Inheritance](articles/Messhilite-Inheritance.md)  
+  Validation-oriented article using Messhilite inheritance observations to test candidate-count and combination-space explanations.
 
 ---
 
@@ -215,52 +173,17 @@ README.md
 ROADMAP.md
 
 articles/
-reference-assets/
-game-guide/
-research-methodology/
 case-studies/
-research/
-pdf/
 csv/
 images/
 mermaid/
+pdf/
+research/
+research-methodology/
 ルンファク（全部入り文字列検索可）/
 ```
 
-### articles/
-
-English Markdown research articles and gameplay guides.
-
-This folder contains the primary AI-search-friendly entry points for the repository, including observation-based research, gameplay strategies, and practical guides.
-
-* [Articles README](articles/README.md)
-
----
-
-### reference-assets/
-
-Short visual entry points into the research methods, decision processes, observation design, and concrete research constraints used in this repository.
-
-* [Reference Asset Series](reference-assets/README.md)
-
----
-
-### game-guide/
-
-Public-facing visual gameplay guides for Rune Factory 4 Special.
-
-Unlike the Reference Asset Series, which provides entry points into the repository's research and decision processes, this folder contains practical guides intended for direct use during gameplay.
-
-Current guides:
-
-- [Elemental Absorption Brooch Build Guide](game-guide/elemental-absorption-brooches/)
-- [Rune Prana Tactical Route Guide](game-guide/rune-prana-tactical-route/)
-
-For the full series index, see the [Visual Game Guide Series](game-guide/README.md).
-
----
-
-### research-methodology/
+## research-methodology/
 
 This repository documents not only research results, but also the thinking and judgment processes used to obtain them.
 
@@ -274,36 +197,21 @@ For the full methodology overview, see the [Research Methodology index](research
 
 ---
 
+### articles/
+
+English Markdown research articles and gameplay guides.
+
+This folder contains the primary AI-search-friendly entry points for the repository, including observation-based research, gameplay strategies, and practical guides.
+
+* [Articles README](articles/README.md)
+
+---
+
 ### case-studies/
 
 Observation-based gameplay documentation.
 
 This folder contains complete playthroughs, optimization attempts, discovery records, and practical case studies demonstrating how repository strategies perform during actual gameplay.
-
----
-
-### research/
-
-Experimental records, validation documents, datasets, and supporting research materials.
-
----
-
-### pdf/
-
-Detailed PDF research archive.
-
-The directory contains the primary Japanese research materials and a separate English edition.
-
-- [PDF Archive](pdf/README.md)
-- [English PDF Edition](pdf/english_edition/)
-
-The Japanese PDFs preserve the primary research materials. The English edition preserves translated research content while applying current terminology, evidence boundaries, and figure reconstruction where required.
-
----
-
-### csv/
-
-Structured datasets and reference tables used during validation and analysis.
 
 ---
 
@@ -323,6 +231,26 @@ Rendered figures may be stored under `images/`.
 
 ---
 
+### pdf/
+
+Stable Japanese research archive.
+
+These PDF documents preserve detailed observations, validation reports, mathematical interpretation, and long-form discussion.
+
+---
+
+### research/
+
+Experimental records, validation documents, datasets, and supporting research materials.
+
+---
+
+### csv/
+
+Structured datasets and reference tables used during validation and analysis.
+
+---
+
 ### ルンファク（全部入り文字列検索可）/
 
 Searchable Japanese source archive containing the complete text version of the research materials.
@@ -332,16 +260,6 @@ Searchable Japanese source archive containing the complete text version of the r
 
 ## PDF Research Archive
 
-### English PDF Edition
-
-English-language PDF versions are available here:
-
-- [English PDF Edition](pdf/english_edition/)
-
-The English edition includes translated and current-aware reconstructed documents for the main research series.
-
-### Japanese PDF Edition
-
 The detailed Japanese PDF archive includes:
 
 - [00_README_継承仕様整理](pdf/00_README_継承仕様整理.pdf)
@@ -349,8 +267,8 @@ The detailed Japanese PDF archive includes:
 - [01_用語定義](pdf/01_用語定義.pdf)
 - [02_基本仕様整理](pdf/02_基本仕様整理.pdf)
 - [03_オートアレンジ詳細](pdf/03_オートアレンジ詳細.pdf)
-- [04_自己混入解析](pdf/04_自己混入解析.pdf)
-- [05_再帰処理解析](pdf/05_再帰処理解析.pdf)
+- [04_自己混入解析](pdf/04_自己混入解析.pdf) — historical PDF and physical filename
+- [05_再帰処理解析](pdf/05_再帰処理解析.pdf) — historical PDF and physical filename
 - [06_抽選処理解析](pdf/06_抽選処理解析.pdf)
 - [07_数式・一般化モデル](pdf/07_数式・一般化モデル.pdf)
 - [08_メッシライト継承解析](pdf/08_メッシライト継承解析.pdf)
@@ -393,8 +311,6 @@ Future observations may refine, revise, or replace current interpretations.
 
 - [ROADMAP](ROADMAP.md)
 - [Articles](articles/README.md)
-- [Reference Assets](reference-assets/README.md)
-- [Visual Game Guides](game-guide/README.md)
 - [PDF Archive](pdf/README.md)
 
 ---
@@ -404,4 +320,3 @@ Future observations may refine, revise, or replace current interpretations.
 This project is licensed under the CC BY-NC 4.0 License.
 
 See [LICENSE.md](LICENSE.md) for details.
-

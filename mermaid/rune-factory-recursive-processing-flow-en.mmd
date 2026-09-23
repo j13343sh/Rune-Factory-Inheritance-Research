@@ -1,6 +1,5 @@
-flowchart LR
-    A[Input Material] --> B{Has internal arrangement?}
-    B -->|No| C[Direct candidate only]
-    B -->|Yes| D[Expand internal entries]
-    D --> E[Add expanded entries to candidate pool]
-    E --> F[Candidate Count N increases]
+flowchart TD
+    A[Completed equipment with internal Arrangement] --> B[Used in later crafting]
+    B --> C[Later result shows internal Arrangement information]
+    C --> D[Internal Arrangement Reference observed]
+    B --> E[Transition and implementation unknown]

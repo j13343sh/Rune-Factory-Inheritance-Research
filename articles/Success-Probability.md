@@ -31,8 +31,9 @@ Success Probability P = A / C(N,3)
 This lets the repository explain multiple phenomena with the same framework:
 
 - Auto Arrange increases candidate count.
-- Self Contamination increases candidate count.
-- Recursive Processing increases candidate count.
+- Equipment-Body Candidateization is observed, but its effect on the effective candidate count must be established for the tested setup.
+- Internal Arrangement Reference is observed separately; a recursive candidate expansion is not confirmed.
+- Apply the combination formula only to a specified, supported candidate set and selection model.
 - Messhilite experiments provide validation observations.
 
 ---
@@ -157,7 +158,7 @@ This article provides an English overview only.
 
 Detailed mathematical discussion, Japanese terminology, validation discussion, and additional examples are documented in the accompanying research archive.
 
-English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The link below points to the Japanese primary research archive.
+**Note:** PDF documents are currently available in Japanese only.
 
 - [General Mathematical Model](../pdf/07_数式・一般化モデル.pdf)
 - [Messhilite Validation Data](../research/07_統合データ.csv)
@@ -173,9 +174,9 @@ English-language PDFs are available in the [English PDF Edition](../pdf/english_
 ### Related Mechanics
 
 - [Auto Arrange](Auto-Arrange.md)
-- [Performance-Source Contamination](Self-Contamination.md)
-- [Recursive Processing](Recursive-Processing.md)
-- [Light Ore Inheritance](Messhilite-Inheritance.md)
+- [Equipment-Body Candidateization](Self-Contamination.md)
+- [Internal Arrangement Reference](Recursive-Processing.md)
+- [Messhilite Inheritance](Messhilite-Inheritance.md)
 
 ---
 

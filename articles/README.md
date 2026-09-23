@@ -15,10 +15,10 @@ Choose the branch that matches your interests.
 ```text
 Candidate Count Model
     ├── Auto Arrange
-    ├── Performance-Source Contamination
-    ├── Recursive Processing
+    ├── Equipment-Body Candidateization
+    ├── Internal Arrangement Reference
     ├── Success Probability
-    └── Light Ore Inheritance
+    └── Messhilite Inheritance
 
 Efficient Friendship Farming Strategy
     ├── RF5 Daily Friendship Farming Guide
@@ -44,28 +44,19 @@ This article introduces the current explanatory framework connecting multiple in
 ## Branch Articles
 
 - [Auto Arrange](Auto-Arrange.md)  
+  Automatic material insertion when recipe slots are insufficient.
 
-  Observation-based model describing how required recipe materials may become inheritance candidates.
+- [Equipment-Body Candidateization](Self-Contamination.md)  
+  Observed source-equipment body entry; historical filename retained. Internal candidate construction remains unknown.
 
-- [Performance-Source Contamination](https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/main/articles/Self-Contamination.md)
-
-  Observation-based analysis of cases where source-equipment or inherited performance information may re-enter the candidate structure.
-  Previously referred to as **Self Contamination**. The linked article and its historical filename retain the earlier terminology for repository continuity.
-
-- [Recursive Processing](Recursive-Processing.md)  
-
-  Observation-based analysis of inheritance behavior involving internal arrangement references.  
-  Depth-1 reference behavior is supported by observation; deeper recursive processing and internal implementation remain unresolved.
+- [Internal Arrangement Reference](Recursive-Processing.md)  
+  Observed later reference to internal Arrangement information; recursive expansion is a historical hypothesis, not a confirmed mechanism.
 
 - [Success Probability](Success-Probability.md)  
+  Generalized success probability based on candidate count.
 
-  Mathematical interface connecting candidate count, combination space, and observed inheritance success under explicitly stated assumptions.
-
-- [Light Ore Inheritance](Messhilite-Inheritance.md)
-
-  Observation-based analysis of weapon-performance inheritance using Light Ore.
-  Earlier versions of this repository used the name **Messhilite** before the official English item name, **Light Ore**, was confirmed.
-  The historical filename is retained for repository continuity and to avoid breaking existing links.
+- [Messhilite Inheritance](Messhilite-Inheritance.md)  
+  Candidate expansion behavior and inheritance success observations.
 
 These articles should be understood together as a single conceptual branch rather than isolated mechanics.
 

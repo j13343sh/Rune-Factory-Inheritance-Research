@@ -33,11 +33,13 @@ Logical relationships are expressed through Markdown links and navigation docume
 
 ## Current Knowledge Graph
 
+For this staging migration, the current observation labels are **Equipment-Body Candidateization** and **Internal Arrangement Reference**. `Self-Contamination.md` and `Recursive-Processing.md` remain physical historical filenames. The former labels “Self Contamination,” “Performance-Source Contamination,” and “Recursive Processing” describe historical terminology or models; no recursive expansion sequence is confirmed by these observations. “First Same-Category Internal-Arrangement Reference” remains HOLD. Unknown transitions remain unknown rather than being replaced with a new mechanism. Candidate Count Model remains the research framework; the affected candidate-generation account is the part being corrected.
+
 ```text
 Candidate Count Model
     ├── Auto Arrange
-    ├── Self Contamination
-    ├── Recursive Processing
+    ├── Equipment-Body Candidateization (current observation; historical article filename)
+    ├── Internal Arrangement Reference (current observation; historical article filename)
     ├── Success Probability
     └── Messhilite Inheritance
 

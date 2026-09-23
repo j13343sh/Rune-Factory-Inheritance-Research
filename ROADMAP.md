@@ -50,14 +50,16 @@ Start here if you want the main inheritance research path.
 
 1. [Candidate Count Model](articles/Candidate-Count-Model.md)
 2. [Auto Arrange](articles/Auto-Arrange.md)
-3. [Self Contamination](articles/Self-Contamination.md)
-4. [Recursive Processing](articles/Recursive-Processing.md)
+3. [Equipment-Body Candidateization](articles/Self-Contamination.md)
+4. [Internal Arrangement Reference](articles/Recursive-Processing.md)
 5. [Success Probability](articles/Success-Probability.md)
 6. [Messhilite Inheritance](articles/Messhilite-Inheritance.md)
 
 ### Detailed Research Archive Route
 
 Use the PDF archive when you need complete Japanese research details.
+
+The titles of PDFs 04 and 05 below are historical physical filenames. Their former terminology is not a current mechanism claim; use the current observation articles above for the revised boundary.
 
 1. [00_README_継承仕様整理](pdf/00_README_継承仕様整理.pdf)
 2. [00_サマリー](pdf/00_サマリー.pdf)
@@ -95,8 +97,8 @@ FULLARCHIVE["ルンファク（全部入り文字列検索可）/<br/>Searchable
 CC["Candidate Count Model<br/>Research root"]
 
 AA["Auto Arrange"]
-SC["Self Contamination"]
-RP["Recursive Processing"]
+SC["Equipment-Body Candidateization"]
+RP["Internal Arrangement Reference"]
 SP["Success Probability"]
 MI["Messhilite Inheritance"]
 
@@ -149,8 +151,8 @@ The Candidate Count Model is the primary research root for inheritance mechanics
 ```text
 Candidate Count Model
     ├── Auto Arrange
-    ├── Self Contamination
-    ├── Recursive Processing
+    ├── Equipment-Body Candidateization
+    ├── Internal Arrangement Reference
     ├── Success Probability
     └── Messhilite Inheritance
 ```
@@ -161,11 +163,11 @@ Candidate Count Model
 
 ### Model Interface Articles
 
-These articles describe mechanisms that may generate or expand candidate pools.
+These articles distinguish observed behavior from candidate-generation models. Body entry and later internal Arrangement reference do not establish a processing order or candidate count.
 
 - [Auto Arrange](articles/Auto-Arrange.md)
-- [Self Contamination](articles/Self-Contamination.md)
-- [Recursive Processing](articles/Recursive-Processing.md)
+- [Equipment-Body Candidateization](articles/Self-Contamination.md)
+- [Internal Arrangement Reference](articles/Recursive-Processing.md)
 
 ### Mathematical Interface
 
@@ -215,8 +217,8 @@ Efficient Friendship Farming Strategy
 
 - [Candidate Count Model](articles/Candidate-Count-Model.md)
 - [Auto Arrange](articles/Auto-Arrange.md)
-- [Self Contamination](articles/Self-Contamination.md)
-- [Recursive Processing](articles/Recursive-Processing.md)
+- [Equipment-Body Candidateization](articles/Self-Contamination.md)
+- [Internal Arrangement Reference](articles/Recursive-Processing.md)
 - [Success Probability](articles/Success-Probability.md)
 - [Messhilite Inheritance](articles/Messhilite-Inheritance.md)
 
@@ -249,8 +251,8 @@ Current article image groups include:
 - `auto-arrange/`
 - `candidate-count-model/`
 - `messhilite-inheritance/`
-- `recursive-processing/`
-- `self-contamination/`
+- `recursive-processing/` (historical asset directory name)
+- `self-contamination/` (historical asset directory name)
 - `success-probability/`
 - `rf5-friendship-guide/`
 - `rf4sp-friendship-guide/`

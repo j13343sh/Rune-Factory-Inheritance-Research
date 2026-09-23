@@ -22,8 +22,8 @@ This document is a personal research memo focused on:
 ・equipment inheritance
 ・arrange inheritance
 ・auto-arrange behavior
-・self-inheritance contamination
-・recursive inheritance
+・equipment-body candidateization (observed; formerly “self contamination”)
+・internal Arrangement reference (observed; formerly “recursive processing”)
 ・selection / lottery processing
 ・success rate models
 
@@ -71,7 +71,7 @@ Particularly unresolved areas include:
 
 ・internal selection algorithms
 ・weighted lottery behavior
-・recursive depth limits
+・whether recursive depth is an applicable concept (historical hypothesis; implementation unknown)
 ・candidate compression behavior
 ・auto-arrange priority rules
 ・RF4SP / RF5 behavioral differences

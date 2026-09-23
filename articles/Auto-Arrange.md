@@ -142,28 +142,6 @@ Practical precautions include:
 
 ---
 
-## Practical Example: Avoiding Auto-Arrange Through Equipment Source
-
-Crafting history can matter even when the visible equipment appears equivalent.
-
-Player-crafted equipment may carry internal arrangement information created during an earlier crafting step. When that equipment is used as a material later, those internal entries may contribute to candidate expansion, increase Candidate Count `N`, and introduce an RNG step that was not obvious from the visible item alone.
-
-In some routes, equipment obtained without player crafting—such as a return-gift accessory or purchased equipment—can provide a practical alternative. For example, a return-gift accessory received from Terry may avoid an internal arrangement introduced by crafting the equivalent accessory yourself. If that difference is preserved in the route being used, choosing the non-player-crafted source may avoid or reduce unnecessary candidate expansion and reset requirements.
-
-```mermaid
-flowchart TD
-    A{Equipment source} --> B[Player-crafted equipment]
-    A --> C[Equipment obtained without player crafting]
-    B --> D[Crafting-history arrangement may remain]
-    D --> E[Candidate expansion and RNG may increase]
-    C --> F[That crafting-history arrangement may be avoided]
-    F --> G[Candidate expansion may be reduced in some routes]
-```
-
-This is an observation-based routing option, not a universal specification. It does not establish that every purchased item is free of internal arrangement information, that all return gifts behave identically, or that equipment source alone determines the result. The relevant equipment and the completed inheritance result should still be checked for the specific route.
-
----
-
 ## Relationship to Candidate Count Model
 
 Auto Arrange is not treated as a separate theory. It is treated as one candidate-generation route.
@@ -180,7 +158,7 @@ Combination space expands
 Success probability may decrease
 ```
 
-This is why Auto Arrange belongs near Self Contamination and Recursive Processing in the article network: each can explain how the candidate pool becomes larger than expected.
+Auto Arrange is adjacent to Equipment-Body Candidateization and Internal Arrangement Reference in the article network. The latter two are observed behaviors; their internal candidate-generation transitions and effect on `N` remain unknown.
 
 ---
 
@@ -190,7 +168,7 @@ This article provides an English overview only.
 
 Detailed observations, Japanese terminology, test cases, and discussion are documented in the accompanying research archive.
 
-English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The link below points to the Japanese primary research archive.
+**Note:** PDF documents are currently available in Japanese only.
 
 - [Auto Arrange Detailed Analysis](../pdf/03_オートアレンジ詳細.pdf)
 
@@ -204,8 +182,8 @@ English-language PDFs are available in the [English PDF Edition](../pdf/english_
 
 ### Related Mechanics
 
-- [Self Contamination](Self-Contamination.md)
-- [Recursive Processing](Recursive-Processing.md)
+- [Equipment-Body Candidateization](Self-Contamination.md)
+- [Internal Arrangement Reference](Recursive-Processing.md)
 - [Success Probability](Success-Probability.md)
 - [Messhilite Inheritance](Messhilite-Inheritance.md)
 

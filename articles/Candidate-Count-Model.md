@@ -33,7 +33,8 @@ IC --> IA
 IC --> AA
 
 IS --> CS
-IA --> CS
+IA --> REF["Internal Arrangement Reference<br/>(observed separately)"]
+REF -. "Transition unknown; candidate effect requires evidence" .-> CS
 AA --> CS
 
 AUTO["Auto Arrange<br/>(Conditional / Observation-Based)"]
@@ -44,9 +45,9 @@ CS["Candidate Set"]
 CS --> CCM["Candidate Count Model"]
 CCM --> SEL["Candidate Selection<br/>(Observation Model)"]
 
-SEL --> M["Light Ore Inheritance"]
-SEL --> SP["Performance-Source Contamination"]
-SEL --> RP["Recursive Processing"]
+SEL --> M["Messhilite Inheritance"]
+SEL --> SP["Equipment-Body Candidateization<br/>(observation)"]
+SEL --> RP["Internal Arrangement Reference<br/>(observation)"]
 SEL --> AR["Auto Arrange"]
 
 NOTE["Observation-Based Explanatory Model<br/>This figure organizes observed inheritance behavior.<br/>It does not claim to represent the game's internal implementation."]
@@ -54,26 +55,13 @@ NOTE["Observation-Based Explanatory Model<br/>This figure organizes observed inh
 SEL -.-> NOTE
 ```
 
+The connection from Internal Arrangement Reference to the candidate set is explicitly unresolved. This diagram does not assume recursive expansion or assign a candidate count from that observation alone. Equipment-Body Candidateization is likewise an observed outcome, with its candidate-set transition to be established in each application. The Candidate Count Model and its supported quantitative results remain in scope.
+
 ---
 ## Terminology
 
 - **Candidate Count (A): Total number of elements that can participate in the selection process.**
 - **Selection Limit (M): Maximum number of elements selected in a single operation.**
-
----
-
-## Quick Start: Candidate Count A and Selection Limit M
-
-![Candidate Count Model — A and M Overview](../images/candidate-count-model/candidate-count-model-a-m-overview-en.png)
-
-This simplified overview provides a beginner-facing entry point to the model:
-
-- `A` is the number of candidates that can participate in selection.
-- `M` is the maximum number selected in one operation.
-- When `A ≤ M`, the model does not require a choice among multiple candidate combinations.
-- When `A > M`, multiple combinations can arise, and selection may introduce an RNG requirement.
-
-The figure is a conceptual summary of the Candidate Count Model. It organizes observation-based consequences and does not claim to show the game's internal implementation.
 
 ---
 
@@ -96,8 +84,6 @@ I eventually tested the inheritance system over several thousand crafting attemp
 
 Candidate Count refers to the total number of elements that can participate in the selection process.
 
-Candidate Count is used here as an observation-based operational variable reconstructed from candidate behavior. The model does not establish that the game internally stores or uses this exact variable as a governing state, and the reconstructed combination space should not be confused with the distribution used to select among candidates or subsets.
-
 When Candidate Count exceeds the Selection Limit, multiple possible combinations may arise. Changes in this combination space can affect the probability that the desired inheritance result will be selected.
 
 Many inheritance-related phenomena documented in this repository can therefore be interpreted through changes in Candidate Count.
@@ -108,139 +94,11 @@ Many inheritance-related phenomena documented in this repository can therefore b
 
 Many inheritance-related behaviors appear to be independent mechanics at first glance.
 
-Auto Arrange, Recursive Processing, Light Ore Inheritance, Performance-Source Contamination, and inheritance success probability may all seem unrelated.
+Auto Arrange, Internal Arrangement Reference, Messhilite Inheritance, Equipment-Body Candidateization, and inheritance success probability may all seem unrelated. The latter two are distinct observations; neither alone establishes candidate-pool construction.
 
 However, observation results suggest that these phenomena can often be interpreted through a common perspective based on candidate generation and candidate count.
 
 Understanding Candidate Count therefore provides a unified framework for interpreting a wide range of inheritance behavior without relying on isolated case-by-case explanations.
-
----
-
-## Applicability Boundary: Candidate Count vs Selection Distribution
-
-The Candidate Count Model describes the size and structure of the candidate space.
-
-It can identify when the number of candidates exceeds the selection limit and when multiple possible combinations therefore exist.
-
-However:
-
-> the number of possible combinations does not determine how probability is distributed among those combinations.
-
-This distinction became especially important in later RF4SP observations.
-
-Under tested RF4SP conditions, candidate identity was associated with strong non-uniform ordering behavior across 200 valid three-candidate trials. A common-strength model derived from those ordering observations also showed predictive value for two separate 4→3 overflow selection Scouts totaling 20 trials.
-
-This means that, in RF4SP, a structure such as:
-
-```text
-4 candidates
-↓
-choose 3
-↓
-4 possible subsets
-```
-
-does **not** by itself justify the assumption:
-
-```text
-each subset = 25%
-```
-
-Candidate Count / Combination Space and Candidate Selection Distribution should therefore be treated as separate layers.
-
-The Candidate Count Model remains useful for identifying competition and overflow. Equal-probability interpretations should be treated as conditional approximations rather than as a universal property of the model.
-
-### Candidate Count and Ordering Boundary
-
-Gameplay observations suggest that ordering behavior may differ across candidate-count conditions.
-
-In tested two-candidate conditions, the observed ordering corresponded to the input order.
-
-By contrast, three-candidate observations showed candidate-associated non-uniform ordering, while overflow conditions introduced a separate selection question.
-
-This raises an unresolved boundary question:
-
-> How does observed ordering behavior change as Candidate Count moves from 2 to 3 and then beyond the Selection Limit?
-
-The observations do not establish the game's internal processing order.
-
-A recent RF4SP two-candidate test provided additional support for this boundary.
-
-Using a Small Shield with Mealy Apple and Object X, both input orders were tested:
-
-- Mealy Apple → Object X: 18/18 preserved the input order.
-- Object X → Mealy Apple: 18/18 preserved the input order.
-
-Across these 36 trials, no ordering reversal was observed.
-
-This does not establish that all two-candidate arrangements universally preserve input order, but it strengthens the observation that some tested two-candidate conditions may avoid the ordering variability seen in three-candidate cases.
-
-### Practical Application: Elemental Absorption Equipment
-
-This two-candidate behavior may be useful when constructing elemental absorption equipment for Rune Prana.
-
-A previous arrangement using Object X together with two elemental-resistance materials such as Heavy Powder produced approximately 111% elemental resistance after one upgrade.
-
-A reduced two-candidate arrangement using Object X together with one resistance material produced approximately 106% after two upgrades.
-
-Because elemental resistance above 100% becomes absorption, the reduced setup sacrifices about 5 percentage points of resistance while potentially allowing Object X to be placed first in a two-candidate arrangement without requiring an ordering reroll in this tested setup.
-
-This is a practical observation-based workaround, not a claim that every two-candidate arrangement universally preserves input order.
-
-### Open Question: How Are Ordering and Selection Related?
-
-Current gameplay observations are compatible with the possibility that
-an ordering is formed before an overflow result is reduced to the
-Selection Limit.
-
-However, endpoint observations alone do not establish that internal
-sequence.
-
-It therefore remains unknown whether the game:
-
-- selects candidates first and then orders the selected result,
-- forms an ordering before reducing the result to the Selection Limit,
-- or uses another process that produces the same observed outcomes.
-
-The internal implementation remains Unknown.
-
-### Primary Strategy: Avoid Competition When Possible
-
-The most robust use of the Candidate Count Model is not to predict every selection probability. It is to avoid unnecessary competition.
-
-When the candidate structure can be redesigned so that the candidate count does not exceed the selection limit, selection uncertainty can be reduced or eliminated under the model's stated observation-based conditions.
-
-In that situation, candidate-specific priority or weighting becomes less important because every required candidate can remain in the result.
-
----
-
-## Open Question: When Is Equal-Probability Approximation Reasonable?
-
-RF4SP observations showed that candidate identity can be associated with strongly non-uniform ordering behavior.
-
-However, not every tested candidate set appeared equally biased.
-
-Before any attempt to explain the internal cause, an important practical question remains:
-
-> Under what observable conditions is an equal-probability approximation reasonably usable?
-
-Early gameplay observations suggested that some sets of similar items may behave more uniformly than others.
-
-This raised several unresolved questions:
-
-- Do candidates with similar gameplay roles or apparent item groupings tend to produce more uniform selection behavior?
-- Are there observable candidate-group patterns that make equal-probability approximation more reliable?
-- Why do some apparently similar items still behave as exceptions?
-- Can these boundaries be predicted from gameplay-visible properties alone?
-- How much does candidate identity matter after candidate count and combination space are already known?
-
-At present, the observations are not sufficient to establish a general rule.
-
-The Candidate Count Model can identify when competition exists, but the conditions governing the selection distribution remain an open research problem.
-
-A useful future direction would be to compare carefully controlled candidate sets while changing as few observable item properties as possible.
-
-The goal would not be to identify hidden implementation details, but to determine where the simple equal-probability approximation remains practically useful and where it should be avoided.
 
 ---
 
@@ -260,63 +118,16 @@ The validation results suggest a strong relationship between Candidate Count and
 
 ## Example Application
 
-![Light Ore Inheritance Model](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
+![Messhilite Inheritance Model](../images/candidate-count-model/messhilite-inheritance-mechanism-en.png)
 
-The Light Ore inheritance mechanism provides one practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
-
----
-
-## RF4SP Validation
-
-### Why RF4SP Was Tested Separately
-
-The Candidate Count Model was originally developed from RF5 observations.
-
-However, later RF4SP observations raised additional questions about candidate selection. In particular, candidate order did not always behave as straightforwardly as expected, and separate observations suggested that selection behavior might also differ depending on material identity.
-
-These questions concern **Candidate Selection Distribution**, and do not necessarily mean that the **Candidate Count / Combination Space** model itself is incorrect.
-
-For that reason, the RF5 results alone were not treated as sufficient evidence that the same model could be applied directly to RF4SP.
-
-I therefore tested Light Ore inheritance in RF4SP under four conditions, using two different materials and two candidate-count conditions.
-
-### Results
-
-Each condition was tested 100 times.
-
-| Condition | Observed Success Rate | Model Expectation |
-|---|---:|---:|
-| Love Crystal ×3 | 29.00% | 25.00% |
-| Glitter Augite ×3 | 28.00% | 25.00% |
-| Love Crystal ×6 | 59.00% | 57.14% |
-| Glitter Augite ×6 | 58.00% | 57.14% |
-
-![RF4SP Candidate Count Model Validation Results](../images/candidate-count-model/candidate-count-model-rf4sp-validation-en.png)
-
-Chi-square tests did not detect a statistically significant deviation from the model expectation in any of the four tested conditions (`p > 0.05`).
-
-### Interpretation
-
-Under these tested conditions, the RF4SP observations were consistent with the Candidate Count Model previously developed from RF5 observations.
-
-The use of both Love Crystal and Glitter Augite was intentional. Because RF4SP observations had raised questions about material-dependent selection behavior, testing more than one material provided a stronger check than repeating the experiment with only a single material.
-
-The results therefore suggest that the RF4SP candidate-selection complications observed elsewhere do not, by themselves, invalidate the Candidate Count Model.
-
-### Boundary
-
-These results do **not** prove that the Candidate Count Model describes the game's internal implementation.
-
-They show only that, under the four tested RF4SP conditions, the observed Light Ore inheritance rates did not significantly deviate from the model expectations.
-
-Candidate Count / Combination Space and Candidate Selection Distribution should therefore remain separate questions.
+The Messhilite inheritance mechanism provides one practical example of how Candidate Count can influence inheritance success probability through candidate generation and selection.
 
 ---
 
 ## Key Takeaways
 
 - Candidate Count is one of the central concepts for understanding inheritance behavior.
-- More competing combinations do not by themselves increase inheritance success probability. For a fixed desired outcome, success generally decreases unless the number or proportion of successful combinations also increases.
+- Increasing the number of valid candidate combinations generally increases inheritance success probability.
 - The same conceptual framework can explain multiple inheritance-related mechanics.
 - This model serves as the research root for several inheritance studies documented in this repository.
 
@@ -327,9 +138,9 @@ Candidate Count / Combination Space and Candidate Selection Distribution should 
 The Candidate Count Model provides a common foundation for several inheritance-related research topics.
 
 - [Auto Arrange](../articles/Auto-Arrange.md)
-- [Recursive Processing](../articles/Recursive-Processing.md)
-- [Performance-Source Contamination](../articles/Self-Contamination.md)
-- [Light Ore Inheritance](../articles/Messhilite-Inheritance.md)
+- [Internal Arrangement Reference](../articles/Recursive-Processing.md)
+- [Equipment-Body Candidateization](../articles/Self-Contamination.md)
+- [Messhilite Inheritance](../articles/Messhilite-Inheritance.md)
 - [Success Probability](../articles/Success-Probability.md)
 
 ---
@@ -344,7 +155,7 @@ Detailed observations, statistical analyses, mathematical discussion, and experi
 
 The complete research archive consists of multiple PDF documents.
 
-English-language PDFs are available in the [English PDF Edition](../pdf/english_edition/). The links below point to the Japanese primary research archive.
+**Note:** All PDF documents are currently available in **Japanese only**.
 
 #### Core Documents
 
@@ -356,14 +167,14 @@ English-language PDFs are available in the [English PDF Edition](../pdf/english_
 #### Mechanics Research
 
 - [Auto Arrange](../pdf/03_オートアレンジ詳細.pdf)
-- [Performance-Source Contamination](../pdf/04_自己混入解析.pdf)
-- [Recursive Processing](../pdf/05_再帰処理解析.pdf)
+- [Historical: Self Contamination](../pdf/04_自己混入解析.pdf)
+- [Historical: Recursive Processing](../pdf/05_再帰処理解析.pdf)
 - [Candidate Selection Process](../pdf/06_抽選処理解析.pdf)
 - [General Mathematical Model](../pdf/07_数式・一般化モデル.pdf)
 
 #### Applied Research
 
-- [Light Ore Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
+- [Messhilite Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
 - [Advanced Inheritance Strategies](../pdf/09_高難度継承と実運用.pdf)
 - [Roleplay Equipment Study](../pdf/10_ロールプレイ装備研究.pdf)
 
@@ -408,9 +219,9 @@ Additional practical datasets are available in the **csv/** directory, including
 The Candidate Count Model serves as the conceptual foundation for many inheritance-related studies included in this repository and acts as the central hub connecting the associated research articles.
 
 - [Auto Arrange](./Auto-Arrange.md)
-- [Recursive Processing](./Recursive-Processing.md)
-- [Performance-Source Contamination](./Self-Contamination.md)
-- [Light Ore Inheritance](./Messhilite-Inheritance.md)
+- [Internal Arrangement Reference](./Recursive-Processing.md)
+- [Equipment-Body Candidateization](./Self-Contamination.md)
+- [Messhilite Inheritance](./Messhilite-Inheritance.md)
 - [Success Probability](./Success-Probability.md)
 
 

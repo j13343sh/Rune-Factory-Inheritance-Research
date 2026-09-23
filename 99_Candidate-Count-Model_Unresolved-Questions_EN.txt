@@ -120,24 +120,25 @@ Known reality:
 Still unknown:
 - The general range of the n−3 approximation
 - Where uniform approximation among required materials is useful
-- Observable boundaries when Auto Arrange competes with existing arrangements or source contamination
+- Observable boundaries when Auto Arrange co-occurs with existing arrangements or Equipment-Body Candidateization
 
 
-PF-06  Boundary of Source Contamination and Recursive Inheritance
------------------------------------------------------------------
-Under what conditions do source contamination and recursive inheritance increase candidate pressure, and how far back can their effects remain observable?
+PF-06  Boundary of Equipment-Body Candidateization and Internal Arrangement Reference
+-----------------------------------------------------------------------------------
+Under what conditions are equipment-body candidates and references to internal arrangements observed, and how far back can information from earlier generations appear in results?
 
 Known reality:
-- Source-derived information affects outcomes under some conditions.
-- Information from earlier inheritance generations can affect later results.
-- Not every path expands in the same way.
+- Equipment used as inheritance material can itself become a candidate.
+- Internal arrangements can appear in later outcomes under some conditions.
+- The observed results vary by path.
 
 Still unknown:
 - Trigger conditions and equipment-category differences
 - How many generations retain observable influence
-- Whether candidate content, Ordering, or both can transport
+- Whether candidate content, Ordering, or both are affected
+- The transition from internal-arrangement reference to candidate sets, and any change in candidate pressure
 
-Exact internal storage formats and recursive algorithms remain separate implementation questions.
+“Source contamination” and “recursive inheritance” are historical terminology / models. This does not assert an internal expansion order or a recursive algorithm as a current mechanism.
 
 
 PF-07  Transport Between RF4SP and RF5
@@ -146,7 +147,7 @@ Which Candidate Count, Ordering, and Auto Arrange boundaries observed in RF4SP a
 
 Known reality:
 - Some phenomena appear in both games.
-- Differences are suggested in fixed-like behavior, disordering, and source contamination.
+- Differences are suggested in fixed-like behavior, disordering, and the observed conditions for Equipment-Body Candidateization.
 
 Still unknown:
 - Which boundaries transport between games

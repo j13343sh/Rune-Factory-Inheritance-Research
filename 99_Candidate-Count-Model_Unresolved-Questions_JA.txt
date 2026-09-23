@@ -147,17 +147,17 @@ PF-06　Equipment-Body CandidateizationとInternal Arrangement Referenceの境�
 
 既知Reality：
 ・継承素材に使用した装備本体が候補になり得る。
-・内部Arrangementが後段の結果に現れる条件がある。
+・内部Arrangementが後段の結果に現れる条件がある。同カテゴリ装備を複数投入した反復試験では、投入順の変更に応じて結果が変わり、先に置いた同カテゴリ装備に対応する内部Arrangement由来の結果が観測された（第一同カテゴリ内部アレンジ参照）。
 ・観測結果には経路による差がある。
 
 未解決：
-・発生条件と装備カテゴリ差
+・確認済みの第一同カテゴリ観測則が成立する条件・装備カテゴリの一般化範囲
 ・何世代までobservableな影響が残るか
 ・候補内容とOrderingのどちらが影響を受けるか
 ・内部Arrangementの参照から候補集合への遷移と候補圧力の変化
 
 「性能元混入」「再帰的な継承」はHistorical terminology / modelである。
-内部展開順序や正確な再帰アルゴリズムをCurrent Mechanismとして断定しない。
+「第一」は観測された投入順と結果の対応であり、first-match scanningや内部カテゴリ走査を意味しない。内部遷移・候補集合への影響・再帰アルゴリズムをCurrent Mechanismとして断定しない。
 
 
 PF-07　RF4SP / RF5間のtransport

@@ -129,16 +129,16 @@ Under what conditions are equipment-body candidates and references to internal a
 
 Known reality:
 - Equipment used as inheritance material can itself become a candidate.
-- Internal arrangements can appear in later outcomes under some conditions.
+- Internal arrangements can appear in later outcomes under some conditions. In repeated tests with multiple same-category equipment pieces, changing input order changed the result, and the referenced internal Arrangement corresponded to the piece placed first (First Same-Category Internal-Arrangement Reference).
 - The observed results vary by path.
 
 Still unknown:
-- Trigger conditions and equipment-category differences
+- How widely the tested first same-category rule applies across conditions and equipment categories
 - How many generations retain observable influence
 - Whether candidate content, Ordering, or both are affected
 - The transition from internal-arrangement reference to candidate sets, and any change in candidate pressure
 
-“Source contamination” and “recursive inheritance” are historical terminology / models. This does not assert an internal expansion order or a recursive algorithm as a current mechanism.
+“Source contamination” and “recursive inheritance” are historical terminology / models. “First” denotes the observed input-order/result correspondence, not first-match scanning or internal category traversal. The internal transition and candidate-set effect remain unknown.
 
 
 PF-07  Transport Between RF4SP and RF5

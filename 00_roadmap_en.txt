@@ -23,7 +23,8 @@ This document is a personal research memo focused on:
 ・arrange inheritance
 ・auto-arrange behavior
 ・equipment-body candidateization (observed; formerly “self contamination”)
-・internal Arrangement reference (observed; formerly “recursive processing”)
+・internal Arrangement reference (broad observation; formerly “recursive processing”)
+・first same-category internal-Arrangement reference (observed conditional rule in tested input-order conditions; internal implementation unknown)
 ・selection / lottery processing
 ・success rate models
 

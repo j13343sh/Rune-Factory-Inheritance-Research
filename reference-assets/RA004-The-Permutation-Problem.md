@@ -32,7 +32,7 @@ Its focus is not to prove an internal game mechanism. It shows how a model can r
 - [Candidate Count Model](../articles/Candidate-Count-Model.md)
 - [Success Probability](../articles/Success-Probability.md)
 - [Auto Arrange](../articles/Auto-Arrange.md)
-- [Recursive Processing](../articles/Recursive-Processing.md)
+- [Internal Arrangement Reference](../articles/Recursive-Processing.md) (historical filename; includes the observed first same-category conditional rule)
 - [Research Data and Validation](../research/README.md)
 - [Repository Roadmap](../ROADMAP.md)
 

@@ -33,13 +33,14 @@ Logical relationships are expressed through Markdown links and navigation docume
 
 ## Current Knowledge Graph
 
-For this staging migration, the current observation labels are **Equipment-Body Candidateization** and **Internal Arrangement Reference**. `Self-Contamination.md` and `Recursive-Processing.md` remain physical historical filenames. The former labels “Self Contamination,” “Performance-Source Contamination,” and “Recursive Processing” describe historical terminology or models; no recursive expansion sequence is confirmed by these observations. “First Same-Category Internal-Arrangement Reference” remains HOLD. Unknown transitions remain unknown rather than being replaced with a new mechanism. Candidate Count Model remains the research framework; the affected candidate-generation account is the part being corrected.
+For this staging migration, the current observation labels are **Equipment-Body Candidateization** and **Internal Arrangement Reference**. `Self-Contamination.md` and `Recursive-Processing.md` remain physical historical filenames. The former labels “Self Contamination,” “Performance-Source Contamination,” and “Recursive Processing” describe historical terminology or models; no recursive expansion sequence is confirmed by these observations. “First Same-Category Internal-Arrangement Reference” is a current observed conditional behavioral rule under tested multiple-same-category and input-order conditions, nested under the broader observation. Its internal cause remains unknown; first-match scanning, category traversal, and base selection are not confirmed. Unknown transitions remain unknown rather than being replaced with a new mechanism. Candidate Count Model remains the research framework; the affected candidate-generation account is the part being corrected.
 
 ```text
 Candidate Count Model
     ├── Auto Arrange
     ├── Equipment-Body Candidateization (current observation; historical article filename)
-    ├── Internal Arrangement Reference (current observation; historical article filename)
+    ├── Internal Arrangement Reference (broad current observation; historical article filename)
+    │   └── First Same-Category Internal-Arrangement Reference (observed conditional rule)
     ├── Success Probability
     └── Light Ore Inheritance
 

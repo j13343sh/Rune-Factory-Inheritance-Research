@@ -272,7 +272,7 @@ RF4S/RF5の内部処理差
 
 Current Observation：装備本体の候補化（Equipment-Body Candidateization）と、装備内部のアレンジ情報が後続結果に現れるInternal Arrangement Referenceは別の観測である。性能移植、装備本体の候補化、内部アレンジ参照、特殊効果の継承も区別する。
 
-Historical Terminology：「再帰処理」「性能元混入」は旧解釈の名称であり、Current Mechanismの名称ではない。旧説の「再帰処理→内部候補展開→候補数再増殖」は処理順序や候補生成を実証していない。First Same-Category Internal-Arrangement ReferenceはHOLDであり、現在用語へ採用しない。Unknown Transitionを別のMechanismで補完しない。
+Historical Terminology：「再帰処理」「性能元混入」は旧解釈の名称であり、Current Mechanismの名称ではない。旧説の「再帰処理→内部候補展開→候補数再増殖」は処理順序や候補生成を実証していない。First Same-Category Internal-Arrangement Reference（第一同カテゴリ内部アレンジ参照）は、同カテゴリ装備を複数投入し順序を変えた反復試験で、先に置いた装備に対応する内部Arrangement由来の結果が現れたCurrentの条件付き観測則である。ただし「第一」は観測された投入順と結果の対応であり、内部走査順やfirst-match algorithmを意味しない。Unknown Transitionを別のMechanismで補完しない。
 
 ## 1. 圧縮工程と観測境界
 
@@ -315,6 +315,7 @@ Historicalな例では、ロケットウィングを1枠目に置く工程に対
 ## 7. Current Unknownと次の識別観測
 
 - 同一の投入条件で、装備本体の候補化と内部アレンジ参照は独立に変動するか。
+- 同カテゴリ装備の投入順に対応する参照結果が現れる既知条件から、どのカテゴリ・レシピ・作品まで一般化できるか。内部遷移はUnknown。
 - categoryと素材位置を固定した際、どの内部情報が最終Arrangementに現れるか。
 - 旧scenarioの4候補／5候補集合と均等選択は、実際の比較試行に耐えるか。
 - 性能移植と特殊効果の継承は、装備本体の候補化とどこで分かれるか。

@@ -55,7 +55,7 @@ NOTE["Observation-Based Explanatory Model<br/>This figure organizes observed inh
 SEL -.-> NOTE
 ```
 
-The connection from Internal Arrangement Reference to the candidate set is explicitly unresolved. This diagram does not assume recursive expansion or assign a candidate count from that observation alone. Equipment-Body Candidateization is likewise an observed outcome, with its candidate-set transition to be established in each application. The Candidate Count Model and its supported quantitative results remain in scope.
+Within the broad Internal Arrangement Reference observation, First Same-Category Internal-Arrangement Reference is an observed conditional input-order/result rule in tested same-category conditions. The internal reason for that correspondence remains unknown. The connection from Internal Arrangement Reference to the candidate set is explicitly unresolved. This diagram does not assume recursive expansion or assign a candidate count from that observation alone. Equipment-Body Candidateization is likewise an observed outcome, with its candidate-set transition to be established in each application. The Candidate Count Model and its supported quantitative results remain in scope.
 
 ---
 ## Terminology

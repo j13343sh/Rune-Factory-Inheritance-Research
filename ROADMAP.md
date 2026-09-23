@@ -163,7 +163,7 @@ Candidate Count Model
 
 ### Model Interface Articles
 
-These articles distinguish observed behavior from candidate-generation models. Body entry and later internal Arrangement reference do not establish a processing order or candidate count.
+These articles distinguish observed behavior from candidate-generation models. Internal Arrangement Reference is the broad observation; First Same-Category Internal-Arrangement Reference is its observed conditional rule under tested input-order conditions. Neither establishes internal processing order or candidate count.
 
 - [Auto Arrange](articles/Auto-Arrange.md)
 - [Equipment-Body Candidateization](articles/Self-Contamination.md)

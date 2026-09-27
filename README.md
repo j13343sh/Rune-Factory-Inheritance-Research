@@ -1,5 +1,22 @@
 # Rune Factory Inheritance Research
 
+[日本語](#日本語) | [English](#english)
+
+## 日本語
+
+**ルーンファクトリー4スペシャル（RF4SP）・ルーンファクトリー5（RF5）の装備継承を、実機観測から調べた研究アーカイブです。**
+
+欲しい性能が継承されるかどうかは、投入した素材の数だけでは説明できません。「何が候補になるか」を見極め、狙う結果に合わせて製作条件を設計する。この考え方を[候補数モデル（Candidate Count Model）](articles/Candidate-Count-Model.md)として整理しています。
+
+本研究はゲーム内での反復検証と統計的な分析に基づきます。装備本体候補化、内部アレンジ参照、第一同カテゴリ内部アレンジ参照は観測された挙動として扱い、候補プールへ至る未確認の内部処理は断定しません。「第一」は投入順と結果の対応を指し、内部で先頭から走査する仕組みが確認されたという意味ではありません。
+
+**日本語の詳細資料：** [公開Google Drive](https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB?ths=true)（PDF・観測記録など）  
+**GitHub内の案内：** [英語の研究記事一覧](articles/README.md) · [研究全体の道筋](ROADMAP.md)
+
+---
+
+## English
+
 Observation-based research archive for **Rune Factory 4 Special** and **Rune Factory 5**.
 
 Have you ever wondered why some inheritance attempts succeed much more often than others?
@@ -320,3 +337,4 @@ Future observations may refine, revise, or replace current interpretations.
 This project is licensed under the CC BY-NC 4.0 License.
 
 See [LICENSE.md](LICENSE.md) for details.
+

@@ -6,7 +6,11 @@
 
 **ルーンファクトリー4スペシャル（RF4SP）・ルーンファクトリー5（RF5）の装備継承を、実機観測から調べた研究アーカイブです。**
 
+![候補数モデルはなぜ生まれたのか](images/candidate-count-model/candidate-count-model-origin-jp.png)
+
 欲しい性能が継承されるかどうかは、投入した素材の数だけでは説明できません。「何が候補になるか」を見極め、狙う結果に合わせて製作条件を設計する。この考え方を[候補数モデル（Candidate Count Model）](articles/Candidate-Count-Model.md)として整理しています。
+
+![候補数モデルの概要](images/candidate-count-model/candidate-count-model-overview-jp.png)
 
 本研究はゲーム内での反復検証と統計的な分析に基づきます。装備本体候補化、内部アレンジ参照、第一同カテゴリ内部アレンジ参照は観測された挙動として扱い、候補プールへ至る未確認の内部処理は断定しません。「第一」は投入順と結果の対応を指し、内部で先頭から走査する仕組みが確認されたという意味ではありません。
 

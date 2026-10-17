@@ -92,14 +92,23 @@ The Shuffle Method and Cushion Method demonstrate this approach in practical cra
 
 ### 5. Evidence and Limitations
 
-- The order-dependent reference behavior is supported by repeated gameplay observations under tested conditions.
-- The Shuffle Method has been demonstrated through RF5 crafting examples using identical materials in different orders.
-- The Cushion Method has been demonstrated through an RF5 crafting example in which one random-dependent step was avoided.
+The Shuffle Method and Cushion Method are supported by gameplay observations under specific crafting conditions.
+
+**Observed evidence:**
+
+- **Order-dependent reference behavior:** Repeated gameplay tests have confirmed that changing the order of same-category equipment can change the observed internal Arrangement reference.
+- **Shuffle Method (RF5):** Crafting examples using identical materials in different orders demonstrated that rearranging equipment can eliminate a random-dependent step.
+- **Cushion Method (RF5):** A crafting example demonstrated that placing equipment without an internal Arrangement first can eliminate one random-dependent step.
+- **Practical application (RF4SP):** An application of the same order-dependent principle has also been demonstrated in RF4SP, supporting its practical applicability under the tested conditions.
+
+**Limitations and unresolved questions:**
+
 - These observations do not establish the game's internal traversal, recursion, or candidate-pool insertion algorithm.
-- The methods should not be assumed to behave identically across all recipes, categories, or Rune Factory titles.
+- Successful applications in RF4SP and RF5 do not establish that the two games use identical internal implementations.
+- The methods should not be assumed to behave identically across all recipes, equipment categories, or crafting conditions.
 - Successful application should be confirmed by inspecting the resulting equipment at each relevant crafting stage.
 
-These methods are practical applications of an observed behavioral rule. They should not be interpreted as proof of a specific internal implementation.
+These methods are **practical applications of an observed behavioral rule**, not proof of a specific internal implementation. Their demonstrated effectiveness is limited to the tested conditions, while their broader applicability remains a subject for further verification.
 
 ## Historical interpretation
 

@@ -43,7 +43,7 @@ This archive is based entirely on in-game observation, repeated experimentation,
 
 No reverse engineering, decompilation, or extracted game source code is used.
 
-In the future, I intend to accumulate insights regarding **Rune Factory 6**.as well.
+In the future, I intend to accumulate insights regarding **Rune Factory 6** as well.
 
 ---
 

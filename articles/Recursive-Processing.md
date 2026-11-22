@@ -63,6 +63,102 @@ Under suitable conditions, this can eliminate one reset-dependent step.
 
 This is an observed operational result, not a universal guarantee.
 
+#### Theoretical Extension: Same-Type Cushion Candidates
+
+**Status: Stage 1 — Mathematical Model / Candidate-Design Hypothesis (Not Gameplay-Validated)**
+
+The Cushion Method uses equipment without an internal Arrangement in the relevant first same-category position to avoid an unwanted internal Arrangement reference under tested conditions.
+
+A possible extension is to use a cushion of the same equipment type as one of the desired inheritance targets.
+
+The idea is to examine whether two separately retained candidates of the same desired type could increase the number of successful candidate combinations.
+
+This is a theoretical candidate-design proposal. It is not an established crafting procedure.
+
+##### Mathematical Example
+
+Assume that:
+
+- Exactly four distinguishable candidate entries exist.
+- Exactly three entries are selected uniformly without replacement.
+- `S`, `G`, and `R` represent three desired equipment types.
+- `X` represents an undesired candidate.
+- `S₁` and `S₂` are two distinguishable entries of the same desired type `S`.
+- Either `S₁` or `S₂` can satisfy the required `S` condition.
+- The desired outcome is to obtain one candidate of each type: `S`, `G`, and `R`.
+
+Compare the following hypothetical candidate configurations:
+
+| Configuration | Candidate Entries | Successful Combinations | Theoretical Probability |
+|---|---|---|---|
+| Baseline | `{S, G, R, X}` | 1 of 4 | 25% |
+| Same-Type | `{S₁, S₂, G, R}` | 2 of 4 | 50% |
+
+For the baseline configuration, the only successful three-entry combination is `{S,G,R}`.
+
+Therefore:
+
+`P_baseline = 1 / C(4,3) = 1/4 = 25%`
+
+For the same-type configuration, two combinations satisfy the target condition:
+
+- `{S₁,G,R}`
+- `{S₂,G,R}`
+
+Therefore:
+
+`P_same-type = 2 / C(4,3) = 2/4 = 50%`
+
+Under these assumptions, the proportion of successful combinations increases from 25% to 50%.
+
+The improvement comes from increasing the number of acceptable combinations, not from increasing the total candidate count.
+
+**These percentages are exact only within the stated mathematical model. They are not measured RF4SP or RF5 crafting success rates.**
+
+##### Application Conditions: RF5
+
+For this idea to apply to RF5 crafting, several conditions must hold:
+
+1. The crafting procedure must actually produce the candidate configuration `{S₁,S₂,G,R}`.
+2. Both same-type entries must remain distinguishable candidates during selection, rather than being merged or removed.
+3. Either same-type entry must be interchangeable for the intended final equipment effect.
+4. The relevant selection behavior must be adequately represented by uniform sampling without replacement.
+5. No additional candidates or other crafting conditions may invalidate the assumed four-candidate configuration.
+
+Existing observations concerning the Cushion Method and First Same-Category Internal-Arrangement Reference do not, by themselves, establish these conditions.
+
+The mathematical example therefore suggests a possible direction for candidate design in RF5, but does not demonstrate a working same-type cushion procedure.
+
+##### Application Conditions: RF4SP
+
+The same candidate-design idea may also be considered for RF4SP.
+
+However, existing RF4SP research reports Item-ID-dependent selection behavior and a weighted sequential-selection model.
+
+Consequently, the uniform 50% result must not be transferred directly to RF4SP.
+
+Even if two same-type candidates remain separately represented, the actual probability of obtaining the desired combination may depend on their selection weights and on the weights of the other candidates.
+
+For RF4SP, the relevant question is whether the same-type configuration increases the probability of the desired outcome under the applicable weighted-selection model.
+
+No general improvement factor is established by the present mathematical example.
+
+##### Evidence Boundary
+
+The following distinctions must be maintained:
+
+- **Mathematically established:** Under uniform sampling of three distinguishable entries from four, the hypothetical configurations above yield 25% and 50% success probabilities.
+- **Not established:** A specific RF4SP or RF5 crafting procedure generates the required same-type candidate configuration.
+- **Not established:** Two same-type candidates remain separately eligible and are functionally interchangeable in the proposed procedure.
+- **Not established:** Actual gameplay success probability improves from 25% to 50%.
+- **Not established:** The proposed configuration is preferable to existing Cushion Method, Shuffle Method, or other inheritance strategies.
+
+This extension is a candidate-design hypothesis derived from the Candidate Count Model.
+
+It is presented to illustrate how changing the composition of acceptable candidates could affect the mathematical success space.
+
+It does not constitute confirmation of the game's internal implementation or a validated improvement to the existing Cushion Method.
+
 ### 3. Relationship Between the Methods
 
 | Aspect | Shuffle Method | Cushion Method |

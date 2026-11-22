@@ -8,6 +8,8 @@
 
 装備製作で狙った性能が継承される条件や、候補数と成功確率の関係を研究しています。一般的な攻略手順のまとめではなく、観測結果・数理モデル・未解決の仮説を区別して整理しています。
 
+将来的にはルーンファクトリー6（ルンファク6／RF6）でも知見があれば蓄積していこうと思います。
+
 ![候補数モデルはなぜ生まれたのか](images/candidate-count-model/candidate-count-model-origin-jp.png)
 
 欲しい性能が継承されるかどうかは、投入した素材の数だけでは説明できません。「何が候補になるか」を見極め、狙う結果に合わせて製作条件を設計する。この考え方を[候補数モデル（Candidate Count Model）](articles/Candidate-Count-Model.md)として整理しています。
@@ -40,6 +42,8 @@ This repository documents the observations, models, and experiments that eventua
 This archive is based entirely on in-game observation, repeated experimentation, and statistical analysis.
 
 No reverse engineering, decompilation, or extracted game source code is used.
+
+In the future, I intend to accumulate insights regarding **Rune Factory 6**.as well.
 
 ---
 

@@ -21,7 +21,7 @@
 
 
 **日本語の詳細資料：** [公開Google Drive](https://drive.google.com/drive/u/0/folders/1y9JR9AFVTS0ytAcWwDjW5m9K1c4tW2cB?ths=true)（PDF・観測記録など）  
-**GitHub内の案内：** [英語の研究記事一覧](articles/README.md) · [研究全体の道筋](ROADMAP.md)・[日本語PDF](PDF/README.md)
+**GitHub内の案内：** [英語の研究記事一覧](articles/README.md) · [研究全体の道筋](ROADMAP.md)・[日本語PDF](pdf/README.md)
 
 ---
 

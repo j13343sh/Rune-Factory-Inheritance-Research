@@ -109,3 +109,8 @@
 }
 /* Header remains in flow; the existing desktop sidebar stays accessible at short heights. */
 @media(min-width:1101px){.guide-nav nav{max-height:calc(100vh - 44px);overflow-y:auto;overscroll-behavior:contain;padding:4px 6px 8px 4px}}
+
+/* Prevent duplicate active navigation indicators. */
+.rf341-head .rf34-core-nav a[aria-current="page"] {
+  text-decoration: none;
+}

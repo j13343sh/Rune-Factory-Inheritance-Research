@@ -5,7 +5,7 @@ seo_public: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% assign ordered_pages = site.pages | sort: 'url' %}{% for item in ordered_pages %}{% assign lower_path = item.path | downcase %}{% if item.seo_public == true and item.noindex != true and item.sitemap != false and item.published != false %}{% unless lower_path contains 'rf6' %}
+{% assign ordered_pages = site.pages | sort: 'url' %}{% for item in ordered_pages %}{% if item.seo_public == true and item.noindex != true and item.sitemap != false and item.published != false %}
 <url><loc>{{ item.url | replace: 'index.html', '' | absolute_url | xml_escape }}</loc></url>
-{% endunless %}{% endif %}{% endfor %}
+{% endif %}{% endfor %}
 </urlset>

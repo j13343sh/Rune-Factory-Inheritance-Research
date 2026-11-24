@@ -1,0 +1,648 @@
+- slug: candidate-count-calculator
+  tool: true
+  title: 候補数モデル計算ツール
+  section: research
+  related:
+  - rf5-4000-trials
+  - inheritance-basics
+  - rf4sp-messhilite-trials
+  works:
+  - RF5
+  status: candidate
+  summary: RF5の検証条件を基にした等確率モデル。RF4SPの成功率計算には適用しません。
+  scope: RF5の検証条件と整合する等確率・非復元の数学モデル。内部抽選式の確定ではなく、RF4SPの攻略成功率には適用しません。
+  outline:
+  - id: この計算器が答える問い
+    title: この計算器が答える問い
+    level: L3 仕組み・観測
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: research
+- slug: crop-display
+  title: 作物・花類の陳列候補数問題
+  section: other
+  related:
+  - friendship-rf4sp
+  - friendship-rf5
+  - research-archive
+  - shop-display-ranks
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 日課で使う素材の安定供給は、出荷方針を考える一つの視点です。
+  scope: 候補数と陳列率の定量関係、店員別の独立抽選は未確認です。コンプリートを優先する遊び方もあります。
+  outline:
+  - id: 出荷と購入候補を一緒に考える
+    title: 出荷と購入候補を一緒に考える
+    level: L2 条件・実践
+  - id: コンプリートと日課の効率
+    title: コンプリートと日課の効率
+    level: L2 条件・実践
+  - id: 店員変更の観測記憶
+    title: 店員変更の観測記憶
+    level: L2 条件・実践
+  - id: 独立抽選という仮説
+    title: 独立抽選という仮説
+    level: L2 条件・実践
+  - id: 長期プレイの一例
+    title: 長期プレイの一例
+    level: L2 条件・実践
+  - id: 装備継承モデルとの関係
+    title: 装備継承モデルとの関係
+    level: L2 条件・実践
+  - id: 出典と範囲
+    title: 出典と範囲
+    level: L4 根拠・限界
+  public: true
+  category: resources
+- slug: cushion-method
+  title: RF5 クッション製法
+  section: practice
+  related:
+  - shuffle-method
+  - practical-equipment
+  - rf5-4000-trials
+  - inheritance-basics
+  works:
+  - RF5
+  status: candidate
+  summary: 空の内部アレンジを持つ装備の配置で、不要な参照を抑えることを狙います。
+  scope: 本文の具体例はRF5のスニーキングブーツです。空の内部状態と追加枠を確認し、別作品・別レシピへ一般化しません。
+  outline:
+  - id: 空の靴をクッションにする
+    title: 「空の靴」をクッションにする
+    level: L3 仕組み・観測
+  - id: rf5の実演スニーキングブーツ
+    title: RF5の実演：スニーキングブーツ
+    level: L2 条件・実践
+  - id: 記録と出典
+    title: 記録と出典
+    level: L4 根拠・限界
+  public: true
+  category: equipment
+- slug: dummy-method
+  title: RF4SP サクラカブダミー製法
+  section: practice
+  related:
+  - rf4sp-selection-bias
+  - method-comparison
+  - practical-equipment
+  - inheritance-basics
+  works:
+  - RF4SP
+  status: candidate
+  summary: 外したい候補をあえて仕込み、目的の靴を残すことを狙います。
+  scope: 本文はRF4SPのサクラカブ応用例です。ダミーの脱落や反復成功率を保証せず、各工程の鑑定を確認します。
+  outline:
+  - id: 欲しくないのに入れるのはなぜ
+    title: 「欲しくないのに入れる」のはなぜ？
+    level: L3 仕組み・観測
+  - id: サクラカブを使う応用実演
+    title: サクラカブを使う応用実演
+    level: L2 条件・実践
+  - id: 記録と出典
+    title: 記録と出典
+    level: L4 根拠・限界
+  public: true
+  category: equipment
+- slug: friendship-rf4sp
+  title: RF4SP 日課として続ける好感度上げ
+  section: other
+  related:
+  - triple-gift
+  - crop-display
+  - friendship-rf5
+  - shop-display-ranks
+  works:
+  - RF4SP
+  status: candidate
+  summary: 住民別の贈り物と、素材・料理・配布先の対応を日課に活用します。
+  scope: 日課用の品とゲーム内の普通判定は別です。名称・分類・例示材料数の要確認点を併記しています。
+  outline:
+  - id: 全対象住民の早見表
+    title: 全対象住民の早見表
+    level: L2 条件・実践
+  - id: 材料の優先度
+    title: 材料の優先度
+    level: L2 条件・実践
+  - id: 共通素材で料理を回す
+    title: 共通素材で料理を回す
+    level: L2 条件・実践
+  - id: 3つの日課ルート
+    title: 3つの日課ルート
+    level: L2 条件・実践
+  - id: ホットチョコレートとだんご
+    title: ホットチョコレートとだんご
+    level: L2 条件・実践
+  - id: アーサーの店と買い置き
+    title: アーサーの店と買い置き
+    level: L2 条件・実践
+  - id: カブの種を使う利点
+    title: カブの種を使う利点
+    level: L2 条件・実践
+  - id: ゲストキャラクターの扱い
+    title: ゲストキャラクターの扱い
+    level: L2 条件・実践
+  - id: 名称分類の読み方
+    title: 名称・分類の読み方
+    level: L2 条件・実践
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: friendship
+- slug: friendship-rf5
+  title: RF5 共有材料で組む好感度上げ
+  section: other
+  related:
+  - triple-gift
+  - crop-display
+  - friendship-rf4sp
+  works:
+  - RF5
+  status: candidate
+  summary: 住民別の贈り物と、素材・料理・配布先の対応を日課に活用します。
+  scope: 日課用の品とゲーム内の普通判定は別です。名称・分類・例示材料数の要確認点を併記しています。
+  outline:
+  - id: 住民とギフトを探す
+    title: 住民とギフトを探す
+    level: L2 条件・実践
+  - id: 素材別の日課ギフト
+    title: 素材別の日課ギフト
+    level: L2 条件・実践
+  - id: 代替プレゼント
+    title: 代替プレゼント
+    level: L2 条件・実践
+  - id: 大好物の一覧
+    title: 大好物の一覧
+    level: L2 条件・実践
+  - id: 原稿の一日分材料数
+    title: ルート別の一日分材料数
+    level: L2 条件・実践
+  - id: まとめ料理のルート
+    title: まとめ料理のルート
+    level: L2 条件・実践
+  - id: 一緒に料理を活用する
+    title: 一緒に料理を活用する
+    level: L2 条件・実践
+  - id: 鉱石装備品の贈答と調達
+    title: 鉱石・装備品の贈答と調達
+    level: L2 条件・実践
+  - id: 素材調達と在庫管理
+    title: 素材調達と在庫管理
+    level: L2 条件・実践
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: friendship
+- slug: inheritance-basics
+  title: 装備継承の統合理論：候補はどこから来るのか
+  section: basics
+  related:
+  - practical-equipment
+  - method-comparison
+  - candidate-count-calculator
+  - copper-early-rf5
+  - cushion-method
+  - dummy-method
+  - shuffle-method
+  - rf5-4000-trials
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 生成・保持・参照・本体候補化をつなぐと、継承失敗と各製法の狙いが分かる。
+  scope: RF4SP・RF5。既存攻略知識、各1試行のRF5観測、内部補完の概念モデル、RF4SPの重み付き仮説を区別する。
+  outline:
+  - id: 装備製作を読む順序
+    title: 3枠と読む順序
+    level: L2 基礎
+  - id: auto-trigger
+    title: 通常製作のオートアレンジ
+    level: L3 仕組み
+  - id: internal-arrange
+    title: 保持と永続化
+    level: L3 仕組み
+  - id: equipment-body
+    title: 装備本体候補化
+    level: L3 仕組み
+  - id: 第一同カテゴリ内部アレンジ参照
+    title: 第一同カテゴリ内部アレンジ参照
+    level: L3 観測・説明モデル
+  - id: hidden-x
+    title: 見えない不要候補X
+    level: L3 説明モデル
+  - id: 候補が多いと全員は座れない
+    title: 3枠の椅子取り
+    level: L3 比喩
+  - id: work-selection
+    title: 作品別の抽選特性
+    level: L4 適用範囲
+  - id: プレイヤーには何が役立つ
+    title: 各製法への応用
+    level: L2 実践
+  - id: 詳細研究モデルと観測範囲
+    title: 詳細モデル・境界試験
+    level: L4 根拠・限界
+  public: true
+  category: equipment
+  related_notes:
+    candidate-count-calculator: RF5向け等確率の参考モデル。RF4SPの攻略成功率は計算できません。
+- slug: material-levels
+  title: 素材レベルと抽選確率
+  section: research
+  related:
+  - rf4sp-selection-bias
+  - rf4sp-rf5-comparison
+  works:
+  - RF4SP
+  status: candidate
+  summary: 既存30＋30試行では、表示順の明確な分布差は検出されていません。
+  scope: RF4SPの全種Lv10と金のカブのみLv3を比較した範囲です。非有意は同等性の証明ではなく、候補脱落率への効果も別の問いです。
+  outline:
+  - id: 金のカブだけlv3にした比較
+    title: 金のカブだけLv3にした比較
+    level: L3 仕組み・観測
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: research
+- slug: method-comparison
+  title: クッション・ダミー・シャッフルの使い分け
+  section: practice
+  related:
+  - cushion-method
+  - dummy-method
+  - shuffle-method
+  - inheritance-basics
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 配置・候補構成・投入順のどこを工夫するかで、製法を選びます。
+  scope: クッション、ダミー、シャッフルは条件付きの研究製法です。作品・起点レシピ・内部状態をそろえて適用範囲を確かめます。
+  outline:
+  - id: 工夫するポイントが違う
+    title: 工夫するポイントが違う
+    level: L3 仕組み・観測
+  - id: どう使い分ける
+    title: どう使い分ける？
+    level: L2 条件・実践
+  - id: 実演と研究資料
+    title: 実演と研究資料
+    level: L2 条件・実践
+  - id: 3製法を一表で選ぶ
+    title: 3製法を一表で選ぶ
+    level: L2 条件・実践
+  public: true
+  category: equipment
+- slug: practical-equipment
+  title: ゴーストロケット・属性吸収ブローチ
+  section: practice
+  related:
+  - cushion-method
+  - dummy-method
+  - rf4sp-item-order
+  - inheritance-basics
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 移動用の靴と属性吸収を、用途から選んで製作します。
+  scope: 靴は作品別の製法へ進んでください。ブローチの具体例はRF4SPです。鑑定表示と特殊効果の実発現は別に確認します。
+  outline:
+  - id: ゴーストロケットを狙う靴
+    title: ゴーストロケットを狙う靴
+    level: L3 仕組み・観測
+  - id: rf4sp-属性吸収ブローチ
+    title: RF4SP 属性吸収ブローチ
+    level: L3 仕組み・観測
+  - id: rf33-practical
+    title: ルーンプラーナ：必要性能と作りやすさ
+    level: L2 条件・実践
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: equipment
+- slug: prince-points
+  title: セーブデータ引継ぎを利用した王子ポイント稼ぎ
+  section: other
+  related:
+  - research-archive
+  - shop-display-ranks
+  works:
+  - RF4SP
+  status: verification
+  summary: 救出前データの保持と引継ぎを利用する攻略方針です。
+  scope: 反復の詳細操作と消費を含む純増効率は追加確認中です。
+  outline:
+  - id: 利用前に用意すること
+    title: 利用前に用意すること
+    level: L2 条件・実践
+  - id: 救出で得られる報酬
+    title: 救出で得られる報酬
+    level: L2 条件・実践
+  - id: 引継ぎと救出を反復する考え方
+    title: 引継ぎと救出を反復する考え方
+    level: L2 条件・実践
+  - id: 実演動画
+    title: 実演動画
+    level: L2 条件・実践
+  - id: 根拠と未確認事項
+    title: 根拠と未確認事項
+    level: L4 根拠・限界
+  public: true
+  category: advanced
+- slug: research-archive
+  title: 研究アーカイブ・未解決問題
+  section: archive
+  related:
+  - rf4sp-rf5-comparison
+  - crop-display
+  - prince-points
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 数値の根拠を読み、確かめられたことと未解決の問いをたどれます。
+  scope: 旧名称のPDF、現行の観測、内部実装の仮説を区別します。救出動画以外の候補動画は未公開です。
+  outline:
+  - id: 日本語pdfとデータ
+    title: 日本語PDFとデータ
+    level: L2 条件・実践
+  - id: 実演動画の検収状態
+    title: 実演動画の公開状況
+    level: L2 条件・実践
+  - id: 残る研究課題
+    title: 残る研究課題
+    level: L2 条件・実践
+  - id: rf6への展望
+    title: RF6への展望
+    level: L2 条件・実践
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: research
+- slug: rf4sp-item-order
+  title: RF4SP アイテム順列問題
+  section: research
+  related:
+  - practical-equipment
+  - rf4sp-selection-bias
+  - shuffle-method
+  works:
+  - RF4SP
+  status: candidate
+  summary: 2候補の投入順保持と、物体Xの素材別2,100試行を実測で比較します。
+  scope: 2候補は実機検証の報告値、3候補は原表再集計。20個実演は合算せず、全2候補条件へ一般化しません。
+  outline:
+  - id: 何の順序か
+    title: 何の「順序」か
+    level: L3 観測・応用
+  - id: 支給動画の確認範囲
+    title: 実演記録から分かること
+    level: L3 観測・応用
+  - id: rf33-fig1
+    title: 2候補と3候補の比較
+    level: L3 観測・応用
+  - id: rf33-fig2
+    title: 素材別の物体X先頭率
+    level: L3 観測・応用
+  - id: rf33-fig3
+    title: 物体Xの最終位置
+    level: L3 観測・応用
+  - id: 排列位置と属性耐性値
+    title: 排列位置と属性耐性値
+    level: L3 観測・応用
+  - id: rf5との比較範囲
+    title: RF5との比較範囲
+    level: L3 観測・応用
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L3 観測・応用
+  public: true
+  category: research
+- slug: rf4sp-messhilite-trials
+  title: RF4SP メッシライト400回検証
+  section: research
+  related:
+  - rf5-4000-trials
+  - candidate-count-calculator
+  - rf4sp-rf5-comparison
+  - inheritance-basics
+  works:
+  - RF4SP
+  status: candidate
+  summary: 各100回の4条件で、3積みと6積みの観測成功率に差がありました。
+  scope: 愛の結晶とグリッタ輝石の素材差は検出していません。未検証行を分母に含めず、同等性や内部抽選式の証明に拡張しません。
+  outline:
+  - id: 原表から数え直した結果
+    title: 原表から数え直した結果
+    level: L4 根拠・限界
+  - id: 比較できること
+    title: 比較できること
+    level: L4 根拠・限界
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: research
+  related_notes:
+    candidate-count-calculator: RF5向け等確率の参考モデル。RF4SPの攻略成功率は計算できません。
+- slug: rf4sp-rf5-comparison
+  title: RF4SPとRF5：何を共通に考え、何を分ける？
+  section: research
+  related:
+  - rf4sp-messhilite-trials
+  - rf5-4000-trials
+  - rf4sp-selection-bias
+  - research-archive
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 候補構成を見る視点は共有し、成立条件は作品ごとに確かめます。
+  scope: RF4SPの偏りや製法をRF5へ、RF5の等確率モデルをRF4SPへ、そのまま移しません。
+  outline:
+  - id: このサイトで紹介する証拠
+    title: このサイトで紹介する証拠
+    level: L3 仕組み・観測
+  - id: 二つの観測を一つにしない
+    title: 二つの観測を一つにしない
+    level: L3 仕組み・観測
+  - id: 実際に試す前のチェック
+    title: 実際に試す前のチェック
+    level: L2 条件・実践
+  - id: 根拠を読む
+    title: 根拠を読む
+    level: L4 根拠・限界
+  - id: 作品ごとの定量資料
+    title: 作品ごとの定量資料
+    level: L3 仕組み・観測
+  public: true
+  category: research
+- slug: rf4sp-selection-bias
+  title: RF4SP 素材別の排列位置と候補脱落
+  section: research
+  related:
+  - rf4sp-item-order
+  - material-levels
+  - dummy-method
+  works:
+  - RF4SP
+  status: candidate
+  summary: 3候補200試行では、素材ごとに排列位置の違いが観測されています。
+  scope: 各素材100登場の記述統計です。位置頻度は脱落率ではありません。第三候補や重複の扱い、内部機構は分けて検討します。
+  outline:
+  - id: 3候補の位置6素材20組10回
+    title: 3候補の位置：6素材20組×10回
+    level: L3 仕組み・観測
+  - id: 4候補以上の脱落別の問い
+    title: 4候補以上の脱落：別の問い
+    level: L3 仕組み・観測
+  - id: 前向き追試を合算しない
+    title: 前向き追試を合算しない
+    level: L4 根拠・限界
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: research
+- slug: rf5-4000-trials
+  title: RF5 メッシライト継承4,000回検証
+  section: research
+  related:
+  - candidate-count-calculator
+  - cushion-method
+  - rf4sp-messhilite-trials
+  - inheritance-basics
+  works:
+  - RF5
+  status: candidate
+  summary: 特定条件の4,000試行では、積み数ごとに観測成功率が変わりました。
+  scope: RF5の愛の結晶を用いる条件です。一般的な継承成功率や候補上限を示す数字ではありません。
+  outline:
+  - id: 何を成功と数えた
+    title: 何を「成功」と数えた？
+    level: L3 仕組み・観測
+  - id: 観測結果
+    title: 観測結果
+    level: L3 仕組み・観測
+  - id: 数を増やすだけでなく何を候補にするか
+    title: 数を増やすだけでなく、何を候補にするか
+    level: L3 仕組み・観測
+  - id: 一次データと方法
+    title: 一次データと方法
+    level: L3 仕組み・観測
+  - id: 等確率モデルとの比較
+    title: 等確率モデルとの比較
+    level: L3 仕組み・観測
+  public: true
+  category: research
+- slug: shuffle-method
+  title: シャッフル製法：投入順を変えてリセマラを減らす
+  section: practice
+  related:
+  - method-comparison
+  - inheritance-basics
+  - rf4sp-item-order
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 同じ素材でも投入順を変えることで、不要な継承抽選を避けられる場合があります。
+  scope: 通常レシピと装備の内部状態を記録する方法です。内部走査順の確定や、全レシピでの成功保証ではありません。 具体的な製作例の出典はRF5を中心とし、RF4SPで同一手順が成立する意味ではありません。
+  outline:
+  - id: shuffle-quiz
+    title: 同じ素材なのに運ゲーになるのはどちら？
+    level: L2 条件・実践
+  - id: 動かすのは順序
+    title: 動かすのは「順序」
+    level: L3 仕組み・観測
+  - id: shuffle-steps
+    title: シャッフル製法の手順
+    level: L2 条件・実践
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: equipment
+- slug: triple-gift
+  title: 普通・好物・大好物を分ける贈り物の日課
+  section: other
+  category: friendship
+  works:
+  - RF4SP
+  - RF5
+  public: true
+  status: candidate
+  related:
+  - friendship-rf4sp
+  - friendship-rf5
+  - crop-display
+  summary: 普通・好物・大好物の3分類を分け、各1回の日課として組みます。
+  scope: 筆者環境の観測です。同じ分類の複数ギフトで3分類分になるという意味ではありません。
+  outline:
+  - id: 1日3分類をそれぞれ1回ずつ
+    title: 1日3分類を、それぞれ1回ずつ
+    level: L2 条件・実践
+  - id: 好感度バーで確認する
+    title: 好感度バーで確認する
+    level: L2 条件・実践
+  - id: 手作りと低コストの両立
+    title: 手作りと低コストの両立
+    level: L2 条件・実践
+  - id: 出典と範囲
+    title: 出典と範囲
+    level: L4 根拠・限界
+- slug: shop-display-ranks
+  title: 王子・姫ランクと店舗の陳列数
+  summary: RF4書籍から販売候補と陳列上限を分離。RF4SPでの仕様維持は確認待ち。
+  section: other
+  category: resources
+  public: true
+  works:
+  - RF4SP
+  scope: RF4無印書籍の転記。RF4SP適用未確認。RF5/RF6へ継承しません。
+  related:
+  - crop-display
+  - prince-points
+  - friendship-rf4sp
+  outline: []
+- slug: copper-early-rf5
+  title: RF5｜春4〜5日に銅鉱石を確保する方法
+  section: other
+  category: resources
+  subcategory: 序盤攻略
+  works:
+  - RF5
+  public: true
+  status: candidate
+  summary: 到達は春4日から、無料ハンマーで採掘する目安は春5日。
+  scope: 筆者の実機経験に基づく序盤攻略。詳細経路・採掘確率は未検証。
+  related:
+  - inheritance-basics
+  - friendship-rf5
+  outline:
+  - id: 銅を早めに確保する
+    title: 銅を早めに確保する
+    level: L2 実践
+  - id: 到達と採掘を分けて準備する
+    title: 到達と採掘を分けて準備する
+    level: L2 実践
+  - id: 確保できるものと休憩の目安
+    title: 確保できるものと休憩の目安
+    level: L2 実践
+  - id: 素材を装備製作へつなげる
+    title: 素材を装備製作へつなげる
+    level: L2 実践
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L2 実践

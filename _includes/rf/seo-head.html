@@ -1,0 +1,23 @@
+{% assign seo_visible = page.seo_public %}{% assign seo_path = page.path | downcase %}{% if seo_path contains 'rf6' %}{% assign seo_visible = false %}{% endif %}
+{% assign seo_type = 'website' %}{% if page.layout == 'rf-guide' and page.slug %}{% assign seo_type = 'article' %}{% endif %}
+{% assign seo_title = page.title | default: site.title %}
+{% assign seo_description = page.description | default: site.description %}
+{% assign seo_url = page.url | replace: 'index.html', '' | absolute_url %}
+<title>{{ seo_title | escape }}｜RF装備継承研究</title>
+<meta name="description" content="{{ seo_description | escape }}">
+<link rel="canonical" href="{{ seo_url | escape }}">
+<meta property="og:type" content="{{ page.og_type | default: seo_type | escape }}">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ seo_title | escape }}｜RF装備継承研究">
+<meta property="og:description" content="{{ seo_description | escape }}">
+<meta property="og:url" content="{{ seo_url | escape }}">
+<meta name="twitter:card" content="summary">
+{% if seo_visible != true or page.noindex == true %}<meta name="robots" content="noindex,follow">{% endif %}
+{% if site.google_site_verification != empty and site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification | escape }}">{% endif %}
+{% if seo_visible == true and page.noindex != true %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":{{ seo_title | jsonify | replace: '<', '\u003c' }},"description":{{ seo_description | jsonify | replace: '<', '\u003c' }},"url":{{ seo_url | jsonify | replace: '<', '\u003c' }},"inLanguage":"ja"}</script>
+{% endif %}
+{% if site.ga4_measurement_id != empty and site.ga4_measurement_id %}
+<script defer src="{{ '/assets/js/rf-analytics.js' | relative_url }}" data-measurement-id="{{ site.ga4_measurement_id | escape }}" data-canonical="{{ seo_url | escape }}" data-storage-key="rf-analytics:{{ site.baseurl | escape }}"></script>
+{% endif %}

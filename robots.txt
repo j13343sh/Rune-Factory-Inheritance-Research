@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: /robots.txt
+seo_public: false
+---
+# Project-path copy. Effective crawler rules must be at the HOST root.
+User-agent: *
+Disallow:
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

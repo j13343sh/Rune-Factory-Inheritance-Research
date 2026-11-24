@@ -23,3 +23,52 @@ exclude:
 - source-materials
 - tests
 - tools
+- README.md
+- README_EN.md
+- AGENTS.md
+- rf6
+- RF6
+- internal
+- delivery
+- vendor
+title: RF装備継承研究
+description: ルーンファクトリー4SP・5の装備継承を、実機観測・統計分析・研究資料から解説します。
+google_site_verification: ''
+ga4_measurement_id: ''
+defaults:
+- scope:
+    path: ''
+  values:
+    seo_public: false
+- scope:
+    path: index.md
+  values:
+    seo_public: true
+- scope:
+    path: guides
+  values:
+    seo_public: true
+- scope:
+    path: fields
+  values:
+    seo_public: true
+- scope:
+    path: works
+  values:
+    seo_public: true
+- scope:
+    path: privacy.md
+  values:
+    seo_public: true
+- scope:
+    path: guides/rf6
+  values:
+    seo_public: false
+- scope:
+    path: works/rf6
+  values:
+    seo_public: false
+- scope:
+    path: fields/rf6
+  values:
+    seo_public: false

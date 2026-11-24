@@ -1,0 +1,133 @@
+- material: 無力のリンゴ
+  en: Mealy Apple
+  n: 300
+  counts:
+  - 163
+  - 92
+  - 45
+  percent:
+  - 54.33
+  - 30.67
+  - 15.0
+  wilson95:
+  - 48.68
+  - 59.88
+  resistance:
+  - 21
+  - 0
+  - -20
+  range: '''無力のリンゴ_並び順''!A2:H301'
+- material: ヘビースパイス
+  en: Heavy Spice
+  n: 300
+  counts:
+  - 91
+  - 119
+  - 90
+  percent:
+  - 30.33
+  - 39.67
+  - 30.0
+  wilson95:
+  - 25.41
+  - 35.76
+  resistance:
+  - 21
+  - 0
+  - -20
+  range: '''ヘビースパイス_並び順''!A2:H301'
+- material: スイートパウダー
+  en: Sweet Powder
+  n: 300
+  counts:
+  - 111
+  - 90
+  - 99
+  percent:
+  - 37.0
+  - 30.0
+  - 33.0
+  wilson95:
+  - 31.73
+  - 42.6
+  resistance:
+  - 21
+  - 0
+  - -20
+  range: '''スイートパウダー_並び順''!A2:H301'
+- material: サワードロップ
+  en: Sour Drop
+  n: 300
+  counts:
+  - 95
+  - 99
+  - 106
+  percent:
+  - 31.67
+  - 33.0
+  - 35.33
+  wilson95:
+  - 26.66
+  - 37.13
+  resistance:
+  - 21
+  - 0
+  - -20
+  range: '''サワードロップ_並び順''!A2:H301'
+- material: ミックスハーブ
+  en: Mixed Herbs
+  n: 300
+  counts:
+  - 107
+  - 95
+  - 98
+  percent:
+  - 35.67
+  - 31.67
+  - 32.67
+  wilson95:
+  - 30.46
+  - 41.24
+  resistance:
+  - 21
+  - 0
+  - -20
+  range: '''ミックスハーブ_並び順''!A2:H301'
+- material: 油
+  en: Oil
+  n: 300
+  counts:
+  - 52
+  - 75
+  - 173
+  percent:
+  - 17.33
+  - 25.0
+  - 57.67
+  wilson95:
+  - 13.47
+  - 22.02
+  resistance:
+  - 61
+  - 0
+  - -60
+  range: '''油_並び順''!A2:H301'
+- material: 超失敗作
+  en: Disastrous Dish
+  n: 300
+  counts:
+  - 92
+  - 110
+  - 98
+  percent:
+  - 30.67
+  - 36.67
+  - 32.67
+  wilson95:
+  - 25.72
+  - 36.1
+  resistance:
+  - 50
+  - 0
+  - -50
+  range: '''超失敗作_並び順''!A2:H301'

@@ -21,3 +21,4 @@
 {% if site.ga4_measurement_id != empty and site.ga4_measurement_id %}
 <script defer src="{{ '/assets/js/rf-analytics.js' | relative_url }}" data-measurement-id="{{ site.ga4_measurement_id | escape }}" data-canonical="{{ seo_url | escape }}" data-storage-key="rf-analytics:{{ site.baseurl | escape }}"></script>
 {% endif %}
+{% if page.slug == 'rf4sp-item-order' or page.slug == 'practical-equipment' %}<link rel="stylesheet" href="{{ '/assets/css/rf-observations.css' | relative_url }}">{% endif %}

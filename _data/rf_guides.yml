@@ -321,6 +321,9 @@
   - id: rf4sp-属性吸収ブローチ
     title: RF4SP 属性吸収ブローチ
     level: L3 仕組み・観測
+  - id: rf33-practical
+    title: ルーンプラーナ：必要性能と作りやすさ
+    level: L2 条件・実践
   - id: 出典と確認範囲
     title: 出典と確認範囲
     level: L4 根拠・限界
@@ -396,18 +399,33 @@
   works:
   - RF4SP
   status: candidate
-  summary: 投入順・完成品の排列・候補脱落は、それぞれ別に記録します。
-  scope: 一括製作20個を独立した20条件とは扱いません。全品判定と比較条件は未確認です。
+  summary: 2候補の投入順保持と、物体Xの素材別2,100試行を実測で比較します。
+  scope: 2候補は実機検証の報告値、3候補は原表再集計。20個実演は合算せず、全2候補条件へ一般化しません。
   outline:
   - id: 何の順序か
     title: 何の「順序」か
-    level: L3 仕組み・観測
+    level: L3 観測・応用
   - id: 支給動画の確認範囲
     title: 実演記録から分かること
-    level: L3 仕組み・観測
+    level: L3 観測・応用
+  - id: rf33-fig1
+    title: 2候補と3候補の比較
+    level: L3 観測・応用
+  - id: rf33-fig2
+    title: 素材別の物体X先頭率
+    level: L3 観測・応用
+  - id: rf33-fig3
+    title: 物体Xの最終位置
+    level: L3 観測・応用
+  - id: 排列位置と属性耐性値
+    title: 排列位置と属性耐性値
+    level: L3 観測・応用
+  - id: rf5との比較範囲
+    title: RF5との比較範囲
+    level: L3 観測・応用
   - id: 出典と確認範囲
     title: 出典と確認範囲
-    level: L4 根拠・限界
+    level: L3 観測・応用
   public: true
   category: research
 - slug: rf4sp-messhilite-trials

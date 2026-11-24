@@ -1,0 +1,35 @@
+first_reference:
+- label: ロケットウィング本体
+  origin: 先頭の装備本体
+  candidate: true
+- label: 内部アレンジA
+  origin: 先頭の内部
+  candidate: true
+- label: 内部アレンジB
+  origin: 先頭の内部
+  candidate: true
+- label: ゴーストブーツ本体
+  origin: 後続の装備本体
+  candidate: true
+- label: 内部アレンジC
+  origin: 後続の内部
+  candidate: false
+- label: 内部アレンジD
+  origin: 後続の内部
+  candidate: false
+cushion:
+- label: レザーブーツ本体
+  origin: 装備本体
+  candidate: true
+- label: ロケットウィング本体
+  origin: 装備本体
+  candidate: true
+- label: ゴーストブーツ本体
+  origin: 装備本体
+  candidate: true
+ore:
+- グリッタ輝石1
+- グリッタ輝石2
+- グリッタ輝石3
+- メッシライト鉱石（X）
+scope: 説明モデル。他の候補発生要因がない、所定の内部状態・参照条件を満たす場合。内部実装の確定フローではない。

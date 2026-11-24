@@ -1,0 +1,204 @@
+ranks:
+- id: initial
+  title: 初期
+- id: ganbari
+  title: がんばり
+- id: rippa
+  title: 立派な
+- id: tayoreru
+  title: 頼れる
+- id: aisareru
+  title: 愛される
+- id: crown
+  title: クラウン・オブ・クラウン
+shops:
+- work_id: RF4
+  shop_id: gem
+  title: 宝石屋
+  sale_category: 出荷済み宝石・鉱石・結晶等
+  limits:
+    initial: 4
+    ganbari: 4
+    rippa: 8
+    tayoreru: 8
+    aisareru: 12
+    crown: 12
+  opening_condition: オーダー「商人・宝石屋を出す」
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_7613EE1C-09A9-4D13-AC65-70D3EF1B118E.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: fish
+  title: 魚屋
+  sale_category: 出荷済み魚等
+  limits:
+    initial: 4
+    ganbari: 4
+    rippa: 8
+    tayoreru: 12
+    aisareru: 16
+    crown: 20
+  opening_condition: オーダー「商人・魚屋を出す」
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_7613EE1C-09A9-4D13-AC65-70D3EF1B118E.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: kitchen
+  title: ポコリーヌキッチン
+  sale_category: 料理販売
+  limits:
+    initial: 4
+    ganbari: 4
+    rippa: 8
+    tayoreru: 8
+    aisareru: 12
+    crown: 20
+  opening_condition: 最初から。入手済み料理と指定料理が候補
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_162BA688-9A81-4DE3-97EC-D845E3F24E90.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: arthur
+  title: アーサーの店
+  sale_category: 交易品
+  limits:
+    initial: 6
+    ganbari: 6
+    rippa: 10
+    tayoreru: 10
+    aisareru: 16
+    crown: 20
+  opening_condition: アーサー移住後。進行による商品変化も別条件
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_75923066-42CC-4899-9003-FED0B5B62FFE.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: vegetable
+  title: 出荷野菜屋
+  sale_category: 出荷済み野菜
+  limits:
+    initial: 8
+    ganbari: 8
+    rippa: 8
+    tayoreru: 12
+    aisareru: 12
+    crown: 20
+  opening_condition: オーダー「ブロッサムの出荷野菜屋を出す」
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_A2027F70-C0C3-4309-9D5C-E00417BD3D1F.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: flower
+  title: 出荷花屋
+  sale_category: 出荷済み花
+  limits:
+    initial: 8
+    ganbari: 8
+    rippa: 8
+    tayoreru: 14
+    aisareru: 14
+    crown: 20
+  opening_condition: オーダー「エルミナータの出荷花屋を出す」
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_AAA06642-AD8C-41EC-A5ED-F014A687D1C9.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: bado
+  title: バドの掘り出し物屋
+  sale_category: 掘り出し物
+  limits:
+    initial: 4
+    ganbari: 4
+    rippa: 8
+    tayoreru: 8
+    aisareru: 12
+    crown: 20
+  opening_condition: オーダー「バドの掘り出し物屋を出す」。固定装備販売とは別
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_9B40630A-758F-48CA-BA82-B1F20DE23303.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: raven
+  title: トゥーナのさく屋
+  sale_category: 収集品
+  limits:
+    initial: 6
+    ganbari: 8
+    rippa: 8
+    tayoreru: 12
+    aisareru: 12
+    crown: 20
+  opening_condition: 開設条件なし。トゥーナに会えば利用
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_BAA5FCCE-D353-4440-ABC2-BB016E01710E.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: magic
+  title: 魔法屋
+  sale_category: 追加販売枠（固定販売品を除く）
+  limits:
+    initial: 7
+    ganbari: 7
+    rippa: 7
+    tayoreru: 7
+    aisareru: 7
+    crown: 12
+  opening_condition: オーダー「商人・魔法屋を出す」
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_9DE17E5E-01D1-4EAA-94CA-ABD6FCCFD032.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認
+- work_id: RF4
+  shop_id: ability
+  title: 技屋
+  sale_category: 追加販売枠（固定販売品を除く）
+  limits:
+    initial: 8
+    ganbari: 8
+    rippa: 8
+    tayoreru: 8
+    aisareru: 8
+    crown: 12
+  opening_condition: オーダー「商人・アビリティ屋を出す」
+  source:
+    book: Rune Factory 4 Official Perfect Guide
+    chapter: Chapter 3 ストーリー攻略／施設＆ショップデータ
+    page: null
+    photo: IMG_9DE17E5E-01D1-4EAA-94CA-ABD6FCCFD032.jpeg
+  confirmation: provided-book-photo-transcription; RF4SP gameplay not rechecked
+  public_note: RF4書籍値。RF4SP仕様維持は未確認

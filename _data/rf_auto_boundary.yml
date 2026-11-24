@@ -1,0 +1,30 @@
+work: RF5
+source: Human HQ provided boundary figure 2026-11-24
+conditions:
+- id: A
+  source: エンチャントなし継承元
+  source_note: オートアレンジ混入余地あり
+  results:
+  - オートアレンジ由来素材
+  - レザーブーツ
+  - 超栄水
+  observation: 混入を確認
+  trials: 1
+- id: B
+  source: アレンジ付き×1継承元
+  source_note: 原図：オートアレンジ込みでアレンジ枠4
+  results:
+  - レザーブーツ
+  - レザーブーツ
+  - 超栄水
+  observation: この試行では混入なし・順序変動なし
+  trials: 1
+- id: C
+  source: アレンジ付き×2継承元
+  source_note: 原図：オートアレンジ込みでアレンジ枠4
+  results:
+  - 超栄水
+  - レザーブーツ
+  - レザーブーツ
+  observation: この試行では混入なし・順序変動あり
+  trials: 1

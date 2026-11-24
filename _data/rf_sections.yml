@@ -1,0 +1,47 @@
+- id: basics
+  title: A 装備継承の基礎
+  kind: legacy
+- id: practice
+  title: B 実践的な装備製作
+  kind: legacy
+- id: research
+  title: C 実機検証・数学モデル
+  kind: category
+  category_title: 検証・研究
+  slug: research
+  lead: 実機記録・数学モデル・研究資料を読む。
+  public: true
+- id: other
+  title: D その他の攻略研究
+  kind: legacy
+- id: archive
+  title: E 研究アーカイブ
+  kind: legacy
+- id: equipment
+  title: 装備製作
+  category_title: 装備製作
+  kind: category
+  slug: equipment
+  lead: 素材の配置・投入順・候補構成を工夫する。
+  public: true
+- id: friendship
+  title: 好感度
+  category_title: 好感度
+  kind: category
+  slug: friendship
+  lead: 住民への贈り物と、続けられる日課。
+  public: true
+- id: resources
+  title: 生活・資源管理
+  category_title: 生活・資源管理
+  kind: category
+  slug: resources
+  lead: 出荷、陳列候補、料理素材の安定供給。
+  public: true
+- id: advanced
+  title: 応用攻略
+  category_title: 応用攻略
+  kind: category
+  slug: advanced
+  lead: 進行条件を使った攻略と運用。
+  public: true

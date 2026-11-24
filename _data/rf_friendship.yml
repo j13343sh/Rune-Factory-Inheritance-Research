@@ -1,0 +1,4466 @@
+RF4SP:
+  source:
+    id: RF4SP-friendship-provided
+    name: RF4SP Daily Friendship Farming Guid.txt
+    sha256: 42e8bbd3cceac6dfac4ec0aa867b57cc0e6a14b8b7f59938a23c22522ef17455
+  residents:
+  - id: margaret
+    name: マーガレット
+    en: Margaret
+    note: 好物はだんごへ代替可能。ホットチョコレートと両方渡しても別分類にはならない。
+    source_line: 22
+  - id: kohaku
+    name: コハク
+    en: Kohaku
+    note: ゴールドジュースよりミックス・オ・レが日課向き。
+    source_line: 23
+  - id: forte
+    name: フォルテ
+    en: Forte
+    note: 寄せ鍋は準備の負担が大きい。
+    source_line: 24
+  - id: dolce
+    name: ドルチェ
+    en: Dolce
+    note: 温かい飲み物のホットチョコレートを維持。だんごへ一律に置き換えない。
+    source_line: 25
+  - id: xiao-pai
+    name: シャオパイ
+    en: Xiao Pai
+    note: 水晶花4色と金剛花は大好物。花の一般分類と区別する。
+    source_line: 26
+  - id: clorica
+    name: クローリカ
+    en: Clorica
+    note: アップルパイは大好物。りんごジュース・焼きりんごは好物。
+    source_line: 27
+  - id: vishnal
+    name: ビシュナル
+    en: Vishnal
+    note: カブは嫌いでもカブの種は日課候補。
+    source_line: 28
+  - id: dylas
+    name: ディラス
+    en: Dylas
+    note: 刺身なら牛乳を節約できる。
+    source_line: 29
+  - id: arthur
+    name: アーサー
+    en: Arthur
+    note: 低コストで続けやすい。
+    source_line: 30
+  - id: kiel
+    name: キール
+    en: Kiel
+    note: 好物はだんごへ代替可能。ホットチョコレートと両方渡しても別分類にはならない。
+    source_line: 31
+  - id: doug
+    name: ダグ
+    en: Doug
+    note: ごはん中心のルート。
+    source_line: 32
+  - id: leon
+    name: レオン
+    en: Leon
+    note: 焼きドクニジマス・焼きフーインは大好物。一般の焼き魚の好物枠と区別する。
+    source_line: 33
+  - id: ventuswill
+    name: セルザウィード
+    en: Ventuswill
+    note: 余った作物を活用。
+    source_line: 34
+  - id: volkanon
+    name: ヴォルカノン
+    en: Volkanon
+    note: 好物はだんごへ代替可能。ホットチョコレートと両方渡しても別分類にはならない。
+    source_line: 35
+  - id: jones
+    name: ジョーンズ
+    en: Jones
+    note: 費用を抑えやすい。
+    source_line: 36
+  - id: nancy
+    name: ナンシー
+    en: Nancy
+    note: 牛乳と卵を共有できる。
+    source_line: 37
+  - id: illuminata
+    name: エルミナータ
+    en: Illuminata
+    note: 好物はだんごへ代替可能。ホットチョコレートと両方渡しても別分類にはならない。
+    source_line: 38
+  - id: lin-fa
+    name: リンファ
+    en: Lin Fa
+    note: ごはん中心。
+    source_line: 39
+  - id: porcoline
+    name: ポコリーヌ
+    en: Porcoline
+    note: 生野菜・きのこは大好物、料理は好物。鉄は普通。クズ鉄は嫌い。
+    source_line: 40
+  - id: blossom
+    name: ブロッサム
+    en: Blossom
+    note: 安価で続けやすい。
+    source_line: 41
+  - id: bado
+    name: バド
+    en: Bado
+    note: おにぎり・クズ鉄は好物。鉄などの金属は嫌いなので区別する。
+    source_line: 42
+  gifts:
+  - id: rf4sp-margaret-1
+    work: RF4SP
+    resident_id: margaret
+    item: 恋の予感
+    item_en: Prelude to Love
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: margaret-loved
+    materials:
+    - イチゴ
+    - オトメロン
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 22
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: まとめ料理しやすいルート。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-margaret-2
+    work: RF4SP
+    resident_id: margaret
+    item: パインジュース
+    item_en: Pineapple Juice
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: margaret-loved
+    materials:
+    - パイナップル
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 22
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: まとめ料理しやすいルート。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-margaret-3
+    work: RF4SP
+    resident_id: margaret
+    item: ホットチョコレート
+    item_en: Hot Chocolate
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: margaret-liked
+    materials:
+    - チョコレート
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 22
+      role: liked
+    confirmation: external-reference; no new gameplay test
+    note: まとめ料理しやすいルート。
+    preference_groups:
+    - 甘いもの
+    - ホットチョコレート個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Margaret_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-margaret-4
+    work: RF4SP
+    resident_id: margaret
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: margaret-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 22
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: まとめ料理しやすいルート。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-margaret-5
+    work: RF4SP
+    resident_id: margaret
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: margaret-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 22
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: まとめ料理しやすいルート。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-margaret-6
+    work: RF4SP
+    resident_id: margaret
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: margaret-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 22
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: まとめ料理しやすいルート。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-kohaku-7
+    work: RF4SP
+    resident_id: kohaku
+    item: ゴールドジュース
+    item_en: Gold Juice
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: kohaku-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 23
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ゴールドジュースよりミックス・オ・レが日課向き。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-kohaku-8
+    work: RF4SP
+    resident_id: kohaku
+    item: ミックス・オ・レ
+    item_en: Mixed au Lait
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: kohaku-loved
+    materials:
+    - イチゴ
+    - オレンジ
+    - ハチミツ
+    - パイナップル
+    - ブドウ
+    - ミックスジュース
+    - リンゴ
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 23
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ゴールドジュースよりミックス・オ・レが日課向き。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-kohaku-9
+    work: RF4SP
+    resident_id: kohaku
+    item: ジュース類
+    item_en: Any Juice
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: kohaku-liked
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 23
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ゴールドジュースよりミックス・オ・レが日課向き。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-kohaku-10
+    work: RF4SP
+    resident_id: kohaku
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: kohaku-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 23
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ゴールドジュースよりミックス・オ・レが日課向き。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-kohaku-11
+    work: RF4SP
+    resident_id: kohaku
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: kohaku-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 23
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ゴールドジュースよりミックス・オ・レが日課向き。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-kohaku-12
+    work: RF4SP
+    resident_id: kohaku
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: kohaku-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 23
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ゴールドジュースよりミックス・オ・レが日課向き。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-forte-13
+    work: RF4SP
+    resident_id: forte
+    item: チョコレートケーキ
+    item_en: Chocolate Cake
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: forte-loved
+    materials:
+    - スイートパウダー
+    - チョコレート
+    - バター
+    - 卵類
+    - 小麦粉
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 24
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 寄せ鍋は準備の負担が大きい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-forte-14
+    work: RF4SP
+    resident_id: forte
+    item: 寄せ鍋
+    item_en: Hot Pot
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: forte-loved
+    materials:
+    - きのこ
+    - ほかほかの実
+    - ダイコン
+    - ネギ
+    - 白菜
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 24
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 寄せ鍋は準備の負担が大きい。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-forte-15
+    work: RF4SP
+    resident_id: forte
+    item: オムライス
+    item_en: Omelet Rice
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: forte-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 24
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 寄せ鍋は準備の負担が大きい。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-forte-16
+    work: RF4SP
+    resident_id: forte
+    item: ゆで卵
+    item_en: Boiled Egg
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: forte-liked
+    materials:
+    - 卵類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 24
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 寄せ鍋は準備の負担が大きい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-forte-17
+    work: RF4SP
+    resident_id: forte
+    item: 卵焼き
+    item_en: Rolled Omelet
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: forte-liked
+    materials:
+    - 卵類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 24
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 寄せ鍋は準備の負担が大きい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-forte-18
+    work: RF4SP
+    resident_id: forte
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: forte-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 24
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 寄せ鍋は準備の負担が大きい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-forte-19
+    work: RF4SP
+    resident_id: forte
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: forte-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 24
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 寄せ鍋は準備の負担が大きい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-forte-20
+    work: RF4SP
+    resident_id: forte
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: forte-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 24
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 寄せ鍋は準備の負担が大きい。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-dolce-21
+    work: RF4SP
+    resident_id: dolce
+    item: プリン
+    item_en: Pudding
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: dolce-loved
+    materials:
+    - 卵類
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 25
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ホットチョコレートは手作りボーナスを活用。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-dolce-22
+    work: RF4SP
+    resident_id: dolce
+    item: ホットチョコレート
+    item_en: Hot Chocolate
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: dolce-liked
+    materials:
+    - チョコレート
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 25
+      role: liked
+    confirmation: external-reference; no new gameplay test
+    note: ホットチョコレートは手作りボーナスを活用。
+    preference_groups:
+    - 温かい飲み物
+    - ホットチョコレート個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Dolce_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-dolce-23
+    work: RF4SP
+    resident_id: dolce
+    item: 薬類
+    item_en: Medicine
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: dolce-liked
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 25
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ホットチョコレートは手作りボーナスを活用。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-dolce-24
+    work: RF4SP
+    resident_id: dolce
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: dolce-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 25
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ホットチョコレートは手作りボーナスを活用。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-dolce-25
+    work: RF4SP
+    resident_id: dolce
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: dolce-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 25
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ホットチョコレートは手作りボーナスを活用。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-dolce-26
+    work: RF4SP
+    resident_id: dolce
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: dolce-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 25
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ホットチョコレートは手作りボーナスを活用。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-xiao-pai-27
+    work: RF4SP
+    resident_id: xiao-pai
+    item: 水晶花（青水晶・緑水晶・赤水晶・白水晶）
+    item_en: Crystal Flowers
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: xiao-pai-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 26
+      role: loved
+    confirmation: external-reference; no new gameplay test
+    note: 中華まんは低コストで続けやすい。花の名称は要照合。
+    preference_groups:
+    - 水晶花・大好物
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Xiao_Pai_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-xiao-pai-28
+    work: RF4SP
+    resident_id: xiao-pai
+    item: 金剛花
+    item_en: Emery Flower
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: xiao-pai-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 26
+      role: loved
+    confirmation: external-reference; no new gameplay test
+    note: 中華まんは低コストで続けやすい。花の名称は要照合。
+    preference_groups:
+    - 個別指定・大好物
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Xiao_Pai_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-xiao-pai-29
+    work: RF4SP
+    resident_id: xiao-pai
+    item: 中華まん
+    item_en: Chinese Bun
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: xiao-pai-liked
+    materials:
+    - タケノコ
+    - 小麦粉
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 26
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 中華まんは低コストで続けやすい。花の名称は要照合。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-xiao-pai-30
+    work: RF4SP
+    resident_id: xiao-pai
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: xiao-pai-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 26
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 中華まんは低コストで続けやすい。花の名称は要照合。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-xiao-pai-31
+    work: RF4SP
+    resident_id: xiao-pai
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: xiao-pai-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 26
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 中華まんは低コストで続けやすい。花の名称は要照合。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-xiao-pai-32
+    work: RF4SP
+    resident_id: xiao-pai
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: xiao-pai-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 26
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 中華まんは低コストで続けやすい。花の名称は要照合。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-clorica-33
+    work: RF4SP
+    resident_id: clorica
+    item: アップルパイ
+    item_en: Apple Pie
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: clorica-loved
+    materials:
+    - バター
+    - リンゴ
+    - 卵類
+    - 小麦粉
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 27
+      role: loved
+    confirmation: external-reference; no new gameplay test
+    note: リンゴを複数の料理に使う。分類はガイドに従う。
+    preference_groups:
+    - 個別指定
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Clorica_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-clorica-34
+    work: RF4SP
+    resident_id: clorica
+    item: りんごジュース
+    item_en: Apple Juice
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: clorica-liked
+    materials:
+    - リンゴ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 27
+      role: liked
+    confirmation: external-reference; no new gameplay test
+    note: リンゴを複数の料理に使う。分類はガイドに従う。
+    preference_groups:
+    - リンゴ料理
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Clorica_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-clorica-35
+    work: RF4SP
+    resident_id: clorica
+    item: 焼きりんご
+    item_en: Baked Apple
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: clorica-liked
+    materials:
+    - リンゴ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 27
+      role: liked
+    confirmation: external-reference; no new gameplay test
+    note: リンゴを複数の料理に使う。分類はガイドに従う。
+    preference_groups:
+    - リンゴ料理
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Clorica_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-clorica-36
+    work: RF4SP
+    resident_id: clorica
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: clorica-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 27
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リンゴを複数の料理に使う。分類はガイドに従う。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-clorica-37
+    work: RF4SP
+    resident_id: clorica
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: clorica-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 27
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リンゴを複数の料理に使う。分類はガイドに従う。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-clorica-38
+    work: RF4SP
+    resident_id: clorica
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: clorica-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 27
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リンゴを複数の料理に使う。分類はガイドに従う。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-vishnal-39
+    work: RF4SP
+    resident_id: vishnal
+    item: カレーライス
+    item_en: Curry Rice
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: vishnal-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 28
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: カブは嫌いでもカブの種は日課候補。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-vishnal-40
+    work: RF4SP
+    resident_id: vishnal
+    item: ドライカレー
+    item_en: Dry Curry
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: vishnal-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 28
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: カブは嫌いでもカブの種は日課候補。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-vishnal-41
+    work: RF4SP
+    resident_id: vishnal
+    item: 中華まん
+    item_en: Chinese Bun
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: vishnal-liked
+    materials:
+    - タケノコ
+    - 小麦粉
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 28
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: カブは嫌いでもカブの種は日課候補。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-vishnal-42
+    work: RF4SP
+    resident_id: vishnal
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: vishnal-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 28
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: カブは嫌いでもカブの種は日課候補。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-vishnal-43
+    work: RF4SP
+    resident_id: vishnal
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: vishnal-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 28
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: カブは嫌いでもカブの種は日課候補。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-dylas-44
+    work: RF4SP
+    resident_id: dylas
+    item: 牛乳がゆ
+    item_en: Milk Porridge
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: dylas-loved
+    materials:
+    - ごはん
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 29
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 刺身なら牛乳を節約できる。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-dylas-45
+    work: RF4SP
+    resident_id: dylas
+    item: 刺身類
+    item_en: Any Sashimi
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: dylas-liked
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 29
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 刺身なら牛乳を節約できる。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-dylas-46
+    work: RF4SP
+    resident_id: dylas
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: dylas-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 29
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 刺身なら牛乳を節約できる。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-dylas-47
+    work: RF4SP
+    resident_id: dylas
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: dylas-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 29
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 刺身なら牛乳を節約できる。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-dylas-48
+    work: RF4SP
+    resident_id: dylas
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: dylas-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 29
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 刺身なら牛乳を節約できる。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-arthur-49
+    work: RF4SP
+    resident_id: arthur
+    item: 鮭のおにぎり
+    item_en: Salmon Rice Ball
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: arthur-loved
+    materials:
+    - ごはん
+    - サケ
+    - サワードロップ
+    - 塩ジャケ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 30
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 低コストで続けやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-arthur-50
+    work: RF4SP
+    resident_id: arthur
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: arthur-liked
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 30
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 低コストで続けやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-arthur-51
+    work: RF4SP
+    resident_id: arthur
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: arthur-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 30
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 低コストで続けやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-arthur-52
+    work: RF4SP
+    resident_id: arthur
+    item: パン
+    item_en: Bread
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: arthur-daily
+    materials:
+    - 小麦粉
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 30
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 低コストで続けやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-arthur-53
+    work: RF4SP
+    resident_id: arthur
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: arthur-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 30
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 低コストで続けやすい。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-kiel-54
+    work: RF4SP
+    resident_id: kiel
+    item: チョコレートケーキ
+    item_en: Chocolate Cake
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: kiel-loved
+    materials:
+    - スイートパウダー
+    - チョコレート
+    - バター
+    - 卵類
+    - 小麦粉
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 31
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: アンブロシアのイバラはボス由来。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-kiel-55
+    work: RF4SP
+    resident_id: kiel
+    item: 寄せ鍋
+    item_en: Hot Pot
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: kiel-loved
+    materials:
+    - きのこ
+    - ほかほかの実
+    - ダイコン
+    - ネギ
+    - 白菜
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 31
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: アンブロシアのイバラはボス由来。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-kiel-56
+    work: RF4SP
+    resident_id: kiel
+    item: アンブロシアのイバラ
+    item_en: Ambrosia's Thorns
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: kiel-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 31
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: アンブロシアのイバラはボス由来。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-kiel-57
+    work: RF4SP
+    resident_id: kiel
+    item: ホットチョコレート
+    item_en: Hot Chocolate
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: kiel-liked
+    materials:
+    - チョコレート
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 31
+      role: liked
+    confirmation: external-reference; no new gameplay test
+    note: アンブロシアのイバラはボス由来。
+    preference_groups:
+    - 甘いもの
+    - ホットチョコレート個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Kiel_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-kiel-58
+    work: RF4SP
+    resident_id: kiel
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: kiel-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 31
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: アンブロシアのイバラはボス由来。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-kiel-59
+    work: RF4SP
+    resident_id: kiel
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: kiel-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 31
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: アンブロシアのイバラはボス由来。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-kiel-60
+    work: RF4SP
+    resident_id: kiel
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: kiel-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 31
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: アンブロシアのイバラはボス由来。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-doug-61
+    work: RF4SP
+    resident_id: doug
+    item: 天どん
+    item_en: Tempura Bowl
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: doug-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 32
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心のルート。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-doug-62
+    work: RF4SP
+    resident_id: doug
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: doug-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 32
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心のルート。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-doug-63
+    work: RF4SP
+    resident_id: doug
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: doug-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 32
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心のルート。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-doug-64
+    work: RF4SP
+    resident_id: doug
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: doug-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 32
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心のルート。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-leon-65
+    work: RF4SP
+    resident_id: leon
+    item: 焼きドクニジマス
+    item_en: Grilled Poison Trout
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: leon-loved
+    materials:
+    - サワードロップ
+    - ドクニジマス
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 33
+      role: loved
+    confirmation: external-reference; no new gameplay test
+    note: よく釣れる魚を日課へ。魚の和名は一部要確認。
+    preference_groups:
+    - 個別指定・大好物
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Leon_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-leon-66
+    work: RF4SP
+    resident_id: leon
+    item: 焼きフーイン
+    item_en: Grilled Lamp Squid
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: leon-loved
+    materials:
+    - サワードロップ
+    - フーインイカ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 33
+      role: loved
+    confirmation: external-reference; no new gameplay test
+    note: よく釣れる魚を日課へ。魚の和名は一部要確認。
+    preference_groups:
+    - 個別指定・大好物
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Leon_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-leon-67
+    work: RF4SP
+    resident_id: leon
+    item: 焼き魚類
+    item_en: Any Grilled Fish
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: leon-liked
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 33
+      role: liked
+    confirmation: external-reference; no new gameplay test
+    note: よく釣れる魚を日課へ。魚の和名は一部要確認。
+    preference_groups:
+    - 焼き魚（大好物2品を除く）
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Leon_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-leon-68
+    work: RF4SP
+    resident_id: leon
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: leon-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 33
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: よく釣れる魚を日課へ。魚の和名は一部要確認。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-leon-69
+    work: RF4SP
+    resident_id: leon
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: leon-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 33
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: よく釣れる魚を日課へ。魚の和名は一部要確認。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-leon-70
+    work: RF4SP
+    resident_id: leon
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: leon-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 33
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: よく釣れる魚を日課へ。魚の和名は一部要確認。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-ventuswill-71
+    work: RF4SP
+    resident_id: ventuswill
+    item: ホットケーキ
+    item_en: Hotcake
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: ventuswill-loved
+    materials:
+    - ハチミツ
+    - 卵類
+    - 小麦粉
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 34
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 余った作物を活用。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-ventuswill-72
+    work: RF4SP
+    resident_id: ventuswill
+    item: 育てやすい野菜
+    item_en: Easy-to-Grow Vegetables
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: ventuswill-liked
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 34
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 余った作物を活用。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-ventuswill-73
+    work: RF4SP
+    resident_id: ventuswill
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: ventuswill-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 34
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 余った作物を活用。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-ventuswill-74
+    work: RF4SP
+    resident_id: ventuswill
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: ventuswill-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 34
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 余った作物を活用。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-ventuswill-75
+    work: RF4SP
+    resident_id: ventuswill
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: ventuswill-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 34
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 余った作物を活用。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-volkanon-76
+    work: RF4SP
+    resident_id: volkanon
+    item: リラックスティー
+    item_en: Relax Tea
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: volkanon-loved
+    materials:
+    - だいだい草
+    - オトメロン
+    - ネギ
+    - ハチミツ
+    - リラックス茶の葉
+    - 白い草
+    - 紫の草
+    - 緑の草
+    - 青い草
+    - 黄の草
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 35
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リラックスティーの材料を準備。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-volkanon-77
+    work: RF4SP
+    resident_id: volkanon
+    item: ホットチョコレート
+    item_en: Hot Chocolate
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: volkanon-liked
+    materials:
+    - チョコレート
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 35
+      role: liked
+    confirmation: external-reference; no new gameplay test
+    note: リラックスティーの材料を準備。
+    preference_groups:
+    - 甘いもの
+    - ホットチョコレート個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Volkanon_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-volkanon-78
+    work: RF4SP
+    resident_id: volkanon
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: volkanon-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 35
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リラックスティーの材料を準備。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-volkanon-79
+    work: RF4SP
+    resident_id: volkanon
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: volkanon-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 35
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リラックスティーの材料を準備。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-volkanon-80
+    work: RF4SP
+    resident_id: volkanon
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: volkanon-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 35
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リラックスティーの材料を準備。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-jones-81
+    work: RF4SP
+    resident_id: jones
+    item: チャーハン
+    item_en: Fried Rice
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: jones-loved
+    materials:
+    - ごはん
+    - 卵類
+    - 油
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 36
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 費用を抑えやすい。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-jones-82
+    work: RF4SP
+    resident_id: jones
+    item: おかゆ
+    item_en: Porridge
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: jones-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 36
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 費用を抑えやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-jones-83
+    work: RF4SP
+    resident_id: jones
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: jones-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 36
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 費用を抑えやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-jones-84
+    work: RF4SP
+    resident_id: jones
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: jones-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 36
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 費用を抑えやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-jones-85
+    work: RF4SP
+    resident_id: jones
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: jones-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 36
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 費用を抑えやすい。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-nancy-86
+    work: RF4SP
+    resident_id: nancy
+    item: シチュー
+    item_en: Stew
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: nancy-loved
+    materials:
+    - ジャガイモ
+    - タマネギ
+    - ニンジン
+    - 小麦粉
+    - 良い牛乳
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 37
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 牛乳と卵を共有できる。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-nancy-87
+    work: RF4SP
+    resident_id: nancy
+    item: プリン
+    item_en: Pudding
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: nancy-liked
+    materials:
+    - 卵類
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 37
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 牛乳と卵を共有できる。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-nancy-88
+    work: RF4SP
+    resident_id: nancy
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: nancy-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 37
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 牛乳と卵を共有できる。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-nancy-89
+    work: RF4SP
+    resident_id: nancy
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: nancy-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 37
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 牛乳と卵を共有できる。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-nancy-90
+    work: RF4SP
+    resident_id: nancy
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: nancy-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 37
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 牛乳と卵を共有できる。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-illuminata-91
+    work: RF4SP
+    resident_id: illuminata
+    item: リラックス茶の葉
+    item_en: Relax Tea Leaves
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: illuminata-loved
+    materials:
+    - だいだい草
+    - 白い草
+    - 紫の草
+    - 緑の草
+    - 青い草
+    - 黄の草
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 38
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リラックス茶の葉はヴォルカノンのルートとも共通化。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-illuminata-92
+    work: RF4SP
+    resident_id: illuminata
+    item: ホットチョコレート
+    item_en: Hot Chocolate
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: illuminata-liked
+    materials:
+    - チョコレート
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 38
+      role: liked
+    confirmation: external-reference; no new gameplay test
+    note: リラックス茶の葉はヴォルカノンのルートとも共通化。
+    preference_groups:
+    - 甘いもの
+    - ホットチョコレート個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Illuminata_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-illuminata-93
+    work: RF4SP
+    resident_id: illuminata
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: illuminata-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 38
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リラックス茶の葉はヴォルカノンのルートとも共通化。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-illuminata-94
+    work: RF4SP
+    resident_id: illuminata
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: illuminata-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 38
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リラックス茶の葉はヴォルカノンのルートとも共通化。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-illuminata-95
+    work: RF4SP
+    resident_id: illuminata
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: illuminata-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 38
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: リラックス茶の葉はヴォルカノンのルートとも共通化。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-lin-fa-96
+    work: RF4SP
+    resident_id: lin-fa
+    item: 牛乳がゆ
+    item_en: Milk Porridge
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: lin-fa-loved
+    materials:
+    - ごはん
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 39
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-lin-fa-97
+    work: RF4SP
+    resident_id: lin-fa
+    item: おかゆ
+    item_en: Porridge
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: lin-fa-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 39
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-lin-fa-98
+    work: RF4SP
+    resident_id: lin-fa
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: lin-fa-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 39
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-lin-fa-99
+    work: RF4SP
+    resident_id: lin-fa
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: lin-fa-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 39
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-lin-fa-100
+    work: RF4SP
+    resident_id: lin-fa
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: lin-fa-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 39
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: ごはん中心。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-porcoline-101
+    work: RF4SP
+    resident_id: porcoline
+    item: 新鮮な野菜類
+    item_en: Fresh Vegetables
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: porcoline-loved
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 40
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: クズ鉄はガイドの品名。鉄とは区別して要確認。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-porcoline-102
+    work: RF4SP
+    resident_id: porcoline
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: porcoline-liked
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 40
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: クズ鉄はガイドの品名。鉄とは区別して要確認。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-porcoline-103
+    work: RF4SP
+    resident_id: porcoline
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: porcoline-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 40
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: クズ鉄はガイドの品名。鉄とは区別して要確認。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-porcoline-104
+    work: RF4SP
+    resident_id: porcoline
+    item: 鉄
+    item_en: Iron
+    game_category: normal
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: porcoline-daily
+    materials:
+    - 鉄
+    source: RF4SP-published-image-D
+    references:
+    - source: RF4SP-friendship-provided
+      line: 40
+      role: daily
+    confirmation: external-reference; no new gameplay test
+    note: 鉄を日課の普通枠に。クズ鉄は嫌いなので渡さない。
+    preference_groups:
+    - 個別品・普通
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Porcoline_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-porcoline-105
+    work: RF4SP
+    resident_id: porcoline
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: porcoline-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 40
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: クズ鉄はガイドの品名。鉄とは区別して要確認。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-blossom-106
+    work: RF4SP
+    resident_id: blossom
+    item: リゾット
+    item_en: Risotto
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: blossom-loved
+    materials:
+    - ごはん
+    - バター
+    - ワイン
+    - 牛乳類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 41
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 安価で続けやすい。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-blossom-107
+    work: RF4SP
+    resident_id: blossom
+    item: おかゆ
+    item_en: Porridge
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: blossom-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 41
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 安価で続けやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-blossom-108
+    work: RF4SP
+    resident_id: blossom
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: blossom-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 41
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 安価で続けやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-blossom-109
+    work: RF4SP
+    resident_id: blossom
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: blossom-daily
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 41
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 安価で続けやすい。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-blossom-110
+    work: RF4SP
+    resident_id: blossom
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: blossom-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 41
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 安価で続けやすい。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-bado-111
+    work: RF4SP
+    resident_id: bado
+    item: たまごどん
+    item_en: Egg Bowl
+    game_category: loved
+    roles:
+    - loved
+    daily_use: false
+    alternative_group: bado-loved
+    materials:
+    - ごはん
+    - 卵類
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 42
+      role: loved
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 卵丼よりおにぎりで費用を抑える例。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf4sp-bado-112
+    work: RF4SP
+    resident_id: bado
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: bado-liked
+    materials:
+    - ごはん
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 42
+      role: liked
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 卵丼よりおにぎりで費用を抑える例。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-bado-113
+    work: RF4SP
+    resident_id: bado
+    item: カブの酢漬け
+    item_en: Pickled Turnip
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: bado-daily
+    materials:
+    - カブ
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 42
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 卵丼よりおにぎりで費用を抑える例。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-bado-114
+    work: RF4SP
+    resident_id: bado
+    item: カブの種
+    item_en: Turnip Seeds
+    game_category: unknown
+    roles:
+    - daily
+    daily_use: true
+    alternative_group: bado-daily
+    materials: []
+    source: RF4SP-friendship-provided
+    references:
+    - source: RF4SP-friendship-provided
+      line: 42
+      role: daily
+    confirmation: provided-manuscript; no new gameplay verification
+    note: 卵丼よりおにぎりで費用を抑える例。
+    preference_groups: []
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+  - id: rf4sp-margaret-dumpling
+    work: RF4SP
+    resident_id: margaret
+    item: だんご
+    item_en: Dumplings
+    game_category: liked
+    roles:
+    - liked
+    - alternative
+    daily_use: true
+    alternative_group: margaret-liked
+    materials:
+    - だんご粉
+    source: RF4SP-friendship-provided
+    references: []
+    confirmation: external-reference; no new gameplay test
+    note: ホットチョコレートと同じ好物枠。材料費を抑える代替。
+    preference_groups:
+    - 甘いもの
+    - だんご個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Margaret_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/02-cheat-sheet-a-en.png
+  - id: rf4sp-kiel-dumpling
+    work: RF4SP
+    resident_id: kiel
+    item: だんご
+    item_en: Dumplings
+    game_category: liked
+    roles:
+    - liked
+    - alternative
+    daily_use: true
+    alternative_group: kiel-liked
+    materials:
+    - だんご粉
+    source: RF4SP-friendship-provided
+    references: []
+    confirmation: external-reference; no new gameplay test
+    note: ホットチョコレートと同じ好物枠。材料費を抑える代替。
+    preference_groups:
+    - 甘いもの
+    - だんご個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Kiel_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/03-cheat-sheet-b-en.png
+  - id: rf4sp-volkanon-dumpling
+    work: RF4SP
+    resident_id: volkanon
+    item: だんご
+    item_en: Dumplings
+    game_category: liked
+    roles:
+    - liked
+    - alternative
+    daily_use: true
+    alternative_group: volkanon-liked
+    materials:
+    - だんご粉
+    source: RF4SP-friendship-provided
+    references: []
+    confirmation: external-reference; no new gameplay test
+    note: ホットチョコレートと同じ好物枠。材料費を抑える代替。
+    preference_groups:
+    - 甘いもの
+    - だんご個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Volkanon_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-illuminata-dumpling
+    work: RF4SP
+    resident_id: illuminata
+    item: だんご
+    item_en: Dumplings
+    game_category: liked
+    roles:
+    - liked
+    - alternative
+    daily_use: true
+    alternative_group: illuminata-liked
+    materials:
+    - だんご粉
+    source: RF4SP-friendship-provided
+    references: []
+    confirmation: external-reference; no new gameplay test
+    note: ホットチョコレートと同じ好物枠。材料費を抑える代替。
+    preference_groups:
+    - 甘いもの
+    - だんご個別掲載
+    evidence:
+      kind: external-reference
+      url: https://wiki.ranchstory.farm/index.php/Illuminata_(Rune_Factory_4_Special)
+      checked: '2026-11-24'
+      gameplay_verified: false
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/04-cheat-sheet-c-en.png
+  - id: rf4sp-bado-scrap
+    work: RF4SP
+    resident_id: bado
+    item: クズ鉄
+    item_en: Scrap Metal
+    game_category: liked
+    roles:
+    - liked
+    daily_use: false
+    alternative_group: bado-liked
+    materials:
+    - クズ鉄
+    source: RF4SP-friendship-provided
+    references: []
+    confirmation: published-image and external-reference; no new gameplay test
+    note: バドの好物。ポコリーヌには渡さない。
+    preference_groups: []
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+    published_image: https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/c8c6fadf23c0e4a533f858452d2a907e502d1902/images/rf4sp-friendship-guide/05-cheat-sheet-d-en.png
+    evidence:
+      kind: external-reference
+      url: https://wikiwiki.jp/rf4bu/キャラクターデータ
+      gameplay_verified: false
+  tables:
+  - number: 2
+    headers:
+    - Tier
+    - Ingredient
+    - Why It Matters
+    rows:
+    - cells:
+      - S
+      - ごはん
+      - 多くの日課料理で共有できる。
+      source_line: 62
+    - cells:
+      - S
+      - 卵
+      - 手作り品と大好物をまたいで共有できる。
+      source_line: 63
+    - cells:
+      - S
+      - 牛乳
+      - 複数の日課料理の基礎。
+      source_line: 64
+    - cells:
+      - A
+      - 小麦粉
+      - 中華まん・ケーキ・ホットケーキなど。
+      source_line: 65
+    - cells:
+      - A
+      - チョコレート
+      - ホットチョコレートとケーキに共用。
+      source_line: 66
+    - cells:
+      - A
+      - リンゴ
+      - クローリカ向けに複数のルートを作れる。
+      source_line: 67
+    - cells:
+      - B
+      - ハチミツ
+      - ホットケーキ・リラックスティー・ミックス・オ・レ。
+      source_line: 68
+    - cells:
+      - B
+      - タケノコ
+      - 中華まんのルート。
+      source_line: 69
+    - cells:
+      - B
+      - ネギ
+      - 寄せ鍋・リラックスティーの材料（RF4料理資料）。作品別のレシピを確認。
+      source_line: 70
+    - cells:
+      - B
+      - 色草
+      - リラックスティー製作に使う。
+      source_line: 71
+    - cells:
+      - EX
+      - 金作物・金剛花
+      - 終盤向け。強力だが費用や準備の負担が大きい。
+      source_line: 72
+RF5:
+  source:
+    id: HQ-JP-20261124
+    name: Human HQ 日本語日課表・27名住民表（2026-11-24、チャット提供）
+    legend: ★=大好物、無印=基本的に好物、カブの種=普通（ラインハルトのみ好物）
+  residents:
+  - id: scarlett
+    name: スカーレット
+    en: Scarlett
+    note: ''
+  - id: simone
+    name: シモーヌ
+    en: Simone
+    note: ''
+  - id: livia
+    name: リヴィア
+    en: Livia
+    note: ''
+  - id: ryker
+    name: リュカ
+    en: Ryker
+    note: ''
+  - id: misasagi
+    name: みささぎ
+    en: Misasagi
+    note: ''
+  - id: elsje
+    name: エルシェ
+    en: Elsje
+    note: ''
+  - id: doug
+    name: ダグ
+    en: Doug
+    note: ''
+  - id: reinhard
+    name: ラインハルト
+    en: Reinhard
+    note: トースト＋カブの種＋鉄などの普通品。種を普通枠に数えない。
+  - id: terry
+    name: テリー
+    en: Terry
+    note: 大地のペンダントの代わりに太陽のペンダントも大好物。
+  - id: beatrice
+    name: ベアトリス
+    en: Beatrice
+    note: ''
+  - id: lucas
+    name: ルーカス
+    en: Lucas
+    note: ''
+  - id: priscilla
+    name: プリシラ
+    en: Priscilla
+    note: ''
+  - id: hina
+    name: ひな
+    en: Hina
+    note: ''
+  - id: margaret
+    name: マーガレット
+    en: Margaret
+    note: ''
+  - id: randolph
+    name: ランドルフ
+    en: Randolph
+    note: ''
+  - id: murakumo
+    name: むらくも
+    en: Murakumo
+    note: ''
+  - id: radea
+    name: レディア
+    en: Radea
+    note: ''
+  - id: julian
+    name: ジュリアン
+    en: Julian
+    note: ''
+  - id: ludmila
+    name: ルドミラ
+    en: Ludmila
+    note: ''
+  - id: fuuka
+    name: フーカ
+    en: Fuuka
+    note: ''
+  - id: lucy
+    name: ルーシー
+    en: Lucy
+    note: ''
+  - id: martin
+    name: マーティン
+    en: Martin
+    note: 鉱石類の好物例は鉄。オリハルコン・竜幻石は大好物のため別分類。
+  - id: cecil
+    name: セシル
+    en: Cecil
+    note: 雷鳴の荒野でプラチナとサファイアをまとめて採掘。手作りボーナスも活用。
+  - id: darroch
+    name: ドグ
+    en: Darroch
+    note: ワカサギの塩焼きは資料によって「姿焼き」とも表記。
+  - id: heinz
+    name: ハインツ
+    en: Heinz
+    note: ''
+  - id: yuki
+    name: ユキ
+    en: Yuki
+    note: ''
+  - id: palmo
+    name: パルモ
+    en: Palmo
+    note: 木材・石材は好物。ワインと3品全部を用意する必要はない。
+  gifts:
+  - id: rf5-scarlett-38
+    work: RF5
+    resident_id: scarlett
+    item: 天ぷら
+    item_en: Tempura
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - エビ
+    - 卵類
+    - 小麦粉
+    - 油
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-scarlett-1
+    work: RF5
+    resident_id: scarlett
+    item: おかゆ
+    item_en: Porridge
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-scarlett-jp-3
+    work: RF5
+    resident_id: scarlett
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-simone-46
+    work: RF5
+    resident_id: simone
+    item: サンドウィッチ
+    item_en: Sandwich
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - キュウリ
+    - パン
+    - 卵類
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-simone-2
+    work: RF5
+    resident_id: simone
+    item: おかゆ
+    item_en: Porridge
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-simone-jp-6
+    work: RF5
+    resident_id: simone
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-livia-52
+    work: RF5
+    resident_id: livia
+    item: かぼちゃプリン
+    item_en: Pumpkin Pudding
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - カボチャ
+    - 卵類
+    - 牛乳類
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-livia-3
+    work: RF5
+    resident_id: livia
+    item: おかゆ
+    item_en: Porridge
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-livia-jp-9
+    work: RF5
+    resident_id: livia
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-ryker-56
+    work: RF5
+    resident_id: ryker
+    item: コロッケ
+    item_en: Croquette
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - ジャガイモ
+    - 卵類
+    - 油
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-ryker-57
+    work: RF5
+    resident_id: ryker
+    item: アイスクリーム
+    item_en: Ice Cream
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    - alternative
+    daily_use: true
+    materials:
+    - スイートパウダー
+    - 牛乳類
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-ryker-4
+    work: RF5
+    resident_id: ryker
+    item: 焼きおにぎり
+    item_en: Grilled Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - おにぎり
+    - ごはん
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-ryker-jp-13
+    work: RF5
+    resident_id: ryker
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-misasagi-39
+    work: RF5
+    resident_id: misasagi
+    item: 天ぷら
+    item_en: Tempura
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - エビ
+    - 卵類
+    - 小麦粉
+    - 油
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-misasagi-5
+    work: RF5
+    resident_id: misasagi
+    item: 焼きおにぎり
+    item_en: Grilled Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - おにぎり
+    - ごはん
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-misasagi-jp-16
+    work: RF5
+    resident_id: misasagi
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-elsje-50
+    work: RF5
+    resident_id: elsje
+    item: ホットケーキ
+    item_en: Hotcake
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - ハチミツ
+    - 卵類
+    - 小麦粉
+    - 牛乳類
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-elsje-6
+    work: RF5
+    resident_id: elsje
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-elsje-jp-19
+    work: RF5
+    resident_id: elsje
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-doug-40
+    work: RF5
+    resident_id: doug
+    item: 天どん
+    item_en: Tempura Bowl
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    - エビ
+    - 卵類
+    - 天ぷら
+    - 小麦粉
+    - 油
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-doug-7
+    work: RF5
+    resident_id: doug
+    item: おにぎり
+    item_en: Rice Ball
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-doug-jp-22
+    work: RF5
+    resident_id: doug
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-reinhard-8
+    work: RF5
+    resident_id: reinhard
+    item: トースト
+    item_en: Toast
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - パン
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-reinhard-jp-24
+    work: RF5
+    resident_id: reinhard
+    item: カブの種
+    item_en: ''
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-reinhard-jp-25
+    work: RF5
+    resident_id: reinhard
+    item: 鉄
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - 鉄
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-reinhard-jp-26
+    work: RF5
+    resident_id: reinhard
+    item: だんご
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - だんご粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-reinhard-jp-27
+    work: RF5
+    resident_id: reinhard
+    item: おにぎり
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-terry-58
+    work: RF5
+    resident_id: terry
+    item: 大地のペンダント
+    item_en: Earth Pendant
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - シルバーペンダント
+    - 地の結晶
+    - 金
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-terry-9
+    work: RF5
+    resident_id: terry
+    item: トースト
+    item_en: Toast
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - パン
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-terry-jp-30
+    work: RF5
+    resident_id: terry
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-beatrice-17
+    work: RF5
+    resident_id: beatrice
+    item: いちごジャム
+    item_en: Strawberry Jam
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - イチゴ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-beatrice-10
+    work: RF5
+    resident_id: beatrice
+    item: パン
+    item_en: Bread
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-beatrice-jp-33
+    work: RF5
+    resident_id: beatrice
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-lucas-43
+    work: RF5
+    resident_id: lucas
+    item: カレーうどん
+    item_en: Curry Udon
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    - カレーライス
+    - カレー粉
+    - ジャガイモ
+    - ニンジン
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-lucas-11
+    work: RF5
+    resident_id: lucas
+    item: うどん
+    item_en: Udon
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-lucas-jp-36
+    work: RF5
+    resident_id: lucas
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-priscilla-49
+    work: RF5
+    resident_id: priscilla
+    item: むしチョコケーキ
+    item_en: Steamed Chocolate Cake
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - チョコレート
+    - 卵類
+    - 小麦粉
+    - 牛乳類
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-priscilla-12
+    work: RF5
+    resident_id: priscilla
+    item: ホットチョコレート
+    item_en: Hot Chocolate
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - チョコレート
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-priscilla-jp-39
+    work: RF5
+    resident_id: priscilla
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-hina-53
+    work: RF5
+    resident_id: hina
+    item: フルーツ・オ・レ
+    item_en: Fruit au Lait
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - オレンジ
+    - フルーツジュース
+    - ブドウ
+    - リンゴ
+    - 牛乳類
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-hina-13
+    work: RF5
+    resident_id: hina
+    item: ホットチョコレート
+    item_en: Hot Chocolate
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - チョコレート
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-hina-jp-42
+    work: RF5
+    resident_id: hina
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-margaret-54
+    work: RF5
+    resident_id: margaret
+    item: 恋の予感
+    item_en: Prelude to Love
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - イチゴ
+    - オトメロン
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-margaret-55
+    work: RF5
+    resident_id: margaret
+    item: パインジュース
+    item_en: Pineapple Juice
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    - alternative
+    daily_use: true
+    materials:
+    - パイナップル
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-margaret-14
+    work: RF5
+    resident_id: margaret
+    item: ホットチョコレート
+    item_en: Hot Chocolate
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - チョコレート
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-margaret-jp-46
+    work: RF5
+    resident_id: margaret
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-randolph-42
+    work: RF5
+    resident_id: randolph
+    item: カレーまん
+    item_en: Curry Bun
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    - カレーライス
+    - カレー粉
+    - ジャガイモ
+    - ニンジン
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-randolph-15
+    work: RF5
+    resident_id: randolph
+    item: だんご
+    item_en: Dumpling
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - だんご粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-randolph-jp-49
+    work: RF5
+    resident_id: randolph
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-murakumo-51
+    work: RF5
+    resident_id: murakumo
+    item: 土佐造り
+    item_en: Tosa Dish
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - カツオ
+    - サワードロップ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-murakumo-16
+    work: RF5
+    resident_id: murakumo
+    item: だんご
+    item_en: Dumpling
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - だんご粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-murakumo-jp-52
+    work: RF5
+    resident_id: murakumo
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-radea-jp-53
+    work: RF5
+    resident_id: radea
+    item: ドラゴンの牙
+    item_en: ''
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - ドラゴンの牙
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-radea-18
+    work: RF5
+    resident_id: radea
+    item: いちごジャム
+    item_en: Strawberry Jam
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - イチゴ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-radea-jp-55
+    work: RF5
+    resident_id: radea
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-julian-41
+    work: RF5
+    resident_id: julian
+    item: カレーライス
+    item_en: Curry Rice
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    - カレー粉
+    - ジャガイモ
+    - ニンジン
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-julian-19
+    work: RF5
+    resident_id: julian
+    item: オレンジジュース
+    item_en: Orange Juice
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - オレンジ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-julian-jp-58
+    work: RF5
+    resident_id: julian
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-ludmila-37
+    work: RF5
+    resident_id: ludmila
+    item: 焼きドクニジマス
+    item_en: Grilled Poison Trout
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - サワードロップ
+    - ドクニジマス
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-ludmila-20
+    work: RF5
+    resident_id: ludmila
+    item: ドクニジマスさし
+    item_en: Poison Trout Sashimi
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ドクニジマス
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-ludmila-jp-61
+    work: RF5
+    resident_id: ludmila
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-fuuka-30
+    work: RF5
+    resident_id: fuuka
+    item: エメラルド
+    item_en: Emerald
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - 鉱石
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-fuuka-jp-63
+    work: RF5
+    resident_id: fuuka
+    item: ワカサギ
+    item_en: ''
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ワカサギ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-fuuka-jp-64
+    work: RF5
+    resident_id: fuuka
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-lucy-44
+    work: RF5
+    resident_id: lucy
+    item: 鮭のおにぎり
+    item_en: Salmon Rice Ball
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - ごはん
+    - サケ
+    - サワードロップ
+    - 塩ジャケ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-lucy-jp-66
+    work: RF5
+    resident_id: lucy
+    item: ワカサギ
+    item_en: ''
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ワカサギ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-lucy-jp-67
+    work: RF5
+    resident_id: lucy
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-martin-47
+    work: RF5
+    resident_id: martin
+    item: フルーツサンド
+    item_en: Fruit Sandwich
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - イチゴ
+    - パン
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-martin-jp-69
+    work: RF5
+    resident_id: martin
+    item: 鉱石類
+    item_en: ''
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - 鉱石類
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-martin-jp-70
+    work: RF5
+    resident_id: martin
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-cecil-48
+    work: RF5
+    resident_id: cecil
+    item: フルーツサンド
+    item_en: Fruit Sandwich
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - イチゴ
+    - パン
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-cecil-jp-72
+    work: RF5
+    resident_id: cecil
+    item: 果物
+    item_en: ''
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - 果物
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    display_label: 果物（序盤）
+  - id: rf5-cecil-sapphire
+    work: RF5
+    resident_id: cecil
+    item: サファイアブローチ
+    item_en: Sapphire Brooch
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - サファイア
+    - プラチナ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    display_label: サファイアブローチ（終盤）
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-cecil-jp-74
+    work: RF5
+    resident_id: cecil
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-darroch-jp-75
+    work: RF5
+    resident_id: darroch
+    item: オリハルコン
+    item_en: ''
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - オリハルコン
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-darroch-jp-76
+    work: RF5
+    resident_id: darroch
+    item: エメラルド
+    item_en: ''
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    - alternative
+    daily_use: true
+    materials:
+    - エメラルド
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-darroch-26
+    work: RF5
+    resident_id: darroch
+    item: ワカサギの塩焼き
+    item_en: Grilled Smelt
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - サワードロップ
+    - ワカサギ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-darroch-27
+    work: RF5
+    resident_id: darroch
+    item: ヤマメの塩焼き
+    item_en: Grilled Yamame
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    - alternative
+    daily_use: true
+    materials:
+    - サワードロップ
+    - ヤマメ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-darroch-jp-79
+    work: RF5
+    resident_id: darroch
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-heinz-32
+    work: RF5
+    resident_id: heinz
+    item: ドクロ水晶
+    item_en: Skull Crystal
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials: []
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-heinz-28
+    work: RF5
+    resident_id: heinz
+    item: サンマの塩焼き
+    item_en: Grilled Pacific Saury
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - サワードロップ
+    - サンマ
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-heinz-jp-82
+    work: RF5
+    resident_id: heinz
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-yuki-45
+    work: RF5
+    resident_id: yuki
+    item: バターロール
+    item_en: Butter Roll
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - バター
+    - 卵類
+    - 小麦粉
+    - 牛乳類
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-yuki-29
+    work: RF5
+    resident_id: yuki
+    item: ぶどうパン
+    item_en: Grape Bread
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ブドウ
+    - 小麦粉
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  - id: rf5-yuki-jp-85
+    work: RF5
+    resident_id: yuki
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-palmo-33
+    work: RF5
+    resident_id: palmo
+    item: 雷鳥の羽
+    item_en: Thunderbird Feather
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials: []
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-palmo-jp-87
+    work: RF5
+    resident_id: palmo
+    item: 魔人の角
+    item_en: ''
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials:
+    - 魔人の角
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-palmo-35
+    work: RF5
+    resident_id: palmo
+    item: 妖精の秘薬
+    item_en: Fairy Elixir
+    game_category: loved
+    roles:
+    - loved
+    - daily
+    daily_use: true
+    materials: []
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-palmo-jp-89
+    work: RF5
+    resident_id: palmo
+    item: 木材
+    item_en: ''
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - 木材
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-palmo-jp-90
+    work: RF5
+    resident_id: palmo
+    item: 石材
+    item_en: ''
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - 石材
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-palmo-jp-91
+    work: RF5
+    resident_id: palmo
+    item: ワイン
+    item_en: ''
+    game_category: liked
+    roles:
+    - liked
+    - daily
+    daily_use: true
+    materials:
+    - ワイン
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-palmo-jp-92
+    work: RF5
+    resident_id: palmo
+    item: カブの種
+    item_en: ''
+    game_category: normal
+    roles:
+    - normal
+    - daily
+    daily_use: true
+    materials:
+    - カブの種
+    source: HQ-JP-20261124
+    confirmation: HQ Japanese source; external desk comparison; no new gameplay test
+  - id: rf5-reinhard-extra-92
+    work: RF5
+    resident_id: reinhard
+    item: ジャガイモの種
+    item_en: ''
+    game_category: liked
+    daily_use: false
+    roles:
+    - liked
+    - alternative
+    materials:
+    - ジャガイモの種
+    source: https://hyperwiki.jp/rf5/npc/
+    confirmation: external guide; no new gameplay test
+  - id: rf5-reinhard-extra-93
+    work: RF5
+    resident_id: reinhard
+    item: イチゴの種
+    item_en: ''
+    game_category: liked
+    daily_use: false
+    roles:
+    - liked
+    - alternative
+    materials:
+    - イチゴの種
+    source: https://hyperwiki.jp/rf5/npc/
+    confirmation: external guide; no new gameplay test
+  - id: rf5-terry-sun
+    work: RF5
+    resident_id: terry
+    item: 太陽のペンダント
+    item_en: Sun Pendant
+    game_category: loved
+    daily_use: false
+    roles:
+    - loved
+    - alternative
+    materials:
+    - シルバーペンダント
+    - 火の結晶
+    - 金
+    source: https://hyperwiki.jp/rf5/npc/
+    confirmation: external guide; no new gameplay test
+    material_basis: 'derived: rf_recipes.yml (direct and intermediate/raw ingredients)'
+  tables: []

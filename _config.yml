@@ -1,0 +1,25 @@
+url: https://j13343sh.github.io
+baseurl: /Rune-Factory-Inheritance-Research
+lang: ja
+markdown: kramdown
+kramdown:
+  input: GFM
+guide_review_assets: false
+exclude:
+- Gemfile
+- Gemfile.lock
+- HANDOFF.md
+- README_DEPLOY.md
+- RF-Pages-Phase3-overlay.zip
+- SHA256.json
+- START_HERE.md
+- baseline
+- design
+- design-reference
+- preview
+- reports
+- review-only
+- site-overlay
+- source-materials
+- tests
+- tools

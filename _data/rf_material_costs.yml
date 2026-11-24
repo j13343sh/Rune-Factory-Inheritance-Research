@@ -1,0 +1,22 @@
+RF5:
+  ごはん:
+    price: 200
+    basis: HQ日課表の米。1個の購入費
+  小麦粉:
+    price: 320
+    basis: HQ日課表・1個
+  チョコレート:
+    price: 400
+    basis: HQ日課表・1個
+  だんご粉:
+    price: 100
+    basis: HQ日課表・1個
+  イチゴ:
+    price: 800
+    basis: HQ日課表・1個。自家栽培は別
+  オレンジ:
+    price: 500
+    basis: HQ日課表・1個。果樹から調達可
+  ワイン:
+    price: 2000
+    basis: HQ日課表・1個

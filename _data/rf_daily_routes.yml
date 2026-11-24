@@ -1,0 +1,157 @@
+base_targets:
+  おかゆ: 3
+  焼きおにぎり: 2
+  おにぎり: 2
+  トースト: 2
+  パン: 1
+  うどん: 1
+  ホットチョコレート: 3
+  だんご: 2
+  いちごジャム: 2
+  オレンジジュース: 1
+  ドクニジマスさし: 1
+  ワカサギの塩焼き: 1
+  サンマの塩焼き: 1
+  焼きドクニジマス: 1
+  天ぷら: 2
+  天どん: 1
+  カレーライス: 1
+  カレーまん: 1
+  カレーうどん: 1
+  鮭のおにぎり: 1
+  バターロール: 1
+  サンドウィッチ: 1
+  フルーツサンド: 2
+  むしチョコケーキ: 1
+  ホットケーキ: 1
+  土佐造り: 1
+  かぼちゃプリン: 1
+  フルーツ・オ・レ: 1
+  恋の予感: 1
+  コロッケ: 1
+plans:
+- id: base
+  title: 基本（コロッケ・恋の予感・バターロール）
+- id: ice
+  title: アイスへ変更
+  changes:
+    コロッケ: -1
+    アイスクリーム: 1
+- id: pineapple
+  title: パインジュースへ変更
+  changes:
+    恋の予感: -1
+    パインジュース: 1
+- id: ice-pineapple
+  title: アイス＋パインジュース
+  changes:
+    コロッケ: -1
+    アイスクリーム: 1
+    恋の予感: -1
+    パインジュース: 1
+- id: grape
+  title: ぶどうパンへ変更
+  changes:
+    バターロール: -1
+    ぶどうパン: 1
+- id: coop-tempura
+  title: 基本＋天ぷら1回を一緒に料理
+  cooperative:
+    天ぷら: 1
+- id: reinhard-riceball
+  title: 基本＋ラインハルト普通枠をおにぎりへ変更
+  changes:
+    おにぎり: 1
+- id: reinhard-dumpling
+  title: 基本＋ラインハルト普通枠をだんごへ変更
+  changes:
+    だんご: 1
+non_cooking_targets:
+- item: ワカサギ
+  qty: 2
+  note: そのまま渡す分。料理表の塩焼き用1と合わせるとワカサギ計3。
+  gift_ids:
+  - rf5-fuuka-jp-63
+  - rf5-lucy-jp-66
+- item: 鉱石類
+  qty: 1
+  note: 在庫から選ぶ。
+  gift_ids:
+  - rf5-martin-jp-69
+- item: エメラルド
+  qty: 1
+  note: 大好物の別枠。
+  gift_ids:
+  - rf5-fuuka-30
+  - rf5-darroch-jp-76
+- item: オリハルコン
+  qty: 1
+  note: 代替をエメラルドにすると、ドグ分だけ置き換える。
+  gift_ids:
+  - rf5-darroch-jp-75
+- item: ドクロ水晶
+  qty: 1
+  note: 大好物。
+  gift_ids:
+  - rf5-heinz-32
+- item: 雷鳥の羽
+  qty: 1
+  note: 魔人の角／妖精の秘薬から1品を選んでもよい。3品合算しない。
+  gift_ids:
+  - rf5-palmo-33
+- item: ドラゴンの牙
+  qty: 1
+  note: 料理数には含めない。
+  gift_ids:
+  - rf5-radea-jp-53
+- item: 大地のペンダント
+  qty: 1
+  note: 完成品またはシルバーペンダント1＋金1＋地の結晶1。太陽のペンダントを選ぶ日は火の結晶へ変更。
+  gift_ids:
+  - rf5-terry-58
+- item: サファイアブローチ
+  qty: 1
+  note: 完成品またはプラチナ1＋サファイア1。雷鳴の荒野で両素材をまとめて確保し、手作りする。
+  gift_ids:
+  - rf5-cecil-sapphire
+- item: カブの種
+  qty: 27
+  note: 26名は普通、ラインハルトは好物。
+  gift_ids:
+  - rf5-scarlett-jp-3
+  - rf5-simone-jp-6
+  - rf5-livia-jp-9
+  - rf5-ryker-jp-13
+  - rf5-misasagi-jp-16
+  - rf5-elsje-jp-19
+  - rf5-doug-jp-22
+  - rf5-reinhard-jp-24
+  - rf5-terry-jp-30
+  - rf5-beatrice-jp-33
+  - rf5-lucas-jp-36
+  - rf5-priscilla-jp-39
+  - rf5-hina-jp-42
+  - rf5-margaret-jp-46
+  - rf5-randolph-jp-49
+  - rf5-murakumo-jp-52
+  - rf5-radea-jp-55
+  - rf5-julian-jp-58
+  - rf5-ludmila-jp-61
+  - rf5-fuuka-jp-64
+  - rf5-lucy-jp-67
+  - rf5-martin-jp-70
+  - rf5-cecil-jp-74
+  - rf5-darroch-jp-79
+  - rf5-heinz-jp-82
+  - rf5-yuki-jp-85
+  - rf5-palmo-jp-92
+- item: 鉄
+  qty: 1
+  note: ラインハルトの普通枠。マーティンの鉱石類1個とは別。だんご・おにぎりへ代替する場合は料理を1個追加。
+  gift_ids:
+  - rf5-reinhard-jp-25
+- item: 木材
+  qty: 1
+  note: パルモの好物枠。石材1またはワイン1から1品を選ぶ。
+  gift_ids:
+  - rf5-palmo-jp-89

@@ -1,0 +1,492 @@
+RF4SP:
+  おにぎり:
+    ingredients:
+      ごはん: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  おかゆ:
+    ingredients:
+      ごはん: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  牛乳がゆ:
+    ingredients:
+      ごはん: 1
+      牛乳類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  ホットチョコレート:
+    ingredients:
+      チョコレート: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  だんご:
+    ingredients:
+      だんご粉: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  りんごジュース:
+    ingredients:
+      リンゴ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  焼きりんご:
+    ingredients:
+      リンゴ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  プリン:
+    ingredients:
+      卵類: 1
+      牛乳類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  中華まん:
+    ingredients:
+      小麦粉: 1
+      タケノコ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  ゆで卵:
+    ingredients:
+      卵類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  卵焼き:
+    ingredients:
+      卵類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  パン:
+    ingredients:
+      小麦粉: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  バター:
+    ingredients:
+      牛乳類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  アップルパイ:
+    ingredients:
+      小麦粉: 1
+      リンゴ: 1
+      バター: 1
+      卵類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  チョコレートケーキ:
+    ingredients:
+      小麦粉: 1
+      チョコレート: 1
+      バター: 1
+      スイートパウダー: 1
+      牛乳類: 1
+      卵類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  ホットケーキ:
+    ingredients:
+      小麦粉: 1
+      ハチミツ: 1
+      牛乳類: 1
+      卵類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  恋の予感:
+    ingredients:
+      オトメロン: 1
+      イチゴ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  パインジュース:
+    ingredients:
+      パイナップル: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  焼きドクニジマス:
+    ingredients:
+      ドクニジマス: 1
+      サワードロップ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  焼きフーイン:
+    ingredients:
+      フーインイカ: 1
+      サワードロップ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  塩ジャケ:
+    ingredients:
+      サケ: 1
+      サワードロップ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  鮭のおにぎり:
+    ingredients:
+      塩ジャケ: 1
+      ごはん: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  カブの酢漬け:
+    ingredients:
+      カブ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  たまごどん:
+    ingredients:
+      ごはん: 1
+      卵類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  チャーハン:
+    ingredients:
+      ごはん: 1
+      油: 1
+      卵類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  リゾット:
+    ingredients:
+      ごはん: 1
+      ワイン: 1
+      バター: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  シチュー:
+    ingredients:
+      小麦粉: 1
+      良い牛乳: 1
+      ジャガイモ: 1
+      ニンジン: 1
+      タマネギ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  ミックスジュース:
+    ingredients:
+      リンゴ: 1
+      ブドウ: 1
+      オレンジ: 1
+      パイナップル: 1
+      イチゴ: 1
+      牛乳類: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  ミックス・オ・レ:
+    ingredients:
+      ミックスジュース: 1
+      ハチミツ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  リラックスティー:
+    ingredients:
+      リラックス茶の葉: 1
+      ハチミツ: 1
+      オトメロン: 1
+      ネギ: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  リラックス茶の葉:
+    ingredients:
+      白い草: 1
+      だいだい草: 1
+      緑の草: 1
+      黄の草: 1
+      青い草: 1
+      紫の草: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+  寄せ鍋:
+    ingredients:
+      ダイコン: 1
+      ネギ: 1
+      白菜: 1
+      きのこ: 1
+      ほかほかの実: 1
+    source: https://wikiwiki.jp/rf4/料理
+    output: 1
+RF5:
+  おにぎり:
+    ingredients:
+      ごはん: 1
+    source: https://hyperwiki.jp/rf5/recipe0/
+    output: 1
+    tool: 素手
+  おかゆ:
+    ingredients:
+      ごはん: 1
+    source: https://hyperwiki.jp/rf5/recipe2/
+    output: 1
+    tool: なべ
+  焼きおにぎり:
+    ingredients:
+      おにぎり: 1
+    source: https://hyperwiki.jp/rf5/recipe6/
+    output: 1
+    tool: オーブン
+  パン:
+    ingredients:
+      小麦粉: 1
+    source: https://hyperwiki.jp/rf5/recipe6/
+    output: 1
+    tool: オーブン
+    tool_note: 日本語テキストの素手と相違。外部レシピ・画像に従いオーブン。実機未確認。
+  トースト:
+    ingredients:
+      パン: 1
+    source: https://hyperwiki.jp/rf5/recipe6/
+    output: 1
+    tool: オーブン
+  うどん:
+    ingredients:
+      小麦粉: 1
+    source: https://hyperwiki.jp/rf5/recipe2/
+    output: 1
+    tool: なべ
+  ホットチョコレート:
+    ingredients:
+      チョコレート: 1
+    source: https://hyperwiki.jp/rf5/recipe2/
+    output: 1
+    tool: なべ
+  だんご:
+    ingredients:
+      だんご粉: 1
+    source: https://hyperwiki.jp/rf5/recipe3/
+    output: 1
+    tool: 蒸し器
+  いちごジャム:
+    ingredients:
+      イチゴ: 1
+    source: https://hyperwiki.jp/rf5/recipe2/
+    output: 1
+    tool: なべ
+  オレンジジュース:
+    ingredients:
+      オレンジ: 1
+    source: https://hyperwiki.jp/rf5/recipe5/
+    output: 1
+    tool: ミキサー
+  ドクニジマスさし:
+    ingredients:
+      ドクニジマス: 1
+    source: https://hyperwiki.jp/rf5/recipe4/
+    output: 1
+    tool: 包丁
+  ワカサギの塩焼き:
+    ingredients:
+      ワカサギ: 1
+      サワードロップ: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  ヤマメの塩焼き:
+    ingredients:
+      ヤマメ: 1
+      サワードロップ: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  サンマの塩焼き:
+    ingredients:
+      サンマ: 1
+      サワードロップ: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  ぶどうパン:
+    ingredients:
+      小麦粉: 1
+      ブドウ: 1
+    source: https://hyperwiki.jp/rf5/recipe6/
+    output: 1
+    tool: オーブン
+  焼きドクニジマス:
+    ingredients:
+      ドクニジマス: 1
+      サワードロップ: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  天ぷら:
+    ingredients:
+      油: 1
+      小麦粉: 1
+      エビ: 1
+      卵類: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  天どん:
+    ingredients:
+      ごはん: 1
+      天ぷら: 1
+    source: https://hyperwiki.jp/rf5/recipe2/
+    output: 1
+    tool: なべ
+  カレーライス:
+    ingredients:
+      ごはん: 1
+      カレー粉: 1
+      ニンジン: 1
+      ジャガイモ: 1
+    source: https://hyperwiki.jp/rf5/recipe2/
+    output: 1
+    tool: なべ
+  カレーまん:
+    ingredients:
+      小麦粉: 1
+      カレーライス: 1
+    source: https://hyperwiki.jp/rf5/recipe3/
+    output: 1
+    tool: 蒸し器
+  カレーうどん:
+    ingredients:
+      小麦粉: 1
+      カレーライス: 1
+    source: https://hyperwiki.jp/rf5/recipe2/
+    output: 1
+    tool: なべ
+  塩ジャケ:
+    ingredients:
+      サケ: 1
+      サワードロップ: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  鮭のおにぎり:
+    ingredients:
+      ごはん: 1
+      塩ジャケ: 1
+    source: https://hyperwiki.jp/rf5/recipe0/
+    output: 1
+    tool: 素手
+  バター:
+    ingredients:
+      牛乳類: 1
+    source: https://hyperwiki.jp/rf5/recipe5/
+    output: 1
+    tool: ミキサー
+  バターロール:
+    ingredients:
+      小麦粉: 1
+      バター: 1
+      卵類: 1
+      牛乳類: 1
+    source: https://hyperwiki.jp/rf5/recipe6/
+    output: 1
+    tool: オーブン
+  サンドウィッチ:
+    ingredients:
+      パン: 1
+      卵類: 1
+      キュウリ: 1
+    source: https://hyperwiki.jp/rf5/recipe0/
+    output: 1
+    tool: 素手
+  フルーツサンド:
+    ingredients:
+      パン: 1
+      イチゴ: 1
+    source: https://hyperwiki.jp/rf5/recipe0/
+    output: 1
+    tool: 素手
+  むしチョコケーキ:
+    ingredients:
+      小麦粉: 1
+      チョコレート: 1
+      卵類: 1
+      牛乳類: 1
+    source: https://hyperwiki.jp/rf5/recipe3/
+    output: 1
+    tool: 蒸し器
+  ホットケーキ:
+    ingredients:
+      小麦粉: 1
+      ハチミツ: 1
+      牛乳類: 1
+      卵類: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  土佐造り:
+    ingredients:
+      カツオ: 1
+      サワードロップ: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  かぼちゃプリン:
+    ingredients:
+      卵類: 1
+      牛乳類: 1
+      カボチャ: 1
+    source: https://hyperwiki.jp/rf5/recipe3/
+    output: 1
+    tool: 蒸し器
+  フルーツジュース:
+    ingredients:
+      リンゴ: 1
+      ブドウ: 1
+      オレンジ: 1
+    source: https://hyperwiki.jp/rf5/recipe5/
+    output: 1
+    tool: ミキサー
+  フルーツ・オ・レ:
+    ingredients:
+      フルーツジュース: 1
+      牛乳類: 1
+    source: https://hyperwiki.jp/rf5/recipe5/
+    output: 1
+    tool: ミキサー
+  恋の予感:
+    ingredients:
+      オトメロン: 1
+      イチゴ: 1
+    source: https://hyperwiki.jp/rf5/recipe5/
+    output: 1
+    tool: ミキサー
+  パインジュース:
+    ingredients:
+      パイナップル: 1
+    source: https://hyperwiki.jp/rf5/recipe5/
+    output: 1
+    tool: ミキサー
+  コロッケ:
+    ingredients:
+      油: 1
+      ジャガイモ: 1
+      卵類: 1
+    source: https://hyperwiki.jp/rf5/recipe1/
+    output: 1
+    tool: フライパン
+  アイスクリーム:
+    ingredients:
+      スイートパウダー: 1
+      牛乳類: 1
+    source: https://hyperwiki.jp/rf5/recipe5/
+    output: 1
+    tool: ミキサー
+  サファイアブローチ:
+    ingredients:
+      プラチナ: 1
+      サファイア: 1
+    source: https://wikiwiki.jp/rf5/防具・アクセサリー
+    output: 1
+    tool: 装飾台
+  大地のペンダント:
+    ingredients:
+      シルバーペンダント: 1
+      金: 1
+      地の結晶: 1
+    source: https://wikiwiki.jp/rf5/防具・アクセサリー
+    output: 1
+    tool: 装飾台
+  太陽のペンダント:
+    ingredients:
+      シルバーペンダント: 1
+      金: 1
+      火の結晶: 1
+    source: https://wikiwiki.jp/rf5/防具・アクセサリー
+    output: 1
+    tool: 装飾台

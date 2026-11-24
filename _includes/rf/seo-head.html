@@ -1,4 +1,4 @@
-{% assign seo_visible = page.seo_public %}{% assign seo_path = page.path | downcase %}{% if seo_path contains 'rf6' %}{% assign seo_visible = false %}{% endif %}
+{% assign seo_visible = page.seo_public %}
 {% assign seo_type = 'website' %}{% if page.layout == 'rf-guide' and page.slug %}{% assign seo_type = 'article' %}{% endif %}
 {% assign seo_title = page.title | default: site.title %}
 {% assign seo_description = page.description | default: site.description %}

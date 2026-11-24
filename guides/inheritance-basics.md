@@ -137,9 +137,7 @@ RF4SPで候補数を管理する考え方は有用ですが、[RF5向け等確�
 - [内部アレンジ参照：現行の観測範囲](https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/main/articles/Recursive-Processing.md)
 - [候補数モデル：研究の入口](https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/main/articles/Candidate-Count-Model.md)
 
-## 既存攻略知識と研究モデルの出典
-
-生成数とアレンジ継承の優先は、[RF4攻略Wiki](https://wikiwiki.jp/rune4/強化)・[RF4 Wiki](https://wikiwiki.jp/rf4/強化)・[RF5攻略Wiki](https://wikiwiki.jp/rf5/強化)、RF4SPの[いたちと気ままなゲームびより](https://choconasubi.com/?p=2641)、RF5の[ゆいのゲーム日記](https://yuigame.com/2021/06/15/rune-factory-5-arrangement-inheritance-and-auto-arrangement-commentary/)でも説明されています。コミュニティ攻略資料であり、公式仕様書や内部コードの証拠ではありません。記載の一致だけで、互いに独立した検証を行ったことまでは保証しません。
+## 研究モデルと適用範囲
 
 図A・B・Gと境界値テストは筆者の[研究投稿](https://x.com/AJ1B5OznFS44920/status/2075148633347932336)の説明をWeb向けに再構成しています。「ランダム」と「等確率」は同義ではありません。RF5の[4,000回検証](rf5-4000-trials.html)と等確率・非復元モデルの整合は特定の候補選択条件についての結果で、オートアレンジ生成自体まで等確率と確定した意味ではありません。
 

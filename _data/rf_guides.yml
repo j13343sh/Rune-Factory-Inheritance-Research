@@ -546,7 +546,7 @@
   public: true
   category: research
 - slug: shuffle-method
-  title: シャッフル製法：同カテゴリ装備の順序を変える
+  title: シャッフル製法：投入順を変えてリセマラを減らす
   section: practice
   related:
   - method-comparison
@@ -556,12 +556,18 @@
   - RF4SP
   - RF5
   status: candidate
-  summary: 同カテゴリ装備の投入順を変え、内部アレンジ参照結果を比較します。
+  summary: 同じ素材でも投入順を変えることで、不要な継承抽選を避けられる場合があります。
   scope: 通常レシピと装備の内部状態を記録する方法です。内部走査順の確定や、全レシピでの成功保証ではありません。 具体的な製作例の出典はRF5を中心とし、RF4SPで同一手順が成立する意味ではありません。
   outline:
+  - id: shuffle-quiz
+    title: 同じ素材なのに運ゲーになるのはどちら？
+    level: L2 条件・実践
   - id: 動かすのは順序
     title: 動かすのは「順序」
     level: L3 仕組み・観測
+  - id: shuffle-steps
+    title: シャッフル製法の手順
+    level: L2 条件・実践
   - id: 出典と確認範囲
     title: 出典と確認範囲
     level: L4 根拠・限界

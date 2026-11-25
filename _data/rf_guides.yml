@@ -202,6 +202,7 @@
   title: 装備継承の統合理論：候補はどこから来るのか
   section: basics
   related:
+  - weapon-category-shield
   - practical-equipment
   - method-comparison
   - candidate-count-calculator
@@ -304,6 +305,7 @@
   title: ゴーストロケット・属性吸収ブローチ
   section: practice
   related:
+  - weapon-category-shield
   - cushion-method
   - dummy-method
   - rf4sp-item-order
@@ -432,6 +434,7 @@
   title: RF4SP メッシライト400回検証
   section: research
   related:
+  - weapon-category-shield
   - rf5-4000-trials
   - candidate-count-calculator
   - rf4sp-rf5-comparison
@@ -518,6 +521,7 @@
   title: RF5 メッシライト継承4,000回検証
   section: research
   related:
+  - weapon-category-shield
   - candidate-count-calculator
   - cushion-method
   - rf4sp-messhilite-trials
@@ -645,3 +649,35 @@
   - id: 出典と確認範囲
     title: 出典と確認範囲
     level: L2 実践
+- slug: weapon-category-shield
+  title: メッシライト継承と盾の性能｜武器カテゴリ別の装備設計
+  section: practice
+  related:
+  - inheritance-basics
+  - practical-equipment
+  - rf4sp-messhilite-trials
+  - rf5-4000-trials
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 武器カテゴリ別に盾の反映率を比較し、メッシライト継承とうろこ強化を使い分けます。
+  scope: 両作品の過去の実機観測と攻略資料に基づく装備設計です。農具やうろこの条件は作品別に記載します。
+  outline:
+  - id: メッシライト鉱石の使い方
+    title: メッシライト鉱石の使い方
+    level: L2 条件・実践
+  - id: 武器カテゴリ別の盾の反映率
+    title: 武器カテゴリ別の盾の反映率
+    level: L2 条件・実践
+  - id: 双剣拳で盾を活かすうろこ強化
+    title: 双剣・拳で盾を活かすうろこ強化
+    level: L2 条件・実践
+  - id: 目的に合わせて選ぶ
+    title: 目的に合わせて選ぶ
+    level: L2 条件・実践
+  - id: 確認範囲
+    title: 確認範囲
+    level: L4 根拠・限界
+  public: true
+  category: equipment

@@ -1,5 +1,0 @@
-{%- for g in site.data.rf_guides -%}
-{%- capture guide_visible -%}{%- include rf/guide-visible.html item=g -%}{%- endcapture -%}
-{%- if guide_visible == 'true' -%}{%- if include.category == nil or g.category == include.category -%}{%- if include.work == nil or include.work == empty or g.works contains include.work -%}{%- if include.tools != true or g.tool == true -%}
-{%- if include.compact -%}<li><a href="{{ '/guides/' | append: g.slug | append: '.html' | relative_url }}">{{ g.title | escape }}</a></li>{%- else -%}{% include rf/article-card.html item=g description=true %}{%- endif -%}
-{%- endif -%}{%- endif -%}{%- endif -%}{%- endif -%}{%- endfor -%}

@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - refactor/web-directory
   workflow_dispatch:
 
 permissions: {}

@@ -146,3 +146,27 @@
   margin-block: .2rem;
   font-variant-numeric: tabular-nums;
 }
+
+.rf-shop-inventory .shop-targets input:disabled {
+  accent-color: #666;
+  opacity: 1;
+}
+.rf-shop-inventory .shop-targets .shop-item:has(input:disabled) {
+  color: #4d5551;
+}
+.rf-shop-inventory .shop-ingredients .shop-ingredient-location {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .25rem .5rem;
+}
+.rf-shop-inventory .shop-ingredient-location button {
+  min-height: 44px;
+  padding: .15rem .45rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fff;
+  color: #315b48;
+  font: inherit;
+  text-decoration: underline;
+}

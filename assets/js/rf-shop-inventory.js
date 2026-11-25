@@ -25,7 +25,7 @@
   function storeState() {
     const key = `${input('work').value}/${input('shop').value}`;
     if (!states.has(key)) {
-      states.set(key, {stage: 0, ordered: false, targets: new Set(), unlisted: new Set(), shipped: new Set()});
+      states.set(key, {stage: 0, ordered: false, targets: new Set(), shipped: new Set()});
     }
     return states.get(key);
   }
@@ -92,7 +92,14 @@
       '個別陳列率 —（候補なし）';
     const notes = [];
     if (targets.length > drawn) notes.push('調査対象数が陳列数を超えるため同時陳列不可。');
-    if (missing.length) notes.push(`候補未登録・未解禁: ${missing.join('、')}`);
+    for (const reason of ['未出荷', '未解禁']) {
+      const names = config.items.filter(item => missing.includes(item.name) &&
+        targetStatus(itemState(item, current)) === reason).map(item => item.name);
+      if (names.length) {
+        const hint = reason === '未解禁' ? '（進行条件が必要）' : '';
+        notes.push(`${reason}${hint}：${names.join('、')}`);
+      }
+    }
     output('target-note').hidden = notes.length === 0;
     output('target-note').textContent = notes.join(' ');
 
@@ -179,64 +186,78 @@
     output('items').replaceChildren(...grouped.values());
   }
 
-  function targetNames({config, state}) {
-    return [...config.items.map(item => item.name), ...state.unlisted];
+  function targetStatus(status) {
+    if (!status.eligible) return '未解禁';
+    return status.included ? '' : '未出荷';
   }
 
   function renderTargets(current) {
-    const rows = targetNames(current).map(name => {
+    const rows = current.config.items.map(item => {
       const row = node('label');
       row.className = 'shop-item';
       const box = node('input');
       box.type = 'checkbox';
-      box.dataset.target = name;
-      box.checked = current.state.targets.has(name);
-      row.append(box, node('span', name));
-      if (current.state.unlisted.has(name)) {
-        const tag = node('small', '台帳外');
-        tag.className = 'shop-item-status';
-        row.append(tag);
-      }
+      box.dataset.target = item.name;
+      const badge = node('small');
+      badge.className = 'shop-item-status';
+      row.append(box, node('span', item.name), badge);
       return row;
     });
     output('targets').replaceChildren(...rows);
+    syncTargets(current);
+  }
+
+  function syncTargets(current) {
+    const rows = output('targets').children;
+    current.config.items.forEach((item, index) => {
+      const row = rows[index];
+      const box = row.firstElementChild;
+      const badge = row.lastElementChild;
+      const status = itemState(item, current);
+      box.checked = current.state.targets.has(item.name);
+      box.disabled = !status.included;
+      badge.textContent = targetStatus(status);
+      badge.hidden = status.included;
+    });
   }
 
   function applyRecipe() {
-    const {work, shop, state} = context();
+    const current = context();
+    const {work, config, state} = current;
     const recipe = inventory.recipes[input('recipe').value]?.[work];
     if (!recipe) return;
-    state.targets.clear();
-    state.unlisted.clear();
-    for (const {name} of recipe.main) {
-      const shops = locations(work, name);
-      if (shops.includes(shopNames[shop])) state.targets.add(name);
-      else if (!shops.length) {
-        state.targets.add(name);
-        state.unlisted.add(name);
-      }
-    }
-    renderTargets(context());
+    const names = new Set(recipe.main.map(item => item.name));
+    state.targets = new Set(config.items.filter(item => names.has(item.name)).map(item => item.name));
+    syncTargets(current);
     renderResult();
-  }
-
-  function locations(work, ingredient) {
-    const shops = inventory.shops[work];
-    return Object.entries(shops).filter(([, config]) => config.items.some(item => item.name === ingredient))
-      .map(([shop]) => shopNames[shop]);
   }
 
   function ingredientList(work, shop, ingredients) {
     const list = node('ul');
     list.className = 'shop-ingredients';
     for (const {name, quantity} of ingredients) {
-      const shops = locations(work, name);
-      const description = shops.length ?
-        `${shops.join('・')}${shops.includes(shopNames[shop]) ? '' : '（別店舗）'}` :
-        (name === 'ワイン' ? '別途調達（雑貨屋の通常販売品）' : '別途調達');
+      const stores = Object.entries(inventory.shops[work])
+        .filter(([, config]) => config.items.some(item => item.name === name))
+        .map(([id]) => id);
       const item = node('li');
       const kind = ['粉・秘薬類', '液体類'].includes(name) ? '（カテゴリから選択）' : '';
-      item.append(node('strong', `${name} ×${quantity}${kind}`), node('span', description));
+      item.append(node('strong', `${name} ×${quantity}${kind}`));
+      const availability = node('span');
+      availability.className = 'shop-ingredient-location';
+      if (!stores.length) {
+        availability.textContent = name === 'ワイン' ? '雑貨屋の通常販売（陳列抽選の対象外）' : '別途調達';
+      }
+      for (const store of stores) {
+        if (store === shop) {
+          availability.append(node('span', `${shopNames[store]}（表示中）`));
+        } else {
+          const button = node('button', `${shopNames[store]}の陳列を確認`);
+          button.type = 'button';
+          button.dataset.recipeShop = store;
+          availability.append(button);
+        }
+      }
+      item.append(availability);
       list.append(item);
     }
     return list;
@@ -300,6 +321,7 @@
     if (element.dataset.shipped) {
       if (element.checked) state.shipped.add(element.dataset.shipped);
       else state.shipped.delete(element.dataset.shipped);
+      syncTargets(context());
       renderResult();
       return;
     }
@@ -321,6 +343,13 @@
   });
 
   root.addEventListener('click', event => {
+    const store = event.target.dataset.recipeShop;
+    if (store) {
+      input('shop').value = store;
+      render();
+      input('shop').focus();
+      return;
+    }
     const action = event.target.dataset.action;
     if (!action) return;
     if (action === 'apply-recipe') {
@@ -330,10 +359,14 @@
     const current = context();
     const {state} = current;
     if (action === 'targets-all' || action === 'targets-none') {
-      state.targets = new Set(action === 'targets-all' ? targetNames(current) : []);
-      for (const checkbox of output('targets').querySelectorAll('input[data-target]')) {
-        checkbox.checked = state.targets.has(checkbox.dataset.target);
+      if (action === 'targets-none') {
+        state.targets.clear();
+      } else {
+        for (const item of current.config.items) {
+          if (itemState(item, current).included) state.targets.add(item.name);
+        }
       }
+      syncTargets(current);
       renderResult();
       return;
     }
@@ -342,6 +375,7 @@
       if (checkbox.checked) state.shipped.add(checkbox.dataset.shipped);
       else state.shipped.delete(checkbox.dataset.shipped);
     }
+    syncTargets(current);
     renderResult();
   });
 

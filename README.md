@@ -210,12 +210,17 @@ ROADMAP.md
 articles/
 case-studies/
 csv/
+game-guide/
 images/
 mermaid/
 pdf/
+reference-assets/
 research/
 research-methodology/
 ルンファク（全部入り文字列検索可）/
+
+web/
+.github/
 ```
 
 ## research-methodology/
@@ -290,6 +295,23 @@ Structured datasets and reference tables used during validation and analysis.
 
 Searchable Japanese source archive containing the complete text version of the research materials.
 
+---
+
+### web/
+
+Source files for the public research website, including Jekyll layouts, guides, navigation, stylesheets, and interactive calculators.
+
+The website implementation is maintained separately from the original research materials.
+
+The website is built and deployed automatically through GitHub Actions, preserving existing public URLs without duplicating the research archive.
+
+- [Public Research Website](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/)
+
+---
+
+### .github/
+
+GitHub Actions workflows and supporting scripts for website builds, public path preservation, validation, and deployment.
 
 ---
 

@@ -25,7 +25,8 @@
   function storeState() {
     const key = `${input('work').value}/${input('shop').value}`;
     if (!states.has(key)) {
-      states.set(key, {stage: 0, ordered: false, targets: new Set(), shipped: new Set()});
+      const shipped = new Set(key === 'RF4SP/vegetable' ? ['カブ'] : []);
+      states.set(key, {stage: 0, ordered: false, targets: new Set(), shipped});
     }
     return states.get(key);
   }
@@ -110,6 +111,11 @@
 
   }
 
+  function canRecordShipment(item, current, status) {
+    const isDefaultTurnip = current.work === 'RF4SP' && current.shop === 'vegetable' && item.name === 'カブ';
+    return item.shipment && !status.fixed && (status.eligible || isDefaultTurnip);
+  }
+
   function renderContext(current) {
     const {work, shop, config, state, canOrder} = current;
     const stages = config.rank ? ranks.map(rank => rank.title) : (config.stages || inventory.expansions);
@@ -143,11 +149,14 @@
     output('item-note').textContent = clinic ?
       '第2段階から出荷不要の12種類が候補に入ります。草類と白水晶の一覧は変更できません。' :
       '出荷した品を選びます。「固定」は未出荷でも候補に加わる品です。';
+    if (work === 'RF4SP' && shop === 'vegetable') {
+      output('item-note').textContent += ' カブは序盤の出荷依頼に合わせて初期チェック済みです。未出荷で販売されるかは未確認です。';
+    }
     output('bulk').hidden = clinic;
     for (const button of output('bulk').querySelectorAll('button')) {
       button.disabled = !config.items.some(item => {
         const status = itemState(item, current);
-        return status.eligible && !status.fixed && item.shipment;
+        return canRecordShipment(item, current, status);
       });
     }
   }
@@ -175,8 +184,9 @@
         const box = node('input');
         box.type = 'checkbox';
         box.dataset.shipped = item.name;
-        box.checked = status.included;
-        box.disabled = !status.eligible || status.fixed;
+        const canRecord = canRecordShipment(item, current, status);
+        box.checked = status.included || (canRecord && current.state.shipped.has(item.name));
+        box.disabled = !canRecord;
         row.append(box);
       }
       row.append(node('span', item.name));

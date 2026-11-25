@@ -19,6 +19,7 @@
     title: 出典と確認範囲
     level: L4 根拠・限界
   public: true
+  tool: true
   category: research
 - slug: crop-display
   title: 作物・花類の陳列候補数問題
@@ -712,4 +713,48 @@
     title: 確認済みの範囲と未確認事項
     level: L4 根拠・限界
   public: true
+  tool: true
   category: resources
+- slug: rune-prana
+  title: RF4SP ルーンプラーナ攻略
+  section: other
+  related:
+  - practical-equipment
+  - weapon-category-shield
+  - dummy-method
+  works:
+  - RF4SP
+  status: candidate
+  summary: 竜骨チャージ杖を軸に、詰まった攻撃に合わせて防具や属性吸収ブローチを更新します。
+  scope: 引継ぎなし・イージーの実践に基づく装備の目安です。
+  public: true
+  category: advanced
+- slug: rf5-spring-story-clear
+  title: RF5 春の本編攻略
+  section: other
+  related:
+  - rf5-rigbarth-maze
+  - copper-early-rf5
+  - friendship-rf5
+  - shop-inventory-calculator
+  works:
+  - RF5
+  status: candidate
+  summary: 序盤の銅と武器を確保し、イベント待ちの日に次の攻略に必要な装備を整えます。
+  scope: 春27日クリアの実践条件は引継ぎあり・ハード・DLCスターターセット使用です。
+  public: true
+  category: advanced
+- slug: rf5-rigbarth-maze
+  title: RF5 リグバースの迷宮早期攻略
+  section: other
+  related:
+  - rf5-spring-story-clear
+  - practical-equipment
+  - friendship-rf5
+  works:
+  - RF5
+  status: candidate
+  summary: 14階で竜幻石を確保して杖を更新し、ガトリングコメットで必須戦闘を進めます。
+  scope: 本編後に準備して春29日に20階をクリアした実践例です。
+  public: true
+  category: advanced

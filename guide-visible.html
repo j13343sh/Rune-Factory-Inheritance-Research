@@ -1,3 +1,0 @@
-{%- assign guide_url = '/guides/' | append: include.item.slug | append: '.html' -%}
-{%- assign guide_page = site.pages | where: 'url', guide_url | first -%}
-{%- if include.item.public == true -%}{%- include rf/public-page.html item=guide_page -%}{%- else -%}false{%- endif -%}

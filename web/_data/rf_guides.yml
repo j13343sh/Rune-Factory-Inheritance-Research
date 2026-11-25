@@ -758,3 +758,32 @@
   scope: 本編後に準備して春29日に20階をクリアした実践例です。
   public: true
   category: advanced
+- slug: rf4sp-early-game
+  title: RF4SP 水の遺跡から黒曜館までの序盤攻略
+  section: other
+  related:
+  - rf4sp-skill-training
+  - rune-prana
+  - inheritance-basics
+  works:
+  - RF4SP
+  status: candidate
+  summary: ビッグマッシュに騎乗し、黒曜館は家具投げと銅の防具、洞窟は毒耐性で対策します。
+  scope: RF4SPの序盤・中盤の実践例です。
+  public: true
+  category: advanced
+- slug: rf4sp-skill-training
+  title: RF4SP ハートのペンダントから始める序盤のスキル上げ
+  section: other
+  related:
+  - rf4sp-early-game
+  - rune-prana
+  - friendship-rf4sp
+  - shop-inventory-calculator
+  works:
+  - RF4SP
+  status: candidate
+  summary: 花の依頼、無料入浴、実用品の製作を一つの育成ルートにまとめます。
+  scope: 主にRF4SPを扱い、アクセサリー合成でのRF5との差も説明します。
+  public: true
+  category: advanced

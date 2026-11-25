@@ -4,8 +4,6 @@
 
 攻略・製作例・実機検証を探す方は、まず[研究サイト](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/)をご覧ください。GitHubには、英語の研究記事、数理モデル、観測記録、PDFなどの資料をまとめています。
 
-For practical guides and experiment summaries, start with the [research website](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/) (**currently in Japanese**). This repository includes English research articles and supporting materials.
-
 [日本語](#日本語) | [English](#english)
 
 ## 日本語

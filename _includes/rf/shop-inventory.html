@@ -22,27 +22,28 @@
     </section>
 
     <section aria-labelledby="shop-results-heading" class="panel shop-results">
-      <h3 id="shop-results-heading">陳列結果</h3>
+      <h3 id="shop-results-heading">欲しい素材がすべて並ぶ理論確率</h3>
       <div aria-live="polite" aria-atomic="true">
         <p class="shop-probability" data-output="probability"></p>
-        <p data-output="fraction"></p>
         <p class="small" data-output="expectation"></p>
         <p class="small" data-output="target-note" hidden></p>
         <p class="small" data-output="individual"></p>
         <dl class="shop-metrics">
-          <div><dt>調査対象数</dt><dd data-output="target-count"></dd></div>
-          <div><dt>候補数</dt><dd data-output="count"></dd></div>
-          <div><dt>陳列上限</dt><dd data-output="limit"></dd></div>
-          <div><dt>陳列数</dt><dd data-output="drawn"></dd></div>
+          <div><dt>欲しい素材数</dt><dd><span data-output="target-count"></span>種類</dd></div>
+          <div><dt>販売候補数</dt><dd><span data-output="count"></span>種類</dd></div>
+          <div><dt>店舗の陳列上限</dt><dd><span data-output="limit"></span>枠</dd></div>
+          <div><dt>モデル上の陳列数</dt><dd data-output="drawn"></dd></div>
           <div><dt>空き枠</dt><dd data-output="empty"></dd></div>
-          <div><dt>抽選落ち</dt><dd data-output="missed"></dd></div>
-          <div><dt>陳列の組合せ</dt><dd data-output="combinations"></dd></div>
+          <div><dt>並ばない候補数</dt><dd data-output="missed"></dd></div>
         </dl>
+        <p class="small" data-output="capacity-note"></p>
       </div>
     </section>
-    <p class="small shop-note">等確率・非復元抽選の理論値です。雑貨屋・花屋の「固定追加」は暫定的に候補集合へ入れます。上限を超えた場合の販売保証は未確認です。</p>
+    <p class="small shop-note">等確率・非復元抽選を仮定した理論値です。実際のゲームの抽選結果を保証するものではありません。雑貨屋・花屋の「固定追加」は暫定的に候補集合へ入れます。上限を超えた場合の販売保証は未確認です。</p>
     <details class="shop-math">
       <summary>計算式・導出を見る</summary>
+      <p>陳列の全組合せ <span data-output="combinations"></span>通り</p>
+      <p data-output="fraction"></p>
       <p>出荷済み候補の集合を S、未出荷でも加わる候補を F として、重複を除いた <strong>N = |S ∪ F|</strong> を求めます。RF5診療所の自動候補は出荷にかかわらず入り、両作品の病院の固定薬品は抽選から外します。</p>
       <p>上限を L とすると陳列数は <strong>k = min(N, L)</strong>。調べたい t 種類がすべて候補に含まれ、t ≤ k なら、残り k−t 種を N−t 種から選べます。同時陳列確率は <strong>P = C(N−t, k−t) / C(N, k)</strong> です。1種類なら k/N です。</p>
       <p>対象が候補に含まれない場合や t が k を超える場合は 0% です。各抽選が独立と仮定したとき、初回を含む期待回数は <strong>E = 1/P</strong> です。店舗をまたぐ確率は計算しません。</p>

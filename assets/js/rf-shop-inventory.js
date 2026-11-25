@@ -82,14 +82,19 @@
       output(key).textContent = integer.format(value);
     });
 
-    output('probability').textContent = targets.length ? `同時陳列 ${percent(rate)}` : '調査対象未選択';
+    output('probability').textContent = targets.length ? percent(rate) : '調査対象未選択';
     output('fraction').textContent = targets.length ?
-      `${integer.format(favorable)} / ${integer.format(outcomes)} 通り` : '—';
+      `${integer.format(favorable)} / ${integer.format(outcomes)} 通り（選んだ素材がすべて並ぶ組合せ / 全組合せ）` : '—';
     output('expectation').textContent = targets.length && rate > 0 ?
-      `期待抽選回数 ${decimal.format(1 / rate)}回` : '期待抽選回数 —';
+      `平均抽選回数 ${decimal.format(1 / rate)}回` : '平均抽選回数 —';
     output('individual').textContent = count ?
-      `候補に含まれる1品の個別陳列率 ${percent(drawn / count)}（${drawn}/${count}）` :
+      `候補から選んだ1品が並ぶ確率 ${percent(drawn / count)}（${drawn}/${count}）` :
       '個別陳列率 —（候補なし）';
+    const gap = count - limit;
+    output('capacity-note').textContent = gap > 0 ?
+      `現在の候補数は陳列上限を${integer.format(gap)}種類超えています。` :
+      (gap < 0 ? `あと${integer.format(-gap)}種類まで候補を増やしても、陳列上限内です。` :
+        '候補数は陳列上限と同じです。');
     const notes = [];
     if (targets.length > drawn) notes.push('調査対象数が陳列数を超えるため同時陳列不可。');
     for (const reason of ['未出荷', '未解禁']) {
@@ -124,8 +129,8 @@
       }
     } else if (shop !== 'clinic') {
       messages.push('陳列上限はHQの実機観測・記憶を含むモデル値です。');
-      if (shop === 'flower' && state.stage === 0) {
-        messages.push('初期の出荷品販売は未確認のため、トイハーブのみを候補にしています。');
+      if (shop === 'flower') {
+        messages.push('花屋は初期から出荷済みの花が候補に入ります。トイハーブは未出荷でも候補に入ります。');
       }
       if (shop === 'vegetable') messages.push('最大拡張時の16種類の観測例は発生条件が未確定です。この計算では18枠を使います。');
     }

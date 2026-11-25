@@ -850,9 +850,9 @@
           {
             "name": "トイハーブ",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定",
             "fixedFrom": 0,
             "fixedEvidence": "初期の販売区分を資料で確認"
@@ -860,129 +860,129 @@
           {
             "name": "ムーンドロップ草",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "ピンクキャット",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "チャームブルー",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "サクラ草",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "タンポイズン",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "ランプ草",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "鉄千輪",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "四つ葉のクローバー",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "ツリー草",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "野之花火",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "花紅葉",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "金剛花",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "青水晶",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "赤水晶",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "緑水晶",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           },
           {
             "name": "白水晶",
             "group": "花",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売確認",
             "status": "個別出荷条件・抽選優先は未確定"
           }
         ]

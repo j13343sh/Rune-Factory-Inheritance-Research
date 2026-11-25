@@ -2,6 +2,7 @@
   title: 候補数モデル計算ツール
   section: research
   related:
+  - shop-inventory-calculator
   - rf5-4000-trials
   - inheritance-basics
   - rf4sp-messhilite-trials
@@ -23,6 +24,7 @@
   title: 作物・花類の陳列候補数問題
   section: other
   related:
+  - shop-inventory-calculator
   - friendship-rf4sp
   - friendship-rf5
   - research-archive
@@ -111,6 +113,7 @@
   title: RF4SP 日課として続ける好感度上げ
   section: other
   related:
+  - shop-inventory-calculator
   - triple-gift
   - crop-display
   - friendship-rf5
@@ -157,6 +160,7 @@
   title: RF5 共有材料で組む好感度上げ
   section: other
   related:
+  - shop-inventory-calculator
   - triple-gift
   - crop-display
   - friendship-rf4sp
@@ -615,6 +619,7 @@
   - RF4SP
   scope: RF4無印書籍の転記。RF4SP適用未確認。RF5/RF6へ継承しません。
   related:
+  - shop-inventory-calculator
   - crop-display
   - prince-points
   - friendship-rf4sp
@@ -681,3 +686,30 @@
     level: L4 根拠・限界
   public: true
   category: equipment
+- slug: shop-inventory-calculator
+  title: 店舗陳列確率計算機｜雑貨屋・花屋・病院
+  section: other
+  related:
+  - crop-display
+  - shop-display-ranks
+  - friendship-rf4sp
+  - friendship-rf5
+  - candidate-count-calculator
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 出荷済みの品と店舗の陳列枠から、欲しい素材が並ぶ理論確率を計算します。
+  scope: 作品別の進行条件に対応した等確率モデルです。候補と上限に暫定値を含みます。
+  outline:
+  - id: 店舗と出荷済み素材を選ぶ
+    title: 店舗と出荷済み素材を選ぶ
+    level: L2 条件・実践
+  - id: 結果を出荷計画に使う
+    title: 結果を出荷計画に使う
+    level: L2 条件・実践
+  - id: 確認済みの範囲と未確認事項
+    title: 確認済みの範囲と未確認事項
+    level: L4 根拠・限界
+  public: true
+  category: resources

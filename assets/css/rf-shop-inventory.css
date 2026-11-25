@@ -1,0 +1,87 @@
+.rf-shop-inventory [hidden] { display: none; }
+.rf-shop-inventory .shop-settings,
+.rf-shop-inventory .shop-metrics,
+.rf-shop-inventory .shop-item-list {
+  display: grid;
+  gap: .65rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+}
+.rf-shop-inventory .shop-settings label,
+.rf-shop-inventory .shop-results label {
+  display: grid;
+  min-width: 0;
+  gap: .3rem;
+  font-weight: 600;
+}
+.rf-shop-inventory select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  margin-top: .25rem;
+  padding: .4rem .6rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+  font-weight: 400;
+}
+.rf-shop-inventory .shop-settings .shop-order {
+  display: flex;
+  grid-column: 1 / -1;
+  align-items: center;
+  gap: .6rem;
+}
+.rf-shop-inventory .shop-note { margin-block: .65rem; }
+.rf-shop-inventory .shop-results h3 { margin-top: 0; }
+.rf-shop-inventory .shop-probability {
+  margin: .65rem 0 0;
+  font-size: clamp(1.3rem, 4vw, 2.1rem);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.rf-shop-inventory .shop-metrics {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7rem), 1fr));
+  margin: .8rem 0 0;
+}
+.rf-shop-inventory .shop-metrics div {
+  padding: .5rem;
+  border-top: 1px solid var(--rule);
+}
+.rf-shop-inventory .shop-metrics dt { font-size: .81rem; }
+.rf-shop-inventory .shop-metrics dd { margin: 0; font-weight: 650; }
+.rf-shop-inventory .shop-math { color: #4d5551; font-size: .9rem; }
+.rf-shop-inventory .shop-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+.rf-shop-inventory .shop-actions button {
+  min-height: 44px;
+  padding: .35rem .75rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+}
+.rf-shop-inventory .shop-item-group {
+  box-sizing: border-box;
+  min-width: 0;
+  margin: .8rem 0;
+  padding: .55rem;
+  border: 1px solid var(--rule);
+}
+.rf-shop-inventory .shop-item-group legend { padding: 0 .25rem; font-weight: 650; }
+.rf-shop-inventory .shop-item {
+  display: flex;
+  min-width: 0;
+  min-height: 44px;
+  align-items: center;
+  gap: .35rem;
+  padding: .15rem .28rem;
+  border: 1px solid transparent;
+}
+.rf-shop-inventory input[type="checkbox"] { flex: 0 0 auto; width: 1.1rem; height: 1.1rem; }
+.rf-shop-inventory .shop-item span { overflow-wrap: anywhere; }
+.rf-shop-inventory .shop-item-status { white-space: nowrap; color: #4d5551; }
+.rf-shop-inventory .shop-recipe-match { border-color: #6d8879; background: #e8efe9; }
+.rf-shop-inventory .shop-ingredients li span { display: block; font-size: .88rem; }
+.rf-shop-inventory summary { cursor: pointer; }
+.rf-shop-inventory :focus-visible { outline: 2px solid #315b48; outline-offset: 3px; }

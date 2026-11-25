@@ -1,0 +1,65 @@
+{% assign rank_data = site.data.rf_shop_limits %}
+{% assign vegetable = rank_data.shops | where: 'shop_id', 'vegetable' | first %}
+{% assign flower = rank_data.shops | where: 'shop_id', 'flower' | first %}
+<link rel="stylesheet" href="{{ '/assets/css/rf-shop-inventory.css' | relative_url }}">
+<script src="{{ '/assets/js/rf-shop-inventory.js' | relative_url }}" defer></script>
+<div class="rf-shop-inventory" data-shop-inventory>
+  <p data-output="fallback">計算機を操作するにはJavaScriptを有効にしてください。モデルの説明はこのページで読めます。</p>
+  <div data-shop-ui hidden>
+    <div class="panel shop-settings">
+      <label>作品<select data-input="work"><option value="RF5">RF5</option><option value="RF4SP">RF4SP</option></select></label>
+      <label>店舗<select data-input="shop"><option value="vegetable">雑貨屋</option><option value="flower">花屋</option><option value="clinic">病院・診療所</option></select></label>
+      <label><span data-output="stage-label">拡張段階</span><select data-input="stage"></select></label>
+      <label class="shop-order" data-output="order-row" hidden><input type="checkbox" data-input="order"><span data-output="order-label"></span></label>
+    </div>
+    <p class="small shop-note" data-output="context"></p>
+
+    <section aria-labelledby="shop-results-heading" class="panel shop-results">
+      <h3 id="shop-results-heading">陳列結果</h3>
+      <label>調べたい素材<select data-input="target"></select></label>
+      <div aria-live="polite" aria-atomic="true">
+        <p class="shop-probability" data-output="probability"></p>
+        <p class="small" data-output="expectation"></p>
+        <dl class="shop-metrics">
+          <div><dt>候補数</dt><dd data-output="count"></dd></div>
+          <div><dt>陳列上限</dt><dd data-output="limit"></dd></div>
+          <div><dt>陳列数</dt><dd data-output="drawn"></dd></div>
+          <div><dt>空き枠</dt><dd data-output="empty"></dd></div>
+          <div><dt>抽選落ち</dt><dd data-output="missed"></dd></div>
+          <div><dt>陳列の組合せ</dt><dd data-output="combinations"></dd></div>
+        </dl>
+      </div>
+    </section>
+    <p class="small shop-note">等確率・非復元抽選の理論値です。雑貨屋・花屋の「固定追加」は暫定的に候補集合へ入れます。上限を超えた場合の販売保証は未確認です。</p>
+    <details class="shop-math">
+      <summary>計算式・導出を見る</summary>
+      <p>出荷済み候補の集合を S、未出荷でも加わる候補を F として、重複を除いた <strong>N = |S ∪ F|</strong> を求めます。RF5診療所の自動候補は出荷にかかわらず入り、両作品の病院の固定薬品は抽選から外します。</p>
+      <p>上限を L とすると陳列数は <strong>k = min(N, L)</strong>。全 C(N, k) 通りのうち、目的の品を含むのは、残り k−1 種を選ぶ C(N−1, k−1) 通りです。N と k が正なら <strong>P = C(N−1, k−1) / C(N, k) = k/N</strong> です。</p>
+      <p>抽選ごとに同条件で独立と仮定すると、初回を含む期待回数は <strong>E = 1/P = N/k</strong> です。候補がない場合や枠が0の場合、有限の期待回数は表示しません。店員や店舗をまたいだ結果は合成しません。</p>
+    </details>
+
+    <section aria-labelledby="shop-items-heading">
+      <h3 id="shop-items-heading">販売候補</h3>
+      <p class="small" data-output="item-note"></p>
+      <div class="shop-actions" data-output="bulk">
+        <button type="button" data-action="all">全選択</button>
+        <button type="button" data-action="none">全解除</button>
+      </div>
+      <div data-output="items"></div>
+    </section>
+
+    <section aria-labelledby="shop-recipes-heading">
+      <h3 id="shop-recipes-heading">レシピから素材を探す</h3>
+      <label>代表レシピ<select data-input="recipe"></select></label>
+      <div data-output="recipe"></div>
+    </section>
+    <details class="shop-medicine" data-output="medicine" hidden>
+      <summary>RF5花屋で直接買える完成薬品</summary>
+      <p class="small">花の陳列候補とは別に販売されます。</p>
+      <ul data-output="medicine-list"></ul>
+    </details>
+  </div>
+  <script type="application/json" data-shop-data>
+  {"inventory":{{ site.data.rf_shop_inventory | jsonify }},"ranks":{{ rank_data.ranks | jsonify }},"rankLimits":{"vegetable":{{ vegetable.limits | jsonify }},"flower":{{ flower.limits | jsonify }}}}
+  </script>
+</div>

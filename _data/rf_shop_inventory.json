@@ -1,0 +1,1694 @@
+{
+  "expansions": [
+    "初期",
+    "第1段階",
+    "第2段階",
+    "第3段階"
+  ],
+  "shops": {
+    "RF4SP": {
+      "vegetable": {
+        "order": "出荷野菜屋のオーダー済み",
+        "rank": true,
+        "items": [
+          {
+            "name": "カブ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "サクラカブ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ジャガイモ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ホウレン草",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "大根",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "サツマイモ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "カボチャ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "キュウリ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ニンジン",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "トウモロコシ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "イチゴ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ネギ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ピーマン",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ナス",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ほかほかの実",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "白菜",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "キャベツ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "タマネギ",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "トマト",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "オトメロン",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "パイナップル",
+            "group": "通常作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "金のカブ",
+            "group": "金作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "金のジャガイモ",
+            "group": "金作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "金のカボチャ",
+            "group": "金作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "金のキャベツ",
+            "group": "金作物",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "リンゴ",
+            "group": "果物・その他",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ブドウ",
+            "group": "果物・その他",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "オレンジ",
+            "group": "果物・その他",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "タケノコ",
+            "group": "果物・その他",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          }
+        ]
+      },
+      "flower": {
+        "order": "出荷花屋のオーダー済み",
+        "rank": true,
+        "items": [
+          {
+            "name": "トイハーブ",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認",
+            "fixedFrom": 0,
+            "fixedEvidence": "HQ実機観測・未出荷販売"
+          },
+          {
+            "name": "ムーンドロップ草",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ピンクキャット",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "チャームブルー",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "サクラ草",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "タンポイズン",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ランプ草",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "鉄千輪",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "四つ葉のクローバー",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "ツリー草",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "野之花火",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "花紅葉",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "金剛花",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "青水晶",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "赤水晶",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "緑水晶",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "白水晶",
+            "group": "花",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "RF4無印のカテゴリ資料とHQ暫定候補",
+            "status": "RF4SP個別販売・候補網羅性は未確認"
+          },
+          {
+            "name": "薬草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "毒消し草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "赤い草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "青い草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "黄の草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "緑の草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "紫の草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "黒い草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "藍の草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "だいだい草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          },
+          {
+            "name": "白い草",
+            "group": "草",
+            "unlock": 0,
+            "shipment": true,
+            "evidence": "HQ暫定候補・一部草類の観測",
+            "status": "花屋の個別品と出荷花屋オーダーの関係は暫定"
+          }
+        ]
+      },
+      "clinic": {
+        "stages": [
+          "初期（草の販売なし）",
+          "立派な王子・姫（草2枠）",
+          "マーヤ山道進入後（草4枠）",
+          "浮遊帝国城登場後（草8枠）"
+        ],
+        "limits": [
+          0,
+          2,
+          4,
+          8
+        ],
+        "fixedMedicines": [
+          3,
+          6,
+          7,
+          8
+        ],
+        "items": [
+          {
+            "name": "薬草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "毒消し草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "赤い草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "青い草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "黄の草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "緑の草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "紫の草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "黒い草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "藍の草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "だいだい草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          },
+          {
+            "name": "白い草",
+            "group": "草",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "RF4無印の草類販売とHQ暫定候補",
+            "status": "RF4SPへの暫定適用・草11種の網羅未確認"
+          }
+        ]
+      }
+    },
+    "RF5": {
+      "vegetable": {
+        "limits": [
+          4,
+          8,
+          12,
+          18
+        ],
+        "items": [
+          {
+            "name": "カブ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定",
+            "fixedFrom": 0,
+            "fixedEvidence": "HQ実機観測・公開資料"
+          },
+          {
+            "name": "サクラカブ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ジャガイモ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ホウレン草",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "大根",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "サツマイモ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "カボチャ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定",
+            "fixedFrom": 1,
+            "fixedEvidence": "HQ実機観測・公開資料"
+          },
+          {
+            "name": "キュウリ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ニンジン",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定",
+            "fixedFrom": 2,
+            "fixedEvidence": "公開資料・HQ未観測"
+          },
+          {
+            "name": "トウモロコシ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "イチゴ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ネギ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ピーマン",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ナス",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ほかほかの実",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "白菜",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "キャベツ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "タマネギ",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "トマト",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "オトメロン",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "パイナップル",
+            "group": "通常作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定",
+            "fixedFrom": 3,
+            "fixedEvidence": "HQ実機観測・公開資料"
+          },
+          {
+            "name": "金のカブ",
+            "group": "金作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "金のジャガイモ",
+            "group": "金作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "金のカボチャ",
+            "group": "金作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "金のキャベツ",
+            "group": "金作物",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "リンゴ",
+            "group": "果物・その他",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ブドウ",
+            "group": "果物・その他",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "オレンジ",
+            "group": "果物・その他",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "タケノコ",
+            "group": "果物・その他",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          }
+        ]
+      },
+      "flower": {
+        "limits": [
+          4,
+          8,
+          12,
+          18
+        ],
+        "items": [
+          {
+            "name": "トイハーブ",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定",
+            "fixedFrom": 0,
+            "fixedEvidence": "初期の販売区分を資料で確認"
+          },
+          {
+            "name": "ムーンドロップ草",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ピンクキャット",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "チャームブルー",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "サクラ草",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "タンポイズン",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ランプ草",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "鉄千輪",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "四つ葉のクローバー",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "ツリー草",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "野之花火",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "花紅葉",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "金剛花",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "青水晶",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "赤水晶",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "緑水晶",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          },
+          {
+            "name": "白水晶",
+            "group": "花",
+            "unlock": 1,
+            "shipment": true,
+            "evidence": "公開資料の商品区分を照合",
+            "status": "個別出荷条件・抽選優先は未確定"
+          }
+        ]
+      },
+      "clinic": {
+        "limits": [
+          0,
+          0,
+          4,
+          8
+        ],
+        "fixedMedicines": [
+          3,
+          6,
+          6,
+          8
+        ],
+        "items": [
+          {
+            "name": "薬草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "毒消し草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "赤い草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "青い草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "黄の草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "緑の草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "紫の草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "黒い草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "藍の草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "だいだい草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "エリ草",
+            "group": "草",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "公開資料のランダム区分・HQ運用",
+            "status": "拡張2以降の自動候補"
+          },
+          {
+            "name": "白水晶",
+            "group": "花",
+            "unlock": 2,
+            "shipment": false,
+            "evidence": "HQ実機観測・公開資料",
+            "status": "拡張2以降の自動候補"
+          }
+        ]
+      }
+    }
+  },
+  "recipes": {
+    "リラックス茶の葉": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "白い草",
+            "quantity": 1
+          },
+          {
+            "name": "だいだい草",
+            "quantity": 1
+          },
+          {
+            "name": "緑の草",
+            "quantity": 1
+          },
+          {
+            "name": "黄の草",
+            "quantity": 1
+          },
+          {
+            "name": "青い草",
+            "quantity": 1
+          },
+          {
+            "name": "紫の草",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "白い草",
+            "quantity": 1
+          },
+          {
+            "name": "だいだい草",
+            "quantity": 1
+          },
+          {
+            "name": "緑の草",
+            "quantity": 1
+          },
+          {
+            "name": "黄の草",
+            "quantity": 1
+          },
+          {
+            "name": "青い草",
+            "quantity": 1
+          },
+          {
+            "name": "紫の草",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "リラックスティー": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "リラックス茶の葉",
+            "quantity": 1
+          },
+          {
+            "name": "ハチミツ",
+            "quantity": 1
+          },
+          {
+            "name": "オトメロン",
+            "quantity": 1
+          },
+          {
+            "name": "ネギ",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "リラックス茶の葉",
+            "quantity": 1
+          },
+          {
+            "name": "ハチミツ",
+            "quantity": 1
+          },
+          {
+            "name": "オトメロン",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "カブヘブン": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "カブ",
+            "quantity": 1
+          },
+          {
+            "name": "サクラカブ",
+            "quantity": 1
+          },
+          {
+            "name": "金のカブ",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "カブ",
+            "quantity": 1
+          },
+          {
+            "name": "サクラカブ",
+            "quantity": 1
+          },
+          {
+            "name": "金のカブ",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "ゴールドジュース": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "金のカボチャ",
+            "quantity": 1
+          },
+          {
+            "name": "金剛花",
+            "quantity": 1
+          },
+          {
+            "name": "金のジャガイモ",
+            "quantity": 1
+          },
+          {
+            "name": "金のカブ",
+            "quantity": 1
+          },
+          {
+            "name": "金のキャベツ",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "金のカボチャ",
+            "quantity": 1
+          },
+          {
+            "name": "金剛花",
+            "quantity": 1
+          },
+          {
+            "name": "金のジャガイモ",
+            "quantity": 1
+          },
+          {
+            "name": "金のカブ",
+            "quantity": 1
+          },
+          {
+            "name": "金のキャベツ",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "ラブ飲みドリンク": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "ぶどう酒",
+            "quantity": 1
+          },
+          {
+            "name": "オトメロン",
+            "quantity": 1
+          },
+          {
+            "name": "イチゴ",
+            "quantity": 1
+          },
+          {
+            "name": "ハチミツ",
+            "quantity": 1
+          },
+          {
+            "name": "ほかほかの実",
+            "quantity": 1
+          },
+          {
+            "name": "金剛花",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "大金剛花",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "ぶどう酒",
+            "quantity": 1
+          },
+          {
+            "name": "オトメロン",
+            "quantity": 1
+          },
+          {
+            "name": "イチゴ",
+            "quantity": 1
+          },
+          {
+            "name": "ハチミツ",
+            "quantity": 1
+          },
+          {
+            "name": "ほかほかの実",
+            "quantity": 1
+          },
+          {
+            "name": "金剛花",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "大金剛花",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "トロピカルーン": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "金剛花",
+            "quantity": 1
+          },
+          {
+            "name": "四つ葉のクローバー",
+            "quantity": 1
+          },
+          {
+            "name": "ツリー草",
+            "quantity": 1
+          },
+          {
+            "name": "花紅葉",
+            "quantity": 1
+          },
+          {
+            "name": "野之花火",
+            "quantity": 1
+          },
+          {
+            "name": "ほかほかの実",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "大金剛花",
+            "quantity": 1
+          },
+          {
+            "name": "四つ葉の大クローバー",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "金剛花",
+            "quantity": 1
+          },
+          {
+            "name": "四つ葉のクローバー",
+            "quantity": 1
+          },
+          {
+            "name": "ツリー草",
+            "quantity": 1
+          },
+          {
+            "name": "花紅葉",
+            "quantity": 1
+          },
+          {
+            "name": "野之花火",
+            "quantity": 1
+          },
+          {
+            "name": "ほかほかの実",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "大金剛花",
+            "quantity": 1
+          },
+          {
+            "name": "四つ葉の大クローバー",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "ザ・プロテイン": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "赤水晶",
+            "quantity": 2
+          },
+          {
+            "name": "ホウレン草",
+            "quantity": 1
+          },
+          {
+            "name": "粉・秘薬類",
+            "quantity": 1
+          },
+          {
+            "name": "液体類",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "おおきな赤水晶",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "赤水晶",
+            "quantity": 2
+          },
+          {
+            "name": "ホウレン草",
+            "quantity": 1
+          },
+          {
+            "name": "粉・秘薬類",
+            "quantity": 1
+          },
+          {
+            "name": "液体類",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "おおきな赤水晶",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "知力のサプリメント": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "白水晶",
+            "quantity": 2
+          },
+          {
+            "name": "ナス",
+            "quantity": 1
+          },
+          {
+            "name": "粉・秘薬類",
+            "quantity": 1
+          },
+          {
+            "name": "液体類",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "おおきな白水晶",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "白水晶",
+            "quantity": 2
+          },
+          {
+            "name": "ナス",
+            "quantity": 1
+          },
+          {
+            "name": "粉・秘薬類",
+            "quantity": 1
+          },
+          {
+            "name": "液体類",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "おおきな白水晶",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "バイタルグミ": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "青水晶",
+            "quantity": 2
+          },
+          {
+            "name": "白菜",
+            "quantity": 1
+          },
+          {
+            "name": "粉・秘薬類",
+            "quantity": 1
+          },
+          {
+            "name": "液体類",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "おおきな青水晶",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "青水晶",
+            "quantity": 2
+          },
+          {
+            "name": "白菜",
+            "quantity": 1
+          },
+          {
+            "name": "粉・秘薬類",
+            "quantity": 1
+          },
+          {
+            "name": "液体類",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "おおきな青水晶",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "ハートドリンク": {
+      "RF4SP": {
+        "main": [
+          {
+            "name": "緑水晶",
+            "quantity": 2
+          },
+          {
+            "name": "鉄千輪",
+            "quantity": 1
+          },
+          {
+            "name": "粉・秘薬類",
+            "quantity": 1
+          },
+          {
+            "name": "液体類",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "おおきな緑水晶",
+            "quantity": 1
+          }
+        ]
+      },
+      "RF5": {
+        "main": [
+          {
+            "name": "緑水晶",
+            "quantity": 2
+          },
+          {
+            "name": "鉄千輪",
+            "quantity": 1
+          },
+          {
+            "name": "粉・秘薬類",
+            "quantity": 1
+          },
+          {
+            "name": "液体類",
+            "quantity": 1
+          }
+        ],
+        "alternate": [
+          {
+            "name": "おおきな緑水晶",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  "directMedicine": [
+    {
+      "name": "ザ・プロテイン",
+      "stage": 2,
+      "price": 2000000
+    },
+    {
+      "name": "知力のサプリメント",
+      "stage": 2,
+      "price": 2000000
+    },
+    {
+      "name": "バイタルグミ",
+      "stage": 2,
+      "price": 2000000
+    },
+    {
+      "name": "ハートドリンク",
+      "stage": 2,
+      "price": 1500000
+    },
+    {
+      "name": "ラブ飲みドリンク",
+      "stage": 3,
+      "price": 3000000
+    },
+    {
+      "name": "無敵の秘薬",
+      "stage": 3,
+      "price": 1120000
+    }
+  ],
+  "intermediate": {
+    "ぶどう酒": [
+      {
+        "name": "ブドウ",
+        "quantity": 1
+      },
+      {
+        "name": "ワイン",
+        "quantity": 1
+      }
+    ]
+  }
+}

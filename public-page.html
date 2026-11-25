@@ -1,7 +1,0 @@
-{%- assign visible_page = include.item -%}{%- assign is_visible = false -%}
-{%- if visible_page and visible_page.seo_public == true and visible_page.noindex != true and visible_page.sitemap != false and visible_page.published != false and visible_page.public != false -%}
-{%- assign is_visible = true -%}
-{%- if visible_page.slug -%}{%- assign guide_record = site.data.rf_guides | where: 'slug', visible_page.slug | first -%}{%- if guide_record and guide_record.public != true -%}{%- assign is_visible = false -%}{%- endif -%}{%- endif -%}
-{%- if visible_page.category_id -%}{%- assign section_record = site.data.rf_sections | where: 'id', visible_page.category_id | first -%}{%- if section_record.public != true -%}{%- assign is_visible = false -%}{%- endif -%}{%- endif -%}
-{%- if visible_page.work_id -%}{%- assign work_record = site.data.rf_works | where: 'id', visible_page.work_id | first -%}{%- if work_record.public != true -%}{%- assign is_visible = false -%}{%- endif -%}{%- endif -%}
-{%- endif -%}{{- is_visible -}}

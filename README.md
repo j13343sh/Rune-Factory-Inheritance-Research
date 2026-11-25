@@ -6,8 +6,6 @@
 
 For practical guides and experiment summaries, start with the [research website](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/) (**currently in Japanese**). This repository includes English research articles and supporting materials.
 
-**SNSで共有 / Share:** [Xでシェア / Share on X](https://twitter.com/intent/tweet?text=Rune%20Factory%20equipment%20inheritance%20research%20%2F%20%E3%83%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%82%AF%E3%81%AE%E8%A3%85%E5%82%99%E7%B6%99%E6%89%BF%E7%A0%94%E7%A9%B6&url=https%3A%2F%2Fj13343sh.github.io%2FRune-Factory-Inheritance-Research%2F)
-
 [日本語](#日本語) | [English](#english)
 
 ## 日本語

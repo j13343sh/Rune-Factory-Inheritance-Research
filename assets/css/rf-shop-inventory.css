@@ -85,3 +85,64 @@
 .rf-shop-inventory .shop-ingredients li span { display: block; font-size: .88rem; }
 .rf-shop-inventory summary { cursor: pointer; }
 .rf-shop-inventory :focus-visible { outline: 2px solid #315b48; outline-offset: 3px; }
+
+.rf-shop-inventory .shop-selection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 21rem), 1fr));
+  gap: .8rem;
+  align-items: start;
+}
+.rf-shop-inventory .shop-selection > section {
+  min-width: 0;
+  padding: .65rem;
+  border: 1px solid var(--shop-selection-border);
+  border-top: .25rem solid var(--shop-selection-ink);
+  background: var(--shop-selection-bg);
+}
+.rf-shop-inventory .shop-targets {
+  --shop-selection-ink: #315b48;
+  --shop-selection-border: #94af9e;
+  --shop-selection-bg: #f1f6f2;
+}
+.rf-shop-inventory .shop-shipments {
+  --shop-selection-ink: #325779;
+  --shop-selection-border: #a5b9cc;
+  --shop-selection-bg: #f0f5fa;
+}
+.rf-shop-inventory .shop-selection h3 {
+  color: var(--shop-selection-ink);
+  margin-top: 0;
+}
+.rf-shop-inventory .shop-selection input[type="checkbox"] {
+  accent-color: var(--shop-selection-ink);
+}
+.rf-shop-inventory .shop-targets .shop-item-list {
+  margin-top: .65rem;
+}
+.rf-shop-inventory .shop-selection .shop-item-list {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+}
+.rf-shop-inventory .shop-shipments .shop-recipe-match {
+  border-color: #7b9ab8;
+  background: #e3edf7;
+}
+.rf-shop-inventory .shop-recipe-panel {
+  margin-block: 1rem;
+}
+.rf-shop-inventory .shop-recipe-panel h3 {
+  margin-top: 0;
+}
+.rf-shop-inventory button[data-action="apply-recipe"] {
+  min-height: 44px;
+  margin-block: .5rem;
+  padding: .35rem .75rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+}
+.rf-shop-inventory [data-output="fraction"] {
+  margin-block: .2rem;
+  font-variant-numeric: tabular-nums;
+}

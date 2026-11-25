@@ -600,242 +600,242 @@
           {
             "name": "カブ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定",
             "fixedFrom": 0,
             "fixedEvidence": "HQ実機観測・公開資料"
           },
           {
             "name": "サクラカブ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "ジャガイモ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "ホウレン草",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "大根",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "サツマイモ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "カボチャ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定",
             "fixedFrom": 1,
             "fixedEvidence": "HQ実機観測・公開資料"
           },
           {
             "name": "キュウリ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "ニンジン",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定",
             "fixedFrom": 2,
             "fixedEvidence": "公開資料・HQ未観測"
           },
           {
             "name": "トウモロコシ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "イチゴ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "ネギ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "ピーマン",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "ナス",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "ほかほかの実",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "白菜",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "キャベツ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "タマネギ",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "トマト",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "オトメロン",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "パイナップル",
             "group": "通常作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定",
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定",
             "fixedFrom": 3,
             "fixedEvidence": "HQ実機観測・公開資料"
           },
           {
             "name": "金のカブ",
             "group": "金作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "金のジャガイモ",
             "group": "金作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "金のカボチャ",
             "group": "金作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "金のキャベツ",
             "group": "金作物",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "リンゴ",
             "group": "果物・その他",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "ブドウ",
             "group": "果物・その他",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "オレンジ",
             "group": "果物・その他",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           },
           {
             "name": "タケノコ",
             "group": "果物・その他",
-            "unlock": 1,
+            "unlock": 0,
             "shipment": true,
-            "evidence": "公開資料の商品区分を照合",
-            "status": "個別出荷条件・抽選優先は未確定"
+            "evidence": "公開資料の商品区分・HQによる初期出荷品の販売観測",
+            "status": "初期から出荷候補としてモデル化。個別条件・抽選優先は未確定"
           }
         ]
       },

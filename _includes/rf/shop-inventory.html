@@ -14,13 +14,23 @@
     </div>
     <p class="small shop-note" data-output="context"></p>
 
+    <section aria-labelledby="shop-recipes-heading" class="panel shop-recipe-panel">
+      <h3 id="shop-recipes-heading">レシピから素材を探す</h3>
+      <label>代表レシピ<select data-input="recipe"></select></label>
+      <button type="button" data-action="apply-recipe" hidden>この店舗の調査対象に反映</button>
+      <div data-output="recipe"></div>
+    </section>
+
     <section aria-labelledby="shop-results-heading" class="panel shop-results">
       <h3 id="shop-results-heading">陳列結果</h3>
-      <label>調べたい素材<select data-input="target"></select></label>
       <div aria-live="polite" aria-atomic="true">
         <p class="shop-probability" data-output="probability"></p>
+        <p data-output="fraction"></p>
         <p class="small" data-output="expectation"></p>
+        <p class="small" data-output="target-note" hidden></p>
+        <p class="small" data-output="individual"></p>
         <dl class="shop-metrics">
+          <div><dt>調査対象数</dt><dd data-output="target-count"></dd></div>
           <div><dt>候補数</dt><dd data-output="count"></dd></div>
           <div><dt>陳列上限</dt><dd data-output="limit"></dd></div>
           <div><dt>陳列数</dt><dd data-output="drawn"></dd></div>
@@ -34,25 +44,31 @@
     <details class="shop-math">
       <summary>計算式・導出を見る</summary>
       <p>出荷済み候補の集合を S、未出荷でも加わる候補を F として、重複を除いた <strong>N = |S ∪ F|</strong> を求めます。RF5診療所の自動候補は出荷にかかわらず入り、両作品の病院の固定薬品は抽選から外します。</p>
-      <p>上限を L とすると陳列数は <strong>k = min(N, L)</strong>。全 C(N, k) 通りのうち、目的の品を含むのは、残り k−1 種を選ぶ C(N−1, k−1) 通りです。N と k が正なら <strong>P = C(N−1, k−1) / C(N, k) = k/N</strong> です。</p>
-      <p>抽選ごとに同条件で独立と仮定すると、初回を含む期待回数は <strong>E = 1/P = N/k</strong> です。候補がない場合や枠が0の場合、有限の期待回数は表示しません。店員や店舗をまたいだ結果は合成しません。</p>
+      <p>上限を L とすると陳列数は <strong>k = min(N, L)</strong>。調べたい t 種類がすべて候補に含まれ、t ≤ k なら、残り k−t 種を N−t 種から選べます。同時陳列確率は <strong>P = C(N−t, k−t) / C(N, k)</strong> です。1種類なら k/N です。</p>
+      <p>対象が候補に含まれない場合や t が k を超える場合は 0% です。各抽選が独立と仮定したとき、初回を含む期待回数は <strong>E = 1/P</strong> です。店舗をまたぐ確率は計算しません。</p>
     </details>
 
-    <section aria-labelledby="shop-items-heading">
-      <h3 id="shop-items-heading">販売候補</h3>
+    <div class="shop-selection">
+    <section class="shop-targets" aria-labelledby="shop-targets-heading">
+      <h3 id="shop-targets-heading">調べたい素材</h3>
+      <p class="small">この店で同時に並んでほしい品を選びます。未出荷の品も選べます。</p>
+      <div class="shop-actions" role="group" aria-label="調べたい素材の一括操作">
+        <button type="button" data-action="targets-all">全選択</button>
+        <button type="button" data-action="targets-none">全解除</button>
+      </div>
+      <div data-output="targets" class="shop-item-list"></div>
+    </section>
+    <section class="shop-shipments" aria-labelledby="shop-items-heading">
+      <h3 id="shop-items-heading">出荷済み素材</h3>
       <p class="small" data-output="item-note"></p>
-      <div class="shop-actions" data-output="bulk">
+      <div class="shop-actions" role="group" aria-label="出荷済み素材の一括操作" data-output="bulk">
         <button type="button" data-action="all">全選択</button>
         <button type="button" data-action="none">全解除</button>
       </div>
       <div data-output="items"></div>
     </section>
+    </div>
 
-    <section aria-labelledby="shop-recipes-heading">
-      <h3 id="shop-recipes-heading">レシピから素材を探す</h3>
-      <label>代表レシピ<select data-input="recipe"></select></label>
-      <div data-output="recipe"></div>
-    </section>
     <details class="shop-medicine" data-output="medicine" hidden>
       <summary>RF5花屋で直接買える完成薬品</summary>
       <p class="small">花の陳列候補とは別に販売されます。</p>

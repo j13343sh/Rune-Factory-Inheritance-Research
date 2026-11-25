@@ -111,9 +111,12 @@
 
   }
 
-  function canRecordShipment(item, current, status) {
-    const isDefaultTurnip = current.work === 'RF4SP' && current.shop === 'vegetable' && item.name === 'カブ';
-    return item.shipment && !status.fixed && (status.eligible || isDefaultTurnip);
+  function isStartingTurnip(item, {work, shop}) {
+    return work === 'RF4SP' && shop === 'vegetable' && item.name === 'カブ';
+  }
+
+  function canRecordShipment(item, status) {
+    return item.shipment && status.eligible && !status.fixed;
   }
 
   function renderContext(current) {
@@ -156,7 +159,7 @@
     for (const button of output('bulk').querySelectorAll('button')) {
       button.disabled = !config.items.some(item => {
         const status = itemState(item, current);
-        return canRecordShipment(item, current, status);
+        return canRecordShipment(item, status);
       });
     }
   }
@@ -184,8 +187,9 @@
         const box = node('input');
         box.type = 'checkbox';
         box.dataset.shipped = item.name;
-        const canRecord = canRecordShipment(item, current, status);
-        box.checked = status.included || (canRecord && current.state.shipped.has(item.name));
+        const canRecord = canRecordShipment(item, status);
+        box.checked = status.included ||
+          (isStartingTurnip(item, current) && current.state.shipped.has(item.name));
         box.disabled = !canRecord;
         row.append(box);
       }

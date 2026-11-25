@@ -1,6 +1,0 @@
-{% assign group_ids = 'core,supporting' | split: ',' %}{% for group_id in group_ids %}
-<section class="rf34-index-group rf34-index-{{ group_id }}" aria-label="{% if group_id == 'core' %}主要コンテンツ{% else %}関連する攻略{% endif %}"><h2 class="rf34-group-title">{% if group_id == 'core' %}装備継承の研究と実践{% else %}関連する攻略{% endif %}</h2>
-{% assign section_ids = site.data.rf_navigation[group_id] %}{% for section_id in section_ids %}{% assign section = site.data.rf_sections | where: 'id', section_id | first %}{% if section.public == true %}
-{% capture entries %}{% include rf/guide-list.html category=section.id work=include.work compact=include.compact %}{% endcapture %}{% assign entries = entries | strip %}{% if entries != empty %}
-<section class="rf34-index-field"><h3 id="{{ section.category_title }}"><a href="{{ '/fields/' | append: section.slug | append: '.html' | relative_url }}">{% if section.id == 'equipment' %}装備継承・製作{% else %}{{ section.category_title }}{% endif %}</a></h3>{% if include.compact %}<ul class="rf341-map-list">{{ entries }}</ul>{% else %}<div class="entry-list">{{ entries }}</div>{% endif %}</section>
-{% endif %}{% endif %}{% endfor %}</section>{% endfor %}

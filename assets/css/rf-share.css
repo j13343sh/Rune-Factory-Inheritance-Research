@@ -1,0 +1,12 @@
+.rf-share { margin: 2.5rem 0; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.rf-share h2 { margin: 0 0 1rem; font-size: 1.1rem; }
+.rf-share-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.rf-share .rf-share-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 48px; padding: .6rem 1rem; border: 1px solid var(--forest); border-radius: 4px; background: var(--paper); color: var(--forest); font: inherit; line-height: 1.5; text-decoration: none; cursor: pointer; }
+.rf-share .rf-share-x { background: #191919; border-color: #191919; color: #fff; }
+.rf-share .rf-share-button:hover { box-shadow: inset 0 0 0 1px currentColor; }
+.rf-share .rf-share-button:focus-visible, .rf-share input:focus-visible { outline: 3px solid var(--forest); outline-offset: 4px; }
+.rf-share [hidden] { display: none !important; }
+.rf-share-status { margin: .75rem 0 0; font-size: .9rem; }
+.rf-share-status:empty { margin: 0; }
+.rf-share input { display: block; width: 100%; max-width: 100%; margin-top: .5rem; padding: .6rem; font: inherit; }
+.rf-share-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }

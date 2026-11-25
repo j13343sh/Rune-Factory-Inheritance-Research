@@ -1,0 +1,27 @@
+{% capture share_visible %}{% include rf/public-page.html item=page %}{% endcapture %}
+{% if share_visible == 'true' %}
+{% assign share_title = page.seo_title | default: page.title | default: site.title %}
+{% if current and current.works %}
+  {% assign share_works = current.works | join: '・' %}
+  {% unless share_title contains 'RF' or share_title contains 'ルーンファクトリー' %}
+    {% assign share_title = share_works | append: ' ' | append: share_title %}
+  {% endunless %}
+{% endif %}
+{% assign share_url = page.url | replace: 'index.html', '' | absolute_url %}
+<section class="rf-share" aria-labelledby="rf-share-heading" data-rf-share data-title="{{ share_title | escape }}" data-url="{{ share_url | escape }}">
+  <h2 id="rf-share-heading">{{ include.heading | default: 'この記事を共有' }}</h2>
+  <div class="rf-share-actions">
+    <a class="rf-share-button rf-share-x" href="https://twitter.com/intent/tweet?text={{ share_title | url_encode }}&amp;url={{ share_url | url_encode }}" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">𝕏</span> Xで共有<span class="rf-share-sr">（新しいタブ）</span></a>
+    <button class="rf-share-button" type="button" data-share-native hidden><span aria-hidden="true">↗</span> 共有</button>
+    <button class="rf-share-button" type="button" data-share-copy hidden><span aria-hidden="true">▣</span> URLコピー</button>
+  </div>
+  <p class="rf-share-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  <div data-share-fallback hidden>
+    <label for="rf-share-url">URLを選択して手動でコピーしてください</label>
+    <input id="rf-share-url" type="url" readonly value="{{ share_url | escape }}">
+  </div>
+  <noscript><p>共有URL：<a href="{{ share_url | escape }}">{{ share_url | escape }}</a></p></noscript>
+</section>
+<link rel="stylesheet" href="{{ '/assets/css/rf-share.css' | relative_url }}">
+<script defer src="{{ '/assets/js/rf-share.js' | relative_url }}"></script>
+{% endif %}

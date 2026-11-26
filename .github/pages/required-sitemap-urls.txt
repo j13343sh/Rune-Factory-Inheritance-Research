@@ -10,6 +10,7 @@ https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/copper-early
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/crop-display.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/cushion-method.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/dummy-method.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/equipment-inheritance-guide.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/friendship-rf4sp.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/friendship-rf5.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/inheritance-basics.html

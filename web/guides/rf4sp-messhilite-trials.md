@@ -10,6 +10,8 @@ seo_title: RF4SP メッシライト継承の成功率｜4条件400回の実機�
 seo_description: RF4SPで愛の結晶とグリッタ輝石の3積み・6積みを各100回検証。条件別の観測成功率と統計分析の結果を紹介します。
 ---
 
+製作画面の枠や性能継承は[装備継承・アレンジの基礎知識](equipment-inheritance-guide.html#performance)で確認できます。
+
 ## 原表から数え直した結果
 
 [候補の出所を整理する基礎](inheritance-basics.html#hidden-x)は共通でも、RF4SPの選択・排列はRF5と同じとは限りません。4候補等確率モデルの混入75%・回避25%を、本記事のRF4SPの実際の成功率へ適用しないでください。

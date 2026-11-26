@@ -1,0 +1,35 @@
+.rf-inheritance-guide .rf-lesson {
+  margin: 1.25rem 0;
+  padding: clamp(.8rem, 3vw, 1.4rem);
+  background: #f4f7f2;
+  border: 1px solid #bccdbf;
+  border-radius: .5rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.rf-inheritance-guide figcaption { font-weight: 700; margin-bottom: .65rem; }
+.rf-inheritance-guide .rf-slots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 6.25rem), 1fr));
+  gap: .5rem;
+  padding: 0;
+  list-style: none;
+  margin: .65rem 0 1rem;
+}
+.rf-inheritance-guide .rf-slots li {
+  margin: 0;
+  padding: .5rem;
+  background: #fff;
+  border: 1px solid #bccdbf;
+  border-radius: .25rem;
+  text-align: center;
+}
+.rf-inheritance-guide .rf-flow { padding-inline-start: 1.5rem; }
+.rf-inheritance-guide summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: .45rem 0;
+}
+.rf-inheritance-guide summary:focus-visible { outline: 2px solid currentColor; }
+.rf-inheritance-guide dt { font-weight: 700; }
+.rf-inheritance-guide dd { margin-inline-start: 0; }

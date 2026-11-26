@@ -204,6 +204,44 @@
     level: L4 根拠・限界
   public: true
   category: friendship
+- slug: equipment-inheritance-guide
+  title: 装備継承・アレンジの基礎知識｜RF4SP・RF5
+  section: practice
+  related:
+  - inheritance-basics
+  - method-comparison
+  - weapon-category-shield
+  - practical-equipment
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 製作、性能継承、アレンジ、強化を分けて、欲しい性能や特殊能力を設計します。
+  scope: RF4SP・RF5の共通入門です。作品の違いと、実測資料で確認できる条件を本文で示します。
+  outline:
+  - id: crafting-slots
+    title: 製作時のアレンジと完成後の強化
+    level: L2 条件・実践
+  - id: performance
+    title: 性能継承とメッシライト
+    level: L2 条件・実践
+  - id: special-effects
+    title: 靴・アクセサリーの特殊能力
+    level: L2 条件・実践
+  - id: arrangement-inheritance
+    title: アレンジ継承と候補の脱落
+    level: L2 条件・実践
+  - id: auto-arrange
+    title: オートアレンジと既存の内部アレンジ
+    level: L2 条件・実践
+  - id: object-x
+    title: 物体Xとアレンジ順序
+    level: L2 条件・実践
+  - id: appraisal
+    title: 装備鑑定と、うまくいかない場合
+    level: L2 条件・実践
+  public: true
+  category: equipment
 - slug: inheritance-basics
   title: 装備継承の統合理論：候補はどこから来るのか
   section: basics

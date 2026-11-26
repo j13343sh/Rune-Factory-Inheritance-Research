@@ -10,6 +10,8 @@ seo_title: シャッフル製法｜RF4SP・RF5の装備継承と投入順
 seo_description: RF4SP・RF5で使えるシャッフル製法。不要な抽選条件を減らす投入順の工夫を、RF5の実機比較とRF4SPのアクセサリー実践例で紹介します。
 ---
 
+[装備継承・アレンジの基礎知識](equipment-inheritance-guide.html)で、枠の違いと作品ごとの特殊能力を確認できます。
+
 <h2 id="shuffle-quiz">同じ素材なのに運ゲーになるのはどちら？</h2>
 
 シャッフル製法はRF4SP・RF5で使えます。以下の画像と投入順の比較はRF5の実機例です。RF4SPでは[育成用アクセサリーの実践例](rf4sp-skill-training.html#ペンダントとマフラーの効果を一つにまとめる)があります。

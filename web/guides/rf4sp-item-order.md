@@ -86,7 +86,7 @@ Nは今回比較するアレンジ候補の個数（重複素材も個数とし�
 |油|+61%|0%|−60%|
 |超失敗作|+50%|0%|−50%|
 
-この差があるため、「3素材が残ったか」だけでは攻略上の成功を評価できません。狙う耐性値と実際の並び順を確認する必要があります。具体的な装備例は[属性吸収ブローチ](practical-equipment.html#rf4sp-属性吸収ブローチ)、必要性能と作成容易性の比較は[攻略への接続](practical-equipment.html#rf33-practical)へ。
+この差があるため、「3素材が残ったか」だけでは攻略上の成功を評価できません。狙う耐性値と実際の並び順を確認する必要があります。具体的な装備例は[属性吸収ブローチ](rf4sp-absorption-brooch.html#rf4sp-属性吸収ブローチ)、必要性能と作成容易性の比較は[攻略への接続](rf4sp-absorption-brooch.html#rf33-practical)へ。
 
 ## RF5との比較範囲
 
@@ -97,7 +97,7 @@ RF5既存原表は「物体X・無力のリンゴ2個・カブの種」の4候�
 <p>Figures 1–3 and the numerical table show RF4SP results. Seven raw-data tabs, each containing Object X and two identical materials, give 2,100 trials. Heavy Spice was recounted as 91 first, 119 middle and 90 last, correcting the existing summary's first-count of 90. All other previously reported first-counts agree with the raw data. The dashed 1/3 line is an equal-position reference, not an asserted game probability. Wilson intervals assume independent binomial observations and describe first versus not-first only.</p>
 <p>For X→M→M / M→X→M / M→M→X, the source resistance values are +21/0/−20 for Mealy Apple and the four spice-type materials; +61/0/−60 for Oil; and +50/0/−50 for Disastrous Dish. These are source trial values, not final resistance including base gear and upgrades.</p>
 <p>N=2 concerns observed order preservation in the stated conditions. N=3 concerns final positions while all three materials remain. N≥4 also raises a separate selection/omission question. The RF5 data use four candidates (Object X, two Mealy Apples and a Turnip Seed), with Object X absent in 18/60 trials. Comparing its raw first-position rate with the RF4SP three-candidate rate would confound conditions.</p>
-<p>Choose equipment that meets the required resistance with manageable crafting effort. See the linked practical-equipment section for the distinct 110% Fire / 105% Light brooch examples and the source guide's 111% versus 106% comparison. No internal implementation is inferred.</p>
+<p>Choose equipment that meets the required resistance with manageable crafting effort. See the linked RF4SP brooch guide for the distinct 110% Fire / 105% Light brooch examples and the source guide's 111% versus 106% comparison. No internal implementation is inferred.</p>
 </details>
 
 ## 出典と確認範囲

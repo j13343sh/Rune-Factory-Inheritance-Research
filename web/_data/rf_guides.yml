@@ -353,11 +353,12 @@
   public: true
   category: equipment
 - slug: practical-equipment
-  title: ゴーストロケット・属性吸収ブローチ
+  title: 実用装備・製作ガイド
   section: practice
   related:
   - rf5-rocket-ghost
   - rf5-absorption-brooch
+  - rf4sp-absorption-brooch
   - weapon-category-shield
   - cushion-method
   - dummy-method
@@ -368,16 +369,16 @@
   - RF5
   status: candidate
   summary: 移動用の靴と属性吸収を、用途から選んで製作します。
-  scope: 靴とブローチの手順は作品別に確認してください。鑑定表示と特殊効果の実発現は別に確認します。
+  scope: 靴とブローチの手順は作品別に確認してください。用途に合う独立記事へ進めます。
   outline:
   - id: ゴーストロケットを狙う靴
-    title: ゴーストロケットを狙う靴
+    title: ロケットゴーストを狙う靴
     level: L3 仕組み・観測
   - id: rf4sp-属性吸収ブローチ
     title: RF4SP 属性吸収ブローチ
     level: L3 仕組み・観測
   - id: rf33-practical
-    title: ルーンプラーナ：必要性能と作りやすさ
+    title: ルーンプラーナ向けの装備
     level: L2 条件・実践
   - id: 出典と確認範囲
     title: 出典と確認範囲
@@ -768,6 +769,7 @@
   title: RF4SP ルーンプラーナ攻略
   section: other
   related:
+  - rf4sp-absorption-brooch
   - practical-equipment
   - weapon-category-shield
   - dummy-method
@@ -900,6 +902,8 @@
   section: practice
   related:
   - rf5-recommended-shoes
+  - dummy-method
+  - rf5-recommended-accessories
   - cushion-method
   - practical-equipment
   works:
@@ -926,12 +930,12 @@
   related:
   - rf5-recommended-accessories
   - practical-equipment
-  - rf4sp-item-order
+  - rf4sp-absorption-brooch
   works:
   - RF5
   status: candidate
   summary: 対象属性に応じて対応素材を選び、物体Xで効果を反転して耐性100%超を狙います。
-  scope: RF5の直接アレンジの例と、別作品のRF4SP参考手順を掲載。
+  scope: RF5の通常の直接アレンジ。筆者の確認、公開記録と計算値を区別します。
   outline:
   - id: brooch-materials
     title: 属性別に用意する素材
@@ -943,7 +947,32 @@
     title: 火と光を素材1個で作る
     level: L2 条件・実践
   - id: brooch-related
-    title: 他の実用装備とRF4SPの参考手順
+    title: 関連装備と作品別ガイド
     level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: rf4sp-absorption-brooch
+  title: ルンファク4SP 属性吸収ブローチの作り方
+  section: practice
+  related:
+  - rune-prana
+  - rf4sp-item-order
+  - practical-equipment
+  works:
+  - RF4SP
+  status: candidate
+  summary: 対象属性に合わせてブローチと素材を選び、必要な追加強化を行います。
+  scope: RF4SPの既存観測と製作例です。候補条件が異なる実験の値を成功率に流用しません。
+  outline:
+  - id: rf4sp-属性吸収ブローチ
+    title: RF4SP 属性吸収ブローチ
+    level: L2 条件・実践
+  - id: rf33-practical
+    title: ルーンプラーナでの必要性能と作りやすさ
+    level: L2 条件・実践
+  - id: 出典と確認範囲
+    title: 出典と確認範囲
+    level: L4 根拠・限界
   public: true
   category: equipment

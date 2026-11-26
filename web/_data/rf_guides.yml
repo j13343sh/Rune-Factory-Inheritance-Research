@@ -61,7 +61,7 @@
   public: true
   category: resources
 - slug: cushion-method
-  title: RF5 クッション製法
+  title: クッション製法｜RF4SP・RF5
   section: practice
   related:
   - shuffle-method
@@ -69,10 +69,11 @@
   - rf5-4000-trials
   - inheritance-basics
   works:
+  - RF4SP
   - RF5
   status: candidate
   summary: 空の内部アレンジを持つ装備の配置で、不要な参照を抑えることを狙います。
-  scope: 本文の具体例はRF5のスニーキングブーツです。空の内部状態と追加枠を確認し、別作品・別レシピへ一般化しません。
+  scope: RF4SP・RF5で利用できます。実演はRF5のスニーキングブーツで、具体的な投入順と追加枠はそのレシピの条件です。
   outline:
   - id: 空の靴をクッションにする
     title: 「空の靴」をクッションにする
@@ -555,7 +556,7 @@
   public: true
   category: research
 - slug: shuffle-method
-  title: シャッフル製法：投入順を変えてリセマラを減らす
+  title: シャッフル製法｜RF4SP・RF5の投入順の工夫
   section: practice
   related:
   - method-comparison
@@ -566,7 +567,7 @@
   - RF5
   status: candidate
   summary: 同じ素材でも投入順を変えることで、不要な継承抽選を避けられる場合があります。
-  scope: 通常レシピと装備の内部状態を記録する方法です。内部走査順の確定や、全レシピでの成功保証ではありません。 具体的な製作例の出典はRF5を中心とし、RF4SPで同一手順が成立する意味ではありません。
+  scope: RF4SP・RF5で利用できます。投入順の比較画像はRF5、育成用アクセサリーの実践例はRF4SPです。具体的な手順や成功率は作品とレシピの条件に依存します。
   outline:
   - id: shuffle-quiz
     title: 同じ素材なのに運ゲーになるのはどちら？

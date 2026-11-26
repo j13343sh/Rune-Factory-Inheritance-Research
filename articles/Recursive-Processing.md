@@ -16,7 +16,7 @@ Equipment-Body Candidateization is a separate observation: the source equipment 
 
 The observed **First Same-Category Internal-Arrangement Reference** behavior can be used to improve equipment crafting procedures.
 
-Two practical methods developed from this observation are the **Shuffle Method** and the **Cushion Method**.
+Two practical methods developed from this observation are the **Shuffle Method** and the **Cushion Method**. Both can be used in RF4SP and RF5. The comparative tests and demonstration identified below are RF5 records. Cross-title usability does not establish identical crafting steps, success rates, or internal processing.
 
 Both methods aim to reduce unnecessary dependence on random inheritance outcomes. They do not change the desired final equipment effects. Instead, they change how the crafting procedure is arranged.
 

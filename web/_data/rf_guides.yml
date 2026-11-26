@@ -2,6 +2,7 @@
   title: 候補数モデル計算ツール
   section: research
   related:
+  - rf5-recommended-accessories
   - shop-inventory-calculator
   - rf5-4000-trials
   - inheritance-basics
@@ -64,6 +65,7 @@
   title: クッション製法｜RF4SP・RF5
   section: practice
   related:
+  - rf5-rocket-ghost
   - shuffle-method
   - practical-equipment
   - rf5-4000-trials
@@ -90,6 +92,7 @@
   title: RF4SP サクラカブダミー製法
   section: practice
   related:
+  - rf5-rocket-ghost
   - rf4sp-selection-bias
   - method-comparison
   - practical-equipment
@@ -208,6 +211,8 @@
   title: 装備継承・アレンジの基礎知識｜RF4SP・RF5
   section: practice
   related:
+  - rf5-recommended-shoes
+  - rf5-recommended-accessories
   - inheritance-basics
   - method-comparison
   - weapon-category-shield
@@ -246,6 +251,8 @@
   title: 装備継承の統合理論：候補はどこから来るのか
   section: basics
   related:
+  - rf5-recommended-shoes
+  - rf5-recommended-accessories
   - weapon-category-shield
   - practical-equipment
   - method-comparison
@@ -349,6 +356,8 @@
   title: ゴーストロケット・属性吸収ブローチ
   section: practice
   related:
+  - rf5-rocket-ghost
+  - rf5-absorption-brooch
   - weapon-category-shield
   - cushion-method
   - dummy-method
@@ -359,7 +368,7 @@
   - RF5
   status: candidate
   summary: 移動用の靴と属性吸収を、用途から選んで製作します。
-  scope: 靴は作品別の製法へ進んでください。ブローチの具体例はRF4SPです。鑑定表示と特殊効果の実発現は別に確認します。
+  scope: 靴とブローチの手順は作品別に確認してください。鑑定表示と特殊効果の実発現は別に確認します。
   outline:
   - id: ゴーストロケットを狙う靴
     title: ゴーストロケットを狙う靴
@@ -597,6 +606,7 @@
   title: シャッフル製法｜RF4SP・RF5の投入順の工夫
   section: practice
   related:
+  - rf5-recommended-shoes
   - method-comparison
   - inheritance-basics
   - rf4sp-item-order
@@ -787,6 +797,8 @@
   title: RF5 リグバースの迷宮早期攻略
   section: other
   related:
+  - rf5-recommended-shoes
+  - rf5-recommended-accessories
   - rf5-spring-story-clear
   - practical-equipment
   - friendship-rf5
@@ -826,3 +838,112 @@
   scope: 主にRF4SPを扱い、アクセサリー合成でのRF5との差も説明します。
   public: true
   category: advanced
+
+- slug: rf5-recommended-shoes
+  title: ルンファク5 おすすめの靴3選
+  section: practice
+  related:
+  - rf5-rocket-ghost
+  - rf5-recommended-accessories
+  - cushion-method
+  works:
+  - RF5
+  status: candidate
+  summary: 常用、周回、趣味の3つから靴を選びます。
+  scope: RF5主人公の構成例。投入順は各製法の条件を確認してください。
+  outline:
+  - id: shoe-builds
+    title: 用途別の早見表
+    level: L2 条件・実践
+  - id: shoe-upgrades
+    title: 共通の強化順と運用
+    level: L2 条件・実践
+  - id: shoe-details
+    title: 各構成の使い分け
+    level: L2 条件・実践
+  - id: shoe-links
+    title: 関連する製法と攻略
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: rf5-recommended-accessories
+  title: ルンファク5 おすすめアクセサリー8選
+  section: practice
+  related:
+  - rf5-absorption-brooch
+  - rf5-recommended-shoes
+  - equipment-inheritance-guide
+  works:
+  - RF5
+  status: candidate
+  summary: 耐性・RP・育成効果を用途に合わせて組み合わせます。
+  scope: RF5主人公の構成例。耐性目標は装備一式の設計方針です。
+  outline:
+  - id: accessory-builds
+    title: 用途別の早見表
+    level: L2 条件・実践
+  - id: accessory-policy
+    title: 共通の強化と運用
+    level: L2 条件・実践
+  - id: accessory-details
+    title: 各構成の使い分け
+    level: L2 条件・実践
+  - id: accessory-links
+    title: 関連する製法と攻略
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: rf5-rocket-ghost
+  title: ルンファク5 ロケットゴーストの作り方
+  section: practice
+  related:
+  - rf5-recommended-shoes
+  - cushion-method
+  - practical-equipment
+  works:
+  - RF5
+  status: candidate
+  summary: 追加3枠と空のレザーで、移動用の2つの靴効果を狙います。
+  scope: RF5の実演条件。鑑定と実際の効果を確認します。
+  outline:
+  - id: rocket-purpose
+    title: 何を作るか
+    level: L2 条件・実践
+  - id: rocket-recipe
+    title: スニーキングブーツの投入順
+    level: L2 条件・実践
+  - id: rocket-check
+    title: 完成後の確認
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: rf5-absorption-brooch
+  title: ルンファク5 属性吸収ブローチの作り方
+  section: practice
+  related:
+  - rf5-recommended-accessories
+  - practical-equipment
+  - rf4sp-item-order
+  works:
+  - RF5
+  status: candidate
+  summary: 対象属性に応じて対応素材を選び、物体Xで効果を反転して耐性100%超を狙います。
+  scope: RF5の直接アレンジの例と、別作品のRF4SP参考手順を掲載。
+  outline:
+  - id: brooch-materials
+    title: 属性別に用意する素材
+    level: L2 条件・実践
+  - id: brooch-recipe
+    title: 製作で100%、強化で110%
+    level: L2 条件・実践
+  - id: brooch-short-recipe
+    title: 火と光を素材1個で作る
+    level: L2 条件・実践
+  - id: brooch-related
+    title: 他の実用装備とRF4SPの参考手順
+    level: L2 条件・実践
+  public: true
+  category: equipment

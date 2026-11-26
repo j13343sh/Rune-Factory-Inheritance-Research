@@ -55,4 +55,4 @@ seo_description: RF4SP・RF5で使えるシャッフル製法。不要な抽選�
 
 ## 出典と確認範囲
 
-実機画像・観測比較図：研究者提供資料。[内部アレンジ参照の現行研究記事](https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/main/articles/Recursive-Processing.md)。旧称「再帰処理」を内部実装の確定名称として使用しません。
+実機画像・観測比較図：筆者提供資料。[内部アレンジ参照の現行研究記事](https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/main/articles/Recursive-Processing.md)。旧称「再帰処理」を内部実装の確定名称として使用しません。

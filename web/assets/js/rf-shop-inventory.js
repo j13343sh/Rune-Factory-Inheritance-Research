@@ -137,7 +137,7 @@
         messages.push('出荷品の販売は立派な王子・姫以降のオーダー後に有効です。');
       }
     } else if (shop !== 'clinic') {
-      messages.push('陳列上限はHQの実機観測・記憶を含むモデル値です。');
+      messages.push('陳列上限は筆者の実機観測・記憶を含むモデル値です。');
       if (shop === 'flower') {
         messages.push('花屋は初期から出荷済みの花が候補に入ります。トイハーブは未出荷でも候補に入ります。');
       }

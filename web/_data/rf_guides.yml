@@ -464,7 +464,7 @@
     title: 物体Xの最終位置
     level: L3 観測・応用
   - id: 排列位置と属性耐性値
-    title: 排列位置と属性耐性値
+    title: 並び順と属性耐性値
     level: L3 観測・応用
   - id: rf5との比較範囲
     title: RF5との比較範囲
@@ -535,7 +535,7 @@
   public: true
   category: research
 - slug: rf4sp-selection-bias
-  title: RF4SP 素材別の排列位置と候補脱落
+  title: RF4SP 素材ごとに並ぶ位置と候補脱落
   section: research
   related:
   - rf4sp-item-order
@@ -544,7 +544,7 @@
   works:
   - RF4SP
   status: candidate
-  summary: 3候補200試行では、素材ごとに排列位置の違いが観測されています。
+  summary: 3候補200試行では、素材ごとに並ぶ位置の違いが観測されています。
   scope: 各素材100登場の記述統計です。位置頻度は脱落率ではありません。第三候補や重複の扱い、内部機構は分けて検討します。
   outline:
   - id: 3候補の位置6素材20組10回

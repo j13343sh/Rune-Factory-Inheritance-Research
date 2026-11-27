@@ -75,13 +75,22 @@
   - RF5
   status: candidate
   summary: 空の内部アレンジを持つ装備の配置で、不要な参照を抑えることを狙います。
-  scope: RF4SP・RF5で利用できます。実演はRF5のスニーキングブーツで、具体的な投入順と追加枠はそのレシピの条件です。
+  scope: RF4SPの靴実演は最終抽選が残ります。RF5の投入順と追加枠はスニーキングブーツ実演の条件です。
   outline:
   - id: 空の靴をクッションにする
     title: 「空の靴」をクッションにする
     level: L3 仕組み・観測
+  - id: cushion-muffler-comparison
+    title: RF5比較：同じ名前のマフラー
+    level: L2 条件・実践
+  - id: cushion-rf4sp-video
+    title: RF4SPの靴実演：最終抽選あり
+    level: L2 条件・実践
   - id: rf5の実演スニーキングブーツ
     title: RF5の実演：スニーキングブーツ
+    level: L2 条件・実践
+  - id: cushion-duplicate-model
+    title: 発展：候補を同種に置き換えるモデル
     level: L2 条件・実践
   - id: 記録と出典
     title: 記録と出典
@@ -626,6 +635,9 @@
     level: L3 仕組み・観測
   - id: shuffle-steps
     title: シャッフル製法の手順
+    level: L2 条件・実践
+  - id: shuffle-appraisal-video
+    title: RF5の実演：お守りを製作して鑑定
     level: L2 条件・実践
   - id: 出典と確認範囲
     title: 出典と確認範囲

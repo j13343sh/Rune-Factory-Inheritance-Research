@@ -2788,3 +2788,64 @@ input {
 .rf341-head .rf34-core-nav a[aria-current="page"] {
   text-decoration: none;
 }
+
+.method-video {
+  max-width: 100%;
+  margin: 1rem 0 1.5rem;
+}
+
+.method-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #151b17;
+}
+
+.method-comparison-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.method-comparison-images figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.method-comparison-images img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cushion-model {
+  margin: 1rem 0;
+}
+
+.cushion-model figcaption {
+  margin-bottom: .75rem;
+  font-weight: 650;
+}
+
+.cushion-model > div {
+  display: grid;
+  gap: .4rem;
+  padding: .75rem;
+  border: 1px solid var(--rule);
+  background: var(--soft);
+}
+
+.cushion-model .tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+}
+
+.cushion-model .token {
+  padding: .15rem .5rem;
+  border: 1px solid var(--rule);
+  background: #fff;
+  color: var(--forest);
+}

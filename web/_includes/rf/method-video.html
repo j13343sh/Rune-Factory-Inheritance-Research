@@ -1,0 +1,8 @@
+<figure class="method-video">
+  {% assign base = '/assets/method-demos/' | append: include.clip %}
+  <video controls playsinline preload="none" width="1280" height="720" aria-label="{{ include.label | escape }}" poster="{{ base | append: '.webp' | relative_url }}">
+    <source src="{{ base | append: '.mp4' | relative_url }}" type="video/mp4">
+    <p><a href="{{ base | append: '.mp4' | relative_url }}">動画ファイルを開く</a></p>
+  </video>
+  <figcaption><strong>{{ include.label | escape }}</strong>。{{ include.caption | escape }} 小さい文字は全画面表示で確認できます。</figcaption>
+</figure>

@@ -632,6 +632,7 @@
   title: RF5 メッシライト継承4,000回検証
   section: research
   related:
+  - mass-validation-method
   - weapon-category-shield
   - candidate-count-calculator
   - cushion-method
@@ -1394,3 +1395,40 @@
   public: true
   tool: true
   category: equipment
+
+- slug: mass-validation-method
+  reading_order: 205
+  research_group: tests
+  reading_group: research
+  title: 4,000回検証を可能にした「知恵と工夫」
+  section: research
+  related:
+  - rf5-4000-trials
+  - shop-inventory-calculator
+  works:
+  - RF5
+  - RF4SP
+  status: candidate
+  summary: 観測しやすい素材を選び、一括作成・記録の整列・自動集計で、4,000回繰り返せる工程にしました。
+  scope: RF5の4,000回とRF4SPの既存例を扱います。所要時間は筆者の概算で、未実施の改善案は区別します。
+  outline:
+  - id: goal
+    title: 何を調べるのか
+    level: L2 条件・実践
+  - id: indicator
+    title: 何を見れば答えになるのか
+    level: L2 条件・実践
+  - id: setup
+    title: 大量検証の事前準備
+    level: L2 条件・実践
+  - id: batch
+    title: 実際の反復工程
+    level: L2 条件・実践
+  - id: record
+    title: 画面と記録を同期させる
+    level: L2 条件・実践
+  - id: transfer
+    title: 他の検証に応用する
+    level: L2 条件・実践
+  public: true
+  category: research

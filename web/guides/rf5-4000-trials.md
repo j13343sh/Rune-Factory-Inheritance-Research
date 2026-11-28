@@ -41,6 +41,8 @@ seo_description: RF5の特定条件で3～6積みを各1,000回検証。観測�
 
 ## 一次データと方法
 
+素材の選定、50本一括作成、記録と集計の工夫は[4,000回検証の方法論](mass-validation-method.html)にまとめています。
+
 - [統合データCSV（全4,000行）](https://github.com/j13343sh/Rune-Factory-Inheritance-Research/blob/main/research/07_統合データ.csv)
 - [検証方法PDF](https://drive.google.com/file/d/1nwEbQRd6sJx7crDpziZLL6wvx-3_q1po/view)
 - [メッシライト継承解析（日本語PDF）](../pdf/08_メッシライト継承解析.pdf)

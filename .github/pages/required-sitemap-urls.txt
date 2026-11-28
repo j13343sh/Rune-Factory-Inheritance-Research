@@ -51,3 +51,4 @@ https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/advanced-inh
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/practical-design.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/resistance-design.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/talisman-selective-resistance.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/inheritance-diagnosis.html

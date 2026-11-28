@@ -43,3 +43,5 @@ https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-recommen
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-rocket-ghost.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-absorption-brooch.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf4sp-absorption-brooch.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-special-effect-inheritance.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-performance-inheritance.html

@@ -424,25 +424,25 @@
   public: true
   category: equipment
 - slug: prince-points
-  title: セーブデータ引継ぎを利用した王子ポイント稼ぎ
+  title: セーブデータ引継ぎを利用した王子・姫ポイントと観光客数稼ぎ
   section: other
   related:
   - research-archive
   - shop-display-ranks
   works:
   - RF4SP
-  status: verification
-  summary: 救出前データの保持と引継ぎを利用する攻略方針です。
-  scope: 反復の詳細操作と消費を含む純増効率は追加確認中です。
+  status: candidate
+  summary: クリア直前のセーブデータを保持し、セーブデータ引継ぎを利用することで、ストーリーのクリア報酬を繰り返し取得し、王子・姫ポイントと観光客数を増やすことができます。
+  scope: 筆者は実機で複数回の反復を行っています。掲載動画は反復実施後の結果です。第1部・第2部ではスキップできないスタッフロールが挟まります。
   outline:
   - id: 利用前に用意すること
     title: 利用前に用意すること
     level: L2 条件・実践
   - id: 救出で得られる報酬
-    title: 救出で得られる報酬
+    title: クリアで得られる報酬
     level: L2 条件・実践
   - id: 引継ぎと救出を反復する考え方
-    title: 引継ぎと救出を反復する考え方
+    title: 引継ぎでクリア報酬を繰り返す
     level: L2 条件・実践
   - id: 実演動画
     title: 実演動画

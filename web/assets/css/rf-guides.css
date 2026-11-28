@@ -2936,3 +2936,58 @@ input {
     transform: rotate(90deg);
   }
 }
+
+.p48-compare,
+.p48-sequence {
+  display: grid;
+  gap: .7rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+}
+
+.p48-sequence {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.p48-figure .inheritance-panel p {
+  margin: .4rem 0 0;
+}
+
+.p48-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  list-style: none;
+  padding: 0;
+  margin: .45rem 0;
+}
+
+.p48-slots li {
+  padding: .2rem .45rem;
+  background: var(--soft);
+  border: 1px solid var(--rule);
+  border-radius: .25rem;
+  color: var(--forest);
+}
+
+@media (max-width: 620px) {
+  .p48-sequence {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.p48-refill {
+  display: table;
+  table-layout: fixed;
+}
+
+.p48-refill th,
+.p48-refill td {
+  padding: .45em .2em;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.p48-refill th:first-child,
+.p48-refill td:first-child {
+  width: 26%;
+}

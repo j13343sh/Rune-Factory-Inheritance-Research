@@ -70,6 +70,7 @@
   title: クッション製法｜RF4SP・RF5
   section: practice
   related:
+  - rf4sp-combined-inheritance-method
   - rf5-rocket-ghost
   - shuffle-method
   - practical-equipment
@@ -108,6 +109,7 @@
   title: RF4SP サクラカブダミー製法
   section: practice
   related:
+  - rf4sp-combined-inheritance-method
   - rf5-rocket-ghost
   - rf4sp-selection-bias
   - method-comparison
@@ -273,6 +275,7 @@
   title: 装備継承の統合理論：候補はどこから来るのか
   section: basics
   related:
+  - auto-arrange-control
   - rf5-performance-inheritance
   - rf5-recommended-shoes
   - rf5-recommended-accessories
@@ -355,6 +358,7 @@
   title: クッション・ダミー・シャッフルの使い分け
   section: practice
   related:
+  - advanced-inheritance-design
   - rf5-performance-inheritance
   - cushion-method
   - dummy-method
@@ -659,6 +663,7 @@
   title: シャッフル製法｜RF4SP・RF5の投入順の工夫
   section: practice
   related:
+  - rf4sp-combined-inheritance-method
   - rf5-performance-inheritance
   - rf5-recommended-shoes
   - method-comparison
@@ -1053,6 +1058,7 @@
   title: ルンファク5 装備の特殊能力が消える理由
   section: practice
   related:
+  - advanced-inheritance-design
   - equipment-inheritance-guide
   - rf5-performance-inheritance
   - method-comparison
@@ -1086,6 +1092,7 @@
   title: ルンファク5 性能継承と多段階製作の仕組み
   section: practice
   related:
+  - advanced-inheritance-design
   - rf5-special-effect-inheritance
   - inheritance-basics
   - method-comparison
@@ -1113,6 +1120,108 @@
     level: L2 条件・実践
   - id: 確認範囲
     title: 確認範囲
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: auto-arrange-control
+  reading_order: 45
+  reading_group: methods
+  title: オートアレンジを抑える装備製作の仕組み
+  section: practice
+  related:
+  - inheritance-basics
+  - rf4sp-combined-inheritance-method
+  - advanced-inheritance-design
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 投入装備のカテゴリと内部状態から、自動補充の条件を整理します。
+  scope: 通常の同カテゴリ継承を扱います。補充表はすべての条件を個別に実測したものではありません。
+  outline:
+  - id: crafting-slots
+    title: 製作時の6枠と完成後の3枠
+    level: L2 条件・実践
+  - id: candidate-generation
+    title: 装備カテゴリと候補生成
+    level: L2 条件・実践
+  - id: refill-tables
+    title: オートアレンジによる補充
+    level: L2 条件・実践
+  - id: candidate-loss
+    title: 補充がなくても起こる候補脱落
+    level: L2 条件・実践
+  - id: initial-state
+    title: 購入品と自作品
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: rf4sp-combined-inheritance-method
+  reading_order: 93
+  reading_group: design
+  title: クッション・シャッフル複合製法
+  section: practice
+  related:
+  - auto-arrange-control
+  - advanced-inheritance-design
+  - method-comparison
+  works:
+  - RF4SP
+  status: candidate
+  summary: 同じゴーストブーツを二つの製作経路で作り、候補脱落が起こる工程を比較します。
+  scope: RF4SPの靴の条件例です。確定の対象は、並び順に依存しない特殊能力の構成です。
+  outline:
+  - id: selection-boundary
+    title: ルンファク4SPの椅子取りゲーム
+    level: L2 条件・実践
+  - id: dummy-route
+    title: サクラカブダミー製法の経路
+    level: L2 条件・実践
+  - id: combined-route
+    title: クッション・シャッフル複合製法の経路
+    level: L2 条件・実践
+  - id: target-cushion
+    title: 本命をクッションにする
+    level: L2 条件・実践
+  - id: route-comparison
+    title: 二つの製作経路を比較
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: advanced-inheritance-design
+  reading_order: 96
+  reading_group: design
+  title: 高難度装備継承の設計方法
+  section: practice
+  related:
+  - auto-arrange-control
+  - rf4sp-combined-inheritance-method
+  - method-comparison
+  - rf5-performance-inheritance
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 欲しい装備から逆算し、調達から特殊能力の発現までを考えます。
+  scope: 通常継承を対象とする設計指針です。作品・カテゴリを確認して適用します。
+  outline:
+  - id: design-goals
+    title: 最初に欲しい装備を決める
+    level: L2 条件・実践
+  - id: design-perspectives
+    title: 装備継承を五つの視点から考える
+    level: L2 条件・実践
+  - id: reverse-design
+    title: 最終装備から逆算する
+    level: L2 条件・実践
+  - id: conditional-guarantee
+    title: 確定製作と確率依存製作
+    level: L2 条件・実践
+  - id: effect-comparison
+    title: 作品による特殊能力の違い
     level: L2 条件・実践
   public: true
   category: equipment

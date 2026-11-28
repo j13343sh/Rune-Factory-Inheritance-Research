@@ -16,6 +16,9 @@ seo_description: ロケットゴーストや属性吸収ブローチを、対象
 |靴の継承を工夫したい|RF4SP|[ダミー製法のサクラカブ応用例](dummy-method.html)|
 |特定の属性攻撃に備えたい|RF5|[RF5 属性吸収ブローチ](rf5-absorption-brooch.html)|
 |特定の属性攻撃に備えたい|RF4SP|[RF4SP 属性吸収ブローチ](rf4sp-absorption-brooch.html)|
+|用途に合わせて装備を設計したい|RF4SP・RF5|[実用装備の設計方法](practical-design.html)|
+|全身で耐性を補いたい|RF4SP・RF5|[全身装備の耐性設計ガイド](resistance-design.html)|
+|反転を移動や製作に活用したい|RF4SP・RF5|[タリスマン反転と選択耐性](talisman-selective-resistance.html)|
 
 ## ロケットゴーストを狙う靴 {#ゴーストロケットを狙う靴}
 

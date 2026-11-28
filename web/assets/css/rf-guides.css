@@ -2991,3 +2991,123 @@ input {
 .p48-refill td:first-child {
   width: 26%;
 }
+
+/* Practical equipment design figures. */
+.p49-cards,
+.p49-steps {
+  display: grid;
+  gap: .75rem;
+}
+
+.p49-cards {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+}
+
+.p49-figure,
+.p49-table {
+  overflow-wrap: anywhere;
+}
+
+.p49-figure .inheritance-panel {
+  min-width: 0;
+}
+
+.p49-figure .inheritance-panel p {
+  margin: .45rem 0 0;
+}
+
+.p49-source,
+.p49-total,
+.p49-figure .p49-legend {
+  margin: .7rem 0;
+  font-weight: 650;
+}
+
+.p49-source::after {
+  content: " ↓";
+}
+
+.p49-figure .p49-allocation,
+.p49-figure .p49-steps {
+  margin: .7rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.p49-figure .p49-steps {
+  padding-inline-start: 1.6rem;
+  list-style: decimal;
+}
+
+.p49-allocation > li,
+.p49-steps > li {
+  padding: .45rem .55rem;
+  background: var(--paper, white);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+
+.p49-allocation > li + li {
+  margin-top: .45rem;
+}
+
+.p49-cells {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  gap: 2px;
+  max-width: 36rem;
+  margin-top: .25rem;
+}
+
+.p49-rp {
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+}
+
+.p49-cells > span {
+  border: 1px solid var(--rule);
+  text-align: center;
+  font-size: .75rem;
+  line-height: 1.7;
+}
+
+.p49-used {
+  background: var(--soft);
+  font-weight: 650;
+}
+
+.p49-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.p49-table {
+  max-width: 100%;
+  margin: 1.15rem 0;
+  overflow-x: auto;
+}
+
+.p49-table table {
+  display: table;
+  min-width: 22rem;
+  margin: 0;
+}
+
+.p49-table th,
+.p49-table td {
+  padding: .45rem .55rem;
+}
+
+.p49-table:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+@media (max-width: 380px) {
+  .p49-rp {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+}

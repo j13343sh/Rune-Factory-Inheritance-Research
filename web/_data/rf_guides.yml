@@ -391,6 +391,9 @@
   title: 実用装備・製作ガイド
   section: practice
   related:
+  - practical-design
+  - resistance-design
+  - talisman-selective-resistance
   - rf5-rocket-ghost
   - rf5-absorption-brooch
   - rf4sp-absorption-brooch
@@ -772,6 +775,7 @@
   title: メッシライト継承と盾の性能｜武器カテゴリ別の装備設計
   section: practice
   related:
+  - resistance-design
   - inheritance-basics
   - practical-equipment
   - rf4sp-messhilite-trials
@@ -912,6 +916,7 @@
   title: ルンファク5 おすすめの靴3選
   section: practice
   related:
+  - practical-design
   - rf5-rocket-ghost
   - rf5-recommended-accessories
   - cushion-method
@@ -942,6 +947,7 @@
   title: ルンファク5 おすすめアクセサリー8選
   section: practice
   related:
+  - talisman-selective-resistance
   - rf5-absorption-brooch
   - rf5-recommended-shoes
   - equipment-inheritance-guide
@@ -1001,6 +1007,7 @@
   title: ルンファク5 属性吸収ブローチの作り方
   section: practice
   related:
+  - resistance-design
   - rf5-recommended-accessories
   - practical-equipment
   - rf4sp-absorption-brooch
@@ -1031,6 +1038,7 @@
   title: ルンファク4SP 属性吸収ブローチの作り方
   section: practice
   related:
+  - resistance-design
   - rune-prana
   - rf4sp-item-order
   - practical-equipment
@@ -1092,6 +1100,7 @@
   title: ルンファク5 性能継承と多段階製作の仕組み
   section: practice
   related:
+  - talisman-selective-resistance
   - advanced-inheritance-design
   - rf5-special-effect-inheritance
   - inheritance-basics
@@ -1197,6 +1206,7 @@
   title: 高難度装備継承の設計方法
   section: practice
   related:
+  - practical-design
   - auto-arrange-control
   - rf4sp-combined-inheritance-method
   - method-comparison
@@ -1222,6 +1232,127 @@
     level: L2 条件・実践
   - id: effect-comparison
     title: 作品による特殊能力の違い
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: practical-design
+  reading_order: 97
+  reading_group: design
+  title: ルンファク4SP・5 最強装備は一つではない ― 実用装備の設計方法
+  section: practice
+  related:
+  - resistance-design
+  - talisman-selective-resistance
+  - rf5-recommended-shoes
+  - rf5-recommended-accessories
+  - advanced-inheritance-design
+  - practical-equipment
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 用途から必要性能を決め、強化枠や特殊能力の配置を考えます。
+  scope: 用途、育成状況、交換の手間を踏まえた設計例です。
+  outline:
+  - id: growth-and-stats
+    title: 育成で補える性能と補えない性能
+    level: L2 条件・実践
+  - id: upgrade-budget
+    title: 有限の強化資源
+    level: L2 条件・実践
+  - id: resistance-goals
+    title: 全身耐性と選択耐性
+    level: L2 条件・実践
+  - id: all-in-one-or-swap
+    title: 集約型と交換型
+    level: L2 条件・実践
+  - id: shared-effects
+    title: 常時利用する効果は共通防具にまとめる
+    level: L2 条件・実践
+  - id: crafting-effort
+    title: 製作負担も考える
+    level: L2 条件・実践
+  - id: design-steps
+    title: 設計手順
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: resistance-design
+  reading_order: 98
+  reading_group: design
+  title: ルンファク4SP・5 全身装備の耐性設計ガイド
+  section: practice
+  related:
+  - practical-design
+  - talisman-selective-resistance
+  - weapon-category-shield
+  - rf4sp-absorption-brooch
+  - rf5-absorption-brooch
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 防具5部位の属性・状態異常耐性を組み立て、素材や強化枠を配分します。
+  scope: 作品別の資料値と設計例を扱います。盾などの反映条件は別途確認してください。
+  outline:
+  - id: elemental-foundation
+    title: 属性耐性の基盤
+    level: L2 条件・実践
+  - id: elemental-materials
+    title: 属性耐性素材
+    level: L2 条件・実践
+  - id: status-resistances
+    title: 状態異常とその他の耐性
+    level: L2 条件・実践
+  - id: object-x-and-order
+    title: 物体X・倍率素材・強化順
+    level: L2 条件・実践
+  - id: material-choice
+    title: 不足量と素材選択
+    level: L2 条件・実践
+  - id: slot-budget
+    title: 強化枠の配分
+    level: L2 条件・実践
+  public: true
+  category: equipment
+
+- slug: talisman-selective-resistance
+  reading_order: 99
+  reading_group: design
+  title: ルンファク4SP・5 タリスマン反転と選択耐性
+  section: practice
+  related:
+  - practical-design
+  - resistance-design
+  - rf5-recommended-accessories
+  - rf5-recommended-shoes
+  - rf5-performance-inheritance
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 活用したい状態異常から、耐性の選択や製作時のRP配分を考えます。
+  scope: 製作RPの比較は筆者の観測条件に限ります。
+  outline:
+  - id: full-resistance
+    title: 全耐性型との違い
+    level: L2 条件・実践
+  - id: selective-resistance
+    title: 選択耐性
+    level: L2 条件・実践
+  - id: movement-and-farming
+    title: 移動と農作業
+    level: L2 条件・実践
+  - id: bulk-crafting-rp
+    title: 大量製作とRP
+    level: L2 条件・実践
+  - id: rf5-crafting-accessory
+    title: RF5製作用アクセサリー例
+    level: L2 条件・実践
+  - id: configuration-checks
+    title: 設計時の確認
     level: L2 条件・実践
   public: true
   category: equipment

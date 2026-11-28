@@ -45,3 +45,6 @@ https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-absorpti
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf4sp-absorption-brooch.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-special-effect-inheritance.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-performance-inheritance.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/auto-arrange-control.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf4sp-combined-inheritance-method.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/advanced-inheritance-design.html

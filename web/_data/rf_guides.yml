@@ -1356,3 +1356,41 @@
     level: L2 条件・実践
   public: true
   category: equipment
+
+- slug: inheritance-diagnosis
+  reading_order: 15
+  reading_group: intro
+  title: 装備継承・製法診断ツール｜ルンファク4SP・5
+  section: practice
+  related:
+  - equipment-inheritance-guide
+  - inheritance-basics
+  - method-comparison
+  - auto-arrange-control
+  - rf4sp-rf5-comparison
+  - advanced-inheritance-design
+  works:
+  - RF4SP
+  - RF5
+  status: candidate
+  summary: 装備継承の失敗原因、製法選択、候補数と自動補充の条件を確認します。
+  scope: 作品・カテゴリ・製作条件を確認する限定モデルです。候補の保持、並び順、効果発現は別々に確認します。
+  outline:
+  - id: symptoms
+    title: 失敗原因を確認する
+    level: L2 条件・実践
+  - id: methods
+    title: 製法を選ぶ
+    level: L2 条件・実践
+  - id: conditions
+    title: 製作条件を確認する
+    level: L2 条件・実践
+  - id: appraisal
+    title: 完成後の確認
+    level: L2 条件・実践
+  - id: scope
+    title: 適用範囲
+    level: L2 条件・実践
+  public: true
+  tool: true
+  category: equipment

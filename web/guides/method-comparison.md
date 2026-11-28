@@ -84,3 +84,5 @@ seo_description: クッション・ダミー・シャッフル製法を比較。
 {% include rf/method-controls.html %}
 
 三製法は、候補を減らす、候補を入れ替える、参照される順序を変えるという異なる着眼点です。同じ製作工程に組み合わせることもできます。目的の性能元、追加枠、素材の内部状態を先に確認し、[多段階製作の確認項目](rf5-performance-inheritance.html)に照らして選びます。
+
+条件を選んで確認するには[装備継承・製法診断ツール](inheritance-diagnosis.html#methods)を参照してください。

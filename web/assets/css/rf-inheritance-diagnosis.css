@@ -1,0 +1,88 @@
+.rf-diagnosis-box {
+  margin: 1rem 0 1.6rem;
+  padding: clamp(.75rem, 3vw, 1.25rem);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--soft);
+  overflow-wrap: anywhere;
+}
+.rf-diagnosis-box h3 {
+  margin-top: 0;
+}
+.rf-diagnosis-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  align-items: end;
+  gap: .75rem;
+}
+.rf-diagnosis-fields label {
+  display: grid;
+  min-width: 0;
+  gap: .25rem;
+  font-weight: 650;
+}
+.rf-diagnosis-fields select,
+.rf-diagnosis-box button {
+  max-width: 100%;
+  min-height: 2.75rem;
+  padding: .4rem .55rem;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  background: white;
+  color: inherit;
+  font: inherit;
+}
+.rf-diagnosis-box fieldset {
+  min-inline-size: 0;
+  margin: 1rem 0;
+  padding: .75rem;
+  border: 1px solid var(--rule);
+}
+.rf-diagnosis-box :focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.rf-diagnosis-box nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1rem;
+}
+.rf-diagnosis-box details {
+  margin: .5rem 0;
+  padding: .6rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+.rf-diagnosis-box details > summary {
+  cursor: pointer;
+  font-weight: 650;
+}
+.rf-diagnosis-box details[open] > summary {
+  margin-bottom: .75rem;
+}
+.rf-diagnosis-result {
+  margin-top: 1rem;
+  padding: .75rem;
+  border-inline-start: .25rem solid currentColor;
+  background: white;
+}
+.rf-diagnosis-result p {
+  margin: .25rem 0 .65rem;
+}
+.rf-diagnosis-result dt {
+  font-weight: 650;
+}
+.rf-diagnosis-result dd {
+  margin: 0 0 .4rem;
+}
+.rf-diagnosis-result ul {
+  margin: .35rem 0;
+}
+.rf-diagnosis-static-table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.rf-diagnosis-static-table table {
+  display: table;
+  min-width: 23rem;
+}

@@ -6,7 +6,7 @@ Success Probability is an observation-based research topic describing how inheri
 
 This article summarizes the mathematical interface of the Candidate Count Model.
 
-The goal is not to claim the exact internal implementation. The goal is to provide a practical model for understanding why inheritance becomes less stable when the candidate pool grows.
+The goal is not to claim the exact internal implementation. The goal is to provide a practical model for comparing defined candidate pools and selection assumptions.
 
 ---
 
@@ -14,7 +14,7 @@ The goal is not to claim the exact internal implementation. The goal is to provi
 
 Many inheritance outcomes feel random when viewed one attempt at a time.
 
-However, if the system selects three entries from a larger candidate pool, then success probability can be modeled through combinations.
+If the candidate set is defined, three distinct entries are selected without replacement, and all unordered three-entry combinations are equally likely, their counts can model the probability of an order-independent target.
 
 The basic idea is:
 
@@ -81,7 +81,7 @@ Where:
 - `A` = number of combinations that satisfy the desired inheritance condition;
 - `P` = approximate success probability.
 
-This is a model for interpretation and planning, not a proof of internal game code.
+For unequal selection probabilities, success is the sum of the probabilities of the successful outcomes. For an order-dependent goal, an unordered combination count alone is insufficient. Agreement with trials does not establish the game’s implementation. The formula does not apply universally to RF4SP or RF5. See the [public RF5 reference calculator and its limits](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/candidate-count-calculator.html).
 
 ![Formula Summary](../images/success-probability/candidate-count-formula-summary-en.png)
 
@@ -97,7 +97,7 @@ This is a model for interpretation and planning, not a proof of internal game co
 
 The important practical lesson is that adding candidates can be harmful even when those candidates do not look important individually.
 
-If candidate count increases but the number of successful combinations does not increase, the success rate usually falls.
+Under the equal-likelihood assumptions, increasing the total number of combinations while holding `A` fixed reduces their successful share. If the successful combinations or selection probabilities change, candidate count alone cannot determine the direction.
 
 ---
 
@@ -105,7 +105,7 @@ If candidate count increases but the number of successful combinations does not 
 
 ![Success Probability Curve](../images/success-probability/candidate-count-success-probability-curve-en.png)
 
-*Conceptual curve: larger candidate pools generally reduce the relative share of successful combinations unless successful combinations increase as well.*
+*Illustrative curve for the stated reference model. Its trend depends on the relative growth of successful and total combinations.*
 
 ---
 
@@ -156,7 +156,7 @@ These observations are consistent with the candidate-count / combination-space i
 
 This article provides an English overview only.
 
-Detailed mathematical discussion, Japanese terminology, validation discussion, and additional examples are documented in the accompanying research archive.
+The earlier Japanese PDF is a historical reference for the model’s development. The linked CSV preserves the original observations.
 
 **Note:** PDF documents are currently available in Japanese only.
 

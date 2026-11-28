@@ -10,6 +10,12 @@ Choose the branch that matches your interests.
 
 ---
 
+## Research Updates and Historical Materials
+
+The [Research Website](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/) provides the latest public explanations, practical guides, and research updates.
+
+Earlier PDF documents and archived research materials are preserved as historical references. Some terminology, hypotheses, and interpretations may differ from the current research framework. Original observation data are retained as research records.
+
 # Repository Structure
 
 ```text

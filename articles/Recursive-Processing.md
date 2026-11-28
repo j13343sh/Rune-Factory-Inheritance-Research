@@ -39,6 +39,8 @@ The important difference was not the set of materials used, but their **input or
 3. Change their input order to select a more favorable reference outcome.
 4. Check the resulting equipment's Arrangement to confirm the effect.
 
+The observed outcome follows the first relevant item in the tested cases, without requiring recursive expansion of all later same-category items as an explanation. Consult the [Shuffle Method guide](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/shuffle-method.html) for the tested setup.
+
 The Shuffle Method does not guarantee deterministic inheritance in every recipe. Its usefulness depends on the tested equipment and crafting conditions.
 
 ### 2. Cushion Method
@@ -57,7 +59,7 @@ This method uses the same first same-category reference behavior as the Shuffle 
 4. Add the equipment needed for the desired inheritance result.
 5. Verify the resulting Arrangement before proceeding.
 
-The cushion is not simply an arbitrary extra item. Its relevant property is the absence of internal Arrangement information.
+An appraised empty internal Arrangement is the property that makes the item useful here. The [Cushion Method guide](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/cushion-method.html) describes the setup and its limits.
 
 Under suitable conditions, this can eliminate one reset-dependent step.
 

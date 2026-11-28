@@ -126,6 +126,8 @@ Where:
 - `C(N,3)` is the number of possible three-slot combinations;
 - `A` is the number of combinations that satisfy the target condition.
 
+The ratio assumes a defined candidate set, three distinct entries drawn without replacement, equal likelihood of unordered combinations, and an order-independent goal. Its fit to the RF5 stack observations does not establish the selection algorithm or extend the formula to all RF5 or RF4SP conditions.
+
 For example, `20 / 35 = 57.1%` is easier to verify than a purely symbolic explanation and still connects naturally to `C(6,3) / C(7,3)`.
 
 ---
@@ -147,14 +149,14 @@ In practical terms, success may improve when the added material increases succes
 
 Repeated gameplay observations in RF4SP and RF5 suggest that Light Ore inheritance may preserve not only the source weapon's performance, but also a category-dependent property used for shield-effect calculation.
 
-| Performance source | Final weapon appearance | Shield effect |
+| Performance source | Final weapon appearance | Shield stat contribution in the example |
 |---|---|---|
 | Claymore / two-handed sword | Dual blades | Applied |
 | Dual blades | One-handed sword | Not applied |
 
-Under the tested conditions, shield effectiveness followed the weapon category of the performance source rather than the visible category of the completed weapon.
+Under the tested conditions, the shield stat contribution followed the weapon category of the performance source. The completed weapon retained the appearance of the crafting target.
 
-This observation is limited to shield-effect behavior. It does not by itself establish that all weapon-category-dependent mechanics use the same inherited category.
+Shield stats and the shield’s elemental and status resistances are separate. The current [weapon-category and shield guide](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/weapon-category-shield.html) gives the ordinary category comparisons and the scale upgrade exception. It distinguishes RF5 resistance observations from RF4SP reference values. The tested Light Ore examples do not settle how scale upgrades interact with Light Ore, or whether other category-dependent mechanics follow the same rule.
 
 ---
 
@@ -202,7 +204,7 @@ This article provides an English overview only.
 
 Detailed observations, validation results, statistical discussion, confidence intervals, experimental design, and additional interpretation are documented in the accompanying research archive.
 
-- [Light Ore Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf)
+- [Light Ore Inheritance Analysis](../pdf/08_メッシライト継承解析.pdf) (historical Japanese research PDF)
 
 ---
 

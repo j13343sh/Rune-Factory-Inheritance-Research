@@ -12,7 +12,7 @@ In both RF4SP and RF5, body entry has been observed under specific tested condit
 
 Older explanations grouped equipment-body entry and source-derived internal entries under “Self Contamination” or “Performance-Source Contamination.” They proposed that the source and internal entries re-enter a candidate pool and increase candidate count `N`. Those descriptions remain historical interpretation. The current observation does not establish that all proposed entries exist or that the same mechanism produces them.
 
-The separate current observation [Internal Arrangement Reference](Recursive-Processing.md) concerns internal Arrangement information appearing later. Do not infer recursive expansion from an equipment body entering a result. “First Same-Category Internal-Arrangement Reference” remains **HOLD**. Unknown transitions must not be filled with a newly assumed mechanism.
+The separate current observation [Internal Arrangement Reference](Recursive-Processing.md) concerns internal Arrangement information appearing later. Do not infer recursive expansion from an equipment body entering a result. First Same-Category Internal-Arrangement Reference is an observed input-order correspondence in the tested same-category conditions. Internal traversal order, recursive expansion, and candidate-generation algorithms remain unconfirmed.
 
 ## Observation-side diagrams
 

@@ -2,11 +2,11 @@
 
 ## Overview
 
-The Candidate Count Model is an observation-based research model that explains inheritance success probability through the number of valid candidate combinations.
+The Candidate Count Model is an observation-based research model that organizes inheritance outcomes by examining which candidates enter the pool, which outcomes meet the goal, and how those outcomes are selected.
 
 Rather than describing a single inheritance mechanic, it provides a common observation framework for understanding multiple inheritance-related phenomena observed in Rune Factory equipment inheritance.
 
-The model focuses on the size of candidate sets. Within the broader framework of this repository, candidate sets are viewed in terms of how they are constructed, combined, and ultimately selected to produce the observed result.
+The model considers candidate identity, multiplicity, and pool size. Within the broader framework of this repository, candidate sets are viewed in terms of how they are constructed, combined, and ultimately selected to produce the observed result.
 
 This perspective draws upon concepts from Set Theory, Combinatorics, and Probability, while remaining strictly based on gameplay observations rather than assumptions about the game's internal implementation.
 
@@ -68,6 +68,8 @@ Within the broad Internal Arrangement Reference observation, First Same-Category
 ## Conceptual Animation
 ![candidate-count-model-animation](../images/candidate-count-model/candidate-count-model-animation.gif)
 
+*Illustration of candidate competition. The number of candidates alone does not establish the probability of each outcome.*
+
 ---
 
 ## Why I Started This Research
@@ -106,13 +108,15 @@ Understanding Candidate Count therefore provides a unified framework for interpr
 
 ![Candidate Count Overview](../images/candidate-count-model/candidate-count-model-overview-en.png)
 
+*Earlier overview of the research framework. The current terminology and evidence boundaries are described above and in the linked articles.*
+
 ---
 
 ## Representative Figure
 
 ![Validation Results](../images/candidate-count-model/messhilite-validation-results-en.png)
 
-The validation results suggest a strong relationship between Candidate Count and inheritance success probability.
+The figure compares observations with a reference model for the tested RF5 Light Ore stacks. Its agreement with the observations supports that comparison within the tested setup.
 
 ---
 
@@ -127,7 +131,7 @@ The Light Ore inheritance mechanism provides one practical example of how Candid
 ## Key Takeaways
 
 - Candidate Count is one of the central concepts for understanding inheritance behavior.
-- Increasing the number of valid candidate combinations generally increases inheritance success probability.
+- Under a specified equal-likelihood model, success is the number of successful combinations divided by the total number of eligible combinations. With unequal selection probabilities, sum the probabilities of the successful outcomes. Candidate count alone cannot determine success. See [Success Probability](Success-Probability.md#core-formula) for the assumptions.
 - The same conceptual framework can explain multiple inheritance-related mechanics.
 - This model serves as the research root for several inheritance studies documented in this repository.
 
@@ -153,7 +157,7 @@ Detailed observations, statistical analyses, mathematical discussion, and experi
 
 ### Research PDF Series
 
-The complete research archive consists of multiple PDF documents.
+The earlier Japanese PDFs preserve the research process. Their terminology and hypotheses reflect their publication stage. For current public explanations, see the [Research Website](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/).
 
 **Note:** All PDF documents are currently available in **Japanese only**.
 
@@ -182,7 +186,7 @@ The complete research archive consists of multiple PDF documents.
 
 - [Future Research Topics](../pdf/11_未解決問題・今後の検証課題.pdf)
 - [Supplementary Notes](../pdf/12_補遺.pdf)
-- [AI Comparison Appendix](../pdf/99_付録_AI比較.pdf)
+- [AI Comparison Appendix](../pdf/99_付録_AI比較ログ.pdf)
 
 See the **pdf/** directory for the complete research series.
 

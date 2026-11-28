@@ -2,7 +2,7 @@
 
 ## Overview
 
-Auto Arrange is an observation-based research topic describing how required recipe materials may become inheritance candidates when equipment recipes use more required materials than the three available arrangement slots can cleanly preserve.
+Auto Arrange is an observation-based research topic describing how required recipe materials may become inheritance candidates in some recipes with more than three required materials.
 
 This article is a high-level English entry point. It does not claim to reveal the internal implementation. It summarizes one conceptual model that helps explain repeated gameplay observations in Rune Factory 4 Special and Rune Factory 5.
 
@@ -32,13 +32,13 @@ Auto Arrange is therefore treated as one interface of the broader Candidate Coun
 
 ![Trigger Condition Flow](../images/auto-arrange/rune-factory-auto-arrange-trigger-condition-flow-en.png)
 
-*Conceptual trigger flow: Auto Arrange is most relevant when recipe requirements exceed the normal three-slot arrangement structure.*
+*Earlier simplified trigger flow. The current conditional refill model below also accounts for existing candidates and equipment category.*
 
 ---
 
 ## Mermaid Source Concept
 
-The repository also keeps Mermaid source diagrams for this concept.
+The following diagrams preserve an earlier conceptual account. The arrows summarize possible relationships; internal processing order and the selection rule are unresolved.
 
 ```mermaid
 flowchart TD
@@ -99,6 +99,14 @@ This does not mean Auto Arrange always appears visibly in the final result. It m
 
 ---
 
+### Conditional refill model
+
+With no added Arrangement entries, the public guide uses baseline refill counts of zero for recipes with up to three required materials, one for four, and two for five. The following example model applies when exactly one same-category item is added, its internal Arrangement is referenced, and no other additional candidates or special inheritance are involved.
+
+Before refill, count the referenced internal entries. In this model, shoes and accessories also contribute one body candidate; other ordinary equipment does not get that extra body candidate. The estimated refill is the smaller of the baseline count and the unused space below three entries (zero if there are already three or more candidates). For example, with five required materials and two referenced internal entries, the model gives zero refill for shoes or accessories and one for other ordinary equipment.
+
+Refill concerns additional candidates. Candidate loss concerns the selection of entries for the three final slots. A shoe or accessory body and three internal entries can yield four candidates before refill, so a candidate can be lost even with zero refill. The model summarizes the public observations and does not establish an internal algorithm or independent validation of every combination on both titles. See [the current Auto Arrange guide](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/auto-arrange-control.html) for the tables and their scope.
+
 ## Observations
 
 The current article reflects several observation-oriented points from the Japanese research archive.
@@ -115,7 +123,7 @@ Some observations suggest that Auto Arrange is not necessarily limited to the la
 
 ![Internal Selection Model](../images/auto-arrange/rune-factory-auto-arrange-internal-selection-model-en.png)
 
-*Conceptual model: Auto Arrange may be better understood as candidate generation from a required-material pool.*
+*Earlier conceptual figure. It illustrates recipe materials as a possible source of candidates. The specific material chosen and the internal selection operation remain unresolved.*
 
 ### RF4SP / RF5 boundary test
 
@@ -138,6 +146,7 @@ Practical precautions include:
 - prefer recipes with fewer required materials when possible;
 - avoid unnecessary candidate expansion;
 - separate intermediate crafting steps when candidate pressure becomes too high;
+- consider the [Cushion Method](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/cushion-method.html) when an unwanted internal reference is the problem. Under the documented first-reference conditions, place an appraised same-category item with an empty internal Arrangement first. Shoes and accessories can still contribute that item as a body candidate; confirm refill and final candidates separately;
 - verify final inheritance results rather than assuming the visible recipe explains all candidates.
 
 ---
@@ -158,7 +167,7 @@ Combination space expands
 Success probability may decrease
 ```
 
-Auto Arrange is adjacent to Equipment-Body Candidateization and Internal Arrangement Reference in the article network. The latter two are observed behaviors; their internal candidate-generation transitions and effect on `N` remain unknown.
+Auto Arrange is adjacent to Equipment-Body Candidateization and Internal Arrangement Reference in the article network. These behaviors inform the conditional counts above. Their internal transitions and broader effect on `N` remain unresolved.
 
 ---
 
@@ -166,7 +175,7 @@ Auto Arrange is adjacent to Equipment-Body Candidateization and Internal Arrange
 
 This article provides an English overview only.
 
-Detailed observations, Japanese terminology, test cases, and discussion are documented in the accompanying research archive.
+The earlier Japanese PDF preserves the observations and interpretations from that stage of the research.
 
 **Note:** PDF documents are currently available in Japanese only.
 

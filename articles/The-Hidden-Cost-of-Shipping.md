@@ -51,6 +51,8 @@ This strategy is especially useful for recipes that require large quantities of 
 
 ---
 
+For a comparison under the documented shop, title, and display-slot assumptions, use the [Shop Inventory Calculator](https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/shop-inventory-calculator.html).
+
 ## Notes
 
 This article is based on repeated gameplay observations and long-term play experience.

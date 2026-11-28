@@ -160,3 +160,33 @@
   .mv-handoff { border-inline: 0; border-block: 1px dashed var(--mv-line); }
   .mv-handoff .mv-turn { transform: rotate(90deg); }
 }
+
+.mv-sheet select {
+  box-sizing: border-box;
+  inline-size: 100%;
+  min-inline-size: 0;
+  min-block-size: 1.8rem;
+  font: inherit;
+  font-size: .85rem;
+  color: #203243;
+  background: #fff;
+}
+.mv-diagram [data-mv-state="success"] { background: #daf2df !important; }
+.mv-diagram [data-mv-state="failure"] { background: #f8dfd9 !important; }
+.mv-summary { display: flex; flex-wrap: wrap; gap: .3rem 1rem; }
+.mv-diagram [data-mv-reset] {
+  margin-top: .6rem;
+  min-block-size: 2.25rem;
+  padding: .25rem .75rem;
+  font: inherit;
+}
+.mv-diagram :is(select, button):focus-visible {
+  outline: 2px solid #17588a;
+  outline-offset: 2px;
+}
+@media (max-width: 520px) {
+  [data-mv-demo] .mv-pair, [data-mv-demo] .mv-sync-head {
+    grid-template-columns: minmax(0,1fr) 1rem minmax(0,1.4fr);
+  }
+  [data-mv-demo] .mv-sheet :is(th, td) { padding-inline: .12rem; }
+}

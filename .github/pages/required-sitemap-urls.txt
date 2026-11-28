@@ -48,3 +48,6 @@ https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf5-performa
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/auto-arrange-control.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/rf4sp-combined-inheritance-method.html
 https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/advanced-inheritance-design.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/practical-design.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/resistance-design.html
+https://j13343sh.github.io/Rune-Factory-Inheritance-Research/guides/talisman-selective-resistance.html

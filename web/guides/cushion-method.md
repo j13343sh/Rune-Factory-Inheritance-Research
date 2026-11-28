@@ -70,16 +70,7 @@ seo_description: RF4SP・RF5で使える製法。内部アレンジが空の装�
 
 ## RF5比較：同じ名前のマフラー {#cushion-muffler-comparison}
 
-<div class="method-comparison-images" markdown="0">
-  <figure>
-    <a href="{{ '/assets/method-demos/rf5_mokomoko_noncrafted_white.png' | relative_url }}"><img src="{{ '/assets/method-demos/rf5_mokomoko_noncrafted_white.png' | relative_url }}" width="680" height="398" loading="lazy" alt="RF5の装飾画面で、白文字のもこもこのマフラーと体力＋40の表示"></a>
-    <figcaption>白文字は非自作の個体。筆者によるとテリーのガチャ入手品です。画像を開くと原寸で読めます。</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/assets/method-demos/rf5_mokomoko_selfcrafted_blue.png' | relative_url }}"><img src="{{ '/assets/method-demos/rf5_mokomoko_selfcrafted_blue.png' | relative_url }}" width="2000" height="1172" loading="lazy" alt="RF5の装飾画面で、青文字のもこもこのマフラーと自作アクセサリーの表示"></a>
-    <figcaption>青文字は筆者の自作品。ゲーム画面に「★自作 アクセサリ」とあります。画像を開くと拡大できます。</figcaption>
-  </figure>
-</div>
+{% include rf/cushion-muffler-comparison.html %}
 
 同じ名前の装備でも、最初に参照される個体に内部アレンジがなければ、その個体から追加の内部候補は出ません。内部アレンジがあれば、その中身が候補に加わり、同じ投入枠でも競合が変わります。[第一同カテゴリ内部アレンジ参照](inheritance-basics.html#第一同カテゴリ内部アレンジ参照)を使うクッション製法では、この違いが効きます。
 

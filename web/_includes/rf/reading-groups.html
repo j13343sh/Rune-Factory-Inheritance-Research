@@ -1,0 +1,16 @@
+<nav class="reading-links" aria-label="装備継承の記事分類">
+  {% for group in site.data.rf_navigation.reading_groups %}
+  <a href="#reading-{{ group.id }}">{{ group.title | escape }}</a>
+  {% endfor %}
+</nav>
+<nav class="work-links" aria-label="従来の分野から探す">
+  <a id="検証・研究" href="{{ '/fields/research.html' | relative_url }}">検証・研究の分野ページ</a>
+  <a id="装備製作" href="{{ '/fields/equipment.html' | relative_url }}">装備製作の分野ページ</a>
+</nav>
+{% for group in site.data.rf_navigation.reading_groups %}
+<section class="rf34-index-field" aria-labelledby="reading-{{ group.id }}">
+  <h3 id="reading-{{ group.id }}">{{ group.title | escape }}</h3>
+  <p>{{ group.description | escape }}</p>
+  <div class="entry-list">{% include rf/guide-list.html reading_group=group.id %}</div>
+</section>
+{% endfor %}

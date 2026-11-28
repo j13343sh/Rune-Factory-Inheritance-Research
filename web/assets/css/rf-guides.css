@@ -2849,3 +2849,90 @@ input {
   background: #fff;
   color: var(--forest);
 }
+
+.reading-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-block: .75rem;
+}
+
+.reading-links a {
+  padding: .35rem .7rem;
+  border: 1px solid var(--rule);
+  background: var(--soft);
+}
+
+.inheritance-figure {
+  margin: 1.5rem 0;
+  padding: clamp(.75rem, 3vw, 1.25rem);
+  border: 1px solid var(--rule);
+  background: var(--soft);
+}
+
+.inheritance-figure figcaption {
+  font-weight: 700;
+  margin-bottom: .75rem;
+}
+
+.inheritance-panels {
+  display: grid;
+  gap: .75rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+}
+
+.inheritance-flow {
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: start;
+}
+
+.inheritance-arrow {
+  align-self: center;
+  text-align: center;
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.inheritance-panel {
+  min-width: 0;
+  padding: .75rem;
+  border: 1px solid var(--rule);
+  background: #fff;
+  overflow-wrap: anywhere;
+}
+
+.inheritance-panel h3 {
+  font-size: 1em;
+  margin: 0 0 .5rem;
+  color: var(--forest);
+}
+
+.inheritance-panel dl {
+  margin: 0;
+}
+
+.inheritance-panel dl > div {
+  padding: .35rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.inheritance-panel dt {
+  font-weight: 700;
+}
+
+.inheritance-panel dd {
+  margin: 0;
+}
+
+.inheritance-note {
+  margin: .75rem 0 0;
+}
+
+@media (max-width: 640px) {
+  .inheritance-flow {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .inheritance-arrow {
+    transform: rotate(90deg);
+  }
+}

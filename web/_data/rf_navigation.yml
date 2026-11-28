@@ -13,3 +13,17 @@ explore:
   url: /guides/
 - title: サイトマップ
   url: /site-map.html
+
+reading_groups:
+- id: intro
+  title: 基礎・入門
+  description: まずは欲しい装備を作りたい方へ。
+- id: methods
+  title: 仕組み・製法
+  description: 継承の仕組みを知り、製作の失敗を減らしたい方へ。
+- id: design
+  title: 応用・装備設計
+  description: より高度な製作や理想の装備構成を追求したい方へ。
+- id: research
+  title: 研究・解析
+  description: 検証結果や数理モデルを詳しく知りたい方へ。

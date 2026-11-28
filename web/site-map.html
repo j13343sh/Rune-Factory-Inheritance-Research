@@ -6,9 +6,9 @@ kind: 案内
 lang: ja
 seo_public: true
 ---
-<p class="scope-note">主要な研究・製作と、関連する攻略を分けて掲載しています。作品やツールからも探せます。</p>
-<nav class="rf341-map-jumps" aria-label="サイトマップ内の移動"><a href="#検証・研究">検証・研究</a><a href="#装備製作">装備継承・製作</a><a href="#応用攻略">応用攻略</a><a href="#map-works">作品別入口</a><a href="#map-tools">公開ツール</a><a href="#map-other">その他の公開ページ</a></nav>
-{% include rf/article-groups.html compact=true %}
+<p class="scope-note">装備継承の記事は内容別に並べています。作品やツールからも探せます。</p>
+<nav class="rf341-map-jumps" aria-label="サイトマップ内の移動"><a href="#map-works">作品別入口</a><a href="#map-tools">公開ツール</a><a href="#map-other">その他の公開ページ</a></nav>
+{% include rf/article-groups.html compact=true reading=true %}
 <section><h2 id="map-works">作品別入口</h2><ul class="rf341-map-list">{% for work in site.data.rf_works %}{% assign work_url = '/works/' | append: work.slug | append: '.html' %}{% assign work_page = site.pages | where: 'url', work_url | first %}{% capture visible %}{% include rf/public-page.html item=work_page %}{% endcapture %}{% if work.public == true and visible == 'true' %}<li><a href="{{ work_url | relative_url }}">{{ work.title | escape }}</a></li>{% endif %}{% endfor %}</ul></section>
 <section><h2 id="map-tools">計算機等の公開ツール</h2><ul class="rf341-map-list">{% include rf/guide-list.html tools=true compact=true %}</ul></section>
 {% assign grouped_categories = site.data.rf_navigation.core | concat: site.data.rf_navigation.supporting %}

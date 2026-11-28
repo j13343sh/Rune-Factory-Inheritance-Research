@@ -1,4 +1,6 @@
 - slug: candidate-count-calculator
+  reading_order: 180
+  research_group: models
   reading_group: research
   title: 候補数モデル計算ツール
   section: research
@@ -63,6 +65,7 @@
   public: true
   category: resources
 - slug: cushion-method
+  reading_order: 50
   reading_group: methods
   title: クッション製法｜RF4SP・RF5
   section: practice
@@ -100,6 +103,7 @@
   public: true
   category: equipment
 - slug: dummy-method
+  reading_order: 60
   reading_group: methods
   title: RF4SP サクラカブダミー製法
   section: practice
@@ -220,6 +224,7 @@
   public: true
   category: friendship
 - slug: equipment-inheritance-guide
+  reading_order: 10
   reading_group: intro
   title: 装備継承・アレンジの基礎知識｜RF4SP・RF5
   section: practice
@@ -262,6 +267,8 @@
   public: true
   category: equipment
 - slug: inheritance-basics
+  reading_order: 160
+  research_group: theory
   reading_group: research
   title: 装備継承の統合理論：候補はどこから来るのか
   section: basics
@@ -320,6 +327,8 @@
   related_notes:
     candidate-count-calculator: RF5向け等確率の参考モデル。RF4SPの攻略成功率は計算できません。
 - slug: material-levels
+  reading_order: 220
+  research_group: tests
   reading_group: research
   title: 素材レベルと抽選確率
   section: research
@@ -341,6 +350,7 @@
   public: true
   category: research
 - slug: method-comparison
+  reading_order: 80
   reading_group: methods
   title: クッション・ダミー・シャッフルの使い分け
   section: practice
@@ -372,6 +382,7 @@
   public: true
   category: equipment
 - slug: practical-equipment
+  reading_order: 100
   reading_group: design
   title: 実用装備・製作ガイド
   section: practice
@@ -435,6 +446,8 @@
   public: true
   category: advanced
 - slug: research-archive
+  reading_order: 240
+  research_group: references
   reading_group: research
   title: 研究アーカイブ・未解決問題
   section: archive
@@ -467,6 +480,8 @@
   public: true
   category: research
 - slug: rf4sp-item-order
+  reading_order: 210
+  research_group: tests
   reading_group: research
   title: RF4SP アイテム順列問題
   section: research
@@ -507,6 +522,8 @@
   public: true
   category: research
 - slug: rf4sp-messhilite-trials
+  reading_order: 190
+  research_group: tests
   reading_group: research
   title: RF4SP メッシライト400回検証
   section: research
@@ -536,6 +553,8 @@
   related_notes:
     candidate-count-calculator: RF5向け等確率の参考モデル。RF4SPの攻略成功率は計算できません。
 - slug: rf4sp-rf5-comparison
+  reading_order: 170
+  research_group: theory
   reading_group: research
   title: RF4SPとRF5：何を共通に考え、何を分ける？
   section: research
@@ -570,6 +589,8 @@
   public: true
   category: research
 - slug: rf4sp-selection-bias
+  reading_order: 230
+  research_group: tests
   reading_group: research
   title: RF4SP 素材ごとに並ぶ位置と候補脱落
   section: research
@@ -598,6 +619,8 @@
   public: true
   category: research
 - slug: rf5-4000-trials
+  reading_order: 200
+  research_group: tests
   reading_group: research
   title: RF5 メッシライト継承4,000回検証
   section: research
@@ -631,6 +654,7 @@
   public: true
   category: research
 - slug: shuffle-method
+  reading_order: 70
   reading_group: methods
   title: シャッフル製法｜RF4SP・RF5の投入順の工夫
   section: practice
@@ -738,6 +762,7 @@
     title: 出典と確認範囲
     level: L2 実践
 - slug: weapon-category-shield
+  reading_order: 140
   reading_group: design
   title: メッシライト継承と盾の性能｜武器カテゴリ別の装備設計
   section: practice
@@ -859,6 +884,7 @@
   public: true
   category: advanced
 - slug: rf4sp-skill-training
+  reading_order: 150
   reading_group: design
   title: RF4SP ハートのペンダントから始める序盤のスキル上げ
   section: other
@@ -876,6 +902,7 @@
   category: advanced
 
 - slug: rf5-recommended-shoes
+  reading_order: 20
   reading_group: intro
   title: ルンファク5 おすすめの靴3選
   section: practice
@@ -905,6 +932,7 @@
   category: equipment
 
 - slug: rf5-recommended-accessories
+  reading_order: 30
   reading_group: intro
   title: ルンファク5 おすすめアクセサリー8選
   section: practice
@@ -934,6 +962,7 @@
   category: equipment
 
 - slug: rf5-rocket-ghost
+  reading_order: 110
   reading_group: design
   title: ルンファク5 ロケットゴーストの作り方
   section: practice
@@ -962,6 +991,7 @@
   category: equipment
 
 - slug: rf5-absorption-brooch
+  reading_order: 130
   reading_group: design
   title: ルンファク5 属性吸収ブローチの作り方
   section: practice
@@ -991,6 +1021,7 @@
   category: equipment
 
 - slug: rf4sp-absorption-brooch
+  reading_order: 120
   reading_group: design
   title: ルンファク4SP 属性吸収ブローチの作り方
   section: practice
@@ -1017,6 +1048,7 @@
   category: equipment
 
 - slug: rf5-special-effect-inheritance
+  reading_order: 40
   reading_group: methods
   title: ルンファク5 装備の特殊能力が消える理由
   section: practice
@@ -1049,6 +1081,7 @@
   category: equipment
 
 - slug: rf5-performance-inheritance
+  reading_order: 90
   reading_group: design
   title: ルンファク5 性能継承と多段階製作の仕組み
   section: practice

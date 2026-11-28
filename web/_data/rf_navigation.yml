@@ -27,3 +27,13 @@ reading_groups:
 - id: research
   title: 研究・解析
   description: 検証結果や数理モデルを詳しく知りたい方へ。
+
+research_groups:
+- id: theory
+  title: 統合理論・仕様比較
+- id: models
+  title: 数学モデル・計算ツール
+- id: tests
+  title: 実機検証
+- id: references
+  title: 研究資料・未解決問題

@@ -1,7 +1,12 @@
-{%- for g in site.data.rf_guides -%}
+{%- assign guides = site.data.rf_guides -%}
+{%- if include.reading_group or include.research_group -%}
+  {%- assign guides = guides | sort: 'reading_order', 'last' -%}
+{%- endif -%}
+{%- for g in guides -%}
 {%- capture guide_visible -%}{%- include rf/guide-visible.html item=g -%}{%- endcapture -%}
 {%- if guide_visible == 'true' -%}{%- if include.category == nil or g.category == include.category -%}{%- if include.work == nil or include.work == empty or g.works contains include.work -%}{%- if include.tools != true or g.tool == true -%}
 {%- if include.reading_group == nil or g.reading_group == include.reading_group -%}
+{%- if include.research_group == nil or g.research_group == include.research_group -%}
 {%- unless include.ungrouped and g.reading_group -%}
 {%- if include.compact -%}<li><a href="{{ '/guides/' | append: g.slug | append: '.html' | relative_url }}">{{ g.title | escape }}</a></li>{%- else -%}{% include rf/article-card.html item=g description=true %}{%- endif -%}
-{%- endunless -%}{%- endif -%}{%- endif -%}{%- endif -%}{%- endif -%}{%- endif -%}{%- endfor -%}
+{%- endunless -%}{%- endif -%}{%- endif -%}{%- endif -%}{%- endif -%}{%- endif -%}{%- endif -%}{%- endfor -%}
